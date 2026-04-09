@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Liquify | Premium Liquor Delivery in Embakasi</title>
+    <meta name="description" content="Learn about Liquify, Embakasi's premier luxury liquor delivery service. Fast, authentic, and dedicated to elevating your nightlife.">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .about-hero {
+            padding: 10rem 5% 4rem;
+            text-align: center;
+        }
+        .about-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 4rem;
+            align-items: center;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        @media (max-width: 900px) {
+            .about-content {
+                grid-template-columns: 1fr;
+            }
+        }
+        .about-img {
+            border-radius: var(--radius-lg);
+            overflow: hidden;
+            box-shadow: var(--gold-glow);
+        }
+        .about-text h2 {
+            font-size: 2.5rem;
+            color: var(--accent-gold);
+            margin-bottom: 1.5rem;
+        }
+        .about-text p {
+            font-size: 1.1rem;
+            color: var(--text-muted);
+            margin-bottom: 1.5rem;
+        }
+        .value-props {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 2rem;
+            margin-top: 4rem;
+        }
+        .value-prop {
+            background: var(--bg-card);
+            padding: 2rem;
+            border-radius: var(--radius-md);
+            border: var(--glass-border);
+            text-align: center;
+        }
+        .value-prop i {
+            font-size: 2.5rem;
+            color: var(--accent-gold);
+            margin-bottom: 1rem;
+        }
+        .value-prop h3 {
+            margin-bottom: 0.5rem;
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="scrolled">
+        <div class="logo">LIQUIFY</div>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="shop.html">Shop</a>
+            <a href="about.html" style="color: var(--accent-gold);">About</a>
+            <a href="contact.html">Contact</a>
+        </div>
+        <a href="#" class="btn btn-gold btn-general-order"><i class="fab fa-whatsapp"></i> Order Now</a>
+    </nav>
+
+    <header class="about-hero reveal">
+        <h1 style="font-size: 3.5rem; margin-bottom: 1rem;">The Liquify Story</h1>
+        <p style="color: var(--text-muted); font-size: 1.2rem;">Elevating Embakasi's Nightlife</p>
+    </header>
+
+    <section>
+        <div class="about-content reveal">
+            <div class="about-img">
+                <img src="assets/images/about_life.png" alt="Luxury Nightlife in Nairobi">
+            </div>
+            <div class="about-text">
+                <h2>Local, Premium, Fast</h2>
+                <p>Founded in the heart of Embakasi, Liquify was born out of a simple need: when the moment is right, you shouldn't have to wait for the drinks. We recognized that the local community needed a reliable, premium liquor delivery platform that doesn't compromise on authenticity.</p>
+                <p>We're not just a store; we are an extension of your night out. Whether you're hosting a house party in Nyayo Estate, celebrating a milestone in Tassia, or simply unwinding in Fedha, we ensure your favorite premium drinks reach you perfectly chilled, beautifully presented, and incredibly fast.</p>
+                <div style="margin-top: 2rem;">
+                    <a href="shop.html" class="btn btn-outline" style="margin-right: 1rem;">Browse Collection</a>
+                    <a href="#" class="btn btn-primary btn-general-order"><i class="fab fa-whatsapp"></i> Connect on WhatsApp</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="value-props reveal" style="margin-top: 6rem;">
+            <div class="value-prop">
+                <i class="fas fa-gem"></i>
+                <h3>100% Authentic</h3>
+                <p style="color: var(--text-muted);">Sourced directly from verified distributors. No counterfeits.</p>
+            </div>
+            <div class="value-prop">
+                <i class="fas fa-truck-fast"></i>
+                <h3>Lightning Fast</h3>
+                <p style="color: var(--text-muted);">Average delivery time of 30-45 minutes within our 10km radius.</p>
+            </div>
+            <div class="value-prop">
+                <i class="fas fa-comment-dots"></i>
+                <h3>Concierge Service</h3>
+                <p style="color: var(--text-muted);">Direct WhatsApp ordering for a seamless, personal experience.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-col">
+                <div class="logo" style="font-size: 1.5rem; margin-bottom: 1rem;">LIQUIFY</div>
+                <p style="color: var(--text-muted); font-size: 0.9rem;">Nairobi's premium nightlife, delivered.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Quick Links</h4>
+                <a href="index.html">Home</a>
+                <a href="shop.html">Shop/Catalogue</a>
+                <a href="about.html">About Us</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            <div class="footer-col">
+                <h4>Contact Us</h4>
+                <a href="tel:+254700000000"><i class="fas fa-phone"></i> +254 700 000 000</a>
+                <a href="#" class="btn-general-order"><i class="fab fa-whatsapp"></i> WhatsApp Us</a>
+                <a href="#"><i class="fas fa-map-marker-alt"></i> Fedha, Embakasi</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            &copy; 2026 Liquify. All rights reserved. Drink responsibly.
+        </div>
+    </footer>
+
+    <a href="#" class="floating-wa btn-general-order" aria-label="Order on WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html>

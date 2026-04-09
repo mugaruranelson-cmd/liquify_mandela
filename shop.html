@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop | Liquify Premium Drinks</title>
+    <meta name="description" content="Browse Liquify's full catalogue of premium whiskies, wines, vodkas, and beers available for instant WhatsApp delivery.">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
+    
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="scrolled">
+        <div class="logo">LIQUIFY</div>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="shop.html" style="color: var(--accent-gold);">Shop</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </div>
+        <a href="#" class="btn btn-gold btn-general-order"><i class="fab fa-whatsapp"></i> Order Now</a>
+    </nav>
+
+    <!-- Page Header -->
+    <header style="padding-top: 8rem; text-align: center; margin-bottom: 2rem;">
+        <div class="section-header reveal">
+            <h1 style="font-size: 3.5rem; margin-bottom: 1rem;">Full Catalogue</h1>
+            <p>Browse our extensive collection of genuine premium drinks</p>
+        </div>
+    </header>
+
+    <!-- Shop Content -->
+    <section style="padding-top: 0;">
+        
+        <!-- Filters -->
+        <div class="filters reveal">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="whisky">Whisky</button>
+            <button class="filter-btn" data-filter="wine">Wine</button>
+            <button class="filter-btn" data-filter="vodka">Vodka</button>
+            <button class="filter-btn" data-filter="gin">Gin</button>
+            <button class="filter-btn" data-filter="beer">Beer</button>
+        </div>
+        
+        <!-- Product Grid -->
+        <div class="grid-cols-4 reveal">
+            
+            <!-- Items -->
+            <div class="product-card product-item" data-category="whisky">
+                <div class="product-image">
+                    <img src="assets/images/jw_black.png" alt="Johnnie Walker Black Label">
+                </div>
+                <div class="product-info">
+                    <h3>Johnnie Walker Black Label</h3>
+                    <div class="product-size">750ml</div>
+                    <button class="btn btn-primary" data-product="Johnnie Walker Black Label 750ml">Order on WA</button>
+                </div>
+            </div>
+
+            <div class="product-card product-item" data-category="whisky">
+                <div class="product-image">
+                    <img src="assets/images/cat_whisky.png" alt="Glenfiddich 15">
+                </div>
+                <div class="product-info">
+                    <h3>Glenfiddich 15 Year Old</h3>
+                    <div class="product-size">750ml</div>
+                    <button class="btn btn-primary" data-product="Glenfiddich 15 Year Old 750ml">Order on WA</button>
+                </div>
+            </div>
+
+            <div class="product-card product-item" data-category="wine">
+                <div class="product-image">
+                    <div style="height: 200px; width: 60px; background: #3b0018; margin: 0 auto; border-radius: 10px;"></div>
+                </div>
+                <div class="product-info">
+                    <h3>Nederburg Cabernet Sauvignon</h3>
+                    <div class="product-size">750ml</div>
+                    <button class="btn btn-primary" data-product="Nederburg Cabernet Sauvignon 750ml">Order on WA</button>
+                </div>
+            </div>
+
+            <div class="product-card product-item" data-category="vodka">
+                <div class="product-image">
+                    <div style="height: 200px; width: 60px; background: #e0f7fa; margin: 0 auto; border-radius: 10px; opacity: 0.8;"></div>
+                </div>
+                <div class="product-info">
+                    <h3>Grey Goose</h3>
+                    <div class="product-size">1L</div>
+                    <button class="btn btn-primary" data-product="Grey Goose 1L">Order on WA</button>
+                </div>
+            </div>
+            
+            <div class="product-card product-item" data-category="gin">
+                <div class="product-image">
+                    <div style="height: 200px; width: 60px; background: #004d40; margin: 0 auto; border-radius: 10px;"></div>
+                </div>
+                <div class="product-info">
+                    <h3>Tanqueray London Dry</h3>
+                    <div class="product-size">750ml</div>
+                    <button class="btn btn-primary" data-product="Tanqueray 750ml">Order on WA</button>
+                </div>
+            </div>
+            
+            <div class="product-card product-item" data-category="beer">
+                <div class="product-image">
+                    <div style="height: 150px; width: 50px; background: #fbc02d; margin: 0 auto; border-radius: 5px; margin-top: 25px;"></div>
+                </div>
+                <div class="product-info">
+                    <h3>Heineken 6-pack</h3>
+                    <div class="product-size">500ml Cans</div>
+                    <button class="btn btn-primary" data-product="Heineken 6-pack 500ml">Order on WA</button>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- Footer Layer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-col">
+                <div class="logo" style="font-size: 1.5rem; margin-bottom: 1rem;">LIQUIFY</div>
+                <p style="color: var(--text-muted); font-size: 0.9rem;">Nairobi's premium nightlife, delivered.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Quick Links</h4>
+                <a href="index.html">Home</a>
+                <a href="shop.html">Shop/Catalogue</a>
+                <a href="about.html">About Us</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            <div class="footer-col">
+                <h4>Contact Us</h4>
+                <a href="tel:+254700000000"><i class="fas fa-phone"></i> +254 700 000 000</a>
+                <a href="#" class="btn-general-order"><i class="fab fa-whatsapp"></i> WhatsApp Us</a>
+                <a href="#"><i class="fas fa-map-marker-alt"></i> Fedha, Embakasi</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            &copy; 2026 Liquify. All rights reserved. Drink responsibly.
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp -->
+    <a href="#" class="floating-wa btn-general-order" aria-label="Order on WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+</html>
