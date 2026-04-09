@@ -42,6 +42,12 @@
     <!-- Shop Content -->
     <section style="padding-top: 0;">
         
+        <!-- Search Bar -->
+        <div class="search-container reveal">
+            <i class="fas fa-search search-icon"></i>
+            <input type="text" id="shop-search" class="search-input" placeholder="Search for a bottle (e.g. Jack Daniel's)...">
+        </div>
+
         <!-- Filters -->
         <div class="filters reveal">
             <button class="filter-btn active" data-filter="all">All</button>
@@ -55,7 +61,12 @@
         
         <!-- Product Grid -->
         <div id="shop-product-grid" class="grid-cols-4 reveal">
-            <!-- Items injected via script.js?v=2 -->
+            <!-- Items injected via script.js -->
+            <div id="no-products-message">
+                <i class="fas fa-search"></i>
+                <h3>No drinks found</h3>
+                <p>Try searching for something else or browse another category.</p>
+            </div>
         </div>
     </section>
 

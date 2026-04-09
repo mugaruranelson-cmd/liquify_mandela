@@ -587,35 +587,59 @@ if (productGrid) {
     // Filtering Logic
     const filterBtns = document.querySelectorAll('.filter-btn');
     const productItems = document.querySelectorAll('.product-item');
+    const searchInput = document.getElementById('shop-search');
+    const noProductsMsg = document.getElementById('no-products-message');
+
+    function performFiltering() {
+        const activeBtn = document.querySelector('.filter-btn.active');
+        const filterValue = activeBtn ? activeBtn.getAttribute('data-filter') : 'all';
+        const searchQuery = searchInput.value.toLowerCase().trim();
+        let visibleCount = 0;
+
+        productItems.forEach(item => {
+            const name = item.querySelector('h3').textContent.toLowerCase();
+            const desc = item.querySelector('p').textContent.toLowerCase();
+            const itemCategory = item.getAttribute('data-category');
+            const isKenyan = item.getAttribute('data-kenyan') === 'true';
+
+            let categoryMatch = false;
+            if (filterValue === 'all') {
+                categoryMatch = true;
+            } else if (filterValue === 'kenyan') {
+                categoryMatch = isKenyan;
+            } else {
+                categoryMatch = (filterValue === itemCategory);
+            }
+
+            const searchMatch = !searchQuery || name.includes(searchQuery) || desc.includes(searchQuery);
+
+            if (categoryMatch && searchMatch) {
+                item.style.display = 'block';
+                item.classList.remove('active');
+                setTimeout(() => item.classList.add('active'), 10);
+                visibleCount++;
+            } else {
+                item.style.display = 'none';
+            }
+        });
+
+        // Show/Hide "No Products" message
+        if (visibleCount === 0) {
+            noProductsMsg.style.display = 'block';
+        } else {
+            noProductsMsg.style.display = 'none';
+        }
+    }
+
+    if (searchInput) {
+        searchInput.addEventListener('input', performFiltering);
+    }
 
     filterBtns.forEach(btn => {
         btn.addEventListener('click', () => {
             filterBtns.forEach(b => b.classList.remove('active'));
             btn.classList.add('active');
-            
-            const filterValue = btn.getAttribute('data-filter');
-            
-            productItems.forEach(item => {
-                const itemCategory = item.getAttribute('data-category');
-                const isKenyan = item.getAttribute('data-kenyan') === 'true';
-
-                let show = false;
-                if (filterValue === 'all') {
-                    show = true;
-                } else if (filterValue === 'kenyan') {
-                    show = isKenyan;
-                } else {
-                    show = (filterValue === itemCategory);
-                }
-
-                if (show) {
-                    item.style.display = 'block';
-                    item.classList.remove('active');
-                    setTimeout(() => item.classList.add('active'), 10);
-                } else {
-                    item.style.display = 'none';
-                }
-            });
+            performFiltering();
         });
     });
 
