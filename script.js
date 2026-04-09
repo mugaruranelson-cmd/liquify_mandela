@@ -35,14 +35,7 @@ function buildWhatsAppLink(text) {
 // Attach listeners to order buttons
 document.addEventListener('DOMContentLoaded', () => {
     
-    // Category Cards
-    const categoryCards = document.querySelectorAll('.category-card');
-    categoryCards.forEach(card => {
-        card.addEventListener('click', () => {
-            const categoryName = card.querySelector('h3').innerText;
-            window.location.href = buildWhatsAppLink(`Hi Liquify, I want to order from the ${categoryName} category.`);
-        });
-    });
+    // Removed legacy Category Card WhatsApp router. Routing is now handled inline via index.html
 
     // Product Order Buttons
     const orderBtns = document.querySelectorAll('button[data-product]');
