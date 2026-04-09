@@ -14,6 +14,9 @@
     <!-- Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     
+    <!-- Preload Critical Hero Image -->
+    <link rel="preload" as="image" href="assets/images/hero_bg.jpg">
+    
     <!-- CSS -->
     <link rel="stylesheet" href="style.css?v=2">
 </head>
@@ -33,7 +36,7 @@
 
     <!-- Hero Section -->
     <header class="hero">
-        <img src="assets/images/hero_bg.png" alt="Premium Whisky Bar" class="hero-bg">
+        <img src="assets/images/hero_bg.jpg" alt="Premium Whisky Bar" class="hero-bg" fetchpriority="high">
         <div class="hero-overlay"></div>
         <div class="hero-content">
             <span class="hero-subtitle fade-in">Nairobi's Premium Liquor Delivery</span>
@@ -61,25 +64,25 @@
         </div>
         <div class="grid-cols-4 reveal">
             <div class="category-card">
-                <img src="assets/images/real/jameson_irish_whiskey.png" alt="Whisky">
+                <img src="assets/images/real/jameson_irish_whiskey.png" alt="Whisky" loading="lazy" decoding="async">
                 <div class="category-overlay">
                     <h3>Whisky</h3>
                 </div>
             </div>
             <div class="category-card">
-                <img src="assets/images/real/casillero_del_diablo_cabernet.png" alt="Wine">
+                <img src="assets/images/real/casillero_del_diablo_cabernet.png" alt="Wine" loading="lazy" decoding="async">
                 <div class="category-overlay">
                     <h3>Wine</h3>
                 </div>
             </div>
             <div class="category-card">
-                <img src="assets/images/real/grey_goose.png" alt="Vodka">
+                <img src="assets/images/real/grey_goose.png" alt="Vodka" loading="lazy" decoding="async">
                 <div class="category-overlay">
                     <h3>Vodka</h3>
                 </div>
             </div>
             <div class="category-card">
-                <img src="assets/images/real/tanqueray_london_dry.png" alt="Gin">
+                <img src="assets/images/real/tanqueray_london_dry.png" alt="Gin" loading="lazy" decoding="async">
                 <div class="category-overlay">
                     <h3>Gin</h3>
                 </div>
@@ -97,7 +100,7 @@
             <!-- Product 1 -->
             <div class="product-card">
                 <div class="product-image">
-                    <img src="assets/images/real/johnnie_walker_black_label.png" alt="Johnnie Walker Black Label" style="max-height: 200px;">
+                    <img src="assets/images/real/johnnie_walker_black_label.png" alt="Johnnie Walker Black Label" style="max-height: 200px;" loading="lazy">
                 </div>
                 <div class="product-info">
                     <h3>Johnnie Walker Black Label</h3>
@@ -111,7 +114,7 @@
             <!-- Product 2 Placeholder -->
             <div class="product-card">
                 <div class="product-image">
-                    <img src="assets/images/real/glenfiddich_15_year_old.png" alt="Glenfiddich 15" style="max-height: 200px;">
+                    <img src="assets/images/real/glenfiddich_15_year_old.png" alt="Glenfiddich 15" style="max-height: 200px;" loading="lazy">
                 </div>
                 <div class="product-info">
                     <h3>Glenfiddich 15 Year Old</h3>
@@ -125,7 +128,7 @@
             <!-- Product 3 Placeholder -->
             <div class="product-card">
                 <div class="product-image">
-                    <img src="assets/images/real/absolut_vodka.png" alt="Absolut" style="max-height: 200px;">
+                    <img src="assets/images/real/absolut_vodka.png" alt="Absolut" style="max-height: 200px;" loading="lazy">
                 </div>
                 <div class="product-info">
                     <h3>Absolut Vodka</h3>
@@ -139,7 +142,7 @@
             <!-- Product 4: Tusker Lager -->
             <div class="product-card">
                 <div class="product-image">
-                    <img src="assets/images/real/tusker_lager_6_pack.png" alt="Tusker Lager" style="max-height: 200px;">
+                    <img src="assets/images/real/tusker_lager_6_pack.png" alt="Tusker Lager" style="max-height: 200px;" loading="lazy">
                 </div>
                 <div class="product-info">
                     <h3>Tusker Lager</h3>

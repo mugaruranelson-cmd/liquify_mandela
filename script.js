@@ -379,7 +379,7 @@ if (productGrid) {
         const itemHtml = `
             <div class="product-card product-item" data-category="${product.category}">
                 <div class="product-image">
-                    <img src="${product.image}" alt="${product.name}" style="border-radius: 10px; max-height: 200px; object-fit: contain;">
+                    <img src="${product.image}" alt="${product.name}" style="border-radius: 10px; max-height: 200px; object-fit: contain;" loading="lazy" decoding="async">
                 </div>
                 <div class="product-info">
                     <h3>${product.name}</h3>
