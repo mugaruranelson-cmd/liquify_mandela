@@ -118,7 +118,7 @@ const catalogueProducts = [
         size: "750ml",
         price: "[ Price ]",
         description: "A rich and smooth blended Scotch whisky with a warm amber color.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=Chivas+Regal+12+Year+Old"
+        image: "assets/images/real/chivas_regal_12_year_old.png"
     },
     {
         name: "Singleton of Dufftown 12",
@@ -142,7 +142,7 @@ const catalogueProducts = [
         size: "750ml",
         price: "[ Price ]",
         description: "Scotland's favourite blend, perfectly balanced with notes of dried fruit and soft spice.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=Famous+Grouse"
+        image: "assets/images/real/famous_grouse.png"
     },
     {
         name: "Black & White",
@@ -150,7 +150,7 @@ const catalogueProducts = [
         size: "750ml",
         price: "[ Price ]",
         description: "A classic, approachable and smooth blended Scotch whisky.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=Black+&+White"
+        image: "assets/images/real/black_and_white.png"
     },
     {
         name: "Casillero del Diablo Cabernet",
@@ -230,7 +230,7 @@ const catalogueProducts = [
         size: "750ml",
         price: "[ Price ]",
         description: "The world's most awarded premium vodka, triple distilled for exceptional smoothness.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=Smirnoff+Red+Label"
+        image: "assets/images/real/smirnoff_red_label.png"
     },
     {
         name: "Ciroc Vodka",
@@ -254,7 +254,7 @@ const catalogueProducts = [
         size: "750ml",
         price: "[ Price ]",
         description: "A smooth, continuously distilled clean vodka highly popular in the local nightlife.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=Flirt+Vodka"
+        image: "assets/images/real/flirt_vodka.png"
     },
     {
         name: "Kenya Cane",
@@ -286,7 +286,7 @@ const catalogueProducts = [
         size: "750ml",
         price: "[ Price ]",
         description: "The world's best-selling London dry gin, distinctively refreshing.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=Gordon's+London+Dry"
+        image: "assets/images/real/gordons_london_dry.png"
     },
     {
         name: "Gilbey's Special Dry",
@@ -366,7 +366,7 @@ const catalogueProducts = [
         size: "500ml Cans",
         price: "[ Price ]",
         description: "A bold and deeply refreshing lager widely popular in East Africa.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=Pilsner+Lager+6-Pack"
+        image: "assets/images/real/pilsner_lager_6_pack.png"
     }
 ];
 
