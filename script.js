@@ -1,6 +1,41 @@
 // Base WhatsApp Number (Format: 254XXXXXXXXX)
 const WA_PHONE = '254700000000'; // Replace with actual number
 
+// Age Verification Logic
+function initAgeGate() {
+    if (localStorage.getItem('ageVerified') === 'true') return;
+
+    const ageGateHtml = `
+        <div id="ageGate" class="age-gate">
+            <div class="age-gate-modal">
+                <div class="age-gate-logo">LIQUIFY</div>
+                <h2>Age Verification</h2>
+                <p>You must be 18 years or older to enter this site. Please confirm your age to proceed.</p>
+                <div class="age-gate-btns">
+                    <button id="verifyAge" class="btn btn-gold">Yes, I am 18+</button>
+                    <button id="rejectAge" class="btn btn-outline">No, I am under 18</button>
+                </div>
+                <p style="font-size: 0.75rem; margin-top: 2rem; opacity: 0.5;">By entering, you agree to our Terms of Service and Privacy Policy.</p>
+            </div>
+        </div>
+    `;
+
+    document.body.insertAdjacentHTML('afterbegin', ageGateHtml);
+    document.body.style.overflow = 'hidden';
+
+    document.getElementById('verifyAge').addEventListener('click', () => {
+        localStorage.setItem('ageVerified', 'true');
+        const gate = document.getElementById('ageGate');
+        gate.classList.add('hidden');
+        document.body.style.overflow = '';
+        setTimeout(() => gate.remove(), 600);
+    });
+
+    document.getElementById('rejectAge').addEventListener('click', () => {
+        window.location.href = 'https://www.google.com';
+    });
+}
+
 // Sticky Navigation
 const nav = document.querySelector('nav');
 window.addEventListener('scroll', () => {
@@ -10,6 +45,9 @@ window.addEventListener('scroll', () => {
         nav.classList.remove('scrolled');
     }
 });
+
+// Run Age Gate check immediately
+document.addEventListener('DOMContentLoaded', initAgeGate);
 
 // Scroll Reveal Animations
 function reveal() {
