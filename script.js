@@ -424,4 +424,24 @@ if (productGrid) {
             });
         });
     });
+
+    // Check URL for category query parameter and auto-click filter
+    const urlParams = new URLSearchParams(window.location.search);
+    const categoryParam = urlParams.get('category');
+    if (categoryParam) {
+        const targetBtn = document.querySelector(`.filter-btn[data-filter="${categoryParam}"]`);
+        if (targetBtn) {
+            targetBtn.click();
+            
+            // Wait slightly for DOM to render then scroll down to the grid
+            setTimeout(() => {
+                if(productGrid) {
+                    window.scrollTo({
+                        top: productGrid.offsetTop - 150,
+                        behavior: 'smooth'
+                    });
+                }
+            }, 500);
+        }
+    }
 }
