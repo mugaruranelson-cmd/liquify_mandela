@@ -113,11 +113,51 @@ const catalogueProducts = [
         image: "assets/images/real/jack_daniels_old_no._7.png"
     },
     {
+        name: "Chivas Regal 12 Year Old",
+        category: "whisky",
+        size: "750ml",
+        price: "[ Price ]",
+        description: "A rich and smooth blended Scotch whisky with a warm amber color.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=Chivas+Regal+12+Year+Old"
+    },
+    {
+        name: "Singleton of Dufftown 12",
+        category: "whisky",
+        size: "750ml",
+        price: "[ Price ]",
+        description: "A smooth single malt Scotch whisky with sweet fruity notes and a lingering finish.",
+        image: "assets/images/real/singleton_of_dufftown_12.png"
+    },
+    {
+        name: "Glenmorangie The Original",
+        category: "whisky",
+        size: "750ml",
+        price: "[ Price ]",
+        description: "An elegant, floral single malt whisky, acclaimed for its alluring complexity.",
+        image: "assets/images/real/glenmorangie_the_original.png"
+    },
+    {
+        name: "Famous Grouse",
+        category: "whisky",
+        size: "750ml",
+        price: "[ Price ]",
+        description: "Scotland's favourite blend, perfectly balanced with notes of dried fruit and soft spice.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=Famous+Grouse"
+    },
+    {
+        name: "Black & White",
+        category: "whisky",
+        size: "750ml",
+        price: "[ Price ]",
+        description: "A classic, approachable and smooth blended Scotch whisky.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=Black+&+White"
+    },
+    {
         name: "Casillero del Diablo Cabernet",
         category: "wine",
         size: "750ml",
         price: "[ Price ]",
-        description: "Rich and fruit-forward with aromas of cherries, plums, and a touch of vanilla and toast.",
+        description: "Rich and fruit-forward with aromas of cherries, plums, and a touch of vanilla.",
         image: "assets/images/real/casillero_del_diablo_cabernet.png"
     },
     {
@@ -129,11 +169,51 @@ const catalogueProducts = [
         image: "assets/images/real/nederburg_cabernet_sauvignon.png"
     },
     {
+        name: "4th Street Sweet Red",
+        category: "wine",
+        size: "750ml",
+        price: "[ Price ]",
+        description: "A hugely popular, deliciously sweet and fruity red wine.",
+        image: "assets/images/real/4th_street_sweet_red.png"
+    },
+    {
+        name: "Four Cousins Sweet Red",
+        category: "wine",
+        size: "750ml",
+        price: "[ Price ]",
+        description: "Sweet, fruity, and deeply layered African wine perfect for casual dining.",
+        image: "assets/images/real/four_cousins_sweet_red.png"
+    },
+    {
+        name: "Frontera Sweet Red",
+        category: "wine",
+        size: "750ml",
+        price: "[ Price ]",
+        description: "Fruit forward, highly approachable sweet and smooth everyday wine.",
+        image: "assets/images/real/frontera_sweet_red.png"
+    },
+    {
+        name: "Robertson Winery Sweet Red",
+        category: "wine",
+        size: "750ml",
+        price: "[ Price ]",
+        description: "Natural sweet wine with soft fruit flavours and a smooth finish.",
+        image: "assets/images/real/robertson_winery_sweet_red.png"
+    },
+    {
+        name: "Cellar Cask Sweet Red",
+        category: "wine",
+        size: "750ml",
+        price: "[ Price ]",
+        description: "Deep ruby red color with a soft, sweet, and highly satisfying finish.",
+        image: "assets/images/real/cellar_cask_sweet_red.png"
+    },
+    {
         name: "Grey Goose",
         category: "vodka",
         size: "1L",
         price: "[ Price ]",
-        description: "A premium vodka known for its ultimate smoothness and exceptional taste.",
+        description: "A super-premium vodka known for its ultimate smoothness and exceptional taste.",
         image: "assets/images/real/grey_goose.png"
     },
     {
@@ -145,11 +225,51 @@ const catalogueProducts = [
         image: "assets/images/real/absolut_vodka.png"
     },
     {
+        name: "Smirnoff Red Label",
+        category: "vodka",
+        size: "750ml",
+        price: "[ Price ]",
+        description: "The world's most awarded premium vodka, triple distilled for exceptional smoothness.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=Smirnoff+Red+Label"
+    },
+    {
+        name: "Ciroc Vodka",
+        category: "vodka",
+        size: "750ml",
+        price: "[ Price ]",
+        description: "Ultra-premium vodka distilled from fine French grapes with an exceptionally smooth finish.",
+        image: "assets/images/real/ciroc_vodka.png"
+    },
+    {
+        name: "Ketel One",
+        category: "vodka",
+        size: "750ml",
+        price: "[ Price ]",
+        description: "Crisp and sophisticated Dutch vodka crafted with modern and traditional distilling.",
+        image: "assets/images/real/ketel_one.png"
+    },
+    {
+        name: "Flirt Vodka",
+        category: "vodka",
+        size: "750ml",
+        price: "[ Price ]",
+        description: "A smooth, continuously distilled clean vodka highly popular in the local nightlife.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=Flirt+Vodka"
+    },
+    {
+        name: "Kenya Cane",
+        category: "vodka",
+        size: "750ml",
+        price: "[ Price ]",
+        description: "Kenya's iconic original smooth cane spirit, incredibly versatile and pure.",
+        image: "assets/images/real/kenya_cane.png"
+    },
+    {
         name: "Tanqueray London Dry",
         category: "gin",
         size: "750ml",
         price: "[ Price ]",
-        description: "A perfect balance of four botanicals for a smooth, classic taste.",
+        description: "A perfect balance of four botanicals for a smooth, uniquely classic taste.",
         image: "assets/images/real/tanqueray_london_dry.png"
     },
     {
@@ -161,22 +281,95 @@ const catalogueProducts = [
         image: "assets/images/real/bombay_sapphire.png"
     },
     {
+        name: "Gordon's London Dry",
+        category: "gin",
+        size: "750ml",
+        price: "[ Price ]",
+        description: "The world's best-selling London dry gin, distinctively refreshing.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=Gordon's+London+Dry"
+    },
+    {
+        name: "Gilbey's Special Dry",
+        category: "gin",
+        size: "750ml",
+        price: "[ Price ]",
+        description: "An immensely popular, perfectly balanced and affordable quality gin.",
+        image: "assets/images/real/gilbeys_special_dry.png"
+    },
+    {
+        name: "Hendrick's Gin",
+        category: "gin",
+        size: "750ml",
+        price: "[ Price ]",
+        description: "Curiously infused with rose petals and cucumber for a truly unique profile.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=Hendrick's+Gin"
+    },
+    {
+        name: "Beefeater London Dry",
+        category: "gin",
+        size: "750ml",
+        price: "[ Price ]",
+        description: "An authentic London dry gin with big juniper character and strong citrus notes.",
+        image: "assets/images/real/beefeater_london_dry.png"
+    },
+    {
         name: "Heineken 6-Pack",
         category: "beer",
-        size: "500ml",
+        size: "500ml Cans",
         price: "[ Price ]",
-        description: "A crisp, balanced lager with a subtly bitter, fruity taste.",
+        description: "A crisp, balanced premium lager with a subtly bitter, fruity taste.",
         image: "assets/images/real/heineken_6_pack.png"
     },
     {
         name: "Tusker Lager 6-Pack",
         category: "beer",
-        size: "500ml",
+        size: "500ml Cans",
         price: "[ Price ]",
-        description: "Kenya's iconic, refreshingly crisp premium lager.",
+        description: "Kenya's iconic, refreshingly crisp premium national lager.",
         image: "assets/images/real/tusker_lager_6_pack.png"
+    },
+    {
+        name: "Tusker Lite 6-Pack",
+        category: "beer",
+        size: "500ml Cans",
+        price: "[ Price ]",
+        description: "Crisp, premium low-carb lager for a lighter drinking experience.",
+        image: "assets/images/real/tusker_lite_6_pack.png"
+    },
+    {
+        name: "White Cap Lager 6-Pack",
+        category: "beer",
+        size: "500ml Cans",
+        price: "[ Price ]",
+        description: "A smooth, distinctively classic Kenyan lager with no added sugar.",
+        image: "assets/images/real/white_cap_lager_6_pack.png"
+    },
+    {
+        name: "Guinness Extra Stout 6-Pack",
+        category: "beer",
+        size: "500ml Cans",
+        price: "[ Price ]",
+        description: "A rich, dark, and perfectly balanced stout with roasted malt notes.",
+        image: "assets/images/real/guinness_extra_stout_6_pack.png"
+    },
+    {
+        name: "Balozi Lager 6-Pack",
+        category: "beer",
+        size: "500ml Cans",
+        price: "[ Price ]",
+        description: "A rich malt-flavored Kenyan lager known for its authentic taste.",
+        image: "assets/images/real/balozi_lager_6_pack.png"
+    },
+    {
+        name: "Pilsner Lager 6-Pack",
+        category: "beer",
+        size: "500ml Cans",
+        price: "[ Price ]",
+        description: "A bold and deeply refreshing lager widely popular in East Africa.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=Pilsner+Lager+6-Pack"
     }
 ];
+
 
 // Initialize Shop Catalogue (for shop.html)
 const productGrid = document.getElementById('shop-product-grid');
