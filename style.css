@@ -563,8 +563,48 @@ section {
     letter-spacing: 1px;
 }
 
-.kenyan-card {
-    border-top: 2px solid var(--accent-gold);
+/* Delivery Coverage Map */
+.delivery-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.delivery-info {
+    text-align: left;
+}
+
+.delivery-map {
+    height: 450px;
+    border-radius: var(--radius-lg);
+    overflow: hidden;
+    border: var(--glass-border);
+    box-shadow: var(--gold-glow);
+    position: relative;
+    background: var(--bg-card);
+}
+
+.delivery-map iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+    filter: invert(90%) hue-rotate(180deg) brightness(0.9);
+}
+
+@media (max-width: 900px) {
+    .delivery-grid {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+    .delivery-info {
+        text-align: center;
+    }
+    .delivery-map {
+        height: 350px;
+    }
 }
 /* Footer */
 footer {
