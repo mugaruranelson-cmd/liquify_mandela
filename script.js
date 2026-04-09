@@ -86,7 +86,7 @@ const catalogueProducts = [
         size: "750ml",
         price: "[ Price ]",
         description: "A benchmark premium blended Scotch whisky with a smooth, deep, and complex character.",
-        image: "assets/images/jw_black.png"
+        image: "assets/images/real/johnnie_walker_black_label.png"
     },
     {
         name: "Jameson Irish Whiskey",
@@ -94,7 +94,7 @@ const catalogueProducts = [
         size: "750ml",
         price: "[ Price ]",
         description: "A perfect balance of spicy, nutty and vanilla notes with hints of sweet sherry and exceptional smoothness.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=Jameson+Whiskey\nBottle"
+        image: "assets/images/real/jameson_irish_whiskey.png"
     },
     {
         name: "Glenfiddich 15 Year Old",
@@ -102,7 +102,7 @@ const catalogueProducts = [
         size: "750ml",
         price: "[ Price ]",
         description: "A complex single malt characterized by warming spice, honey, and rich fruit notes.",
-        image: "assets/images/cat_whisky.png"
+        image: "assets/images/real/glenfiddich_15_year_old.png"
     },
     {
         name: "Jack Daniel's Old No. 7",
@@ -110,7 +110,7 @@ const catalogueProducts = [
         size: "1L",
         price: "[ Price ]",
         description: "Mellowed drop by drop through 10-feet of sugar maple charcoal, then matured in handcrafted barrels.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=Jack+Daniels\nBottle"
+        image: "assets/images/real/jack_daniels_old_no._7.png"
     },
     {
         name: "Casillero del Diablo Cabernet",
@@ -118,7 +118,7 @@ const catalogueProducts = [
         size: "750ml",
         price: "[ Price ]",
         description: "Rich and fruit-forward with aromas of cherries, plums, and a touch of vanilla and toast.",
-        image: "https://placehold.co/400x600/3b0018/D4AF37/png?text=Casillero+del+Diablo\nWine"
+        image: "assets/images/real/casillero_del_diablo_cabernet.png"
     },
     {
         name: "Nederburg Cabernet Sauvignon",
@@ -126,7 +126,7 @@ const catalogueProducts = [
         size: "750ml",
         price: "[ Price ]",
         description: "Abundant aromas of blackcurrant and cherry with hints of vanilla and spice.",
-        image: "https://placehold.co/400x600/3b0018/D4AF37/png?text=Nederburg+Cabernet\nWine"
+        image: "assets/images/real/nederburg_cabernet_sauvignon.png"
     },
     {
         name: "Grey Goose",
@@ -134,7 +134,7 @@ const catalogueProducts = [
         size: "1L",
         price: "[ Price ]",
         description: "A premium vodka known for its ultimate smoothness and exceptional taste.",
-        image: "https://placehold.co/400x600/e0f7fa/0B0B0B/png?text=Grey+Goose\nVodka"
+        image: "assets/images/real/grey_goose.png"
     },
     {
         name: "Absolut Vodka",
@@ -142,7 +142,7 @@ const catalogueProducts = [
         size: "750ml",
         price: "[ Price ]",
         description: "Rich, full-bodied and complex, yet smooth and mellow with a distinct character of grain.",
-        image: "https://placehold.co/400x600/e0f7fa/0B0B0B/png?text=Absolut\nVodka"
+        image: "assets/images/real/absolut_vodka.png"
     },
     {
         name: "Tanqueray London Dry",
@@ -150,7 +150,7 @@ const catalogueProducts = [
         size: "750ml",
         price: "[ Price ]",
         description: "A perfect balance of four botanicals for a smooth, classic taste.",
-        image: "https://placehold.co/400x600/004d40/D4AF37/png?text=Tanqueray\nGin"
+        image: "assets/images/real/tanqueray_london_dry.png"
     },
     {
         name: "Bombay Sapphire",
@@ -158,7 +158,7 @@ const catalogueProducts = [
         size: "750ml",
         price: "[ Price ]",
         description: "Vapor-infused with 10 hand-selected botanicals for a bright, complex flavor profile.",
-        image: "https://placehold.co/400x600/004d40/D4AF37/png?text=Bombay+Sapphire\nGin"
+        image: "assets/images/real/bombay_sapphire.png"
     },
     {
         name: "Heineken 6-Pack",
@@ -166,7 +166,7 @@ const catalogueProducts = [
         size: "500ml",
         price: "[ Price ]",
         description: "A crisp, balanced lager with a subtly bitter, fruity taste.",
-        image: "https://placehold.co/400x600/fbc02d/0B0B0B/png?text=Heineken\n6-Pack"
+        image: "assets/images/real/heineken_6_pack.png"
     },
     {
         name: "Tusker Lager 6-Pack",
@@ -174,7 +174,7 @@ const catalogueProducts = [
         size: "500ml",
         price: "[ Price ]",
         description: "Kenya's iconic, refreshingly crisp premium lager.",
-        image: "https://placehold.co/400x600/fbc02d/0B0B0B/png?text=Tusker\nLager"
+        image: "assets/images/real/tusker_lager_6_pack.png"
     }
 ];
 
