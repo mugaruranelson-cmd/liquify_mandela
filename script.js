@@ -144,17 +144,17 @@ const catalogueProducts = [
         category: "wine",
         size: "5L",
         price: "Ksh 6,600",
-        description: "Our wines are made from high quality grapes sourced from selected premium vineyards throughout the lush Western Cape. Our grapes are harvested in the warm ...",
+        description: "The South African lightly sparkled, naturally sweet, palate-pleasing rosé, 4th Street Sweet Red, is inspired by a passion for friendship and sharing.",
         image: "assets/images/real/4th_street_red_swtt.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "South Africa"
     },
     {
         name: "4Th Street Rosetr",
         category: "wine",
         size: "5L",
         price: "Ksh 5,370",
-        description: "Gain valuable skills and advance your career at Gulf Coast State College with flexible programs and personalized support tailored for your success.",
+        description: "Our wines are made from high quality grapes sourced from selected premium vineyards throughout the lush Western Cape. Our grapes are harvested in the warm ...",
         image: "assets/images/real/4th_street_rosetr.jpg",
         isKenyan: false,
         country: "Unknown"
@@ -164,7 +164,7 @@ const catalogueProducts = [
         category: "wine",
         size: "750ML",
         price: "Ksh 1,425",
-        description: "4th Street Natural Sweet White NV ; variety : Blend - White ; winemaker : Distell Wines ; wine of origin : Western Cape ; analysis : alc : 7.47 % vol rs : 65.5 g/l ...",
+        description: "Our wines are made from high quality grapes sourced from selected premium vineyards throughout the lush Western Cape. Our grapes are harvested in the warm ...",
         image: "assets/images/real/4th_street_white.jpg",
         isKenyan: false,
         country: "Unknown"
@@ -174,7 +174,7 @@ const catalogueProducts = [
         category: "other",
         size: "1.5L",
         price: "Ksh 2,640",
-        description: "Country of origin (visible) Click to download COO; Nutrition (visible) Click to download N; Product specification (visible) Click to download PS; Suitability ...",
+        description: "Our wines are made from high quality grapes sourced from selected premium vineyards throughout the lush Western Cape. Our grapes are harvested in the warm ...",
         image: "assets/images/real/4th_strt_redt.jpg",
         isKenyan: false,
         country: "Unknown"
@@ -194,7 +194,7 @@ const catalogueProducts = [
         category: "other",
         size: "5L",
         price: "Ksh 6,600",
-        description: "Our wines are made from high quality grapes sourced from selected premium vineyards throughout the lush Western Cape. Our grapes are harvested in the warm ...",
+        description: "This delightfully refreshing wine displays loads of tropical fruit notes on the nose and a burst of sweet fruity flavours on the palate.",
         image: "assets/images/real/4th_strt_white_sweett.jpg",
         isKenyan: false,
         country: "Unknown"
@@ -214,7 +214,7 @@ const catalogueProducts = [
         category: "other",
         size: "58 CL",
         price: "Ksh 315",
-        description: "The origins of gin can be traced back to the Middle Ages, with records describing a drink called 'Jenever', a Dutch spirit made with juniper.",
+        description: "The first carbonated quinine drink was launched by Schweppes in 1870. Due to its popularity in India, it was branded Indian Tonic Water. The amount of quinine ...",
         image: "assets/images/real/assic_g_t_can.jpg",
         isKenyan: false,
         country: "Unknown"
@@ -244,10 +244,10 @@ const catalogueProducts = [
         category: "other",
         size: "750ML",
         price: "Ksh 315",
-        description: "The 58 Spiced Orange G&T is a ready-to-drink cocktail from a distillery located in a country in East Africa. The gin is infused with local oranges and a ...",
+        description: "58 Gin Spiced Orange 750ml is a popular Kenyan Gin mostly taken during special occasions. It contains 40% alcohol. Best enjoyed with grilled chicken, ...",
         image: "assets/images/real/58_spiced_orange_g_t_can.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "Kenya"
     },
     {
         name: "58 Very Berry G&T Can",
@@ -264,17 +264,17 @@ const catalogueProducts = [
         category: "other",
         size: "5L",
         price: "Ksh 4,500",
-        description: "Product Red is a licensed brand by the company Red that seeks to engage the private sector in raising awareness and funds to help eliminate HIV/AIDS in ...",
+        description: "5th Generation Red is a South African boxed wine that comes in a 5-liter format. It is a blend of Shiraz, Pinotage, and Cabernet Sauvignon grapes, and is ...",
         image: "assets/images/real/5th_generationtr_red.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "South Africa"
     },
     {
         name: "5Th Generation Whitetr",
         category: "other",
         size: "5L",
         price: "Ksh 4,500",
-        description: "The iPad is a brand of tablet computers developed and marketed by Apple that run the company's mobile operating systems iOS (older models) and iPadOS.",
+        description: "Tasting Note. LIGHT STRAW COLOR. FRESH AROMA OF WHITE PEACH AND TROPICAL FRUITS. BOLD FRUIT FLAVORS REMINISCENT OF PEAR AND MELON. RICH AND LONG FINISH.",
         image: "assets/images/real/5th_generation_whitetr.jpg",
         isKenyan: false,
         country: "Unknown"
@@ -284,20 +284,20 @@ const catalogueProducts = [
         category: "gin",
         size: "750ML",
         price: "Ksh 1,500",
-        description: "The blueberry, a member of the genus Vaccinium, is one of the few fruits native to North America. Long before it became a staple in grocery ...",
+        description: "#7 Blueberry Flavoured Gin 750ml ; Alcohol Content. 35% ; Country of Origin. South Africa ; Size. 750ml ; Flavours & Spices. Blueberry ; SKU: #74536 ...",
         image: "assets/images/real/7gin_blueberry.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "South Africa"
     },
     {
         name: "#7Gin Lime And Lemon",
         category: "gin",
         size: "750ML",
         price: "Ksh 1,500",
-        description: "It originated in Persia (modern day Iran) and was introduced to the Mediterranean region at an unknown time. The lime was introduced to Europe ...",
+        description: "#7 Lemon & Lime Flavoured Gin 750ml ; Alcohol Content. 35% ; Flavours & Spices. Lemon ; Country of Origin. South Africa ; Size. 750ml ; SKU: GI#74540 ...",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=%237GIN%20LIME%20AND%20LEMON",
         isKenyan: false,
-        country: "Unknown"
+        country: "South Africa"
     },
     {
         name: "#7Gin Mixed Berry",
@@ -324,10 +324,10 @@ const catalogueProducts = [
         category: "gin",
         size: "750ML",
         price: "Ksh 1,500",
-        description: "Colombo No.7 - based on a 70-year-old recipe, tells a most intriguing tale of war, resourcefulness and regulation in Sri Lanka.",
+        description: "South Africa's #7 Gin is a blended gin enhanced with flavor from seven botanicals for an exceptionally smooth finish. Product Details: Product Name: #7 Original ...",
         image: "assets/images/real/7gin_original.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "South Africa"
     },
     {
         name: "#7Gin Passion",
@@ -344,7 +344,7 @@ const catalogueProducts = [
         category: "gin",
         size: "750ML",
         price: "Ksh 1,500",
-        description: "The pineapple (Ananas comosus) is a tropical plant with an edible fruit; it is the most economically significant plant in the family Bromeliaceae.",
+        description: "Blend of Plantation Original Dark Rum macerated with Queen Victoria pineapple flesh and a portion of white rum distilled with the rinds, finished as a ...",
         image: "assets/images/real/7gin_pineapple.jpg",
         isKenyan: false,
         country: "Unknown"
@@ -374,7 +374,7 @@ const catalogueProducts = [
         category: "other",
         size: "1L",
         price: "Ksh 1,950",
-        description: "60876526 Entry Summary (ES) Query Updates Deployed to Production on June 4, 2024 ... Goods with Country of Origin of Cuba can be Manually Filed in ...",
+        description: "Most wine names tie to the region where they're crafted or the grapes used during their production. While there are exceptions to the rule, most wineries stick ...",
         image: "assets/images/real/8pmt.jpg",
         isKenyan: false,
         country: "Unknown"
@@ -384,7 +384,7 @@ const catalogueProducts = [
         category: "other",
         size: "750ML",
         price: "Ksh 1,680",
-        description: "8 PM Fire Liqueur is a premium spiced liqueur that ignites your senses with its rich, fiery character and smooth sweetness. Distilled in India, this liqueur ...",
+        description: "8PM Fire 750ml is a popular Indian Liqueur mostly taken during special occasions. This whisky delivers a rich, smoky flavour with a tantalizing hint of fiery ...",
         image: "assets/images/real/8pm_fire.jpg",
         isKenyan: false,
         country: "Unknown"
@@ -394,7 +394,7 @@ const catalogueProducts = [
         category: "other",
         size: "750ML",
         price: "Ksh 1,680",
-        description: "Now in stock in Zimbabwe, 8pm Honey Liqueur. A beautiful harmony of flavour and character. Made with the finest quality grain and infused ...",
+        description: "Product Name: 8PM Honey; Price: Ksh. 1200; Country of Origin: India; Type: Liqueur; Availability: In Stock. Discover an extensive range of drinks, including ...",
         image: "assets/images/real/8pm_honey.jpg",
         isKenyan: false,
         country: "Unknown"
@@ -404,7 +404,7 @@ const catalogueProducts = [
         category: "whisky",
         size: "750ML",
         price: "Ksh 1,500",
-        description: "8 PM is produced in India by Radico Khaitan Ltd, a major Indian spirits company founded in 1943. The grain blended expression is specifically formulated for ...",
+        description: "It is a Radico Khaitan brand, one of india's largest liquor manufacturers, which founded the company in 1999. The name “8pm” refers to the hour ...",
         image: "assets/images/real/8pm_whisky.jpg",
         isKenyan: false,
         country: "Unknown"
@@ -424,7 +424,7 @@ const catalogueProducts = [
         category: "other",
         size: "750ML",
         price: "Ksh 1,920",
-        description: "A quality drink offering exceptional taste.",
+        description: "99 Rosas Tempranillo - Cabernet Sauvignon is produced on our Estate from organically grown grapes. Night harvested and cold macerated before fermenting. TASTING ...",
         image: "assets/images/real/99_rosas_temp_cab_sauv.jpg",
         isKenyan: false,
         country: "Unknown"
@@ -434,7 +434,7 @@ const catalogueProducts = [
         category: "vodka",
         size: "750ML",
         price: "Ksh 3,825",
-        description: "A quality drink offering exceptional taste.",
+        description: "Pernod Ricard is a French company best known for its anise-flavoured pastis apéritifs Pernod Anise and Ricard Pastis The world's second-largest wine and ...",
         image: "assets/images/real/absolute__pernod.jpg",
         isKenyan: false,
         country: "Unknown"
@@ -444,37 +444,37 @@ const catalogueProducts = [
         category: "vodka",
         size: "1L",
         price: "Ksh 3,075",
-        description: "A quality drink offering exceptional taste.",
+        description: "Absolut Vodka is a brand of vodka, produced near Åhus, in southern Sweden. Absolut is a part of the French group Pernod Ricard. Pernod Ricard bought Absolut ...",
         image: "assets/images/real/absolute_vodkat.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "Sweden"
     },
     {
         name: "Absolute Vodka",
         category: "vodka",
         size: "750ML",
         price: "Ksh 2,925",
-        description: "A quality drink offering exceptional taste.",
+        description: "Absolut Vodka is a brand of vodka, produced near Åhus, in southern Sweden. Absolut is a part of the French group Pernod Ricard.",
         image: "assets/images/real/absolute_vodka.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "Sweden"
     },
     {
         name: "Ac Blackitre",
         category: "other",
         size: "1L",
         price: "Ksh 2,100",
-        description: "A quality drink offering exceptional taste.",
+        description: "AC Black Whisky pays homage to a man's penchant for enjoying the pleasurable things in life. With its superior's blend of fine malt whisky from Scotland.",
         image: "assets/images/real/ac_blackitre.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "Scotland"
     },
     {
         name: "Ac Black",
         category: "other",
         size: "750ML",
         price: "Ksh 1,620",
-        description: "A quality drink offering exceptional taste.",
+        description: "AC Black Whisky is produced from a blend of imported scotch malts and selected Indian spirits. That same website tells me this is a semi-premium IMFL spirit.",
         image: "assets/images/real/ac_black.jpg",
         isKenyan: false,
         country: "Unknown"
@@ -484,17 +484,17 @@ const catalogueProducts = [
         category: "other",
         size: "330ML",
         price: "Ksh 75",
-        description: "A quality drink offering exceptional taste.",
+        description: "afia Energy drink is a product of Kevian Kenya Ltd, your trusted home of pure African delights . For more info; www.afiaea.co.ke ...",
         image: "assets/images/real/afia_energy.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "Kenya"
     },
     {
         name: "Afribullcafe",
         category: "other",
         size: "750ML",
         price: "Ksh 2,070",
-        description: "A quality drink offering exceptional taste.",
+        description: "Afri Bull Cafe Rum is a premium dark rum under the Afri Bull brand, expertly crafted in India. This rum has an Alcohol by Volume (ABV) of 45.0. Ideal for ...",
         image: "assets/images/real/afribullcafe.jpg",
         isKenyan: false,
         country: "Unknown"
@@ -504,7 +504,7 @@ const catalogueProducts = [
         category: "vodka",
         size: "700ML",
         price: "Ksh 825",
-        description: "A quality drink offering exceptional taste.",
+        description: "Historians are not clear on the exact origin of vodka since different sources link its beginning to both Russia and Poland. But one thing is clear: this ...",
         image: "assets/images/real/air_vodka.jpg",
         isKenyan: false,
         country: "Unknown"
@@ -514,7 +514,7 @@ const catalogueProducts = [
         category: "other",
         size: "750ML",
         price: "Ksh 1,800",
-        description: "A quality drink offering exceptional taste.",
+        description: "The Alandra Alandra Red is a captivating red blend from Portugal, showcasing the region's rich winegrowing heritage. This 2018 vintage offers a delightful ...",
         image: "assets/images/real/alandra_red.jpg",
         isKenyan: false,
         country: "Unknown"
@@ -524,7 +524,7 @@ const catalogueProducts = [
         category: "other",
         size: "750ML",
         price: "Ksh 1,800",
-        description: "A quality drink offering exceptional taste.",
+        description: "Created from the Douro Superior traditional grapes, this vinegar matured in oak barrels, providing a rounded and fresh taste. Ingredients: Wine vinegar, water,.",
         image: "assets/images/real/alandra_white.jpg",
         isKenyan: false,
         country: "Unknown"
@@ -534,7 +534,7 @@ const catalogueProducts = [
         category: "whisky",
         size: "250ML",
         price: "Ksh 570",
-        description: "A quality drink offering exceptional taste.",
+        description: "Description : All Seasons is an Indian whiskey brand launched by Oasis Group India. All-Season is India's fastest-growing brand of whiskey, ...",
         image: "assets/images/real/all_seasons_whisky.jpg",
         isKenyan: false,
         country: "Unknown"
@@ -544,7 +544,7 @@ const catalogueProducts = [
         category: "whisky",
         size: "500ML",
         price: "Ksh 1,178",
-        description: "A quality drink offering exceptional taste.",
+        description: "Description : All Seasons is an Indian whiskey brand launched by Oasis Group India. All-Season is India's fastest-growing brand of whiskey, ...",
         image: "assets/images/real/all_seasons_whisky.jpg",
         isKenyan: false,
         country: "Unknown"
@@ -554,7 +554,7 @@ const catalogueProducts = [
         category: "other",
         size: "375ML",
         price: "Ksh 878",
-        description: "A quality drink offering exceptional taste.",
+        description: "All Seasons is an Indian whiskey brand launched by Oasis Group India. Oasis Group is one of the top player amongst the emerging Indian spirits market with their ...",
         image: "assets/images/real/all_seasons_whsky.jpg",
         isKenyan: false,
         country: "Unknown"
@@ -564,7 +564,7 @@ const catalogueProducts = [
         category: "other",
         size: "750ML",
         price: "Ksh 1,763",
-        description: "A quality drink offering exceptional taste.",
+        description: "All Seasons is an Indian whiskey brand launched by Oasis Group India. Oasis Group is one of the top player amongst the emerging Indian spirits market with their ...",
         image: "assets/images/real/all_seasons_whsky.jpg",
         isKenyan: false,
         country: "Unknown"
@@ -574,7 +574,7 @@ const catalogueProducts = [
         category: "beer",
         size: "750ML",
         price: "Ksh 203",
-        description: "A quality drink offering exceptional taste.",
+        description: "The first drop of bona fide Allsopp family beeris brewed in Burton-on-Trent – the beer capital of Britain – by Benjamin Wilson Sr. ... To expand operations, ...",
         image: "assets/images/real/allsops_beer.jpg",
         isKenyan: false,
         country: "Unknown"
@@ -584,7 +584,7 @@ const catalogueProducts = [
         category: "wine",
         size: "750ML",
         price: "Ksh 1,740",
-        description: "A quality drink offering exceptional taste.",
+        description: "Through meticulous attention to detail in the vineyard, our wines are able to express the unique and diverse character of Napa Valley's soils and climate. Our ...",
         image: "assets/images/real/alta_wine.jpg",
         isKenyan: false,
         country: "Unknown"
@@ -594,7 +594,7 @@ const catalogueProducts = [
         category: "wine",
         size: "750ML",
         price: "Ksh 1,065",
-        description: "A quality drink offering exceptional taste.",
+        description: "The Amani Bay Sweet Red is an easy drinking blend with plenty of berry fruit flavors. The palate entrance is soft and smooth with ripe tannins that balance ...",
         image: "assets/images/real/amani_sweet_red.jpg",
         isKenyan: false,
         country: "Unknown"
@@ -634,7 +634,7 @@ const catalogueProducts = [
         category: "liqueur",
         size: "750ML",
         price: "Ksh 2,850",
-        description: "We encourage our employees to be ambassadors for responsible alcohol consumption and taking ownership and responsibility for their personal …",
+        description: "A quality drink offering exceptional taste.",
         image: "assets/images/real/amarula.jpg",
         isKenyan: false,
         country: "Unknown"
@@ -644,7 +644,7 @@ const catalogueProducts = [
         category: "other",
         size: "750ML",
         price: "Ksh 2,550",
-        description: "A quality drink offering exceptional taste.",
+        description: "Analivia Sauvignon Blanc is made in our Pagos del Rey winery in Rueda, in the province of Valladolid. Sauvignon Blanc is an international variety originally ...",
         image: "assets/images/real/analivia_sav.jpg",
         isKenyan: false,
         country: "Unknown"
@@ -654,7 +654,7 @@ const catalogueProducts = [
         category: "other",
         size: "200ML",
         price: "Ksh 3,900",
-        description: "Gmail is email that’s intuitive, efficient, and useful. 15 GB of storage, less spam, and mobile access.",
+        description: "The bitters were first produced in the namesake town of Angostura (now Ciudad Bolívar, Venezuela) but do not contain angostura bark. The bottle is recognisable ...",
         image: "assets/images/real/angostura_bitters.jpg",
         isKenyan: false,
         country: "Unknown"
@@ -664,27 +664,27 @@ const catalogueProducts = [
         category: "other",
         size: "750ML",
         price: "Ksh 2,093",
-        description: "A quality drink offering exceptional taste.",
+        description: "WINE OF ORIGIN: Western Cape. ABOUT THE AREA: South Africa's vineyards ... WINE DESCRIPTION: This easy drinking sweet rosé has upfront tropical fruit ...",
         image: "assets/images/real/annabelle_cuvee_rose.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "South Africa"
     },
     {
         name: "Appleton",
         category: "other",
         size: "700ML",
         price: "Ksh 5,700",
-        description: "A quality drink offering exceptional taste.",
+        description: "Rooted in Jamaica's Nassau Valley, Appleton Estate leverages unique terroir, limestone water and tropical climate to craft our aged rums. With naturally derived ...",
         image: "assets/images/real/appleton.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "Jamaica"
     },
     {
         name: "Aqula",
         category: "other",
         size: "500ML",
         price: "Ksh 750",
-        description: "A quality drink offering exceptional taste.",
+        description: "The Aquila Liqueurs distillery, founded in 1992, reached a remarkable development in a short time in the Albanian market. In its beginnings, a new modern plant ...",
         image: "assets/images/real/aqula.jpg",
         isKenyan: false,
         country: "Unknown"
@@ -694,7 +694,7 @@ const catalogueProducts = [
         category: "rum",
         size: "750ML",
         price: "Ksh 1,020",
-        description: "A quality drink offering exceptional taste.",
+        description: "Acadian is a grassy and vegetal spirit with a citrus spark and notes of warm hay and green pears. It is plays well in cocktails designed for agricole and cacha ...",
         image: "assets/images/real/arcadia_rum.jpg",
         isKenyan: false,
         country: "Unknown"
@@ -704,7 +704,7 @@ const catalogueProducts = [
         category: "whisky",
         size: "750ML",
         price: "Ksh 1,335",
-        description: "A quality drink offering exceptional taste.",
+        description: "Browse our handpicked collections of premium whiskey, wine, and spirits. Shop exclusive liquor selections, curated for your taste from ARCADIA WINE ...",
         image: "assets/images/real/arcadia_whisky.jpg",
         isKenyan: false,
         country: "Unknown"
@@ -714,17 +714,17 @@ const catalogueProducts = [
         category: "other",
         size: "750ML",
         price: "Ksh 1,170",
-        description: "A quality drink offering exceptional taste.",
+        description: "This drink is prepared from the finest vineyards of France to give you absolute perfection. It is brewed by experienced artists of the winery industry-Arcadia ...",
         image: "assets/images/real/arcadia_white_swt.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "France"
     },
     {
         name: "Asconi Agorlux",
         category: "other",
         size: "750ML",
         price: "Ksh 2,187",
-        description: "A quality drink offering exceptional taste.",
+        description: "Varietal 75.03% Merlot, 11.24% Petite Sirah; 13.73% Cabernet Sauvignon Alcohol: 13.4% Region: California Taste: Taste Dominated by earth ...",
         image: "assets/images/real/asconi_agorlux.jpg",
         isKenyan: false,
         country: "Unknown"
@@ -734,7 +734,7 @@ const catalogueProducts = [
         category: "other",
         size: "750ML",
         price: "Ksh 2,268",
-        description: "A quality drink offering exceptional taste.",
+        description: "If you want a red wine that feels lush, friendly and uncomplicated, Kiss Me Now Cabernet Sauvignon 75cl is a strong pick. Its Moldovan origin, semi-sweet style ...",
         image: "assets/images/real/asconi_kiss_me_now.jpg",
         isKenyan: false,
         country: "Unknown"
@@ -744,7 +744,7 @@ const catalogueProducts = [
         category: "other",
         size: "750ML",
         price: "Ksh 2,268",
-        description: "A quality drink offering exceptional taste.",
+        description: "Asconi Moscato Rose is a premium rose wine under the Asconi Wines brand, expertly crafted in Moldova. This wine has an Alcohol by Volume (ABV) of 7.0. Ideal for ...",
         image: "assets/images/real/asconi_moscato_rose.jpg",
         isKenyan: false,
         country: "Unknown"
@@ -754,7 +754,7 @@ const catalogueProducts = [
         category: "other",
         size: "750ML",
         price: "Ksh 2,187",
-        description: "A quality drink offering exceptional taste.",
+        description: "Asconi Moscato is a charming and aromatic sweet wine from Moldova, known for its light and fruity character. This Moscato offers a refreshing taste, making it a ...",
         image: "assets/images/real/asconi_moscato_swt_wht.jpg",
         isKenyan: false,
         country: "Unknown"
@@ -764,7 +764,7 @@ const catalogueProducts = [
         category: "other",
         size: "750ML",
         price: "Ksh 2,349",
-        description: "A quality drink offering exceptional taste.",
+        description: "This red wine from Moldova is uniquely curated from Cabernet Sauvignon grapes. Nose: Expressive notes of plum and cherry merging with vanilla and hints of spice ...",
         image: "assets/images/real/asconi_pastoral.jpg",
         isKenyan: false,
         country: "Unknown"
@@ -774,7 +774,7 @@ const catalogueProducts = [
         category: "other",
         size: "750ML",
         price: "Ksh 2,106",
-        description: "A quality drink offering exceptional taste.",
+        description: "Asconi Red Semidry 75cl ; Size. 750ml ; Country of Origin. Moldova ; Packaging. Bottle ; Sweetness. Semi-Dry ; Flavours & Spices. Blackberry, Plum, Vanilla.",
         image: "assets/images/real/asconi_semi_dry.jpg",
         isKenyan: false,
         country: "Unknown"
@@ -784,7 +784,7 @@ const catalogueProducts = [
         category: "other",
         size: "750ML",
         price: "Ksh 2,187",
-        description: "A quality drink offering exceptional taste.",
+        description: "Tonight we are going to review a single varietal feteasca neagra wine, which is an indigenous romanian grape variety with moldovan origins – Sol ...",
         image: "assets/images/real/asconi_sol_negru.jpg",
         isKenyan: false,
         country: "Unknown"
@@ -794,87 +794,87 @@ const catalogueProducts = [
         category: "gin",
         size: "250ML",
         price: "Ksh 277",
-        description: "Jídelníček - Aspera Pro ukončení objednávání nezapomeňte ZNOVU PŘILOŽIT KARTU ke snímači!!",
+        description: "Alcohol Content: 40% ; Type: Dry Gin ; Origin: Kenya ; Colour: Clear ; Perfect For: Mixing in cocktails, sipping, or pairing with tonic and garnishes for a ...",
         image: "assets/images/real/aspera_gin.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "Kenya"
     },
     {
         name: "Aspera Gin",
         category: "gin",
         size: "750ML",
         price: "Ksh 802",
-        description: "A quality drink offering exceptional taste.",
+        description: "Alcohol Content: 40% ; Type: Dry Gin ; Origin: Kenya ; Colour: Clear ; Perfect For: Mixing in cocktails, sipping, or pairing with tonic and garnishes for a ...",
         image: "assets/images/real/aspera_gin.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "Kenya"
     },
     {
         name: "Atlas 12 %",
         category: "other",
         size: "750ML",
         price: "Ksh 330",
-        description: "A quality drink offering exceptional taste.",
+        description: "Atlas 12 is a European Strong Lager style beer brewed by Union Export Brewery in Breda, Netherlands. Score: - with 7 ratings and reviews.",
         image: "assets/images/real/atlas_12.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "Netherlands"
     },
     {
         name: "Atlas 14%",
         category: "other",
         size: "750ML",
         price: "Ksh 420",
-        description: "A quality drink offering exceptional taste.",
+        description: "Wine consumption in Japan has experienced significant growth since the 1960s, but wine as a share of total alcoholic beverage consumption is low ...",
         image: "assets/images/real/atlas_14.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "Japan"
     },
     {
         name: "Avalon Gin",
         category: "gin",
         size: "250ML",
         price: "Ksh 285",
-        description: "A quality drink offering exceptional taste.",
+        description: "Alcohol Content: 40% ; Country of Origin: Ireland ; Colour: Clear ; Type: Dry Gin ; Perfect For: Neat sipping, on the rocks, or in classic gin cocktails. Great for ...",
         image: "assets/images/real/avalon_gin.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "Ireland"
     },
     {
         name: "Avalon Gin",
         category: "gin",
         size: "750ML",
         price: "Ksh 825",
-        description: "A quality drink offering exceptional taste.",
+        description: "Alcohol Content: 40% ; Country of Origin: Ireland ; Colour: Clear ; Type: Dry Gin ; Perfect For: Neat sipping, on the rocks, or in classic gin cocktails. Great for ...",
         image: "assets/images/real/avalon_gin.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "Ireland"
     },
     {
         name: "Avalon Vodka",
         category: "vodka",
         size: "250ML",
         price: "Ksh 285",
-        description: "A quality drink offering exceptional taste.",
+        description: "Alcohol Content: 40% ; Country of Origin: Ireland ; Colour: Clear ; Type: Grain Vodka ; Perfect For: Mixing into cocktails, sipping neat, or enjoying on the rocks.",
         image: "assets/images/real/avalon_vodka.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "Ireland"
     },
     {
         name: "Avalon Vodka",
         category: "vodka",
         size: "750ML",
         price: "Ksh 825",
-        description: "A quality drink offering exceptional taste.",
+        description: "Alcohol Content: 40% ; Country of Origin: Ireland ; Colour: Clear ; Type: Grain Vodka ; Perfect For: Mixing into cocktails, sipping neat, or enjoying on the rocks.",
         image: "assets/images/real/avalon_vodka.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "Ireland"
     },
     {
         name: "Bacardi Blance",
         category: "rum",
         size: "1L",
         price: "Ksh 3,420",
-        description: "A quality drink offering exceptional taste.",
+        description: "Founded in Cuba in 1862 by Facundo Bacardí i Massó, a Spanish businessman born in Sitges, Bacardi Limited has been family-owned for seven generations, and ...",
         image: "assets/images/real/bacardi_blance.jpg",
         isKenyan: false,
         country: "Unknown"
@@ -884,7 +884,7 @@ const catalogueProducts = [
         category: "rum",
         size: "750ML",
         price: "Ksh 2,700",
-        description: "A quality drink offering exceptional taste.",
+        description: "Floral and fruity, BACARDÍ Carta Blanca rum serves up orange blossom, lavender and rose, teamed with apricot, lime, light coconut and ripe banana.",
         image: "assets/images/real/bacardi_blance_3_4.jpg",
         isKenyan: false,
         country: "Unknown"
@@ -894,7 +894,7 @@ const catalogueProducts = [
         category: "rum",
         size: "1L",
         price: "Ksh 3,420",
-        description: "A quality drink offering exceptional taste.",
+        description: "BACARDÍ Carta Oro rum brings together rich, soothing flavours like vanilla, buttery caramel, toasted almond and sweet banana notes.",
         image: "assets/images/real/bacardi_carta_orot.jpg",
         isKenyan: false,
         country: "Unknown"
@@ -904,7 +904,7 @@ const catalogueProducts = [
         category: "rum",
         size: "750ML",
         price: "Ksh 2,550",
-        description: "A quality drink offering exceptional taste.",
+        description: "BACARDÍ Carta Oro rum brings together rich, soothing flavours like vanilla, buttery caramel, toasted almond and sweet banana notes.",
         image: "assets/images/real/bacardi_carte_oro_3_4.jpg",
         isKenyan: false,
         country: "Unknown"
@@ -914,7 +914,7 @@ const catalogueProducts = [
         category: "rum",
         size: "750ML",
         price: "Ksh 2,550",
-        description: "Do what moves you with BACARDÍ Rum, a true taste of the Caribbean. Learn about rum cocktails, our events, festivals and fascinating …",
+        description: "Dark in color, light-medium in body, rich and robust in taste, BACARDÍ Black Rum imparts impressions of tropical fruit and molasses, with a smoky finish. Nose.",
         image: "assets/images/real/bacardi_negra_3_4.jpg",
         isKenyan: false,
         country: "Unknown"
@@ -924,7 +924,7 @@ const catalogueProducts = [
         category: "rum",
         size: "750ML",
         price: "Ksh 2,550",
-        description: "A quality drink offering exceptional taste.",
+        description: ": Bacardi Alcohol by volume: 35% Alcohol proof: Age: Spices: Produced since: Country of Origin: Cuba / Puerto Rico. (0 votes). Info: Bacardi – originating in ...",
         image: "assets/images/real/bacardi_oak_heart.jpg",
         isKenyan: false,
         country: "Unknown"
@@ -934,7 +934,7 @@ const catalogueProducts = [
         category: "rum",
         size: "750ML",
         price: "Ksh 2,550",
-        description: "Do what moves you with BACARDÍ Rum, a true taste of the Caribbean. Learn about rum cocktails, our events, festivals and fascinating history.",
+        description: "Made with aged rum and with a hint of smokiness from charred American oak barrels, BACARDÍ Spiced is a Gluten free rum blended with natural flavors and spices.",
         image: "assets/images/real/bacardi_spcd.jpg",
         isKenyan: false,
         country: "Unknown"
@@ -944,7 +944,7 @@ const catalogueProducts = [
         category: "other",
         size: "750ML",
         price: "Ksh 1,575",
-        description: "A quality drink offering exceptional taste.",
+        description: "Tonight's Cocktail uses El Tesoro de Don Felipe Blanco, with flavors of Agave, Black Pepper, Citrus, Earthy, Vegetal, Minerally and Grass notes ...",
         image: "assets/images/real/back_bencher_wsky.jpg",
         isKenyan: false,
         country: "Unknown"
@@ -954,7 +954,7 @@ const catalogueProducts = [
         category: "liqueur",
         size: "1L",
         price: "Ksh 4,125",
-        description: "A quality drink offering exceptional taste.",
+        description: "Baileys Irish Cream is a liqueur made of cream, cocoa and Irish whiskey emulsified together with vegetable oil. Baileys is made by Diageo at Nangor Road, ...",
         image: "assets/images/real/baileys.jpg",
         isKenyan: false,
         country: "Unknown"
@@ -964,7 +964,7 @@ const catalogueProducts = [
         category: "liqueur",
         size: "375ML",
         price: "Ksh 1,830",
-        description: "A quality drink offering exceptional taste.",
+        description: "Baileys Irish Cream is a liqueur made of cream, cocoa and Irish whiskey emulsified together with vegetable oil. Baileys is made by Diageo at Nangor Road, ...",
         image: "assets/images/real/baileys.jpg",
         isKenyan: false,
         country: "Unknown"
@@ -974,7 +974,7 @@ const catalogueProducts = [
         category: "liqueur",
         size: "750ML",
         price: "Ksh 3,750",
-        description: "A quality drink offering exceptional taste.",
+        description: "Baileys Irish Cream is a liqueur made of cream, cocoa and Irish whiskey emulsified together with vegetable oil. Baileys is made by Diageo at Nangor Road, ...",
         image: "assets/images/real/baileys.jpg",
         isKenyan: false,
         country: "Unknown"
@@ -984,7 +984,7 @@ const catalogueProducts = [
         category: "liqueur",
         size: "350ML",
         price: "Ksh 682",
-        description: "A quality drink offering exceptional taste.",
+        description: "Baileys Delight Cream Liqueur combines the finest Irish dairy cream with sweet African honey, creating a unique and indulgent drinking experience. Its smooth, ...",
         image: "assets/images/real/baileys_delight.jpg",
         isKenyan: false,
         country: "Unknown"
@@ -994,7 +994,7 @@ const catalogueProducts = [
         category: "liqueur",
         size: "750ML",
         price: "Ksh 1,230",
-        description: "A quality drink offering exceptional taste.",
+        description: "Baileys Delight Cream Liqueur combines the finest Irish dairy cream with sweet African honey, creating a unique and indulgent drinking experience. Its smooth, ...",
         image: "assets/images/real/baileys_delight.jpg",
         isKenyan: false,
         country: "Unknown"
@@ -1004,67 +1004,67 @@ const catalogueProducts = [
         category: "liqueur",
         size: "750ML",
         price: "Ksh 2,250",
-        description: "A quality drink offering exceptional taste.",
+        description: "ABV / Proof, 17% ABV (~34 Proof) ; Origin / Region, Ireland ; Production / Base, Irish cream liqueur (cream + Irish whiskey) ; Aging or Maturation, Ready-to-drink; ...",
         image: "assets/images/real/baileys_strawberry.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "Ireland"
     },
     {
         name: "Ballantinest",
         category: "other",
         size: "1L",
         price: "Ksh 3,450",
-        description: "A quality drink offering exceptional taste.",
+        description: "Ballantine's is a brand of blended Scotch whisky produced by the Chivas Brothers subsidiary of Pernod Ricard in Dumbarton, Scotland.",
         image: "assets/images/real/ballantinest.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "Scotland"
     },
     {
         name: "Ballantines",
         category: "other",
         size: "350ML",
         price: "Ksh 1,680",
-        description: "A quality drink offering exceptional taste.",
+        description: "Ballantine's is a brand of blended Scotch whisky produced by the Chivas Brothers subsidiary of Pernod Ricard in Dumbarton, Scotland.",
         image: "assets/images/real/ballantines.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "Scotland"
     },
     {
         name: "Ballantines",
         category: "other",
         size: "750 ML",
         price: "Ksh 3,000",
-        description: "A quality drink offering exceptional taste.",
+        description: "Ballantine's is a brand of blended Scotch whisky produced by the Chivas Brothers subsidiary of Pernod Ricard in Dumbarton, Scotland.",
         image: "assets/images/real/ballantines.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "Scotland"
     },
     {
         name: "Ballantines(Pernod)",
         category: "other",
         size: "750ML",
         price: "Ksh 3,870",
-        description: "A quality drink offering exceptional taste.",
+        description: "Ballantine's is a brand of blended Scotch whisky produced by the Chivas Brothers subsidiary of Pernod Ricard in Dumbarton, Scotland.",
         image: "assets/images/real/ballantines_pernod.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "Scotland"
     },
     {
         name: "Balozi Beer",
         category: "beer",
         size: "750ML",
         price: "Ksh 254",
-        description: "A quality drink offering exceptional taste.",
+        description: "Balozi is a European Pale Lager style beer brewed by East African Breweries Ltd (Kenya Breweries) in Nairobi, Kenya. Score: - with 5 ratings and reviews.",
         image: "assets/images/real/balozi_beer.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "Kenya"
     },
     {
         name: "Balozi Can",
         category: "beer",
         size: "750ML",
         price: "Ksh 305",
-        description: "A quality drink offering exceptional taste.",
+        description: "A rich, natural tasting beer made from pure water originating from the heart of the Aberdares and the finest malted barley with no added sugar.",
         image: "assets/images/real/balozi_can.jpg",
         isKenyan: false,
         country: "Unknown"
@@ -1074,7 +1074,7 @@ const catalogueProducts = [
         category: "other",
         size: "700ML",
         price: "Ksh 30,000",
-        description: "A quality drink offering exceptional taste.",
+        description: "An exceptional single malt whisky with the traditional smooth, honeyed character of The Balvenie married with notes of toffee and a hint of fruit.",
         image: "assets/images/real/balvenie_14.jpg",
         isKenyan: false,
         country: "Unknown"
@@ -1084,7 +1084,7 @@ const catalogueProducts = [
         category: "beer",
         size: "500ML",
         price: "Ksh 108",
-        description: "A quality drink offering exceptional taste.",
+        description: "Banana beer is an alcoholic beverage made from fermentation of mashed bananas. Sorghum, millet or maize flour are added as a source of wild yeast.",
         image: "assets/images/real/banana_beer.jpg",
         isKenyan: false,
         country: "Unknown"
@@ -1094,17 +1094,17 @@ const catalogueProducts = [
         category: "other",
         size: "750ML",
         price: "Ksh 165",
-        description: "A quality drink offering exceptional taste.",
+        description: "With its origins in the UK, Qube brings a unique blend of excellence and refreshment to the Kenyan market. Join the Qube Movement: A Stellar Addition to Kenya's ...",
         image: "assets/images/real/base_qube_energy.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "Kenya"
     },
     {
         name: "Bavaria(8.6)",
         category: "other",
         size: "750ML",
         price: "Ksh 413",
-        description: "于是， 在英语里，Bayern 就产生了不同于 Bavaria 的义项分工。 Bayern Munich 默认指的就是「拜仁慕尼黑」俱乐部。 Bavaria Munich 特指15世纪的「巴 …",
+        description: "ABV is 7.9%. Golden colour, large lasting head, decent lacing. Malty and fruity aroma with some alcoholic notes, but not unpleasant. Hints of oak and leather.",
         image: "assets/images/real/bavaria_8_6.jpg",
         isKenyan: false,
         country: "Unknown"
@@ -1114,7 +1114,7 @@ const catalogueProducts = [
         category: "other",
         size: "750ML",
         price: "Ksh 203",
-        description: "A quality drink offering exceptional taste.",
+        description: "German ciders are made from various kinds of sour tasting apples (such as 'Bohnapfel') and are distinguished by an alcohol content of 4.8–7.0% alongside a tart, ...",
         image: "assets/images/real/bavaria_apple.jpg",
         isKenyan: false,
         country: "Unknown"
@@ -1124,7 +1124,7 @@ const catalogueProducts = [
         category: "other",
         size: "750ML",
         price: "Ksh 203",
-        description: "A quality drink offering exceptional taste.",
+        description: "Bavaria 0.0% Orange Malt Drink is a non-alcoholic beverage crafted with ... Country of Origin. Netherland. Flavours & Spices. Orange. GTIN-8, 8714800050494 ...",
         image: "assets/images/real/bavaria_orange.jpg",
         isKenyan: false,
         country: "Unknown"
@@ -1134,7 +1134,7 @@ const catalogueProducts = [
         category: "gin",
         size: "750ML",
         price: "Ksh 203",
-        description: "A quality drink offering exceptional taste.",
+        description: "Bavaria 0.0% has a strong bite in its aftertaste, without alcohol. Brewed with the best natural ingredients and natural mineral water from Bavaria's own spring.",
         image: "assets/images/real/bavaria_original_0_0.jpg",
         isKenyan: false,
         country: "Unknown"
@@ -1144,27 +1144,27 @@ const catalogueProducts = [
         category: "gin",
         size: "1L",
         price: "Ksh 5,077",
-        description: "A quality drink offering exceptional taste.",
+        description: "Beefeater Gin is a brand of gin owned by Pernod Ricard and bottled and distributed in the United Kingdom. Beefeater remained in the control of its founding ...",
         image: "assets/images/real/beefeater_cleart.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "United Kingdom"
     },
     {
         name: "Beefeater Clear",
         category: "gin",
         size: "750ML",
         price: "Ksh 3,870",
-        description: "A quality drink offering exceptional taste.",
+        description: "Beefeater Gin is a brand of gin owned by Pernod Ricard and bottled and distributed in the United Kingdom. Beefeater remained in the control of its founding ...",
         image: "assets/images/real/beefeater_clear.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "United Kingdom"
     },
     {
         name: "Beefeater Orange",
         category: "gin",
         size: "750ML",
         price: "Ksh 3,600",
-        description: "A quality drink offering exceptional taste.",
+        description: "Beefeater Gin founder James Burrough hand selected oranges from London's Covent Garden Market in 1876 to create an Orange Gin. This recipe inspired their new ...",
         image: "assets/images/real/beefeater_orange.jpg",
         isKenyan: false,
         country: "Unknown"
@@ -1174,7 +1174,7 @@ const catalogueProducts = [
         category: "gin",
         size: "1L",
         price: "Ksh 3,975",
-        description: "A quality drink offering exceptional taste.",
+        description: "The 'pink' element of the Beefeater Pink Strawberry gin is a beautiful, natural strawberry flavour. We use the original recipe of the Beefeater London Dry and ...",
         image: "assets/images/real/beefeater_pinkt.jpg",
         isKenyan: false,
         country: "Unknown"
@@ -1184,7 +1184,7 @@ const catalogueProducts = [
         category: "gin",
         size: "750ML",
         price: "Ksh 4,125",
-        description: "A quality drink offering exceptional taste.",
+        description: "The 'pink' element of the Beefeater Pink Strawberry gin is a beautiful, natural strawberry flavour. We use the original recipe of the Beefeater London Dry and ...",
         image: "assets/images/real/beefeater_pink.jpg",
         isKenyan: false,
         country: "Unknown"
@@ -1194,7 +1194,7 @@ const catalogueProducts = [
         category: "wine",
         size: "750ML",
         price: "Ksh 6,300",
-        description: "A quality drink offering exceptional taste.",
+        description: "Its spectacular sapphire color, inspired by the beautiful blue waters of the Côte d'Azur, is ideal for dramatic cocktails as well! Our wines are crafted by 5th ...",
         image: "assets/images/real/belaire_bleu.jpg",
         isKenyan: false,
         country: "Unknown"
@@ -1204,37 +1204,37 @@ const catalogueProducts = [
         category: "wine",
         size: "750ML",
         price: "Ksh 6,300",
-        description: "A quality drink offering exceptional taste.",
+        description: "The Belaire range is made in Burgundy, one of France's most historically significant winemaking regions. We began with our iconic Rare Rosé, instantly ...",
         image: "assets/images/real/belaire_brut.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "France"
     },
     {
         name: "Belaire Fantome Gold",
         category: "wine",
         size: "750ML",
         price: "Ksh 6,600",
-        description: "A quality drink offering exceptional taste.",
+        description: "Produced in Burgundy, France from fine Chardonnay and Pinot Noir grapes, Belaire Gold is stunning inside and out. Balanced and elegant, this classic cuvée is ...",
         image: "assets/images/real/belaire_fantome_gold.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "France"
     },
     {
         name: "Belaire Gold",
         category: "wine",
         size: "750ML",
         price: "Ksh 6,600",
-        description: "A quality drink offering exceptional taste.",
+        description: "Originating from the renowned wine-producing regions in France, primarily Provence-Alpes-Côte d'Azur and Burgundy, Belaire Champagne stands as a ...",
         image: "assets/images/real/belaire_gold.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "France"
     },
     {
         name: "Belaire Gold(Pernod)",
         category: "wine",
         size: "750ML",
         price: "Ksh 8,340",
-        description: "A quality drink offering exceptional taste.",
+        description: "Created in the heart of Burgundy from a blend of handpicked Chardonnay and Pinot Noir grapes, Belaire Brut Gold is stunning inside and out, adding a touch of ...",
         image: "assets/images/real/belaire_gold_pernod.jpg",
         isKenyan: false,
         country: "Unknown"
@@ -1244,7 +1244,7 @@ const catalogueProducts = [
         category: "wine",
         size: "750ML",
         price: "Ksh 6,600",
-        description: "A quality drink offering exceptional taste.",
+        description: "America's #1 sparkling wine or Champagne brand – Luc Belaire exemplifies quality, heritage and style. An unforgettable experience in every bottle.",
         image: "assets/images/real/belaire_luxe.jpg",
         isKenyan: false,
         country: "Unknown"
@@ -1254,7 +1254,7 @@ const catalogueProducts = [
         category: "wine",
         size: "750ML",
         price: "Ksh 7,485",
-        description: "A quality drink offering exceptional taste.",
+        description: "Its Luxe and Gold cuvées are crafted in Burgundy, while Rare Rosé and Luxe Rosé originate from the Provence-Alpes-Côte d'Azur region, renowned for its ...",
         image: "assets/images/real/belaire_luxe__pernod.jpg",
         isKenyan: false,
         country: "Unknown"
@@ -1264,77 +1264,77 @@ const catalogueProducts = [
         category: "wine",
         size: "750ML",
         price: "Ksh 6,600",
-        description: "A quality drink offering exceptional taste.",
+        description: "Belaire Rosé is a French sparkling wine produced in the Provence-Alpes-Côte d'Azur region of the South of France. Officially labelled 'Luc Belaire Rare Rosé ...",
         image: "assets/images/real/belaire_rose_black.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "France"
     },
     {
         name: "Belaire Rose Black(Fantome)",
         category: "wine",
         size: "750ML",
         price: "Ksh 6,750",
-        description: "Bel-Air: Created by Andy Borowitz, Susan Borowitz, T.J. Brady, Morgan Stevenson Cooper, Rasheed Newson, Malcolm Spellman. With …",
+        description: "Each bottle of Belaire Rose is born in southeastern France's Provence-Alpes-Cote d'Azur region, stretching 150 miles from the French Riviera, Monaco, and the ...",
         image: "assets/images/real/belaire_rose_black_fantome.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "France"
     },
     {
         name: "Belaire Rose Black(Pernod)",
         category: "wine",
         size: "750ML",
         price: "Ksh 7,485",
-        description: "A quality drink offering exceptional taste.",
+        description: "Belaire Rosé is a French sparkling wine produced in the Provence-Alpes-Côte d'Azur region of the South of France. Officially labelled 'Luc Belaire Rare Rosé ...",
         image: "assets/images/real/belaire_rose_black_pernod.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "France"
     },
     {
         name: "Belaire Rose Pink",
         category: "wine",
         size: "750ML",
         price: "Ksh 6,600",
-        description: "A quality drink offering exceptional taste.",
+        description: "Belaire Rosé is a French sparkling wine produced in the Provence-Alpes-Côte d'Azur region of the South of France. Officially labelled 'Luc Belaire Rare Rosé ...",
         image: "assets/images/real/belaire_rose_pink.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "France"
     },
     {
         name: "Bertrams Vo Brdy",
         category: "other",
         size: "750ML",
         price: "Ksh 1,275",
-        description: "Firma Bertrams Pečky, spol. s r.o. vyrábí nerezové komínové systémy od roku 1997. Nejprve se specializovala pouze na nerezové …",
+        description: "Introduced in 1950, Bertrams VO™ can trace its roots back to the early pioneering days of brandy distilling in South Africa, and relies on the best, traditional ...",
         image: "assets/images/real/bertrams_vo_brdy.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "South Africa"
     },
     {
         name: "Best Cream",
         category: "liqueur",
         size: "250ML",
         price: "Ksh 525",
-        description: "A quality drink offering exceptional taste.",
+        description: "The combination of Austrian origin, clearly defined branding, and consistent product ... Hailing from South Africa, this cream liqueur is produced ...",
         image: "assets/images/real/best_cream.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "South Africa"
     },
     {
         name: "Best Cream",
         category: "liqueur",
         size: "750ML",
         price: "Ksh 1,463",
-        description: "A quality drink offering exceptional taste.",
+        description: "The combination of Austrian origin, clearly defined branding, and consistent product ... Hailing from South Africa, this cream liqueur is produced ...",
         image: "assets/images/real/best_cream.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "South Africa"
     },
     {
         name: "Best Gin",
         category: "gin",
         size: "250ML",
         price: "Ksh 390",
-        description: "A quality drink offering exceptional taste.",
+        description: "The Botanist is a Scottish gin made on Islay, the region best known for its smoky, peated scotch. “The Botanist incorporates a whole lot of local flavors by ...",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=BEST%20GIN",
         isKenyan: false,
         country: "Unknown"
@@ -1344,7 +1344,7 @@ const catalogueProducts = [
         category: "gin",
         size: "750ML",
         price: "Ksh 1,103",
-        description: "A quality drink offering exceptional taste.",
+        description: "The Botanist is a Scottish gin made on Islay, the region best known for its smoky, peated scotch. “The Botanist incorporates a whole lot of local flavors by ...",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=BEST%20GIN",
         isKenyan: false,
         country: "Unknown"
@@ -1354,7 +1354,7 @@ const catalogueProducts = [
         category: "vodka",
         size: "250ML",
         price: "Ksh 368",
-        description: "A quality drink offering exceptional taste.",
+        description: "17 Best Vodkas for Every Home Bar · Broken Shed Premium Vodka · Carbonadi Vodka · Chopin Family Reserve Extra Rare Young Potato Vodka · FAIR Quinoa ...",
         image: "assets/images/real/best_vodka.jpg",
         isKenyan: false,
         country: "Unknown"
@@ -1364,7 +1364,7 @@ const catalogueProducts = [
         category: "vodka",
         size: "750ML",
         price: "Ksh 1,043",
-        description: "A quality drink offering exceptional taste.",
+        description: "17 Best Vodkas for Every Home Bar · Broken Shed Premium Vodka · Carbonadi Vodka · Chopin Family Reserve Extra Rare Young Potato Vodka · FAIR Quinoa ...",
         image: "assets/images/real/best_vodka.jpg",
         isKenyan: false,
         country: "Unknown"
@@ -1374,27 +1374,27 @@ const catalogueProducts = [
         category: "whisky",
         size: "250ML",
         price: "Ksh 465",
-        description: "A quality drink offering exceptional taste.",
+        description: "Every year at VinePair HQ, we taste through thousands of spirits to choose the cream of the crop. Here are the 50 best spirits for 2025.",
         image: "assets/images/real/best_whisky.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "USA"
     },
     {
         name: "Best Whisky",
         category: "whisky",
         size: "750ML",
         price: "Ksh 1,365",
-        description: "A quality drink offering exceptional taste.",
+        description: "Every year at VinePair HQ, we taste through thousands of spirits to choose the cream of the crop. Here are the 50 best spirits for 2025.",
         image: "assets/images/real/best_whisky.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "USA"
     },
     {
         name: "Bittolla Red",
         category: "other",
         size: "750ML",
         price: "Ksh 1,800",
-        description: "A quality drink offering exceptional taste.",
+        description: "Bitola red is a popular Portugal wine mostly taken during special occasions. Bitola Red contain 14% alcohol. This Wine pairs well with grilled meats, roasted ...",
         image: "assets/images/real/bittolla_red.jpg",
         isKenyan: false,
         country: "Unknown"
@@ -1404,7 +1404,7 @@ const catalogueProducts = [
         category: "other",
         size: "750ML",
         price: "Ksh 3,225",
-        description: "A quality drink offering exceptional taste.",
+        description: "The TTB.gov Wine Appellations of Origin homepage serves as a virtual warehouse of all US and foreign appellations of origin.",
         image: "assets/images/real/bl.jpg",
         isKenyan: false,
         country: "Unknown"
@@ -1414,7 +1414,7 @@ const catalogueProducts = [
         category: "other",
         size: "750ML",
         price: "Ksh 1,425",
-        description: "A quality drink offering exceptional taste.",
+        description: "Crafted from grapes grown in the heart of the Western Cape, our wine reflects the unique terroir, delivering a flavor profile that is distinctly coastal and ...",
         image: "assets/images/real/black_bird_swt_red.jpg",
         isKenyan: false,
         country: "Unknown"
@@ -1424,7 +1424,7 @@ const catalogueProducts = [
         category: "other",
         size: "750ML",
         price: "Ksh 1,425",
-        description: "Crimson Desert Pre-Order BonusBlack Desert Limited Items Steps to claim the Crimson Desert Pre-Order Exclusive rewards will be notified separately on Mar 20, 2026 (Fri).Learn MoreThis is your one-time",
+        description: "Crafted from grapes grown in the heart of the Western Cape, our wine reflects the unique terroir, delivering a flavor profile that is distinctly coastal and ...",
         image: "assets/images/real/black_bird_swt__white.jpg",
         isKenyan: false,
         country: "Unknown"
@@ -1434,7 +1434,7 @@ const catalogueProducts = [
         category: "beer",
         size: "750ML",
         price: "Ksh 242",
-        description: "A quality drink offering exceptional taste.",
+        description: "An 'ice-brewed' beer with a clean, fresh, snappy taste and a mellow aftertaste from its unique ice-filtering process. 6.1% alcohol by volume.",
         image: "assets/images/real/black_ice_beer.jpg",
         isKenyan: false,
         country: "Unknown"
@@ -1444,7 +1444,7 @@ const catalogueProducts = [
         category: "other",
         size: "330ML",
         price: "Ksh 267",
-        description: "Crimson Desert Pre-Order BonusBlack Desert Limited Items Steps to claim the Crimson Desert Pre-Order Exclusive rewards will be notified …",
+        description: "Black Ice. An 'ice-brewed' beer with a clean, fresh, snappy taste and a mellow aftertaste from its unique ice-filtering process. 6.1% alcohol by volume.",
         image: "assets/images/real/black_ice_can.jpg",
         isKenyan: false,
         country: "Unknown"
@@ -1454,7 +1454,7 @@ const catalogueProducts = [
         category: "other",
         size: "750ML",
         price: "Ksh 1,200",
-        description: "A quality drink offering exceptional taste.",
+        description: "Black Ram Honey spirit drink is made with Black Ram blended whisky and infused with rich honey Flavourings. The delicate sweetness of honey and ...",
         image: "assets/images/real/black_ram_honey.jpg",
         isKenyan: false,
         country: "Unknown"
@@ -1464,7 +1464,7 @@ const catalogueProducts = [
         category: "other",
         size: "1L",
         price: "Ksh 1,560",
-        description: "A quality drink offering exceptional taste.",
+        description: "Black Ram is pleasant to drink, has a smooth finish and little residual smoke which envelopes its legendary character – aged to perfection, made for everyday ...",
         image: "assets/images/real/black_ram_whskyt.jpg",
         isKenyan: false,
         country: "Unknown"
@@ -1474,7 +1474,7 @@ const catalogueProducts = [
         category: "other",
         size: "750ML",
         price: "Ksh 1,178",
-        description: "A quality drink offering exceptional taste.",
+        description: "Black Ram is pleasant to drink, has a smooth finish and little residual smoke which envelopes its legendary character – aged to perfection, made for everyday ...",
         image: "assets/images/real/black_ram_whsky.jpg",
         isKenyan: false,
         country: "Unknown"
@@ -1484,47 +1484,47 @@ const catalogueProducts = [
         category: "whisky",
         size: "1L",
         price: "Ksh 2,250",
-        description: "Crimson Desert Pre-Order BonusBlack Desert Limited Items Steps to claim the Crimson Desert Pre-Order Exclusive rewards will be notified separately on Mar 20, 2026 (Fri).Learn MoreThis is your one-time",
+        description: "Black & White is a blended Scotch whisky produced by Diageo in Scotland. It was originally produced by the London-based James Buchanan & Co Ltd.",
         image: "assets/images/real/black___whitet.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "Scotland"
     },
     {
         name: "Black & White",
         category: "whisky",
         size: "250ML",
         price: "Ksh 593",
-        description: "A quality drink offering exceptional taste.",
+        description: "Black & White is a blended Scotch whisky produced by Diageo in Scotland. It was originally produced by the London-based James Buchanan & Co Ltd.",
         image: "assets/images/real/black___white.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "Scotland"
     },
     {
         name: "Black & White",
         category: "whisky",
         size: "375ML",
         price: "Ksh 863",
-        description: "A quality drink offering exceptional taste.",
+        description: "Black & White is a blended Scotch whisky produced by Diageo in Scotland. It was originally produced by the London-based James Buchanan & Co Ltd.",
         image: "assets/images/real/black___white.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "Scotland"
     },
     {
         name: "Black & White",
         category: "whisky",
         size: "750ML",
         price: "Ksh 1,695",
-        description: "A quality drink offering exceptional taste.",
+        description: "Black & White is a blended Scotch whisky produced by Diageo in Scotland. It was originally produced by the London-based James Buchanan & Co Ltd.",
         image: "assets/images/real/black___white.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "Scotland"
     },
     {
         name: "Blue Curacao Liqueur",
         category: "liqueur",
         size: "700ML",
         price: "Ksh 3,225",
-        description: "A quality drink offering exceptional taste.",
+        description: "Curaçao is a liqueur flavored with the dried peel of the bitter orange variety laraha, a citrus fruit grown on the Caribbean island of Curaçao. Curaçao ...",
         image: "assets/images/real/blue_curacao_liqueur.jpg",
         isKenyan: false,
         country: "Unknown"
@@ -1534,7 +1534,7 @@ const catalogueProducts = [
         category: "other",
         size: "700ML",
         price: "Ksh 2,145",
-        description: "A quality drink offering exceptional taste.",
+        description: "Curaçao is a liqueur flavored with the dried peel of the bitter orange variety laraha, a citrus fruit grown on the Caribbean island of Curaçao. Curaçao ...",
         image: "assets/images/real/blue_curacao_syrup.jpg",
         isKenyan: false,
         country: "Unknown"
@@ -1544,7 +1544,7 @@ const catalogueProducts = [
         category: "other",
         size: "750ML",
         price: "Ksh 630",
-        description: "A quality drink offering exceptional taste.",
+        description: "We are handcrafted and American made with a singular goal – to create the best tasting vodka ...",
         image: "assets/images/real/blue_ice_coco_1_4.jpg",
         isKenyan: false,
         country: "Unknown"
@@ -1554,7 +1554,7 @@ const catalogueProducts = [
         category: "vodka",
         size: "250ML",
         price: "Ksh 225",
-        description: "A quality drink offering exceptional taste.",
+        description: "We are handcrafted and American made with a singular goal – to create the best tasting vodka ...",
         image: "assets/images/real/blue_ice_vodka.jpg",
         isKenyan: false,
         country: "Unknown"
@@ -1564,7 +1564,7 @@ const catalogueProducts = [
         category: "vodka",
         size: "750ML",
         price: "Ksh 630",
-        description: "A quality drink offering exceptional taste.",
+        description: "We are handcrafted and American made with a singular goal – to create the best tasting vodka ...",
         image: "assets/images/real/blue_ice_vodka.jpg",
         isKenyan: false,
         country: "Unknown"
@@ -1574,7 +1574,7 @@ const catalogueProducts = [
         category: "other",
         size: "250ML",
         price: "Ksh 270",
-        description: "A quality drink offering exceptional taste.",
+        description: "Blue Moon Belgian White is a Belgian-style witbier brewed by Molson Coors under the name the Blue Moon Brewing Co. It was launched in 1995.",
         image: "assets/images/real/blue_moon.jpg",
         isKenyan: false,
         country: "Unknown"
