@@ -2328,6 +2328,256 @@ const catalogueProducts = [
         image: "assets/images/real/chamdor_750_white.jpg",
         isKenyan: false,
         country: "South Africa"
+    },
+    {
+        name: "Chivas 12Yrs",
+        category: "whisky",
+        size: "750ML",
+        price: "Ksh 6,000",
+        description: "Discover Chivas Regal 12, a 12-year-old blended Scotch whisky renowned for its signature blend of the finest malt and grain whiskies.",
+        image: "assets/images/real/chivas_12yrs.jpg",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Chivas",
+        category: "whisky",
+        size: "375ML",
+        price: "Ksh 3,195",
+        description: "Chivas Regal is a blended Scotch whisky produced by the Chivas Brothers subsidiary of Pernod Ricard in Scotland. Chivas Regal. Type, Scotch whiskey.",
+        image: "assets/images/real/chivas.jpg",
+        isKenyan: false,
+        country: "Scotland"
+    },
+    {
+        name: "Chivas Regalt",
+        category: "whisky",
+        size: "1L",
+        price: "Ksh 6,900",
+        description: "Chivas Regal is a blended Scotch whisky produced by the Chivas Brothers subsidiary of Pernod Ricard in Scotland. Chivas Regal. Type, Scotch whiskey.",
+        image: "assets/images/real/chivas_regalt.jpg",
+        isKenyan: false,
+        country: "Scotland"
+    },
+    {
+        name: "Choco Toffee Red Wine",
+        category: "wine",
+        size: "750ML",
+        price: "Ksh 2,040",
+        description: "Deep dark red wine, with delicate nuances of toffee and a light breath of a noble chocolate taste. An enjoyment, that lets you melt away on every occassion.",
+        image: "assets/images/real/choco_toffee_red_wine.jpg",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Chrome Gin",
+        category: "vodka",
+        size: "250ML",
+        price: "Ksh 315",
+        description: "Chrome Gin 250ml is a Kenyan gin ,Launched by Kenya Breweries Limited, it is packaged in a 250ml bottle and made in a smooth, crisp style for ...",
+        image: "assets/images/real/chrome_gin.jpg",
+        isKenyan: false,
+        country: "Kenya"
+    },
+    {
+        name: "Chrome Gin",
+        category: "vodka",
+        size: "750ML",
+        price: "Ksh 863",
+        description: "Chrome Gin 250ml is a Kenyan gin ,Launched by Kenya Breweries Limited, it is packaged in a 250ml bottle and made in a smooth, crisp style for ...",
+        image: "assets/images/real/chrome_gin.jpg",
+        isKenyan: false,
+        country: "Kenya"
+    },
+    {
+        name: "Chrome Lemon",
+        category: "vodka",
+        size: "250ML",
+        price: "Ksh 315",
+        description: "Chrome Lemon 250ml ; Alcohol Content. 40% ; Country of Origin. Kenya ; Flavours & Spices. Lemon ; SKU: VOCH1582 ; Brand · Chrome ...",
+        image: "assets/images/real/chrome_lemon.jpg",
+        isKenyan: false,
+        country: "Kenya"
+    },
+    {
+        name: "Chrome Vodka",
+        category: "vodka",
+        size: "250ML",
+        price: "Ksh 315",
+        description: "Launched in 2014, Chrome Vodka is produced by Kenya Breweriesfor young, modern Kenyans looking for a great value brand that they can identify with. Chrome Gin ...",
+        image: "assets/images/real/chrome_vodka.jpg",
+        isKenyan: false,
+        country: "Kenya"
+    },
+    {
+        name: "Chrome Vodka",
+        category: "vodka",
+        size: "750ML",
+        price: "Ksh 863",
+        description: "Launched in 2014, Chrome Vodka is produced by Kenya Breweriesfor young, modern Kenyans looking for a great value brand that they can identify with. Chrome Gin ...",
+        image: "assets/images/real/chrome_vodka.jpg",
+        isKenyan: false,
+        country: "Kenya"
+    },
+    {
+        name: "Ch.Valac Dry Wine",
+        category: "wine",
+        size: "750ML",
+        price: "Ksh 1,598",
+        description: "This CH Valac is a rich dry red blend from the highlands of Spain. On the nose are the powerful and complex aromas of blackcurrant.",
+        image: "assets/images/real/ch_valac_dry_wine.jpg",
+        isKenyan: false,
+        country: "Spain"
+    },
+    {
+        name: "Ciroct",
+        category: "vodka",
+        size: "1.75L",
+        price: "Ksh 6,000",
+        description: "Cîroc is a brand of alcoholic beverages produced in France since 2003 and owned by the British multinational alcoholic beverage company Diageo.",
+        image: "assets/images/real/ciroct.jpg",
+        isKenyan: false,
+        country: "France"
+    },
+    {
+        name: "Ciroc Vodkat",
+        category: "vodka",
+        size: "1L",
+        price: "Ksh 7,350",
+        description: "Cîroc is a brand of alcoholic beverages produced in France since 2003 and owned by the British multinational alcoholic beverage company Diageo.",
+        image: "assets/images/real/ciroc_vodkat.jpg",
+        isKenyan: false,
+        country: "France"
+    },
+    {
+        name: "Ciroc Vodka",
+        category: "vodka",
+        size: "750ML",
+        price: "Ksh 6,900",
+        description: "Unlike most vodkas, which are made from grain, CÎROC Vodka is distilled from fine French grapes; a process inspired by over a century of wine-making expertise ...",
+        image: "assets/images/real/ciroc_vodka.jpg",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Clan Macgregor",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 1,290",
+        description: "Brand: Clan MacGregor Type drink: Blended Scotch Whisky Origin: Scotland Special Feature: Blend of Scottish malt and grain whiskies, resulting in a smooth ...",
+        image: "assets/images/real/clan_macgregor.jpg",
+        isKenyan: false,
+        country: "Scotland"
+    },
+    {
+        name: "Clase Azul",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 67,500",
+        description: "Today, our brand proudly reveals Mexico's rich legacy through exquisite creations, amazing experiences, unique destinations, and more. SEE MORE.",
+        image: "assets/images/real/clase_azul.jpg",
+        isKenyan: false,
+        country: "Mexico"
+    },
+    {
+        name: "Class 21",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 1,050",
+        description: "•Wines that do not meet the definition of any of the standards of identity are considered wine specialty products, and are subject to different class/type.",
+        image: "assets/images/real/class_21.jpg",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Claymore",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 1,050",
+        description: "The Claymore Blended Scotch Whisky is a renowned blended whisky produced by Whyte & Mackay Ltd, a Scottish whisky producer with a rich history. The ---",
+        image: "assets/images/real/claymore.jpg",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Club Class Whisky",
+        category: "whisky",
+        size: "750ML",
+        price: "Ksh 870",
+        description: "An American classic, this whiskey has been masterfully blended to produce a smooth and flavorful spirit. Perfect for many different cocktails.",
+        image: "assets/images/real/club_class_whisky.jpg",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Clubman",
+        category: "other",
+        size: "250ML",
+        price: "Ksh 405",
+        description: "Using cereal grains, Haig Club Clubman is distilled in one distillery – Cameronbridge. It is then matured exclusively in American ex-bourbon casks, ...",
+        image: "assets/images/real/clubman.jpg",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Clubman  350",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 375",
+        description: "Using cereal grains, Haig Club Clubman is distilled in one distillery – Cameronbridge. It is then matured exclusively in American ex-bourbon casks, ...",
+        image: "assets/images/real/clubman__350.jpg",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Clubman -",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 1,095",
+        description: "Using cereal grains, Haig Club Clubman is distilled in one distillery – Cameronbridge. It is then matured exclusively in American ex-bourbon casks, ...",
+        image: "assets/images/real/clubman.jpg",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Cointreaut",
+        category: "other",
+        size: "1L",
+        price: "Ksh 4,425",
+        description: "Cointreau is a brand of orange-flavoured triple sec liqueur produced in Saint-Barthélemy-d'Anjou, France. It is consumed as an apéritif and digestif, ...",
+        image: "assets/images/real/cointreaut.jpg",
+        isKenyan: false,
+        country: "France"
+    },
+    {
+        name: "Cointreau",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 4,050",
+        description: "Cointreau is a brand of orange-flavoured triple sec liqueur produced in Saint-Barthélemy-d'Anjou, France. It is consumed as an apéritif and digestif, ...",
+        image: "assets/images/real/cointreau.jpg",
+        isKenyan: false,
+        country: "France"
+    },
+    {
+        name: "Corona Extra",
+        category: "other",
+        size: "330ML",
+        price: "Ksh 375",
+        description: "Corona is a Mexican brand of beer produced by Grupo Modelo in Mexico and exported to markets around the world. Constellation Brands is the exclusive ...",
+        image: "assets/images/real/corona_extra.jpg",
+        isKenyan: false,
+        country: "Mexico"
+    },
+    {
+        name: "County",
+        category: "other",
+        size: "250ML",
+        price: "Ksh 353",
+        description: "100% of the wine is derived from grapes (or other agricultural commodity) grown in the labeled counties; The percentage of wine derived from ...",
+        image: "assets/images/real/county.jpg",
+        isKenyan: false,
+        country: "Unknown"
     }
 ];
 /* CATALOGUE_END */
