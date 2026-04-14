@@ -449,7 +449,7 @@ const catalogueProducts = [
         category: "other",
         size: "750ML",
         price: "Ksh 2,070",
-        description: "A quality drink offering exceptional taste.",
+        description: "Log in to iCloud to access your photos, mail, notes, documents and more. Sign in with your Apple Account or create a new account to start …",
         image: "assets/images/real/afribullcafe.jpg",
         isKenyan: false
     },
@@ -458,7 +458,7 @@ const catalogueProducts = [
         category: "vodka",
         size: "700ML",
         price: "Ksh 825",
-        description: "A quality drink offering exceptional taste.",
+        description: "Jul 28, 2025 · 2025年 MacBook Air M1/M2/M3选购指南，超详细分析。 iPhone 16和iPhone 16 Pro硬核对比！ 看看哪一个才更值得买！ 有哪些关于iPad …",
         image: "assets/images/real/air_vodka.jpg",
         isKenyan: false
     },
@@ -551,6 +551,231 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "assets/images/real/amani_sweet_white.jpg",
         isKenyan: false
+    },
+    {
+        name: "Amarula",
+        category: "liqueur",
+        size: "1 L",
+        price: "Ksh 3,375",
+        description: "A quality drink offering exceptional taste.",
+        image: "assets/images/real/amarula.jpg",
+        isKenyan: false
+    },
+    {
+        name: "Amarula",
+        category: "liqueur",
+        size: "350ML",
+        price: "Ksh 1,500",
+        description: "A quality drink offering exceptional taste.",
+        image: "assets/images/real/amarula.jpg",
+        isKenyan: false
+    },
+    {
+        name: "Amarula",
+        category: "liqueur",
+        size: "750ML",
+        price: "Ksh 2,850",
+        description: "A quality drink offering exceptional taste.",
+        image: "assets/images/real/amarula.jpg",
+        isKenyan: false
+    },
+    {
+        name: "Analivia Sav",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 2,550",
+        description: "A quality drink offering exceptional taste.",
+        image: "assets/images/real/analivia_sav.jpg",
+        isKenyan: false
+    },
+    {
+        name: "Angostura Bitters",
+        category: "other",
+        size: "200ML",
+        price: "Ksh 3,900",
+        description: "A quality drink offering exceptional taste.",
+        image: "assets/images/real/angostura_bitters.jpg",
+        isKenyan: false
+    },
+    {
+        name: "Annabelle Cuvee Rose",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 2,093",
+        description: "A quality drink offering exceptional taste.",
+        image: "assets/images/real/annabelle_cuvee_rose.jpg",
+        isKenyan: false
+    },
+    {
+        name: "Appleton",
+        category: "other",
+        size: "700ML",
+        price: "Ksh 5,700",
+        description: "A quality drink offering exceptional taste.",
+        image: "assets/images/real/appleton.jpg",
+        isKenyan: false
+    },
+    {
+        name: "Aqula",
+        category: "other",
+        size: "500ML",
+        price: "Ksh 750",
+        description: "A quality drink offering exceptional taste.",
+        image: "assets/images/real/aqula.jpg",
+        isKenyan: false
+    },
+    {
+        name: "Arcadia Rum",
+        category: "rum",
+        size: "750ML",
+        price: "Ksh 1,020",
+        description: "A quality drink offering exceptional taste.",
+        image: "assets/images/real/arcadia_rum.jpg",
+        isKenyan: false
+    },
+    {
+        name: "Arcadia Whisky",
+        category: "whisky",
+        size: "750ML",
+        price: "Ksh 1,335",
+        description: "A quality drink offering exceptional taste.",
+        image: "assets/images/real/arcadia_whisky.jpg",
+        isKenyan: false
+    },
+    {
+        name: "Arcadia White Swt",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 1,170",
+        description: "A quality drink offering exceptional taste.",
+        image: "assets/images/real/arcadia_white_swt.jpg",
+        isKenyan: false
+    },
+    {
+        name: "Asconi Agorlux",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 2,187",
+        description: "Asconi Winery is a family business founded in 1994, which aims at producing the best possible wine, using the latest technology, whilst …",
+        image: "assets/images/real/asconi_agorlux.jpg",
+        isKenyan: false
+    },
+    {
+        name: "Asconi Kiss Me Now",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 2,268",
+        description: "A quality drink offering exceptional taste.",
+        image: "assets/images/real/asconi_kiss_me_now.jpg",
+        isKenyan: false
+    },
+    {
+        name: "Asconi Moscato Rose",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 2,268",
+        description: "A quality drink offering exceptional taste.",
+        image: "assets/images/real/asconi_moscato_rose.jpg",
+        isKenyan: false
+    },
+    {
+        name: "Asconi Moscato Swt Wht",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 2,187",
+        description: "A quality drink offering exceptional taste.",
+        image: "assets/images/real/asconi_moscato_swt_wht.jpg",
+        isKenyan: false
+    },
+    {
+        name: "Asconi Pastoral",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 2,349",
+        description: "A quality drink offering exceptional taste.",
+        image: "assets/images/real/asconi_pastoral.jpg",
+        isKenyan: false
+    },
+    {
+        name: "Asconi Semi Dry",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 2,106",
+        description: "A quality drink offering exceptional taste.",
+        image: "assets/images/real/asconi_semi_dry.jpg",
+        isKenyan: false
+    },
+    {
+        name: "Asconi Sol Negru",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 2,187",
+        description: "Asconi Winery is a family business founded in 1994, which aims at producing the best possible wine, using the latest technology, whilst …",
+        image: "assets/images/real/asconi_sol_negru.jpg",
+        isKenyan: false
+    },
+    {
+        name: "Aspera Gin",
+        category: "gin",
+        size: "250ML",
+        price: "Ksh 277",
+        description: "A quality drink offering exceptional taste.",
+        image: "assets/images/real/aspera_gin.jpg",
+        isKenyan: false
+    },
+    {
+        name: "Aspera Gin",
+        category: "gin",
+        size: "750ML",
+        price: "Ksh 802",
+        description: "A quality drink offering exceptional taste.",
+        image: "assets/images/real/aspera_gin.jpg",
+        isKenyan: false
+    },
+    {
+        name: "Atlas 12 %",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 330",
+        description: "A quality drink offering exceptional taste.",
+        image: "assets/images/real/atlas_12.jpg",
+        isKenyan: false
+    },
+    {
+        name: "Atlas 14%",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 420",
+        description: "A quality drink offering exceptional taste.",
+        image: "assets/images/real/atlas_14.jpg",
+        isKenyan: false
+    },
+    {
+        name: "Avalon Gin",
+        category: "gin",
+        size: "250ML",
+        price: "Ksh 285",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=AVALON%20GIN",
+        isKenyan: false
+    },
+    {
+        name: "Avalon Gin",
+        category: "gin",
+        size: "750ML",
+        price: "Ksh 825",
+        description: "A quality drink offering exceptional taste.",
+        image: "assets/images/real/avalon_gin.jpg",
+        isKenyan: false
+    },
+    {
+        name: "Avalon Vodka",
+        category: "vodka",
+        size: "250ML",
+        price: "Ksh 285",
+        description: "A quality drink offering exceptional taste.",
+        image: "assets/images/real/avalon_vodka.jpg",
+        isKenyan: false
     }
 ];
 /* CATALOGUE_END */
@@ -630,6 +855,16 @@ function initShop() {
         btn.addEventListener('click', () => {
             filterBtns.forEach(b => b.classList.remove('active'));
             btn.classList.add('active');
+            performFiltering();
+        });
+    });
+
+    // Initial reveal
+    setTimeout(reveal, 100);
+}
+
+document.addEventListener('DOMContentLoaded', initShop);
+
             performFiltering();
         });
     });
