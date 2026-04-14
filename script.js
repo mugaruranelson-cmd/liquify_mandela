@@ -7078,6 +7078,256 @@ const catalogueProducts = [
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MALBEC",
         isKenyan: false,
         country: "Unknown"
+    },
+    {
+        name: "Malfy Con Limone",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 6,240",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MALFY%20CON%20LIMONE",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Malfy Con Rosa",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 6,240",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MALFY%20CON%20ROSA",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Malfy Gin Originale",
+        category: "gin",
+        size: "750ML",
+        price: "Ksh 6,240",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MALFY%20GIN%20ORIGINALE",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Malibutr",
+        category: "other",
+        size: "1L",
+        price: "Ksh 3,150",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MALIBUTR",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Malibu 750",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 2,745",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MALIBU%20750",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Manyatta Lemon",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 338",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MANYATTA%20LEMON",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Manyatta Mango",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 338",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MANYATTA%20MANGO",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Manyatta Pineapple",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 338",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MANYATTA%20PINEAPPLE",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Marengo Sweet Rose Wine",
+        category: "wine",
+        size: "750ML",
+        price: "Ksh 2,250",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MARENGO%20SWEET%20ROSE%20WINE",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Marengo Sweet White Sparkling",
+        category: "wine",
+        size: "750ML",
+        price: "Ksh 2,250",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MARENGO%20SWEET%20WHITE%20SPARKLING",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Marte",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 10,500",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MARTE",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Martel Blue Swift",
+        category: "other",
+        size: "700ML",
+        price: "Ksh 13,500",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MARTEL%20BLUE%20SWIFT",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Martel Vs Litre",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 10,500",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MARTEL%20VS%20LITRE",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Martel V.S.O.Pt",
+        category: "other",
+        size: "1L",
+        price: "Ksh 16,800",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MARTEL%20V.S.O.PT",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Martel Vsop 3/4",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 12,225",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MARTEL%20VSOP%203/4",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Martel Vssd",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 7,605",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MARTEL%20VSSD",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Martel Xo",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 51,750",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MARTEL%20XO",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Martens 10%",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 345",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MARTENS%2010%25",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Martens  Beer 16%",
+        category: "beer",
+        size: "750ML",
+        price: "Ksh 375",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MARTENS%20%20BEER%2016%25",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Martin Biancotr",
+        category: "other",
+        size: "1L",
+        price: "Ksh 2,100",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MARTIN%20BIANCOTR",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Martin Bianco 3/4",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 2,250",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MARTIN%20BIANCO%203/4",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Martini Dry",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 1,950",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MARTINI%20DRY",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Martin Rosso -",
+        category: "wine",
+        size: "1L",
+        price: "Ksh 2,850",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MARTIN%20ROSSO%20-",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Martin Rosso 3/4",
+        category: "wine",
+        size: "750ML",
+        price: "Ksh 2,325",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MARTIN%20ROSSO%203/4",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Mateus Original Rose",
+        category: "gin",
+        size: "750ML",
+        price: "Ksh 1,200",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MATEUS%20ORIGINAL%20ROSE",
+        isKenyan: false,
+        country: "Unknown"
     }
 ];
 /* CATALOGUE_END */
