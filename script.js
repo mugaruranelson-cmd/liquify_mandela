@@ -5578,6 +5578,256 @@ const catalogueProducts = [
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=J%20%26%20B%203/4",
         isKenyan: false,
         country: "Unknown"
+    },
+    {
+        name: "J & B",
+        category: "other",
+        size: "375ML",
+        price: "Ksh 1,208",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=J%20%26%20B",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "J & B Honey",
+        category: "other",
+        size: "700ML",
+        price: "Ksh 2,775",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=J%20%26%20B%20HONEY",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Jc Le Roux Domaine",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 2,190",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=JC%20LE%20ROUX%20DOMAINE",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Jc Le Roux Flrte",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 2,190",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=JC%20LE%20ROUX%20FLRTE",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Jezlin Vodka",
+        category: "vodka",
+        size: "750ML",
+        price: "Ksh 1,140",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=JEZLIN%20VODKA",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Jim Beamt",
+        category: "other",
+        size: "1L",
+        price: "Ksh 3,375",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=JIM%20BEAMT",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Jim Beam",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 2,925",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=JIM%20BEAM",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Jim Beam Apple",
+        category: "other",
+        size: "700ML",
+        price: "Ksh 2,250",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=JIM%20BEAM%20APPLE",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Jim Beam Blackt",
+        category: "other",
+        size: "1L",
+        price: "Ksh 3,525",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=JIM%20BEAM%20BLACKT",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Jim Beam Hnyt",
+        category: "other",
+        size: "1L",
+        price: "Ksh 3,000",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=JIM%20BEAM%20HNYT",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Jim Beam Honey",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 2,250",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=JIM%20BEAM%20HONEY",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "John Bannermans 750M",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 1,875",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=JOHN%20BANNERMANS%20750M",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "John Barr Blackt",
+        category: "other",
+        size: "1L",
+        price: "Ksh 2,550",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=JOHN%20BARR%20BLACKT",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "John Barr Black",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 2,325",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=JOHN%20BARR%20BLACK",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "John Barr Redt",
+        category: "other",
+        size: "1L",
+        price: "Ksh 2,400",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=JOHN%20BARR%20REDT",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "John Barr Red",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 2,250",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=JOHN%20BARR%20RED",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "John Walker 18Yrs",
+        category: "whisky",
+        size: "750ML",
+        price: "Ksh 14,775",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=JOHN%20WALKER%2018YRS",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "John Walker Blackt",
+        category: "whisky",
+        size: "1L",
+        price: "Ksh 5,325",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=JOHN%20WALKER%20BLACKT",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "John Walker Black",
+        category: "whisky",
+        size: "375ML",
+        price: "Ksh 2,355",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=JOHN%20WALKER%20BLACK",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "John Walker Black",
+        category: "whisky",
+        size: "750ML",
+        price: "Ksh 4,425",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=JOHN%20WALKER%20BLACK",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "John Walker Blue  Lblt",
+        category: "whisky",
+        size: "1L",
+        price: "Ksh 48,000",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=JOHN%20WALKER%20BLUE%20%20LBLT",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "John Walker Blue Lbl",
+        category: "whisky",
+        size: "750ML",
+        price: "Ksh 39,750",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=JOHN%20WALKER%20BLUE%20lbl",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "John Walker Gold Lbl Rsrv",
+        category: "whisky",
+        size: "750ML",
+        price: "Ksh 10,800",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=JOHN%20WALKER%20GOLD%20LBL%20RSRV",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "John Walker Green",
+        category: "whisky",
+        size: "750ML",
+        price: "Ksh 10,200",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=JOHN%20WALKER%20GREEN",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "John Walker Ice/Fire",
+        category: "whisky",
+        size: "750ML",
+        price: "Ksh 6,300",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=JOHN%20WALKER%20ICE/FIRE",
+        isKenyan: false,
+        country: "Unknown"
     }
 ];
 /* CATALOGUE_END */
