@@ -8578,6 +8578,256 @@ const catalogueProducts = [
         image: "assets/images/real/pick___peel_redgrape.jpg",
         isKenyan: false,
         country: "Unknown"
+    },
+    {
+        name: "Pick & Peel Tropical",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 383",
+        description: "Pick 'N' Peel Tropical Mix Price in Kenya. 1 Litre @ KES 310. Additional notes. Size. 1L. 3 reviews for Pick 'N' Peel Tropical Mix 1L.",
+        image: "assets/images/real/pick___peel_tropical.jpg",
+        isKenyan: false,
+        country: "Kenya"
+    },
+    {
+        name: "Pierre Marcel Sweet Red",
+        category: "wine",
+        size: "750ML",
+        price: "Ksh 1,950",
+        description: "Pierre Marcel Sweet Red 75cl is an easy-drinking French red wine made for those who enjoy a softer, fruit-forward style. Produced under the Vin ...",
+        image: "assets/images/real/pierre_marcel_sweet_red.jpg",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Pilsner Beer",
+        category: "beer",
+        size: "750ML",
+        price: "Ksh 254",
+        description: "Certified cicerone Anne Becerra explains how Pilsner pioneered crisp, cold, refreshing beer when it was first brewed in the Czech Republic ...",
+        image: "assets/images/real/pilsner_beer.jpg",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Pilsner Can",
+        category: "beer",
+        size: "500ML",
+        price: "Ksh 303",
+        description: "Certified cicerone Anne Becerra explains how Pilsner pioneered crisp, cold, refreshing beer when it was first brewed in the Czech Republic ...",
+        image: "assets/images/real/pilsner_can.jpg",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Power Horse",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 150",
+        description: "OUR STORY ; 1992. The first ever Power Horse Energy Drink can is launched in Austria ; 1996. Power Horse enters Moto GP ; 1997. Power Horse sponsors Formula 1.",
+        image: "assets/images/real/power_horse.jpg",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Power Play",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 83",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=POWER%20PLAY",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Predator Gold",
+        category: "other",
+        size: "400ML",
+        price: "Ksh 83",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=PREDATOR%20GOLD",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Prosecco",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 3,750",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=PROSECCO",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Q1 Gin",
+        category: "gin",
+        size: "750ML",
+        price: "Ksh 1,125",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=Q1%20GIN",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Quench Watert",
+        category: "other",
+        size: "1L",
+        price: "Ksh 53",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=QUENCH%20WATERT",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Rada Classic",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 2,850",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=RADA%20CLASSIC",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Rebate",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 150,000",
+        description: "A quality drink offering exceptional taste.",
+        image: "assets/images/real/rebate.jpg",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Redbull",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 270",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=REDBULL",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Redbull Sugarfree",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 270",
+        description: "A quality drink offering exceptional taste.",
+        image: "assets/images/real/redbull_sugarfree.jpg",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Red Label Limited",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 2,400",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=RED%20LABEL%20LIMITED",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Red Star",
+        category: "other",
+        size: "250ML",
+        price: "Ksh 300",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=RED%20STAR",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Remy Martin Vsopt",
+        category: "other",
+        size: "1L",
+        price: "Ksh 13,500",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=REMY%20MARTIN%20VSOPT",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Remy Martin Vsop",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 11,700",
+        description: "A quality drink offering exceptional taste.",
+        image: "assets/images/real/remy_martin_vsop.jpg",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Remy Martin Xo",
+        category: "other",
+        size: "700ML",
+        price: "Ksh 33,000",
+        description: "A quality drink offering exceptional taste.",
+        image: "assets/images/real/remy_martin_xo.jpg",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Rendez Mojito",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 600",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=RENDEZ%20MOJITO",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Rendez Sparkling Apple",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 525",
+        description: "A quality drink offering exceptional taste.",
+        image: "assets/images/real/rendez_sparkling_apple.jpg",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Rendez Sparkling Pink",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 525",
+        description: "A quality drink offering exceptional taste.",
+        image: "assets/images/real/rendez_sparkling_pink.jpg",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Rendez Sparkling White",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 525",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=RENDEZ%20SPARKLING%20WHITE",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Reserve 7 Whisky",
+        category: "whisky",
+        size: "350ML",
+        price: "Ksh 503",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=RESERVE%207%20WHISKY",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Reserve 7 Whisky",
+        category: "whisky",
+        size: "750ML",
+        price: "Ksh 1,350",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=RESERVE%207%20WHISKY",
+        isKenyan: false,
+        country: "Unknown"
     }
 ];
 /* CATALOGUE_END */
