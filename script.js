@@ -8328,6 +8328,256 @@ const catalogueProducts = [
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=ORCHID%20TROPICAL",
         isKenyan: false,
         country: "Unknown"
+    },
+    {
+        name: "Orijin Herbal",
+        category: "other",
+        size: "250ML",
+        price: "Ksh 353",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=ORIJIN%20HERBAL",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Orijin Herbal",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 938",
+        description: "A quality drink offering exceptional taste.",
+        image: "assets/images/real/orijin_herbal.jpg",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Overmeer Redit",
+        category: "other",
+        size: "5L",
+        price: "Ksh 3,675",
+        description: "Ripe with intense fruity flavours with a spicy background, which is easy to drink; Product of Africa (Stellenbosch). Actual Weight: 5.2 KGs. Product Dimensions: ...",
+        image: "assets/images/real/overmeer_redit.jpg",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Overmeer White",
+        category: "other",
+        size: "5L",
+        price: "Ksh 3,375",
+        description: "This wine is crisp and fresh with fresh fruit flavours and undertones of dried fruit. On the palate it is well balanced with a delicate freshness and a ...",
+        image: "assets/images/real/overmeer_white.jpg",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Pall Mall Green",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 317",
+        description: "Experience the smooth taste of Pall Mall Green cigarettes. Enjoy a blend of rich flavors and quality tobacco for a satisfying smoking experience. Shop now!",
+        image: "assets/images/real/pall_mall_green.jpg",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Pall Mall Plus",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 252",
+        description: "Super excited to share this episode with you. Find out how Amy got into the wine world, her favourite region and why? As well as her views on AI ...",
+        image: "assets/images/real/pall_mall_plus.jpg",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Passport",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 1,650",
+        description: "Originally from the Glen Keith Distillery in Scotland, Passport takes its roots in the 60s, to which it owes its unconventional spirit and unique & colourful ...",
+        image: "assets/images/real/passport.jpg",
+        isKenyan: false,
+        country: "Scotland"
+    },
+    {
+        name: "Peach Liqueur",
+        category: "liqueur",
+        size: "700ML",
+        price: "Ksh 3,225",
+        description: "Peachtree is the first liqueur that has the taste and smell of tree-ripe peaches, made following a well-balanced recipe and delicate distillation.",
+        image: "assets/images/real/peach_liqueur.jpg",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Pearly Bay Dry Red",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 1,170",
+        description: "This is an easy-drinking wine with an abundance of strawberry and red fruit flavours and aromas. It is soft, juicy, and smooth on the.",
+        image: "assets/images/real/pearly_bay_dry_red.jpg",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Pearly Bay Dry White",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 1,170",
+        description: "This easy-drinking wine range will appeal to those looking for a wine partner for a jovial meeting with friends, a day out at the beach, an unplanned lunch and ...",
+        image: "assets/images/real/pearly_bay_dry_white.jpg",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Pearly Bay Rose",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 1,170",
+        description: "The wine is soft and smooth with a lingering sweet, juicy finish. South Africa's vineyards are mostly situated in the. Western Cape near the coast. This is the.",
+        image: "assets/images/real/pearly_bay_rose.jpg",
+        isKenyan: false,
+        country: "South Africa"
+    },
+    {
+        name: "Pearly Bay Sweetred",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 1,470",
+        description: "Wine of Origin. Western Cape. Wine description. This is an easy-drinking wine with an abundance of ... Wine Analysis. Alcohol: 13.25 % v/v. pH: 3.52. Total ...",
+        image: "assets/images/real/pearly_bay_sweetred.jpg",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Penasal Red Bttl",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 833",
+        description: "From the heart of Castilla – La Mancha comes our wide variety of wines, sangrias and grape juice, for those moments when you just need to enjoy.",
+        image: "assets/images/real/penasal_red_bttl.jpg",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Penasol Dry Redt",
+        category: "other",
+        size: "1L",
+        price: "Ksh 840",
+        description: "From the heart of Castilla – La Mancha comes our wide variety of wines, sangrias and grape juice, for those moments when you just need to enjoy.",
+        image: "assets/images/real/penasol_dry_redt.jpg",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Penasol Dry  White",
+        category: "other",
+        size: "1L",
+        price: "Ksh 840",
+        description: "Spain's most widely planted white grape shines here with a light straw colour and floral and white fruit aromas. Crisp, fruity, and lively in the mouth. Food ...",
+        image: "assets/images/real/penasol_dry__white.jpg",
+        isKenyan: false,
+        country: "Spain"
+    },
+    {
+        name: "Penasol Red Sweet Blue",
+        category: "other",
+        size: "1L",
+        price: "Ksh 848",
+        description: "From the heart of Castilla – La Mancha comes our wide variety of wines, sangrias and grape juice, for those moments when you just need to enjoy.",
+        image: "assets/images/real/penasol_red_sweet_blue.jpg",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Penasol Sangiria Tetra",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 840",
+        description: "Very bright cherry red. Intense aromas of citrus fruits mixed with ripe red fruits. A gentle palate slightly sweet and very pleasant. Food Pairing. A perfect ...",
+        image: "assets/images/real/penasol_sangiria_tetra.jpg",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Penasol Sangria",
+        category: "other",
+        size: "1.5L",
+        price: "Ksh 1,440",
+        description: "Sangria is the typical summer drink enjoyed on gorgeous Spanish beaches and around the world. A delicious blend of wine and citrus. This sangria can be ...",
+        image: "assets/images/real/penasol_sangria.jpg",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Penasol Sangria Btlt",
+        category: "other",
+        size: "1L",
+        price: "Ksh 990",
+        description: "From the heart of Castilla – La Mancha comes our wide variety of wines, sangrias and grape juice, for those moments when you just need to enjoy.",
+        image: "assets/images/real/penasol_sangria_btlt.jpg",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Penasol White Bttl",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 900",
+        description: "Spain's most widely planted white grape shines here with a light straw colour and floral and white fruit aromas. Crisp, fruity, and lively in the mouth. Food ...",
+        image: "assets/images/real/penasol_white_bttl.jpg",
+        isKenyan: false,
+        country: "Spain"
+    },
+    {
+        name: "Penasol White Sweett",
+        category: "other",
+        size: "1L",
+        price: "Ksh 870",
+        description: "Spain's most widely planted white grape shines here with a light straw colour and floral and white fruit aromas. Crisp, fruity, and lively in the mouth. Food ...",
+        image: "assets/images/real/penasol_white_sweett.jpg",
+        isKenyan: false,
+        country: "Spain"
+    },
+    {
+        name: "People",
+        category: "other",
+        size: "250ML",
+        price: "Ksh 177",
+        description: "Purposeful production of alcoholic beverages is common and often reflects cultural and religious peculiarities as much as geographical and sociological ...",
+        image: "assets/images/real/people.jpg",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Pick & Peel Apple",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 383",
+        description: "Picked n Peeled from fresh-eating, thirst-quenching crispy apples resulting in a sweet, crispy smooth tangy apple juice giving you a boost in all health ...",
+        image: "assets/images/real/pick___peel_apple.jpg",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Pick & Peel Mango",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 383",
+        description: "To elaborate the liqueurs, “Haden” and “Tommy Atkins” mangoes were used, originating from the São Francisco Valley in the Northeast of Brazil.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=PICK%20%26%20PEEL%20MANGO",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Pick & Peel Redgrape",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 383",
+        description: "Not only does Pick N' Peel's red grape flavor taste amazing, but it's also made with only the best ingredients to ensure that every sip is a burst of flavour.",
+        image: "assets/images/real/pick___peel_redgrape.jpg",
+        isKenyan: false,
+        country: "Unknown"
     }
 ];
 /* CATALOGUE_END */
