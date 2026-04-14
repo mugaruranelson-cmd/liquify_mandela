@@ -125,89 +125,99 @@ const catalogueProducts = [
         category: "whisky",
         size: "750ml",
         price: "Ksh 4,500",
-        description: "A benchmark premium blended Scotch whisky with a smooth, deep, and complex character.",
-        image: "assets/images/real/johnnie_walker_black_label.png"
+        description: "Johnnie Walker is a brand of Scotch whisky produced by Diageo in Scotland. It was established in the Scottish burgh of Kilmarnock in 1820, and continued to ...",
+        image: "assets/images/real/johnnie_walker_black_label.png",
+        country: "Scotland"
     },
     {
         name: "4Th Roset",
         category: "other",
         size: "1.5L",
         price: "Ksh 2,640",
-        description: "A quality drink offering exceptional taste.",
+        description: "The company was founded by Antoine Roset in 1860 in Montagnieu, France as a small business manufacturing bentwood walking sticks. In 1936, the company started ...",
         image: "assets/images/real/4th_roset.jpg",
-        isKenyan: false
+        isKenyan: false,
+        country: "France"
     },
     {
         name: "4Th Street Red Swtt",
         category: "wine",
         size: "5L",
         price: "Ksh 6,600",
-        description: "A quality drink offering exceptional taste.",
+        description: "Our wines are made from high quality grapes sourced from selected premium vineyards throughout the lush Western Cape. Our grapes are harvested in the warm ...",
         image: "assets/images/real/4th_street_red_swtt.jpg",
-        isKenyan: false
+        isKenyan: false,
+        country: "Unknown"
     },
     {
         name: "4Th Street Rosetr",
         category: "wine",
         size: "5L",
         price: "Ksh 5,370",
-        description: "IberLibro se enorgullece en promover ferias del libro antiguo, de ocasión y moderno alrededor del mundo. Explore este calendario de ferias y …",
+        description: "Gain valuable skills and advance your career at Gulf Coast State College with flexible programs and personalized support tailored for your success.",
         image: "assets/images/real/4th_street_rosetr.jpg",
-        isKenyan: false
+        isKenyan: false,
+        country: "Unknown"
     },
     {
         name: "4Th Street White",
         category: "wine",
         size: "750ML",
         price: "Ksh 1,425",
-        description: "A quality drink offering exceptional taste.",
+        description: "4th Street Natural Sweet White NV ; variety : Blend - White ; winemaker : Distell Wines ; wine of origin : Western Cape ; analysis : alc : 7.47 % vol rs : 65.5 g/l ...",
         image: "assets/images/real/4th_street_white.jpg",
-        isKenyan: false
+        isKenyan: false,
+        country: "Unknown"
     },
     {
         name: "4Th Strt Redt",
         category: "other",
         size: "1.5L",
         price: "Ksh 2,640",
-        description: "A quality drink offering exceptional taste.",
+        description: "Country of origin (visible) Click to download COO; Nutrition (visible) Click to download N; Product specification (visible) Click to download PS; Suitability ...",
         image: "assets/images/real/4th_strt_redt.jpg",
-        isKenyan: false
+        isKenyan: false,
+        country: "Unknown"
     },
     {
         name: "4Th Strt Red",
         category: "other",
         size: "750ML",
         price: "Ksh 1,342",
-        description: "A quality drink offering exceptional taste.",
+        description: "The South African lightly sparkled, naturally sweet, palate-pleasing rosé, 4th Street Sweet Red, is inspired by a passion for friendship and sharing.",
         image: "assets/images/real/4th_strt_red.jpg",
-        isKenyan: false
+        isKenyan: false,
+        country: "South Africa"
     },
     {
         name: "4Th Strt White Sweett",
         category: "other",
         size: "5L",
         price: "Ksh 6,600",
-        description: "A quality drink offering exceptional taste.",
+        description: "Our wines are made from high quality grapes sourced from selected premium vineyards throughout the lush Western Cape. Our grapes are harvested in the warm ...",
         image: "assets/images/real/4th_strt_white_sweett.jpg",
-        isKenyan: false
+        isKenyan: false,
+        country: "Unknown"
     },
     {
         name: "Assic Gin",
         category: "gin",
         size: "58 CL",
         price: "Ksh 2,055",
-        description: "A quality drink offering exceptional taste.",
+        description: "Gin originated as a medicinal liquor made by monks and alchemists across Europe. The modern gin was modified in Flanders and the Netherlands to provide aqua ...",
         image: "assets/images/real/assic_gin.jpg",
-        isKenyan: false
+        isKenyan: false,
+        country: "Netherlands"
     },
     {
         name: "Assic G&T Can",
         category: "other",
         size: "58 CL",
         price: "Ksh 315",
-        description: "A quality drink offering exceptional taste.",
+        description: "The origins of gin can be traced back to the Middle Ages, with records describing a drink called 'Jenever', a Dutch spirit made with juniper.",
         image: "assets/images/real/assic_g_t_can.jpg",
-        isKenyan: false
+        isKenyan: false,
+        country: "Unknown"
     },
     {
         name: "58 Spiced Orange",
@@ -216,7 +226,8 @@ const catalogueProducts = [
         price: "Ksh 1,050",
         description: "A quality drink offering exceptional taste.",
         image: "assets/images/real/58_spiced_orange.jpg",
-        isKenyan: false
+        isKenyan: false,
+        country: "Unknown"
     },
     {
         name: "58 Spiced Orange",
@@ -225,7 +236,8 @@ const catalogueProducts = [
         price: "Ksh 2,055",
         description: "A quality drink offering exceptional taste.",
         image: "assets/images/real/58_spiced_orange.jpg",
-        isKenyan: false
+        isKenyan: false,
+        country: "Unknown"
     },
     {
         name: "58 Spiced Orange G&T Can",
@@ -234,7 +246,8 @@ const catalogueProducts = [
         price: "Ksh 315",
         description: "A quality drink offering exceptional taste.",
         image: "assets/images/real/58_spiced_orange_g_t_can.jpg",
-        isKenyan: false
+        isKenyan: false,
+        country: "Unknown"
     },
     {
         name: "58 Very Berry G&T Can",
@@ -243,7 +256,8 @@ const catalogueProducts = [
         price: "Ksh 315",
         description: "A quality drink offering exceptional taste.",
         image: "assets/images/real/58_very_berry_g_t_can.jpg",
-        isKenyan: false
+        isKenyan: false,
+        country: "Unknown"
     },
     {
         name: "5Th Generationtr Red",
@@ -252,7 +266,8 @@ const catalogueProducts = [
         price: "Ksh 4,500",
         description: "A quality drink offering exceptional taste.",
         image: "assets/images/real/5th_generationtr_red.jpg",
-        isKenyan: false
+        isKenyan: false,
+        country: "Unknown"
     },
     {
         name: "5Th Generation Whitetr",
@@ -261,7 +276,8 @@ const catalogueProducts = [
         price: "Ksh 4,500",
         description: "A quality drink offering exceptional taste.",
         image: "assets/images/real/5th_generation_whitetr.jpg",
-        isKenyan: false
+        isKenyan: false,
+        country: "Unknown"
     },
     {
         name: "#7Gin Blueberry",
@@ -270,7 +286,8 @@ const catalogueProducts = [
         price: "Ksh 1,500",
         description: "A quality drink offering exceptional taste.",
         image: "assets/images/real/7gin_blueberry.jpg",
-        isKenyan: false
+        isKenyan: false,
+        country: "Unknown"
     },
     {
         name: "#7Gin Lime And Lemon",
@@ -279,7 +296,8 @@ const catalogueProducts = [
         price: "Ksh 1,500",
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=%237GIN%20LIME%20AND%20LEMON",
-        isKenyan: false
+        isKenyan: false,
+        country: "Unknown"
     },
     {
         name: "#7Gin Mixed Berry",
@@ -288,7 +306,8 @@ const catalogueProducts = [
         price: "Ksh 1,500",
         description: "A quality drink offering exceptional taste.",
         image: "assets/images/real/7gin_mixed_berry.jpg",
-        isKenyan: false
+        isKenyan: false,
+        country: "Unknown"
     },
     {
         name: "#7Gin Orange",
@@ -297,7 +316,8 @@ const catalogueProducts = [
         price: "Ksh 1,500",
         description: "A quality drink offering exceptional taste.",
         image: "assets/images/real/7gin_orange.jpg",
-        isKenyan: false
+        isKenyan: false,
+        country: "Unknown"
     },
     {
         name: "#7Gin Original",
@@ -306,7 +326,8 @@ const catalogueProducts = [
         price: "Ksh 1,500",
         description: "A quality drink offering exceptional taste.",
         image: "assets/images/real/7gin_original.jpg",
-        isKenyan: false
+        isKenyan: false,
+        country: "Unknown"
     },
     {
         name: "#7Gin Passion",
@@ -315,7 +336,8 @@ const catalogueProducts = [
         price: "Ksh 1,500",
         description: "A quality drink offering exceptional taste.",
         image: "assets/images/real/7gin_passion.jpg",
-        isKenyan: false
+        isKenyan: false,
+        country: "Unknown"
     },
     {
         name: "#7Gin Pineapple",
@@ -324,7 +346,8 @@ const catalogueProducts = [
         price: "Ksh 1,500",
         description: "A quality drink offering exceptional taste.",
         image: "assets/images/real/7gin_pineapple.jpg",
-        isKenyan: false
+        isKenyan: false,
+        country: "Unknown"
     },
     {
         name: "7 Hills  Sweetred",
@@ -333,7 +356,8 @@ const catalogueProducts = [
         price: "Ksh 1,328",
         description: "A quality drink offering exceptional taste.",
         image: "assets/images/real/7_hills__sweetred.jpg",
-        isKenyan: false
+        isKenyan: false,
+        country: "Unknown"
     },
     {
         name: "7 Hills Sweet White",
@@ -342,7 +366,8 @@ const catalogueProducts = [
         price: "Ksh 1,328",
         description: "A quality drink offering exceptional taste.",
         image: "assets/images/real/7_hills_sweet_white.jpg",
-        isKenyan: false
+        isKenyan: false,
+        country: "Unknown"
     },
     {
         name: "8Pmt",
@@ -351,7 +376,8 @@ const catalogueProducts = [
         price: "Ksh 1,950",
         description: "A quality drink offering exceptional taste.",
         image: "assets/images/real/8pmt.jpg",
-        isKenyan: false
+        isKenyan: false,
+        country: "Unknown"
     },
     {
         name: "8Pm Fire",
@@ -360,7 +386,8 @@ const catalogueProducts = [
         price: "Ksh 1,680",
         description: "A quality drink offering exceptional taste.",
         image: "assets/images/real/8pm_fire.jpg",
-        isKenyan: false
+        isKenyan: false,
+        country: "Unknown"
     },
     {
         name: "8Pm Honey",
@@ -369,7 +396,8 @@ const catalogueProducts = [
         price: "Ksh 1,680",
         description: "A quality drink offering exceptional taste.",
         image: "assets/images/real/8pm_honey.jpg",
-        isKenyan: false
+        isKenyan: false,
+        country: "Unknown"
     },
     {
         name: "8Pm Whisky",
@@ -378,7 +406,8 @@ const catalogueProducts = [
         price: "Ksh 1,500",
         description: "A quality drink offering exceptional taste.",
         image: "assets/images/real/8pm_whisky.jpg",
-        isKenyan: false
+        isKenyan: false,
+        country: "Unknown"
     },
     {
         name: "99 Rosas Chardonnay Viog",
@@ -387,7 +416,8 @@ const catalogueProducts = [
         price: "Ksh 1,920",
         description: "A quality drink offering exceptional taste.",
         image: "assets/images/real/99_rosas_chardonnay_viog.jpg",
-        isKenyan: false
+        isKenyan: false,
+        country: "Unknown"
     },
     {
         name: "99 Rosas Temp Cab Sauv",
@@ -396,7 +426,8 @@ const catalogueProducts = [
         price: "Ksh 1,920",
         description: "A quality drink offering exceptional taste.",
         image: "assets/images/real/99_rosas_temp_cab_sauv.jpg",
-        isKenyan: false
+        isKenyan: false,
+        country: "Unknown"
     },
     {
         name: "Absolute (Pernod)",
@@ -405,7 +436,8 @@ const catalogueProducts = [
         price: "Ksh 3,825",
         description: "A quality drink offering exceptional taste.",
         image: "assets/images/real/absolute__pernod.jpg",
-        isKenyan: false
+        isKenyan: false,
+        country: "Unknown"
     },
     {
         name: "Absolute Vodkat",
@@ -414,7 +446,8 @@ const catalogueProducts = [
         price: "Ksh 3,075",
         description: "A quality drink offering exceptional taste.",
         image: "assets/images/real/absolute_vodkat.jpg",
-        isKenyan: false
+        isKenyan: false,
+        country: "Unknown"
     },
     {
         name: "Absolute Vodka",
@@ -423,7 +456,8 @@ const catalogueProducts = [
         price: "Ksh 2,925",
         description: "A quality drink offering exceptional taste.",
         image: "assets/images/real/absolute_vodka.jpg",
-        isKenyan: false
+        isKenyan: false,
+        country: "Unknown"
     },
     {
         name: "Ac Blackitre",
@@ -432,7 +466,8 @@ const catalogueProducts = [
         price: "Ksh 2,100",
         description: "A quality drink offering exceptional taste.",
         image: "assets/images/real/ac_blackitre.jpg",
-        isKenyan: false
+        isKenyan: false,
+        country: "Unknown"
     },
     {
         name: "Ac Black",
@@ -441,7 +476,8 @@ const catalogueProducts = [
         price: "Ksh 1,620",
         description: "A quality drink offering exceptional taste.",
         image: "assets/images/real/ac_black.jpg",
-        isKenyan: false
+        isKenyan: false,
+        country: "Unknown"
     },
     {
         name: "Afia Energy",
@@ -450,7 +486,8 @@ const catalogueProducts = [
         price: "Ksh 75",
         description: "A quality drink offering exceptional taste.",
         image: "assets/images/real/afia_energy.jpg",
-        isKenyan: false
+        isKenyan: false,
+        country: "Unknown"
     },
     {
         name: "Afribullcafe",
@@ -459,7 +496,8 @@ const catalogueProducts = [
         price: "Ksh 2,070",
         description: "A quality drink offering exceptional taste.",
         image: "assets/images/real/afribullcafe.jpg",
-        isKenyan: false
+        isKenyan: false,
+        country: "Unknown"
     },
     {
         name: "Air Vodka",
@@ -468,7 +506,8 @@ const catalogueProducts = [
         price: "Ksh 825",
         description: "A quality drink offering exceptional taste.",
         image: "assets/images/real/air_vodka.jpg",
-        isKenyan: false
+        isKenyan: false,
+        country: "Unknown"
     },
     {
         name: "Alandra Red",
@@ -477,7 +516,8 @@ const catalogueProducts = [
         price: "Ksh 1,800",
         description: "A quality drink offering exceptional taste.",
         image: "assets/images/real/alandra_red.jpg",
-        isKenyan: false
+        isKenyan: false,
+        country: "Unknown"
     },
     {
         name: "Alandra White",
@@ -486,7 +526,8 @@ const catalogueProducts = [
         price: "Ksh 1,800",
         description: "A quality drink offering exceptional taste.",
         image: "assets/images/real/alandra_white.jpg",
-        isKenyan: false
+        isKenyan: false,
+        country: "Unknown"
     },
     {
         name: "All Seasons Whisky",
@@ -495,7 +536,8 @@ const catalogueProducts = [
         price: "Ksh 570",
         description: "A quality drink offering exceptional taste.",
         image: "assets/images/real/all_seasons_whisky.jpg",
-        isKenyan: false
+        isKenyan: false,
+        country: "Unknown"
     },
     {
         name: "All Seasons Whisky",
@@ -504,7 +546,8 @@ const catalogueProducts = [
         price: "Ksh 1,178",
         description: "A quality drink offering exceptional taste.",
         image: "assets/images/real/all_seasons_whisky.jpg",
-        isKenyan: false
+        isKenyan: false,
+        country: "Unknown"
     },
     {
         name: "All Seasons Whsky",
@@ -513,7 +556,8 @@ const catalogueProducts = [
         price: "Ksh 878",
         description: "A quality drink offering exceptional taste.",
         image: "assets/images/real/all_seasons_whsky.jpg",
-        isKenyan: false
+        isKenyan: false,
+        country: "Unknown"
     },
     {
         name: "All Seasons Whsky",
@@ -522,7 +566,8 @@ const catalogueProducts = [
         price: "Ksh 1,763",
         description: "A quality drink offering exceptional taste.",
         image: "assets/images/real/all_seasons_whsky.jpg",
-        isKenyan: false
+        isKenyan: false,
+        country: "Unknown"
     },
     {
         name: "Allsops Beer",
@@ -531,7 +576,8 @@ const catalogueProducts = [
         price: "Ksh 203",
         description: "A quality drink offering exceptional taste.",
         image: "assets/images/real/allsops_beer.jpg",
-        isKenyan: false
+        isKenyan: false,
+        country: "Unknown"
     },
     {
         name: "Alta Wine",
@@ -540,7 +586,8 @@ const catalogueProducts = [
         price: "Ksh 1,740",
         description: "A quality drink offering exceptional taste.",
         image: "assets/images/real/alta_wine.jpg",
-        isKenyan: false
+        isKenyan: false,
+        country: "Unknown"
     },
     {
         name: "Amani Sweet Red",
@@ -549,7 +596,8 @@ const catalogueProducts = [
         price: "Ksh 1,065",
         description: "A quality drink offering exceptional taste.",
         image: "assets/images/real/amani_sweet_red.jpg",
-        isKenyan: false
+        isKenyan: false,
+        country: "Unknown"
     },
     {
         name: "Amani Sweet White",
@@ -558,7 +606,8 @@ const catalogueProducts = [
         price: "Ksh 1,065",
         description: "A quality drink offering exceptional taste.",
         image: "assets/images/real/amani_sweet_white.jpg",
-        isKenyan: false
+        isKenyan: false,
+        country: "Unknown"
     },
     {
         name: "Amarula",
@@ -567,7 +616,8 @@ const catalogueProducts = [
         price: "Ksh 3,375",
         description: "A quality drink offering exceptional taste.",
         image: "assets/images/real/amarula.jpg",
-        isKenyan: false
+        isKenyan: false,
+        country: "Unknown"
     },
     {
         name: "Amarula",
@@ -576,7 +626,8 @@ const catalogueProducts = [
         price: "Ksh 1,500",
         description: "A quality drink offering exceptional taste.",
         image: "assets/images/real/amarula.jpg",
-        isKenyan: false
+        isKenyan: false,
+        country: "Unknown"
     },
     {
         name: "Amarula",
@@ -585,7 +636,8 @@ const catalogueProducts = [
         price: "Ksh 2,850",
         description: "We encourage our employees to be ambassadors for responsible alcohol consumption and taking ownership and responsibility for their personal …",
         image: "assets/images/real/amarula.jpg",
-        isKenyan: false
+        isKenyan: false,
+        country: "Unknown"
     },
     {
         name: "Analivia Sav",
@@ -594,7 +646,8 @@ const catalogueProducts = [
         price: "Ksh 2,550",
         description: "A quality drink offering exceptional taste.",
         image: "assets/images/real/analivia_sav.jpg",
-        isKenyan: false
+        isKenyan: false,
+        country: "Unknown"
     },
     {
         name: "Angostura Bitters",
@@ -603,7 +656,8 @@ const catalogueProducts = [
         price: "Ksh 3,900",
         description: "Gmail is email that’s intuitive, efficient, and useful. 15 GB of storage, less spam, and mobile access.",
         image: "assets/images/real/angostura_bitters.jpg",
-        isKenyan: false
+        isKenyan: false,
+        country: "Unknown"
     },
     {
         name: "Annabelle Cuvee Rose",
@@ -612,7 +666,8 @@ const catalogueProducts = [
         price: "Ksh 2,093",
         description: "A quality drink offering exceptional taste.",
         image: "assets/images/real/annabelle_cuvee_rose.jpg",
-        isKenyan: false
+        isKenyan: false,
+        country: "Unknown"
     },
     {
         name: "Appleton",
@@ -621,7 +676,8 @@ const catalogueProducts = [
         price: "Ksh 5,700",
         description: "A quality drink offering exceptional taste.",
         image: "assets/images/real/appleton.jpg",
-        isKenyan: false
+        isKenyan: false,
+        country: "Unknown"
     },
     {
         name: "Aqula",
@@ -630,7 +686,8 @@ const catalogueProducts = [
         price: "Ksh 750",
         description: "A quality drink offering exceptional taste.",
         image: "assets/images/real/aqula.jpg",
-        isKenyan: false
+        isKenyan: false,
+        country: "Unknown"
     },
     {
         name: "Arcadia Rum",
@@ -639,7 +696,8 @@ const catalogueProducts = [
         price: "Ksh 1,020",
         description: "A quality drink offering exceptional taste.",
         image: "assets/images/real/arcadia_rum.jpg",
-        isKenyan: false
+        isKenyan: false,
+        country: "Unknown"
     },
     {
         name: "Arcadia Whisky",
@@ -648,7 +706,8 @@ const catalogueProducts = [
         price: "Ksh 1,335",
         description: "A quality drink offering exceptional taste.",
         image: "assets/images/real/arcadia_whisky.jpg",
-        isKenyan: false
+        isKenyan: false,
+        country: "Unknown"
     },
     {
         name: "Arcadia White Swt",
@@ -657,7 +716,8 @@ const catalogueProducts = [
         price: "Ksh 1,170",
         description: "A quality drink offering exceptional taste.",
         image: "assets/images/real/arcadia_white_swt.jpg",
-        isKenyan: false
+        isKenyan: false,
+        country: "Unknown"
     },
     {
         name: "Asconi Agorlux",
@@ -666,7 +726,8 @@ const catalogueProducts = [
         price: "Ksh 2,187",
         description: "A quality drink offering exceptional taste.",
         image: "assets/images/real/asconi_agorlux.jpg",
-        isKenyan: false
+        isKenyan: false,
+        country: "Unknown"
     },
     {
         name: "Asconi Kiss Me Now",
@@ -675,7 +736,8 @@ const catalogueProducts = [
         price: "Ksh 2,268",
         description: "A quality drink offering exceptional taste.",
         image: "assets/images/real/asconi_kiss_me_now.jpg",
-        isKenyan: false
+        isKenyan: false,
+        country: "Unknown"
     },
     {
         name: "Asconi Moscato Rose",
@@ -684,7 +746,8 @@ const catalogueProducts = [
         price: "Ksh 2,268",
         description: "A quality drink offering exceptional taste.",
         image: "assets/images/real/asconi_moscato_rose.jpg",
-        isKenyan: false
+        isKenyan: false,
+        country: "Unknown"
     },
     {
         name: "Asconi Moscato Swt Wht",
@@ -693,7 +756,8 @@ const catalogueProducts = [
         price: "Ksh 2,187",
         description: "A quality drink offering exceptional taste.",
         image: "assets/images/real/asconi_moscato_swt_wht.jpg",
-        isKenyan: false
+        isKenyan: false,
+        country: "Unknown"
     },
     {
         name: "Asconi Pastoral",
@@ -702,7 +766,8 @@ const catalogueProducts = [
         price: "Ksh 2,349",
         description: "A quality drink offering exceptional taste.",
         image: "assets/images/real/asconi_pastoral.jpg",
-        isKenyan: false
+        isKenyan: false,
+        country: "Unknown"
     },
     {
         name: "Asconi Semi Dry",
@@ -711,7 +776,8 @@ const catalogueProducts = [
         price: "Ksh 2,106",
         description: "A quality drink offering exceptional taste.",
         image: "assets/images/real/asconi_semi_dry.jpg",
-        isKenyan: false
+        isKenyan: false,
+        country: "Unknown"
     },
     {
         name: "Asconi Sol Negru",
@@ -720,7 +786,8 @@ const catalogueProducts = [
         price: "Ksh 2,187",
         description: "A quality drink offering exceptional taste.",
         image: "assets/images/real/asconi_sol_negru.jpg",
-        isKenyan: false
+        isKenyan: false,
+        country: "Unknown"
     },
     {
         name: "Aspera Gin",
@@ -729,7 +796,8 @@ const catalogueProducts = [
         price: "Ksh 277",
         description: "Jídelníček - Aspera Pro ukončení objednávání nezapomeňte ZNOVU PŘILOŽIT KARTU ke snímači!!",
         image: "assets/images/real/aspera_gin.jpg",
-        isKenyan: false
+        isKenyan: false,
+        country: "Unknown"
     },
     {
         name: "Aspera Gin",
@@ -738,7 +806,8 @@ const catalogueProducts = [
         price: "Ksh 802",
         description: "A quality drink offering exceptional taste.",
         image: "assets/images/real/aspera_gin.jpg",
-        isKenyan: false
+        isKenyan: false,
+        country: "Unknown"
     },
     {
         name: "Atlas 12 %",
@@ -747,7 +816,8 @@ const catalogueProducts = [
         price: "Ksh 330",
         description: "A quality drink offering exceptional taste.",
         image: "assets/images/real/atlas_12.jpg",
-        isKenyan: false
+        isKenyan: false,
+        country: "Unknown"
     },
     {
         name: "Atlas 14%",
@@ -756,7 +826,8 @@ const catalogueProducts = [
         price: "Ksh 420",
         description: "A quality drink offering exceptional taste.",
         image: "assets/images/real/atlas_14.jpg",
-        isKenyan: false
+        isKenyan: false,
+        country: "Unknown"
     },
     {
         name: "Avalon Gin",
@@ -765,7 +836,8 @@ const catalogueProducts = [
         price: "Ksh 285",
         description: "A quality drink offering exceptional taste.",
         image: "assets/images/real/avalon_gin.jpg",
-        isKenyan: false
+        isKenyan: false,
+        country: "Unknown"
     },
     {
         name: "Avalon Gin",
@@ -774,7 +846,8 @@ const catalogueProducts = [
         price: "Ksh 825",
         description: "A quality drink offering exceptional taste.",
         image: "assets/images/real/avalon_gin.jpg",
-        isKenyan: false
+        isKenyan: false,
+        country: "Unknown"
     },
     {
         name: "Avalon Vodka",
@@ -783,7 +856,8 @@ const catalogueProducts = [
         price: "Ksh 285",
         description: "A quality drink offering exceptional taste.",
         image: "assets/images/real/avalon_vodka.jpg",
-        isKenyan: false
+        isKenyan: false,
+        country: "Unknown"
     },
     {
         name: "Avalon Vodka",
@@ -792,7 +866,8 @@ const catalogueProducts = [
         price: "Ksh 825",
         description: "A quality drink offering exceptional taste.",
         image: "assets/images/real/avalon_vodka.jpg",
-        isKenyan: false
+        isKenyan: false,
+        country: "Unknown"
     },
     {
         name: "Bacardi Blance",
@@ -801,7 +876,8 @@ const catalogueProducts = [
         price: "Ksh 3,420",
         description: "A quality drink offering exceptional taste.",
         image: "assets/images/real/bacardi_blance.jpg",
-        isKenyan: false
+        isKenyan: false,
+        country: "Unknown"
     },
     {
         name: "Bacardi Blance 3/4",
@@ -810,7 +886,8 @@ const catalogueProducts = [
         price: "Ksh 2,700",
         description: "A quality drink offering exceptional taste.",
         image: "assets/images/real/bacardi_blance_3_4.jpg",
-        isKenyan: false
+        isKenyan: false,
+        country: "Unknown"
     },
     {
         name: "Bacardi Carta Orot",
@@ -819,7 +896,8 @@ const catalogueProducts = [
         price: "Ksh 3,420",
         description: "A quality drink offering exceptional taste.",
         image: "assets/images/real/bacardi_carta_orot.jpg",
-        isKenyan: false
+        isKenyan: false,
+        country: "Unknown"
     },
     {
         name: "Bacardi Carte Oro 3/4",
@@ -828,7 +906,8 @@ const catalogueProducts = [
         price: "Ksh 2,550",
         description: "A quality drink offering exceptional taste.",
         image: "assets/images/real/bacardi_carte_oro_3_4.jpg",
-        isKenyan: false
+        isKenyan: false,
+        country: "Unknown"
     },
     {
         name: "Bacardi Negra 3/4",
@@ -837,7 +916,8 @@ const catalogueProducts = [
         price: "Ksh 2,550",
         description: "Do what moves you with BACARDÍ Rum, a true taste of the Caribbean. Learn about rum cocktails, our events, festivals and fascinating …",
         image: "assets/images/real/bacardi_negra_3_4.jpg",
-        isKenyan: false
+        isKenyan: false,
+        country: "Unknown"
     },
     {
         name: "Bacardi Oak Heart",
@@ -846,7 +926,8 @@ const catalogueProducts = [
         price: "Ksh 2,550",
         description: "A quality drink offering exceptional taste.",
         image: "assets/images/real/bacardi_oak_heart.jpg",
-        isKenyan: false
+        isKenyan: false,
+        country: "Unknown"
     },
     {
         name: "Bacardi Spcd",
@@ -855,7 +936,8 @@ const catalogueProducts = [
         price: "Ksh 2,550",
         description: "Do what moves you with BACARDÍ Rum, a true taste of the Caribbean. Learn about rum cocktails, our events, festivals and fascinating history.",
         image: "assets/images/real/bacardi_spcd.jpg",
-        isKenyan: false
+        isKenyan: false,
+        country: "Unknown"
     },
     {
         name: "Back Bencher Wsky",
@@ -864,7 +946,8 @@ const catalogueProducts = [
         price: "Ksh 1,575",
         description: "A quality drink offering exceptional taste.",
         image: "assets/images/real/back_bencher_wsky.jpg",
-        isKenyan: false
+        isKenyan: false,
+        country: "Unknown"
     },
     {
         name: "Baileys",
@@ -873,7 +956,8 @@ const catalogueProducts = [
         price: "Ksh 4,125",
         description: "A quality drink offering exceptional taste.",
         image: "assets/images/real/baileys.jpg",
-        isKenyan: false
+        isKenyan: false,
+        country: "Unknown"
     },
     {
         name: "Baileys",
@@ -882,7 +966,8 @@ const catalogueProducts = [
         price: "Ksh 1,830",
         description: "A quality drink offering exceptional taste.",
         image: "assets/images/real/baileys.jpg",
-        isKenyan: false
+        isKenyan: false,
+        country: "Unknown"
     },
     {
         name: "Baileys",
@@ -891,7 +976,8 @@ const catalogueProducts = [
         price: "Ksh 3,750",
         description: "A quality drink offering exceptional taste.",
         image: "assets/images/real/baileys.jpg",
-        isKenyan: false
+        isKenyan: false,
+        country: "Unknown"
     },
     {
         name: "Baileys Delight",
@@ -900,7 +986,8 @@ const catalogueProducts = [
         price: "Ksh 682",
         description: "A quality drink offering exceptional taste.",
         image: "assets/images/real/baileys_delight.jpg",
-        isKenyan: false
+        isKenyan: false,
+        country: "Unknown"
     },
     {
         name: "Baileys Delight",
@@ -909,7 +996,8 @@ const catalogueProducts = [
         price: "Ksh 1,230",
         description: "A quality drink offering exceptional taste.",
         image: "assets/images/real/baileys_delight.jpg",
-        isKenyan: false
+        isKenyan: false,
+        country: "Unknown"
     },
     {
         name: "Baileys Strawberry",
@@ -918,7 +1006,8 @@ const catalogueProducts = [
         price: "Ksh 2,250",
         description: "A quality drink offering exceptional taste.",
         image: "assets/images/real/baileys_strawberry.jpg",
-        isKenyan: false
+        isKenyan: false,
+        country: "Unknown"
     },
     {
         name: "Ballantinest",
@@ -927,7 +1016,8 @@ const catalogueProducts = [
         price: "Ksh 3,450",
         description: "A quality drink offering exceptional taste.",
         image: "assets/images/real/ballantinest.jpg",
-        isKenyan: false
+        isKenyan: false,
+        country: "Unknown"
     },
     {
         name: "Ballantines",
@@ -936,7 +1026,8 @@ const catalogueProducts = [
         price: "Ksh 1,680",
         description: "A quality drink offering exceptional taste.",
         image: "assets/images/real/ballantines.jpg",
-        isKenyan: false
+        isKenyan: false,
+        country: "Unknown"
     },
     {
         name: "Ballantines",
@@ -945,7 +1036,8 @@ const catalogueProducts = [
         price: "Ksh 3,000",
         description: "A quality drink offering exceptional taste.",
         image: "assets/images/real/ballantines.jpg",
-        isKenyan: false
+        isKenyan: false,
+        country: "Unknown"
     },
     {
         name: "Ballantines(Pernod)",
@@ -954,7 +1046,8 @@ const catalogueProducts = [
         price: "Ksh 3,870",
         description: "A quality drink offering exceptional taste.",
         image: "assets/images/real/ballantines_pernod.jpg",
-        isKenyan: false
+        isKenyan: false,
+        country: "Unknown"
     },
     {
         name: "Balozi Beer",
@@ -963,7 +1056,8 @@ const catalogueProducts = [
         price: "Ksh 254",
         description: "A quality drink offering exceptional taste.",
         image: "assets/images/real/balozi_beer.jpg",
-        isKenyan: false
+        isKenyan: false,
+        country: "Unknown"
     },
     {
         name: "Balozi Can",
@@ -972,7 +1066,8 @@ const catalogueProducts = [
         price: "Ksh 305",
         description: "A quality drink offering exceptional taste.",
         image: "assets/images/real/balozi_can.jpg",
-        isKenyan: false
+        isKenyan: false,
+        country: "Unknown"
     },
     {
         name: "Balvenie 14",
@@ -981,7 +1076,8 @@ const catalogueProducts = [
         price: "Ksh 30,000",
         description: "A quality drink offering exceptional taste.",
         image: "assets/images/real/balvenie_14.jpg",
-        isKenyan: false
+        isKenyan: false,
+        country: "Unknown"
     },
     {
         name: "Banana Beer",
@@ -990,7 +1086,8 @@ const catalogueProducts = [
         price: "Ksh 108",
         description: "A quality drink offering exceptional taste.",
         image: "assets/images/real/banana_beer.jpg",
-        isKenyan: false
+        isKenyan: false,
+        country: "Unknown"
     },
     {
         name: "Base Qube Energy",
@@ -999,7 +1096,8 @@ const catalogueProducts = [
         price: "Ksh 165",
         description: "A quality drink offering exceptional taste.",
         image: "assets/images/real/base_qube_energy.jpg",
-        isKenyan: false
+        isKenyan: false,
+        country: "Unknown"
     },
     {
         name: "Bavaria(8.6)",
@@ -1008,7 +1106,8 @@ const catalogueProducts = [
         price: "Ksh 413",
         description: "于是， 在英语里，Bayern 就产生了不同于 Bavaria 的义项分工。 Bayern Munich 默认指的就是「拜仁慕尼黑」俱乐部。 Bavaria Munich 特指15世纪的「巴 …",
         image: "assets/images/real/bavaria_8_6.jpg",
-        isKenyan: false
+        isKenyan: false,
+        country: "Unknown"
     },
     {
         name: "Bavaria Apple",
@@ -1017,7 +1116,8 @@ const catalogueProducts = [
         price: "Ksh 203",
         description: "A quality drink offering exceptional taste.",
         image: "assets/images/real/bavaria_apple.jpg",
-        isKenyan: false
+        isKenyan: false,
+        country: "Unknown"
     },
     {
         name: "Bavaria Orange",
@@ -1026,7 +1126,8 @@ const catalogueProducts = [
         price: "Ksh 203",
         description: "A quality drink offering exceptional taste.",
         image: "assets/images/real/bavaria_orange.jpg",
-        isKenyan: false
+        isKenyan: false,
+        country: "Unknown"
     },
     {
         name: "Bavaria Original 0.0",
@@ -1035,7 +1136,8 @@ const catalogueProducts = [
         price: "Ksh 203",
         description: "A quality drink offering exceptional taste.",
         image: "assets/images/real/bavaria_original_0_0.jpg",
-        isKenyan: false
+        isKenyan: false,
+        country: "Unknown"
     },
     {
         name: "Beefeater Cleart",
@@ -1044,7 +1146,8 @@ const catalogueProducts = [
         price: "Ksh 5,077",
         description: "A quality drink offering exceptional taste.",
         image: "assets/images/real/beefeater_cleart.jpg",
-        isKenyan: false
+        isKenyan: false,
+        country: "Unknown"
     },
     {
         name: "Beefeater Clear",
@@ -1053,7 +1156,8 @@ const catalogueProducts = [
         price: "Ksh 3,870",
         description: "A quality drink offering exceptional taste.",
         image: "assets/images/real/beefeater_clear.jpg",
-        isKenyan: false
+        isKenyan: false,
+        country: "Unknown"
     },
     {
         name: "Beefeater Orange",
@@ -1062,7 +1166,8 @@ const catalogueProducts = [
         price: "Ksh 3,600",
         description: "A quality drink offering exceptional taste.",
         image: "assets/images/real/beefeater_orange.jpg",
-        isKenyan: false
+        isKenyan: false,
+        country: "Unknown"
     },
     {
         name: "Beefeater Pinkt",
@@ -1071,7 +1176,8 @@ const catalogueProducts = [
         price: "Ksh 3,975",
         description: "A quality drink offering exceptional taste.",
         image: "assets/images/real/beefeater_pinkt.jpg",
-        isKenyan: false
+        isKenyan: false,
+        country: "Unknown"
     },
     {
         name: "Beefeater Pink",
@@ -1080,7 +1186,8 @@ const catalogueProducts = [
         price: "Ksh 4,125",
         description: "A quality drink offering exceptional taste.",
         image: "assets/images/real/beefeater_pink.jpg",
-        isKenyan: false
+        isKenyan: false,
+        country: "Unknown"
     },
     {
         name: "Belaire Bleu",
@@ -1089,7 +1196,8 @@ const catalogueProducts = [
         price: "Ksh 6,300",
         description: "A quality drink offering exceptional taste.",
         image: "assets/images/real/belaire_bleu.jpg",
-        isKenyan: false
+        isKenyan: false,
+        country: "Unknown"
     },
     {
         name: "Belaire Brut",
@@ -1098,7 +1206,8 @@ const catalogueProducts = [
         price: "Ksh 6,300",
         description: "A quality drink offering exceptional taste.",
         image: "assets/images/real/belaire_brut.jpg",
-        isKenyan: false
+        isKenyan: false,
+        country: "Unknown"
     },
     {
         name: "Belaire Fantome Gold",
@@ -1107,7 +1216,8 @@ const catalogueProducts = [
         price: "Ksh 6,600",
         description: "A quality drink offering exceptional taste.",
         image: "assets/images/real/belaire_fantome_gold.jpg",
-        isKenyan: false
+        isKenyan: false,
+        country: "Unknown"
     },
     {
         name: "Belaire Gold",
@@ -1116,7 +1226,8 @@ const catalogueProducts = [
         price: "Ksh 6,600",
         description: "A quality drink offering exceptional taste.",
         image: "assets/images/real/belaire_gold.jpg",
-        isKenyan: false
+        isKenyan: false,
+        country: "Unknown"
     },
     {
         name: "Belaire Gold(Pernod)",
@@ -1125,7 +1236,8 @@ const catalogueProducts = [
         price: "Ksh 8,340",
         description: "A quality drink offering exceptional taste.",
         image: "assets/images/real/belaire_gold_pernod.jpg",
-        isKenyan: false
+        isKenyan: false,
+        country: "Unknown"
     },
     {
         name: "Belaire Luxe",
@@ -1134,7 +1246,8 @@ const catalogueProducts = [
         price: "Ksh 6,600",
         description: "A quality drink offering exceptional taste.",
         image: "assets/images/real/belaire_luxe.jpg",
-        isKenyan: false
+        isKenyan: false,
+        country: "Unknown"
     },
     {
         name: "Belaire Luxe (Pernod)",
@@ -1143,7 +1256,8 @@ const catalogueProducts = [
         price: "Ksh 7,485",
         description: "A quality drink offering exceptional taste.",
         image: "assets/images/real/belaire_luxe__pernod.jpg",
-        isKenyan: false
+        isKenyan: false,
+        country: "Unknown"
     },
     {
         name: "Belaire Rose Black",
@@ -1152,7 +1266,8 @@ const catalogueProducts = [
         price: "Ksh 6,600",
         description: "A quality drink offering exceptional taste.",
         image: "assets/images/real/belaire_rose_black.jpg",
-        isKenyan: false
+        isKenyan: false,
+        country: "Unknown"
     },
     {
         name: "Belaire Rose Black(Fantome)",
@@ -1161,7 +1276,8 @@ const catalogueProducts = [
         price: "Ksh 6,750",
         description: "Bel-Air: Created by Andy Borowitz, Susan Borowitz, T.J. Brady, Morgan Stevenson Cooper, Rasheed Newson, Malcolm Spellman. With …",
         image: "assets/images/real/belaire_rose_black_fantome.jpg",
-        isKenyan: false
+        isKenyan: false,
+        country: "Unknown"
     },
     {
         name: "Belaire Rose Black(Pernod)",
@@ -1170,7 +1286,8 @@ const catalogueProducts = [
         price: "Ksh 7,485",
         description: "A quality drink offering exceptional taste.",
         image: "assets/images/real/belaire_rose_black_pernod.jpg",
-        isKenyan: false
+        isKenyan: false,
+        country: "Unknown"
     },
     {
         name: "Belaire Rose Pink",
@@ -1179,7 +1296,8 @@ const catalogueProducts = [
         price: "Ksh 6,600",
         description: "A quality drink offering exceptional taste.",
         image: "assets/images/real/belaire_rose_pink.jpg",
-        isKenyan: false
+        isKenyan: false,
+        country: "Unknown"
     },
     {
         name: "Bertrams Vo Brdy",
@@ -1188,7 +1306,8 @@ const catalogueProducts = [
         price: "Ksh 1,275",
         description: "Firma Bertrams Pečky, spol. s r.o. vyrábí nerezové komínové systémy od roku 1997. Nejprve se specializovala pouze na nerezové …",
         image: "assets/images/real/bertrams_vo_brdy.jpg",
-        isKenyan: false
+        isKenyan: false,
+        country: "Unknown"
     },
     {
         name: "Best Cream",
@@ -1197,7 +1316,8 @@ const catalogueProducts = [
         price: "Ksh 525",
         description: "A quality drink offering exceptional taste.",
         image: "assets/images/real/best_cream.jpg",
-        isKenyan: false
+        isKenyan: false,
+        country: "Unknown"
     },
     {
         name: "Best Cream",
@@ -1206,7 +1326,8 @@ const catalogueProducts = [
         price: "Ksh 1,463",
         description: "A quality drink offering exceptional taste.",
         image: "assets/images/real/best_cream.jpg",
-        isKenyan: false
+        isKenyan: false,
+        country: "Unknown"
     },
     {
         name: "Best Gin",
@@ -1215,7 +1336,8 @@ const catalogueProducts = [
         price: "Ksh 390",
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=BEST%20GIN",
-        isKenyan: false
+        isKenyan: false,
+        country: "Unknown"
     },
     {
         name: "Best Gin",
@@ -1224,7 +1346,8 @@ const catalogueProducts = [
         price: "Ksh 1,103",
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=BEST%20GIN",
-        isKenyan: false
+        isKenyan: false,
+        country: "Unknown"
     },
     {
         name: "Best Vodka",
@@ -1233,7 +1356,8 @@ const catalogueProducts = [
         price: "Ksh 368",
         description: "A quality drink offering exceptional taste.",
         image: "assets/images/real/best_vodka.jpg",
-        isKenyan: false
+        isKenyan: false,
+        country: "Unknown"
     },
     {
         name: "Best Vodka",
@@ -1242,7 +1366,8 @@ const catalogueProducts = [
         price: "Ksh 1,043",
         description: "A quality drink offering exceptional taste.",
         image: "assets/images/real/best_vodka.jpg",
-        isKenyan: false
+        isKenyan: false,
+        country: "Unknown"
     },
     {
         name: "Best Whisky",
@@ -1251,7 +1376,8 @@ const catalogueProducts = [
         price: "Ksh 465",
         description: "A quality drink offering exceptional taste.",
         image: "assets/images/real/best_whisky.jpg",
-        isKenyan: false
+        isKenyan: false,
+        country: "Unknown"
     },
     {
         name: "Best Whisky",
@@ -1260,7 +1386,8 @@ const catalogueProducts = [
         price: "Ksh 1,365",
         description: "A quality drink offering exceptional taste.",
         image: "assets/images/real/best_whisky.jpg",
-        isKenyan: false
+        isKenyan: false,
+        country: "Unknown"
     },
     {
         name: "Bittolla Red",
@@ -1269,7 +1396,8 @@ const catalogueProducts = [
         price: "Ksh 1,800",
         description: "A quality drink offering exceptional taste.",
         image: "assets/images/real/bittolla_red.jpg",
-        isKenyan: false
+        isKenyan: false,
+        country: "Unknown"
     },
     {
         name: "Bl",
@@ -1278,7 +1406,8 @@ const catalogueProducts = [
         price: "Ksh 3,225",
         description: "A quality drink offering exceptional taste.",
         image: "assets/images/real/bl.jpg",
-        isKenyan: false
+        isKenyan: false,
+        country: "Unknown"
     },
     {
         name: "Black Bird Swt Red",
@@ -1287,7 +1416,8 @@ const catalogueProducts = [
         price: "Ksh 1,425",
         description: "A quality drink offering exceptional taste.",
         image: "assets/images/real/black_bird_swt_red.jpg",
-        isKenyan: false
+        isKenyan: false,
+        country: "Unknown"
     },
     {
         name: "Black Bird Swt  White",
@@ -1296,7 +1426,8 @@ const catalogueProducts = [
         price: "Ksh 1,425",
         description: "Crimson Desert Pre-Order BonusBlack Desert Limited Items Steps to claim the Crimson Desert Pre-Order Exclusive rewards will be notified separately on Mar 20, 2026 (Fri).Learn MoreThis is your one-time",
         image: "assets/images/real/black_bird_swt__white.jpg",
-        isKenyan: false
+        isKenyan: false,
+        country: "Unknown"
     },
     {
         name: "Black Ice Beer",
@@ -1305,7 +1436,8 @@ const catalogueProducts = [
         price: "Ksh 242",
         description: "A quality drink offering exceptional taste.",
         image: "assets/images/real/black_ice_beer.jpg",
-        isKenyan: false
+        isKenyan: false,
+        country: "Unknown"
     },
     {
         name: "Black Ice Can",
@@ -1314,7 +1446,8 @@ const catalogueProducts = [
         price: "Ksh 267",
         description: "Crimson Desert Pre-Order BonusBlack Desert Limited Items Steps to claim the Crimson Desert Pre-Order Exclusive rewards will be notified …",
         image: "assets/images/real/black_ice_can.jpg",
-        isKenyan: false
+        isKenyan: false,
+        country: "Unknown"
     },
     {
         name: "Black Ram Honey",
@@ -1323,7 +1456,8 @@ const catalogueProducts = [
         price: "Ksh 1,200",
         description: "A quality drink offering exceptional taste.",
         image: "assets/images/real/black_ram_honey.jpg",
-        isKenyan: false
+        isKenyan: false,
+        country: "Unknown"
     },
     {
         name: "Black Ram Whskyt",
@@ -1332,7 +1466,8 @@ const catalogueProducts = [
         price: "Ksh 1,560",
         description: "A quality drink offering exceptional taste.",
         image: "assets/images/real/black_ram_whskyt.jpg",
-        isKenyan: false
+        isKenyan: false,
+        country: "Unknown"
     },
     {
         name: "Black Ram Whsky",
@@ -1341,7 +1476,8 @@ const catalogueProducts = [
         price: "Ksh 1,178",
         description: "A quality drink offering exceptional taste.",
         image: "assets/images/real/black_ram_whsky.jpg",
-        isKenyan: false
+        isKenyan: false,
+        country: "Unknown"
     },
     {
         name: "Black & Whitet",
@@ -1350,7 +1486,8 @@ const catalogueProducts = [
         price: "Ksh 2,250",
         description: "Crimson Desert Pre-Order BonusBlack Desert Limited Items Steps to claim the Crimson Desert Pre-Order Exclusive rewards will be notified separately on Mar 20, 2026 (Fri).Learn MoreThis is your one-time",
         image: "assets/images/real/black___whitet.jpg",
-        isKenyan: false
+        isKenyan: false,
+        country: "Unknown"
     },
     {
         name: "Black & White",
@@ -1359,7 +1496,8 @@ const catalogueProducts = [
         price: "Ksh 593",
         description: "A quality drink offering exceptional taste.",
         image: "assets/images/real/black___white.jpg",
-        isKenyan: false
+        isKenyan: false,
+        country: "Unknown"
     },
     {
         name: "Black & White",
@@ -1368,7 +1506,8 @@ const catalogueProducts = [
         price: "Ksh 863",
         description: "A quality drink offering exceptional taste.",
         image: "assets/images/real/black___white.jpg",
-        isKenyan: false
+        isKenyan: false,
+        country: "Unknown"
     },
     {
         name: "Black & White",
@@ -1377,7 +1516,8 @@ const catalogueProducts = [
         price: "Ksh 1,695",
         description: "A quality drink offering exceptional taste.",
         image: "assets/images/real/black___white.jpg",
-        isKenyan: false
+        isKenyan: false,
+        country: "Unknown"
     },
     {
         name: "Blue Curacao Liqueur",
@@ -1386,7 +1526,8 @@ const catalogueProducts = [
         price: "Ksh 3,225",
         description: "A quality drink offering exceptional taste.",
         image: "assets/images/real/blue_curacao_liqueur.jpg",
-        isKenyan: false
+        isKenyan: false,
+        country: "Unknown"
     },
     {
         name: "Blue Curacao Syrup",
@@ -1395,7 +1536,8 @@ const catalogueProducts = [
         price: "Ksh 2,145",
         description: "A quality drink offering exceptional taste.",
         image: "assets/images/real/blue_curacao_syrup.jpg",
-        isKenyan: false
+        isKenyan: false,
+        country: "Unknown"
     },
     {
         name: "Blue Ice Coco 1/4",
@@ -1404,7 +1546,8 @@ const catalogueProducts = [
         price: "Ksh 630",
         description: "A quality drink offering exceptional taste.",
         image: "assets/images/real/blue_ice_coco_1_4.jpg",
-        isKenyan: false
+        isKenyan: false,
+        country: "Unknown"
     },
     {
         name: "Blue Ice Vodka",
@@ -1413,7 +1556,28 @@ const catalogueProducts = [
         price: "Ksh 225",
         description: "A quality drink offering exceptional taste.",
         image: "assets/images/real/blue_ice_vodka.jpg",
-        isKenyan: false
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Blue Ice Vodka",
+        category: "vodka",
+        size: "750ML",
+        price: "Ksh 630",
+        description: "A quality drink offering exceptional taste.",
+        image: "assets/images/real/blue_ice_vodka.jpg",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Blue Moon",
+        category: "other",
+        size: "250ML",
+        price: "Ksh 270",
+        description: "A quality drink offering exceptional taste.",
+        image: "assets/images/real/blue_moon.jpg",
+        isKenyan: false,
+        country: "Unknown"
     }
 ];
 /* CATALOGUE_END */
