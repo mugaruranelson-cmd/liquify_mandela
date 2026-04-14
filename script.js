@@ -8828,6 +8828,256 @@ const catalogueProducts = [
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=RESERVE%207%20WHISKY",
         isKenyan: false,
         country: "Unknown"
+    },
+    {
+        name: "Richot 1/2",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 864",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=RICHOT%201/2",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Richot",
+        category: "other",
+        size: "250ML",
+        price: "Ksh 623",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=RICHOT",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Richot 3/4",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 1,860",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=RICHOT%203/4",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Robertson Redt",
+        category: "other",
+        size: "1.5L",
+        price: "Ksh 2,595",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=ROBERTSON%20REDT",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Robertson Red",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 1,545",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=ROBERTSON%20RED",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Robertson Rosets",
+        category: "other",
+        size: "1.5 L",
+        price: "Ksh 2,580",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=ROBERTSON%20ROSETS",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Robertson Rose",
+        category: "other",
+        size: "750 ML",
+        price: "Ksh 1,545",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=ROBERTSON%20ROSE",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Robertson  White",
+        category: "other",
+        size: "1.5L",
+        price: "Ksh 2,595",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=ROBERTSON%20%20WHITE",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Robertson White",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 1,545",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=ROBERTSON%20WHITE",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Rockshore Tropical",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 210",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=ROCKSHORE%20TROPICAL",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Rooster",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 255",
+        description: "A quality drink offering exceptional taste.",
+        image: "assets/images/real/rooster.jpg",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Rosso Nobile Al Cio Red",
+        category: "wine",
+        size: "750ML",
+        price: "Ksh 1,950",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=ROSSO%20NOBILE%20AL%20CIO%20RED",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Rosso Nobile Bianco",
+        category: "wine",
+        size: "750ML",
+        price: "Ksh 1,950",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=ROSSO%20NOBILE%20BIANCO",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Rosso Nobile  Bois Bande",
+        category: "wine",
+        size: "750ML",
+        price: "Ksh 1,950",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=ROSSO%20NOBILE%20%20BOIS%20BANDE",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Rosso Nobile Cherry",
+        category: "wine",
+        size: "750ML",
+        price: "Ksh 1,950",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=ROSSO%20NOBILE%20CHERRY",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Rosso Nobile Cioccolata",
+        category: "wine",
+        size: "750ML",
+        price: "Ksh 1,950",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=ROSSO%20NOBILE%20CIOCCOLATA",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Rosso Nobile Crema",
+        category: "wine",
+        size: "750ML",
+        price: "Ksh 1,950",
+        description: "A quality drink offering exceptional taste.",
+        image: "assets/images/real/rosso_nobile_crema.jpg",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Rosso Nobile Espresso",
+        category: "wine",
+        size: "750ML",
+        price: "Ksh 1,950",
+        description: "A quality drink offering exceptional taste.",
+        image: "assets/images/real/rosso_nobile_espresso.jpg",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Rosso Nobile Marzipan",
+        category: "wine",
+        size: "750ML",
+        price: "Ksh 1,950",
+        description: "A quality drink offering exceptional taste.",
+        image: "assets/images/real/rosso_nobile_marzipan.jpg",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Rosso Nobile Nero",
+        category: "wine",
+        size: "750ML",
+        price: "Ksh 2,025",
+        description: "A quality drink offering exceptional taste.",
+        image: "assets/images/real/rosso_nobile_nero.jpg",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Rosso Nobile Nougat",
+        category: "wine",
+        size: "750ML",
+        price: "Ksh 1,950",
+        description: "A quality drink offering exceptional taste.",
+        image: "assets/images/real/rosso_nobile_nougat.jpg",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Rosso Nobile Raspberry",
+        category: "wine",
+        size: "750ML",
+        price: "Ksh 2,025",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=ROSSO%20NOBILE%20RASPBERRY",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Rothmans",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 528",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=ROTHMANS",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Rothmans Mint",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 255",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=ROTHMANS%20MINT",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Royal Arms Brdy",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 1,200",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=ROYAL%20ARMS%20BRDY",
+        isKenyan: false,
+        country: "Unknown"
     }
 ];
 /* CATALOGUE_END */
