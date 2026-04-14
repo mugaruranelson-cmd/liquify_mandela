@@ -39,10 +39,12 @@ function initAgeGate() {
 // Sticky Navigation
 const nav = document.querySelector('nav');
 window.addEventListener('scroll', () => {
-    if (window.scrollY > 50) {
-        nav.classList.add('scrolled');
-    } else {
-        nav.classList.remove('scrolled');
+    if (nav) {
+        if (window.scrollY > 50) {
+            nav.classList.add('scrolled');
+        } else {
+            nav.classList.remove('scrolled');
+        }
     }
 });
 
@@ -62,7 +64,6 @@ function reveal() {
     }
 }
 window.addEventListener('scroll', reveal);
-reveal(); // Trigger on load
 
 // Dynamic WhatsApp Link Generation
 function buildWhatsAppLink(text) {
@@ -70,10 +71,9 @@ function buildWhatsAppLink(text) {
     return `https://wa.me/${WA_PHONE}?text=${encodedText}`;
 }
 
-// Attach listeners to order buttons
+// Attach listeners
 document.addEventListener('DOMContentLoaded', () => {
-    
-    // Removed legacy Category Card WhatsApp router. Routing is now handled inline via index.html
+    reveal();
 
     // Product Order Buttons
     const orderBtns = document.querySelectorAll('button[data-product]');
@@ -109,7 +109,8 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 });
 
-// Product Catalogue Data (Mocked from Real Bottles)
+// --- CATALOGUE DATA ---
+/* CATALOGUE_START */
 const catalogueProducts = [
     {
         name: "Johnnie Walker Black Label",
@@ -120,449 +121,164 @@ const catalogueProducts = [
         image: "assets/images/real/johnnie_walker_black_label.png"
     },
     {
-        name: "Johnnie Walker Black Label",
-        category: "whisky",
-        size: "750ml",
-        price: "Ksh 4,500",
-        description: "A benchmark premium blended Scotch whisky with a smooth, deep, and complex character.",
-        image: "assets/images/real/johnnie_walker_black_label.png",
+        name: "4Th Roset",
+        category: "other",
+        size: "1.5L",
+        price: "Ksh 2,640",
+        description: "A quality drink offering exceptional taste.",
+        image: "assets/images/real/4th_roset.jpg",
         isKenyan: false
     },
     {
-        name: "Jameson Irish Whiskey",
-        category: "whisky",
-        size: "750ml",
-        price: "Ksh 3,200",
-        description: "A perfect balance of spicy, nutty and vanilla notes with hints of sweet sherry and exceptional smoothness.",
-        image: "assets/images/real/jameson_irish_whiskey.png",
-        isKenyan: false
-    },
-    {
-        name: "Glenfiddich 15 Year Old",
-        category: "whisky",
-        size: "750ml",
-        price: "Ksh 9,500",
-        description: "A complex single malt characterized by warming spice, honey, and rich fruit notes.",
-        image: "assets/images/real/glenfiddich_15_year_old.png",
-        isKenyan: false
-    },
-    {
-        name: "Jack Daniel's Old No. 7",
-        category: "whisky",
-        size: "1L",
-        price: "Ksh 4,800",
-        description: "Mellowed drop by drop through 10-feet of sugar maple charcoal, then matured in handcrafted barrels.",
-        image: "assets/images/real/jack_daniels_old_no._7.png",
-        isKenyan: false
-    },
-    {
-        name: "Chivas Regal 12 Year Old",
-        category: "whisky",
-        size: "750ml",
-        price: "Ksh 4,300",
-        description: "A rich and smooth blended Scotch whisky with a warm amber color.",
-        image: "assets/images/real/chivas_regal_12_year_old.png",
-        isKenyan: false
-    },
-    {
-        name: "Singleton of Dufftown 12",
-        category: "whisky",
-        size: "750ml",
-        price: "Ksh 5,500",
-        description: "A smooth single malt Scotch whisky with sweet fruity notes and a lingering finish.",
-        image: "assets/images/real/singleton_of_dufftown_12.png",
-        isKenyan: false
-    },
-    {
-        name: "Glenmorangie The Original",
-        category: "whisky",
-        size: "750ml",
-        price: "Ksh 6,800",
-        description: "An elegant, floral single malt whisky, acclaimed for its alluring complexity.",
-        image: "assets/images/real/glenmorangie_the_original.png",
-        isKenyan: false
-    },
-    {
-        name: "Famous Grouse",
-        category: "whisky",
-        size: "750ml",
-        price: "Ksh 2,800",
-        description: "Scotland's favourite blend, perfectly balanced with notes of dried fruit and soft spice.",
-        image: "assets/images/real/famous_grouse.png",
-        isKenyan: false
-    },
-    {
-        name: "Black & White",
-        category: "whisky",
-        size: "750ml",
-        price: "Ksh 2,100",
-        description: "A classic, approachable and smooth blended Scotch whisky.",
-        image: "assets/images/real/black_and_white.png",
-        isKenyan: false
-    },
-    {
-        name: "Hunter's Choice",
-        category: "whisky",
-        size: "750ml",
-        price: "Ksh 1,300",
-        description: "Kenya's best-selling whisky, a blend that is smooth and consistent.",
-        image: "assets/images/kenyan/hunters_choice.png",
-        isKenyan: true
-    },
-    {
-        name: "Best Classic Whisky",
-        category: "whisky",
-        size: "750ml",
-        price: "Ksh 1,400",
-        description: "A locally blended whisky known for its rich character and affordability.",
-        image: "assets/images/kenyan/best_classic_whisky.png",
-        isKenyan: true
-    },
-    {
-        name: "County Whisky",
-        category: "whisky",
-        size: "750ml",
-        price: "Ksh 1,100",
-        description: "A locally produced spirit that offers a classic whisky experience at a competitive price.",
-        image: "assets/images/kenyan/county_whisky.png",
-        isKenyan: true
-    },
-    {
-        name: "Casillero del Diablo Cabernet",
+        name: "4Th Street Red Swtt",
         category: "wine",
-        size: "750ml",
-        price: "Ksh 1,800",
-        description: "Rich and fruit-forward with aromas of cherries, plums, and a touch of vanilla.",
-        image: "assets/images/real/casillero_del_diablo_cabernet.png",
+        size: "5L",
+        price: "Ksh 6,600",
+        description: "A quality drink offering exceptional taste.",
+        image: "assets/images/real/4th_street_red_swtt.jpg",
         isKenyan: false
     },
     {
-        name: "Nederburg Cabernet Sauvignon",
+        name: "4Th Street Rosetr",
         category: "wine",
-        size: "750ml",
-        price: "Ksh 1,900",
-        description: "Abundant aromas of blackcurrant and cherry with hints of vanilla and spice.",
-        image: "assets/images/real/nederburg_cabernet_sauvignon.png",
+        size: "5L",
+        price: "Ksh 5,370",
+        description: "IberLibro se enorgullece en promover ferias del libro antiguo, de ocasión y moderno alrededor del mundo. Explore este calendario de ferias y …",
+        image: "assets/images/real/4th_street_rosetr.jpg",
         isKenyan: false
     },
     {
-        name: "4th Street Sweet Red",
+        name: "4Th Street White",
         category: "wine",
-        size: "750ml",
-        price: "Ksh 1,200",
-        description: "A hugely popular, deliciously sweet and fruity red wine.",
-        image: "assets/images/real/4th_street_sweet_red.png",
+        size: "750ML",
+        price: "Ksh 1,425",
+        description: "A quality drink offering exceptional taste.",
+        image: "assets/images/real/4th_street_white.jpg",
         isKenyan: false
     },
     {
-        name: "Four Cousins Sweet Red",
-        category: "wine",
-        size: "750ml",
-        price: "Ksh 1,400",
-        description: "Sweet, fruity, and deeply layered African wine perfect for casual dining.",
-        image: "assets/images/real/four_cousins_sweet_red.png",
+        name: "4Th Strt Redt",
+        category: "other",
+        size: "1.5L",
+        price: "Ksh 2,640",
+        description: "A quality drink offering exceptional taste.",
+        image: "assets/images/real/4th_strt_redt.jpg",
         isKenyan: false
     },
     {
-        name: "Frontera Sweet Red",
-        category: "wine",
-        size: "750ml",
-        price: "Ksh 1,300",
-        description: "Fruit forward, highly approachable sweet and smooth everyday wine.",
-        image: "assets/images/real/frontera_sweet_red.png",
+        name: "4Th Strt Red",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 1,342",
+        description: "A quality drink offering exceptional taste.",
+        image: "assets/images/real/4th_strt_red.jpg",
         isKenyan: false
     },
     {
-        name: "Robertson Winery Sweet Red",
-        category: "wine",
-        size: "750ml",
-        price: "Ksh 1,500",
-        description: "Natural sweet wine with soft fruit flavours and a smooth finish.",
-        image: "assets/images/real/robertson_winery_sweet_red.png",
+        name: "4Th Strt White Sweett",
+        category: "other",
+        size: "5L",
+        price: "Ksh 6,600",
+        description: "A quality drink offering exceptional taste.",
+        image: "assets/images/real/4th_strt_white_sweett.jpg",
         isKenyan: false
     },
     {
-        name: "Cellar Cask Sweet Red",
-        category: "wine",
-        size: "750ml",
-        price: "Ksh 1,400",
-        description: "Deep ruby red color with a soft, sweet, and highly satisfying finish.",
-        image: "assets/images/real/cellar_cask_sweet_red.png",
-        isKenyan: false
-    },
-    {
-        name: "Grey Goose",
-        category: "vodka",
-        size: "1L",
-        price: "Ksh 8,500",
-        description: "A super-premium vodka known for its ultimate smoothness and exceptional taste.",
-        image: "assets/images/real/grey_goose.png",
-        isKenyan: false
-    },
-    {
-        name: "Absolut Vodka",
-        category: "vodka",
-        size: "750ml",
-        price: "Ksh 2,500",
-        description: "Rich, full-bodied and complex, yet smooth and mellow with a distinct character of grain.",
-        image: "assets/images/real/absolut_vodka.png",
-        isKenyan: false
-    },
-    {
-        name: "Smirnoff Red Label",
-        category: "vodka",
-        size: "750ml",
-        price: "Ksh 1,800",
-        description: "The world's most awarded premium vodka, triple distilled for exceptional smoothness.",
-        image: "assets/images/real/smirnoff_red_label.png",
-        isKenyan: false
-    },
-    {
-        name: "Ciroc Vodka",
-        category: "vodka",
-        size: "750ml",
-        price: "Ksh 5,500",
-        description: "Ultra-premium vodka distilled from fine French grapes with an exceptionally smooth finish.",
-        image: "assets/images/real/ciroc_vodka.png",
-        isKenyan: false
-    },
-    {
-        name: "Ketel One",
-        category: "vodka",
-        size: "750ml",
-        price: "Ksh 3,800",
-        description: "Crisp and sophisticated Dutch vodka crafted with modern and traditional distilling.",
-        image: "assets/images/real/ketel_one.png",
-        isKenyan: false
-    },
-    {
-        name: "Flirt Vodka",
-        category: "vodka",
-        size: "750ml",
-        price: "Ksh 1,500",
-        description: "A smooth, continuously distilled clean vodka highly popular in the local nightlife.",
-        image: "assets/images/real/flirt_vodka.png",
-        isKenyan: false
-    },
-    {
-        name: "Kenya Cane",
-        category: "vodka",
-        size: "750ml",
-        price: "Ksh 1,000",
-        description: "Kenya's iconic original smooth cane spirit, incredibly versatile and pure.",
-        image: "assets/images/real/kenya_cane.png",
-        isKenyan: true
-    },
-    {
-        name: "Kibao Vodka",
-        category: "vodka",
-        size: "750ml",
-        price: "Ksh 1,100",
-        description: "A triple-distilled, high-quality vodka produced by KWAL. It's one of Kenya's most popular spirits.",
-        image: "assets/images/kenyan/kibao_vodka.png",
-        isKenyan: true
-    },
-    {
-        name: "Chrome Vodka",
-        category: "vodka",
-        size: "750ml",
-        price: "Ksh 1,000",
-        description: "A crisp, smooth vodka from EABL, designed for a modern style and energy.",
-        image: "assets/images/kenyan/chrome_vodka.png",
-        isKenyan: true
-    },
-    {
-        name: "Salute Vodka",
-        category: "vodka",
-        size: "750ml",
-        price: "Ksh 900",
-        description: "An affordable, smooth vodka manufactured locally for casual social settings.",
-        image: "assets/images/kenyan/salute_vodka.png",
-        isKenyan: true
-    },
-    {
-        name: "Tanqueray London Dry",
+        name: "Assic Gin",
         category: "gin",
-        size: "750ml",
-        price: "Ksh 3,800",
-        description: "A perfect balance of four botanicals for a smooth, uniquely classic taste.",
-        image: "assets/images/real/tanqueray_london_dry.png",
+        size: "58 CL",
+        price: "Ksh 2,055",
+        description: "A quality drink offering exceptional taste.",
+        image: "assets/images/real/assic_gin.jpg",
         isKenyan: false
     },
     {
-        name: "Bombay Sapphire",
-        category: "gin",
-        size: "750ml",
-        price: "Ksh 3,500",
-        description: "Vapor-infused with 10 hand-selected botanicals for a bright, complex flavor profile.",
-        image: "assets/images/real/bombay_sapphire.png",
+        name: "Assic G&T Can",
+        category: "other",
+        size: "58 CL",
+        price: "Ksh 315",
+        description: "A quality drink offering exceptional taste.",
+        image: "assets/images/real/assic_g_t_can.jpg",
         isKenyan: false
     },
     {
-        name: "Gordon's London Dry",
-        category: "gin",
-        size: "750ml",
-        price: "Ksh 2,400",
-        description: "The world's best-selling London dry gin, distinctively refreshing.",
-        image: "assets/images/real/gordons_london_dry.png",
-        isKenyan: false
-    },
-    {
-        name: "Gilbey's Special Dry",
-        category: "gin",
-        size: "750ml",
-        price: "Ksh 1,600",
-        description: "An immensely popular, perfectly balanced and affordable quality gin, bottled locally.",
-        image: "assets/images/real/gilbeys_special_dry.png",
-        isKenyan: true
-    },
-    {
-        name: "Best Gin",
-        category: "gin",
-        size: "750ml",
-        price: "Ksh 1,300",
-        description: "A refreshing Kenyan gin distilled with local botanicals for a crisp finish.",
-        image: "assets/images/kenyan/best_gin.png",
-        isKenyan: true
-    },
-    {
-        name: "Chelsea Gin",
-        category: "gin",
-        size: "750ml",
+        name: "58 Spiced Orange",
+        category: "other",
+        size: "350ML",
         price: "Ksh 1,050",
-        description: "A classic London Dry style gin produced locally, perfect for mixing.",
-        image: "assets/images/kenyan/chelsea_gin.png",
-        isKenyan: true
+        description: "A quality drink offering exceptional taste.",
+        image: "assets/images/real/58_spiced_orange.jpg",
+        isKenyan: false
     },
     {
-        name: "Hendrick's Gin",
+        name: "58 Spiced Orange",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 2,055",
+        description: "A quality drink offering exceptional taste.",
+        image: "assets/images/real/58_spiced_orange.jpg",
+        isKenyan: false
+    },
+    {
+        name: "58 Spiced Orange G&T Can",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 315",
+        description: "A quality drink offering exceptional taste.",
+        image: "assets/images/real/58_spiced_orange_g_t_can.jpg",
+        isKenyan: false
+    },
+    {
+        name: "58 Very Berry G&T Can",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 315",
+        description: "A quality drink offering exceptional taste.",
+        image: "assets/images/real/58_very_berry_g_t_can.jpg",
+        isKenyan: false
+    },
+    {
+        name: "5Th Generationtr Red",
+        category: "other",
+        size: "5L",
+        price: "Ksh 4,500",
+        description: "A quality drink offering exceptional taste.",
+        image: "assets/images/real/5th_generationtr_red.jpg",
+        isKenyan: false
+    },
+    {
+        name: "5Th Generation Whitetr",
+        category: "other",
+        size: "5L",
+        price: "Ksh 4,500",
+        description: "A quality drink offering exceptional taste.",
+        image: "assets/images/real/5th_generation_whitetr.jpg",
+        isKenyan: false
+    },
+    {
+        name: "#7Gin Blueberry",
         category: "gin",
-        size: "750ml",
-        price: "Ksh 7,000",
-        description: "Curiously infused with rose petals and cucumber for a truly unique profile.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=Hendrick's+Gin",
-        isKenyan: false
-    },
-    {
-        name: "Beefeater London Dry",
-        category: "gin",
-        size: "750ml",
-        price: "Ksh 3,000",
-        description: "An authentic London dry gin with big juniper character and strong citrus notes.",
-        image: "assets/images/real/beefeater_london_dry.png",
-        isKenyan: false
-    },
-    {
-        name: "Heineken 6-Pack",
-        category: "beer",
-        size: "500ml Cans",
-        price: "Ksh 1,800",
-        description: "A crisp, balanced premium lager with a subtly bitter, fruity taste.",
-        image: "assets/images/real/heineken_6_pack.png",
-        isKenyan: false
-    },
-    {
-        name: "Tusker Lager 6-Pack",
-        category: "beer",
-        size: "500ml Cans",
-        price: "Ksh 1,400",
-        description: "Kenya's iconic, refreshingly crisp premium national lager.",
-        image: "assets/images/real/tusker_lager_6_pack.png",
-        isKenyan: true
-    },
-    {
-        name: "Tusker Lite 6-Pack",
-        category: "beer",
-        size: "500ml Cans",
+        size: "750ML",
         price: "Ksh 1,500",
-        description: "Crisp, premium low-carb lager for a lighter drinking experience.",
-        image: "assets/images/real/tusker_lite_6_pack.png",
-        isKenyan: true
-    },
-    {
-        name: "White Cap Lager 6-Pack",
-        category: "beer",
-        size: "500ml Cans",
-        price: "Ksh 1,500",
-        description: "A smooth, distinctively classic Kenyan lager with no added sugar.",
-        image: "assets/images/real/white_cap_lager_6_pack.png",
-        isKenyan: true
-    },
-    {
-        name: "Guinness Extra Stout 6-Pack",
-        category: "beer",
-        size: "500ml Cans",
-        price: "Ksh 1,600",
-        description: "A rich, dark, and perfectly balanced stout with roasted malt notes.",
-        image: "assets/images/real/guinness_extra_stout_6_pack.png",
+        description: "A quality drink offering exceptional taste.",
+        image: "assets/images/real/7gin_blueberry.jpg",
         isKenyan: false
-    },
-    {
-        name: "Balozi Lager 6-Pack",
-        category: "beer",
-        size: "500ml Cans",
-        price: "Ksh 1,300",
-        description: "A rich malt-flavored Kenyan lager known for its authentic taste.",
-        image: "assets/images/real/balozi_lager_6_pack.png",
-        isKenyan: true
-    },
-    {
-        name: "Pilsner Lager 6-Pack",
-        category: "beer",
-        size: "500ml Cans",
-        price: "Ksh 1,300",
-        description: "A bold and deeply refreshing lager widely popular in East Africa.",
-        image: "assets/images/real/pilsner_lager_6_pack.png",
-        isKenyan: true
-    },
-    {
-        name: "Caribia Cane",
-        category: "rum",
-        size: "750ml",
-        price: "Ksh 1,000",
-        description: "A premium cane spirit with an exotic coconut twist, manufactured locally.",
-        image: "assets/images/kenyan/caribia_cane.png",
-        isKenyan: true
-    },
-    {
-        name: "Viceroy Brandy",
-        category: "brandy",
-        size: "750ml",
-        price: "Ksh 1,700",
-        description: "A legendary brandy bottled locally, known for its smooth and aged character.",
-        image: "assets/images/kenyan/viceroy_brandy.png",
-        isKenyan: true
-    },
-    {
-        name: "County Brandy",
-        category: "brandy",
-        size: "750ml",
-        price: "Ksh 1,100",
-        description: "A locally crafted brandy offering a rich, warming experience.",
-        image: "assets/images/kenyan/county_brandy.png",
-        isKenyan: true
-    },
-    {
-        name: "Best Cream",
-        category: "liqueur",
-        size: "750ml",
-        price: "Ksh 1,600",
-        description: "A smooth, dairy-based liqueur with a rich Kenyan coffee/chocolate undertone.",
-        image: "assets/images/kenyan/best_cream.png",
-        isKenyan: true
     }
 ];
-
+/* CATALOGUE_END */
 
 // Initialize Shop Catalogue (for shop.html)
-const productGrid = document.getElementById('shop-product-grid');
-if (productGrid) {
-    // Render Products
+function initShop() {
+    const productGrid = document.getElementById('shop-product-grid');
+    if (!productGrid) return;
+
+    productGrid.innerHTML = ''; // Clear existing
+    
     catalogueProducts.forEach(product => {
         const itemHtml = `
-            <div class="product-card product-item" data-category="${product.category}" data-kenyan="${product.isKenyan}">
+            <div class="product-card product-item reveal" data-category="${product.category}" data-kenyan="${product.isKenyan || false}">
                 <div class="product-image">
-                    <img src="${product.image}" alt="${product.name}" style="border-radius: 10px; max-height: 200px; object-fit: contain;" loading="lazy" decoding="async">
+                    <img src="${product.image}" alt="${product.name}" style="border-radius: 10px; max-height: 200px; object-fit: contain;" loading="lazy">
                 </div>
                 <div class="product-info">
                     <h3>${product.name}</h3>
@@ -576,65 +292,52 @@ if (productGrid) {
     });
 
     // Attach dynamic order buttons
-    const shopOrderBtns = document.querySelectorAll('.shop-order-btn');
-    shopOrderBtns.forEach(btn => {
+    document.querySelectorAll('.shop-order-btn').forEach(btn => {
         btn.addEventListener('click', () => {
             const productInfo = btn.getAttribute('data-product');
             window.location.href = buildWhatsAppLink(`Hi Liquify, I want to order ${productInfo}. Please confirm availability and delivery to Embakasi.`);
         });
     });
 
-    // Filtering Logic
+    // Filtering logic
     const filterBtns = document.querySelectorAll('.filter-btn');
-    const productItems = document.querySelectorAll('.product-item');
     const searchInput = document.getElementById('shop-search');
     const noProductsMsg = document.getElementById('no-products-message');
 
     function performFiltering() {
         const activeBtn = document.querySelector('.filter-btn.active');
         const filterValue = activeBtn ? activeBtn.getAttribute('data-filter') : 'all';
-        const searchQuery = searchInput.value.toLowerCase().trim();
+        const searchQuery = (searchInput ? searchInput.value : "").toLowerCase().trim();
         let visibleCount = 0;
 
-        productItems.forEach(item => {
+        document.querySelectorAll('.product-item').forEach(item => {
             const name = item.querySelector('h3').textContent.toLowerCase();
             const desc = item.querySelector('p').textContent.toLowerCase();
             const itemCategory = item.getAttribute('data-category');
             const isKenyan = item.getAttribute('data-kenyan') === 'true';
 
-            let categoryMatch = false;
-            if (filterValue === 'all') {
-                categoryMatch = true;
-            } else if (filterValue === 'kenyan') {
-                categoryMatch = isKenyan;
-            } else {
-                categoryMatch = (filterValue === itemCategory);
-            }
+            let categoryMatch = (filterValue === 'all') || 
+                              (filterValue === 'kenyan' && isKenyan) || 
+                              (filterValue === itemCategory);
 
             const searchMatch = !searchQuery || name.includes(searchQuery) || desc.includes(searchQuery);
 
             if (categoryMatch && searchMatch) {
                 item.style.display = 'block';
-                item.classList.remove('active');
-                setTimeout(() => item.classList.add('active'), 10);
+                item.classList.add('active');
                 visibleCount++;
             } else {
                 item.style.display = 'none';
+                item.classList.remove('active');
             }
         });
 
-        // Show/Hide "No Products" message
-        if (visibleCount === 0) {
-            noProductsMsg.style.display = 'block';
-        } else {
-            noProductsMsg.style.display = 'none';
+        if (noProductsMsg) {
+            noProductsMsg.style.display = (visibleCount === 0) ? 'block' : 'none';
         }
     }
 
-    if (searchInput) {
-        searchInput.addEventListener('input', performFiltering);
-    }
-
+    if (searchInput) searchInput.addEventListener('input', performFiltering);
     filterBtns.forEach(btn => {
         btn.addEventListener('click', () => {
             filterBtns.forEach(b => b.classList.remove('active'));
@@ -643,23 +346,8 @@ if (productGrid) {
         });
     });
 
-    // Check URL for category query parameter and auto-click filter
-    const urlParams = new URLSearchParams(window.location.search);
-    const categoryParam = urlParams.get('category');
-    if (categoryParam) {
-        const targetBtn = document.querySelector(`.filter-btn[data-filter="${categoryParam}"]`);
-        if (targetBtn) {
-            targetBtn.click();
-            
-            // Wait slightly for DOM to render then scroll down to the grid
-            setTimeout(() => {
-                if(productGrid) {
-                    window.scrollTo({
-                        top: productGrid.offsetTop - 150,
-                        behavior: 'smooth'
-                    });
-                }
-            }, 500);
-        }
-    }
+    // Initial reveal
+    setTimeout(reveal, 100);
 }
+
+document.addEventListener('DOMContentLoaded', initShop);
