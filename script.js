@@ -9328,6 +9328,256 @@ const catalogueProducts = [
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=SANGRIA%20REDT",
         isKenyan: false,
         country: "Unknown"
+    },
+    {
+        name: "Sangria Whitet",
+        category: "other",
+        size: "1L",
+        price: "Ksh 1,058",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=SANGRIA%20WHITET",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Savanna Dry",
+        category: "other",
+        size: "330ML",
+        price: "Ksh 368",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=SAVANNA%20DRY",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Savanna Lemon",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 390",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=SAVANNA%20LEMON",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Schweppes Ginger Ale Can",
+        category: "gin",
+        size: "750ML",
+        price: "Ksh 112",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=SCHWEPPES%20GINGER%20ALE%20CAN",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Schweppes Soda",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 82",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=SCHWEPPES%20SODA",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Schweppes Toni Can",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 180",
+        description: "A quality drink offering exceptional taste.",
+        image: "assets/images/real/schweppes_toni_can.jpg",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Scots Gold Blackt",
+        category: "other",
+        size: "1L",
+        price: "Ksh 2,400",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=SCOTS%20GOLD%20BLACKT",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Scots Gold Black",
+        category: "other",
+        size: "75ML",
+        price: "Ksh 2,325",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=SCOTS%20GOLD%20BLACK",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Scots Gold Redtr",
+        category: "other",
+        size: "1L",
+        price: "Ksh 2,175",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=SCOTS%20GOLD%20REDTR",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Scots Gold Red",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 1,800",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=SCOTS%20GOLD%20RED",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Season Lemonade",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 60",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=SEASON%20LEMONADE",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Sheridans",
+        category: "other",
+        size: "1L",
+        price: "Ksh 7,050",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=SHERIDANS",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Shustoff Brdy",
+        category: "other",
+        size: "500ML",
+        price: "Ksh 1,785",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=SHUSTOFF%20BRDY",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Singleton 12Yrs",
+        category: "whisky",
+        size: "750ML",
+        price: "Ksh 7,050",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=SINGLETON%2012YRS",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Singlton 18Yrs",
+        category: "other",
+        size: "700ML",
+        price: "Ksh 12,600",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=SINGLTON%2018YRS",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Sir Edward",
+        category: "other",
+        size: "350ML",
+        price: "Ksh 465",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=SIR%20EDWARD",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Sir Edward Whskyt",
+        category: "other",
+        size: "1L",
+        price: "Ksh 2,235",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=SIR%20EDWARD%20WHSKYT",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Sir Edward Whsky",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 2,025",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=SIR%20EDWARD%20WHSKY",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Sky Vodka",
+        category: "vodka",
+        size: "750ML",
+        price: "Ksh 1,665",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=SKY%20VODKA",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Smart Vodka",
+        category: "vodka",
+        size: "250ML",
+        price: "Ksh 180",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=SMART%20VODKA",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Sminoff Vdka Flvd 3/4",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 2,250",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=SMINOFF%20VDKA%20FLVD%203/4",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Smirnoff Apple",
+        category: "vodka",
+        size: "750ML",
+        price: "Ksh 2,250",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=SMIRNOFF%20APPLE",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Smirnoff Blue",
+        category: "vodka",
+        size: "1L",
+        price: "Ksh 2,250",
+        description: "A quality drink offering exceptional taste.",
+        image: "assets/images/real/smirnoff_blue.jpg",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Smirnoff Blueberryt",
+        category: "vodka",
+        size: "1L",
+        price: "Ksh 2,250",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=SMIRNOFF%20BLUEBERRYT",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Smirnoff Espressot",
+        category: "vodka",
+        size: "1L",
+        price: "Ksh 2,250",
+        description: "A quality drink offering exceptional taste.",
+        image: "assets/images/real/smirnoff_espressot.jpg",
+        isKenyan: false,
+        country: "Unknown"
     }
 ];
 /* CATALOGUE_END */
