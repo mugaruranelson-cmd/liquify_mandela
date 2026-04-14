@@ -23,17 +23,25 @@ function initAgeGate() {
     document.body.insertAdjacentHTML('afterbegin', ageGateHtml);
     document.body.style.overflow = 'hidden';
 
-    document.getElementById('verifyAge').addEventListener('click', () => {
-        localStorage.setItem('ageVerified', 'true');
-        const gate = document.getElementById('ageGate');
-        gate.classList.add('hidden');
-        document.body.style.overflow = '';
-        setTimeout(() => gate.remove(), 600);
-    });
+    const verifyBtn = document.getElementById('verifyAge');
+    if (verifyBtn) {
+        verifyBtn.addEventListener('click', () => {
+            localStorage.setItem('ageVerified', 'true');
+            const gate = document.getElementById('ageGate');
+            if (gate) {
+                gate.classList.add('hidden');
+                document.body.style.overflow = '';
+                setTimeout(() => gate.remove(), 600);
+            }
+        });
+    }
 
-    document.getElementById('rejectAge').addEventListener('click', () => {
-        window.location.href = 'https://www.google.com';
-    });
+    const rejectBtn = document.getElementById('rejectAge');
+    if (rejectBtn) {
+        rejectBtn.addEventListener('click', () => {
+            window.location.href = 'https://www.google.com';
+        });
+    }
 }
 
 // Sticky Navigation
@@ -449,7 +457,7 @@ const catalogueProducts = [
         category: "other",
         size: "750ML",
         price: "Ksh 2,070",
-        description: "Log in to iCloud to access your photos, mail, notes, documents and more. Sign in with your Apple Account or create a new account to start …",
+        description: "A quality drink offering exceptional taste.",
         image: "assets/images/real/afribullcafe.jpg",
         isKenyan: false
     },
@@ -458,7 +466,7 @@ const catalogueProducts = [
         category: "vodka",
         size: "700ML",
         price: "Ksh 825",
-        description: "Jul 28, 2025 · 2025年 MacBook Air M1/M2/M3选购指南，超详细分析。 iPhone 16和iPhone 16 Pro硬核对比！ 看看哪一个才更值得买！ 有哪些关于iPad …",
+        description: "A quality drink offering exceptional taste.",
         image: "assets/images/real/air_vodka.jpg",
         isKenyan: false
     },
@@ -575,7 +583,7 @@ const catalogueProducts = [
         category: "liqueur",
         size: "750ML",
         price: "Ksh 2,850",
-        description: "A quality drink offering exceptional taste.",
+        description: "We encourage our employees to be ambassadors for responsible alcohol consumption and taking ownership and responsibility for their personal …",
         image: "assets/images/real/amarula.jpg",
         isKenyan: false
     },
@@ -593,7 +601,7 @@ const catalogueProducts = [
         category: "other",
         size: "200ML",
         price: "Ksh 3,900",
-        description: "A quality drink offering exceptional taste.",
+        description: "Gmail is email that’s intuitive, efficient, and useful. 15 GB of storage, less spam, and mobile access.",
         image: "assets/images/real/angostura_bitters.jpg",
         isKenyan: false
     },
@@ -656,7 +664,7 @@ const catalogueProducts = [
         category: "other",
         size: "750ML",
         price: "Ksh 2,187",
-        description: "Asconi Winery is a family business founded in 1994, which aims at producing the best possible wine, using the latest technology, whilst …",
+        description: "A quality drink offering exceptional taste.",
         image: "assets/images/real/asconi_agorlux.jpg",
         isKenyan: false
     },
@@ -710,7 +718,7 @@ const catalogueProducts = [
         category: "other",
         size: "750ML",
         price: "Ksh 2,187",
-        description: "Asconi Winery is a family business founded in 1994, which aims at producing the best possible wine, using the latest technology, whilst …",
+        description: "A quality drink offering exceptional taste.",
         image: "assets/images/real/asconi_sol_negru.jpg",
         isKenyan: false
     },
@@ -719,7 +727,7 @@ const catalogueProducts = [
         category: "gin",
         size: "250ML",
         price: "Ksh 277",
-        description: "A quality drink offering exceptional taste.",
+        description: "Jídelníček - Aspera Pro ukončení objednávání nezapomeňte ZNOVU PŘILOŽIT KARTU ke snímači!!",
         image: "assets/images/real/aspera_gin.jpg",
         isKenyan: false
     },
@@ -756,7 +764,7 @@ const catalogueProducts = [
         size: "250ML",
         price: "Ksh 285",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=AVALON%20GIN",
+        image: "assets/images/real/avalon_gin.jpg",
         isKenyan: false
     },
     {
@@ -775,6 +783,186 @@ const catalogueProducts = [
         price: "Ksh 285",
         description: "A quality drink offering exceptional taste.",
         image: "assets/images/real/avalon_vodka.jpg",
+        isKenyan: false
+    },
+    {
+        name: "Avalon Vodka",
+        category: "vodka",
+        size: "750ML",
+        price: "Ksh 825",
+        description: "A quality drink offering exceptional taste.",
+        image: "assets/images/real/avalon_vodka.jpg",
+        isKenyan: false
+    },
+    {
+        name: "Bacardi Blance",
+        category: "rum",
+        size: "1L",
+        price: "Ksh 3,420",
+        description: "A quality drink offering exceptional taste.",
+        image: "assets/images/real/bacardi_blance.jpg",
+        isKenyan: false
+    },
+    {
+        name: "Bacardi Blance 3/4",
+        category: "rum",
+        size: "750ML",
+        price: "Ksh 2,700",
+        description: "A quality drink offering exceptional taste.",
+        image: "assets/images/real/bacardi_blance_3_4.jpg",
+        isKenyan: false
+    },
+    {
+        name: "Bacardi Carta Orot",
+        category: "rum",
+        size: "1L",
+        price: "Ksh 3,420",
+        description: "A quality drink offering exceptional taste.",
+        image: "assets/images/real/bacardi_carta_orot.jpg",
+        isKenyan: false
+    },
+    {
+        name: "Bacardi Carte Oro 3/4",
+        category: "rum",
+        size: "750ML",
+        price: "Ksh 2,550",
+        description: "A quality drink offering exceptional taste.",
+        image: "assets/images/real/bacardi_carte_oro_3_4.jpg",
+        isKenyan: false
+    },
+    {
+        name: "Bacardi Negra 3/4",
+        category: "rum",
+        size: "750ML",
+        price: "Ksh 2,550",
+        description: "Do what moves you with BACARDÍ Rum, a true taste of the Caribbean. Learn about rum cocktails, our events, festivals and fascinating …",
+        image: "assets/images/real/bacardi_negra_3_4.jpg",
+        isKenyan: false
+    },
+    {
+        name: "Bacardi Oak Heart",
+        category: "rum",
+        size: "750ML",
+        price: "Ksh 2,550",
+        description: "A quality drink offering exceptional taste.",
+        image: "assets/images/real/bacardi_oak_heart.jpg",
+        isKenyan: false
+    },
+    {
+        name: "Bacardi Spcd",
+        category: "rum",
+        size: "750ML",
+        price: "Ksh 2,550",
+        description: "Do what moves you with BACARDÍ Rum, a true taste of the Caribbean. Learn about rum cocktails, our events, festivals and fascinating history.",
+        image: "assets/images/real/bacardi_spcd.jpg",
+        isKenyan: false
+    },
+    {
+        name: "Back Bencher Wsky",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 1,575",
+        description: "A quality drink offering exceptional taste.",
+        image: "assets/images/real/back_bencher_wsky.jpg",
+        isKenyan: false
+    },
+    {
+        name: "Baileys",
+        category: "liqueur",
+        size: "1L",
+        price: "Ksh 4,125",
+        description: "A quality drink offering exceptional taste.",
+        image: "assets/images/real/baileys.jpg",
+        isKenyan: false
+    },
+    {
+        name: "Baileys",
+        category: "liqueur",
+        size: "375ML",
+        price: "Ksh 1,830",
+        description: "A quality drink offering exceptional taste.",
+        image: "assets/images/real/baileys.jpg",
+        isKenyan: false
+    },
+    {
+        name: "Baileys",
+        category: "liqueur",
+        size: "750ML",
+        price: "Ksh 3,750",
+        description: "A quality drink offering exceptional taste.",
+        image: "assets/images/real/baileys.jpg",
+        isKenyan: false
+    },
+    {
+        name: "Baileys Delight",
+        category: "liqueur",
+        size: "350ML",
+        price: "Ksh 682",
+        description: "A quality drink offering exceptional taste.",
+        image: "assets/images/real/baileys_delight.jpg",
+        isKenyan: false
+    },
+    {
+        name: "Baileys Delight",
+        category: "liqueur",
+        size: "750ML",
+        price: "Ksh 1,230",
+        description: "A quality drink offering exceptional taste.",
+        image: "assets/images/real/baileys_delight.jpg",
+        isKenyan: false
+    },
+    {
+        name: "Baileys Strawberry",
+        category: "liqueur",
+        size: "750ML",
+        price: "Ksh 2,250",
+        description: "A quality drink offering exceptional taste.",
+        image: "assets/images/real/baileys_strawberry.jpg",
+        isKenyan: false
+    },
+    {
+        name: "Ballantinest",
+        category: "other",
+        size: "1L",
+        price: "Ksh 3,450",
+        description: "A quality drink offering exceptional taste.",
+        image: "assets/images/real/ballantinest.jpg",
+        isKenyan: false
+    },
+    {
+        name: "Ballantines",
+        category: "other",
+        size: "350ML",
+        price: "Ksh 1,680",
+        description: "A quality drink offering exceptional taste.",
+        image: "assets/images/real/ballantines.jpg",
+        isKenyan: false
+    },
+    {
+        name: "Ballantines",
+        category: "other",
+        size: "750 ML",
+        price: "Ksh 3,000",
+        description: "A quality drink offering exceptional taste.",
+        image: "assets/images/real/ballantines.jpg",
+        isKenyan: false
+    },
+    {
+        name: "Ballantines(Pernod)",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 3,870",
+        description: "A quality drink offering exceptional taste.",
+        image: "assets/images/real/ballantines_pernod.jpg",
+        isKenyan: false
+    },
+    {
+        name: "Balozi Beer",
+        category: "beer",
+        size: "750ML",
+        price: "Ksh 254",
+        description: "A quality drink offering exceptional taste.",
+        image: "assets/images/real/balozi_beer.jpg",
         isKenyan: false
     }
 ];
@@ -827,7 +1015,7 @@ function initShop() {
             const name = item.querySelector('h3').textContent.toLowerCase();
             const desc = item.querySelector('p').textContent.toLowerCase();
             const itemCategory = item.getAttribute('data-category');
-            const isKenyan = item.getAttribute('data-kenyan') === 'true';
+            const isKenyan = item.getAttribute('data-kenyan') === 'true' || item.getAttribute('data-kenyan') === 'true';
 
             let categoryMatch = (filterValue === 'all') || 
                               (filterValue === 'kenyan' && isKenyan) || 
@@ -855,16 +1043,6 @@ function initShop() {
         btn.addEventListener('click', () => {
             filterBtns.forEach(b => b.classList.remove('active'));
             btn.classList.add('active');
-            performFiltering();
-        });
-    });
-
-    // Initial reveal
-    setTimeout(reveal, 100);
-}
-
-document.addEventListener('DOMContentLoaded', initShop);
-
             performFiltering();
         });
     });
