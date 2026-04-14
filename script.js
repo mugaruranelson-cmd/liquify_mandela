@@ -7328,6 +7328,256 @@ const catalogueProducts = [
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MATEUS%20ORIGINAL%20ROSE",
         isKenyan: false,
         country: "Unknown"
+    },
+    {
+        name: "Mc Mohan With Glass",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 1,425",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MC%20MOHAN%20WITH%20GLASS",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Mikado Cherry Red",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 1,875",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MIKADO%20CHERRY%20RED",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Mikado Red Plum",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 1,500",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MIKADO%20RED%20PLUM",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Mikado Wht Apricot",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 1,875",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MIKADO%20WHT%20APRICOT",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Mikado Wht Lychee",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 1,875",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MIKADO%20WHT%20LYCHEE",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Mikado Wht Passion",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 1,875",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MIKADO%20WHT%20PASSION",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Mikado Wht Pineapple",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 1,875",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MIKADO%20WHT%20PINEAPPLE",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Mikado Wht Plum",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 1,695",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MIKADO%20WHT%20PLUM",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Minute Maid Juice",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 90",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MINUTE%20MAID%20JUICE",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Mistral Apple",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 990",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MISTRAL%20APPLE",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Mistral Chocolate",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 990",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MISTRAL%20CHOCOLATE",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Mistral Mango",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 990",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MISTRAL%20MANGO",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Mistral Plain",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 990",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MISTRAL%20PLAIN",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Mistral Strawberry",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 990",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MISTRAL%20STRAWBERRY",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Modern Gin",
+        category: "gin",
+        size: "250ML",
+        price: "Ksh 180",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MODERN%20GIN",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Moet Ice Imperial",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 17,250",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MOET%20ICE%20IMPERIAL",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Moet Imperial Brut",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 14,700",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MOET%20IMPERIAL%20BRUT",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Moet Nectar Rose",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 12,000",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MOET%20NECTAR%20ROSE",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Mohan Dry Red",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 825",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MOHAN%20DRY%20RED",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Mohans Dry White",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 825",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MOHANS%20DRY%20WHITE",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Mohans Sweetred",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 1,200",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MOHANS%20SWEETRED",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Mohans  White Sweet",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 825",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MOHANS%20%20WHITE%20SWEET",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Monkey Shouldert",
+        category: "other",
+        size: "1L",
+        price: "Ksh 7,800",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MONKEY%20SHOULDERT",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Monkey Shoulder",
+        category: "other",
+        size: "700ML",
+        price: "Ksh 7,200",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MONKEY%20SHOULDER",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Monster Mucho Loco(Blue)",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 225",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MONSTER%20MUCHO%20LOCO%28BLUE%29",
+        isKenyan: false,
+        country: "Unknown"
     }
 ];
 /* CATALOGUE_END */
