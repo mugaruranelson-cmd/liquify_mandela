@@ -5828,6 +5828,256 @@ const catalogueProducts = [
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=JOHN%20WALKER%20ICE/FIRE",
         isKenyan: false,
         country: "Unknown"
+    },
+    {
+        name: "John Walker Red 1/2",
+        category: "whisky",
+        size: "750ML",
+        price: "Ksh 1,320",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=JOHN%20WALKER%20RED%201/2",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "John Walker Redt",
+        category: "whisky",
+        size: "3L",
+        price: "Ksh 10,200",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=JOHN%20WALKER%20REDT",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "John Walker Red Label",
+        category: "whisky",
+        size: "1L",
+        price: "Ksh 3,075",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=JOHN%20WALKER%20RED%20LABEL",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "John Walker Red Label 3/4",
+        category: "whisky",
+        size: "750ML",
+        price: "Ksh 2,535",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=JOHN%20WALKER%20RED%20LABEL%203/4",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "John Walker Whtt",
+        category: "whisky",
+        size: "1L",
+        price: "Ksh 8,100",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=JOHN%20WALKER%20WHTT",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "John W Black",
+        category: "other",
+        size: "250ML",
+        price: "Ksh 1,575",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=JOHN%20W%20BLACK",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "John W Dbl Black",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 6,150",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=JOHN%20W%20DBL%20BLACK",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "John W Red",
+        category: "other",
+        size: "250ML",
+        price: "Ksh 870",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=JOHN%20W%20RED",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Jose Cuervo Goldt",
+        category: "other",
+        size: "1L",
+        price: "Ksh 4,125",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=JOSE%20CUERVO%20GOLDT",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Jose Cuervo Gold",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 3,525",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=JOSE%20CUERVO%20GOLD",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Jose Cuervo Silvert",
+        category: "other",
+        size: "1L",
+        price: "Ksh 4,200",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=JOSE%20CUERVO%20SILVERT",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Jose Cuervo Silver",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 3,825",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=JOSE%20CUERVO%20SILVER",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Jp Azeltao",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 2,025",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=JP%20AZELTAO",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Jp Chenet Nobless",
+        category: "other",
+        size: "70CL",
+        price: "Ksh 1,920",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=JP%20CHENET%20NOBLESS",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Jumping Goat Whisky",
+        category: "whisky",
+        size: "700ML",
+        price: "Ksh 4,800",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=JUMPING%20GOAT%20whisky",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Just Right Smooth",
+        category: "other",
+        size: "250ML",
+        price: "Ksh 311",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=JUST%20RIGHT%20SMOOTH",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "J.W White Walker",
+        category: "whisky",
+        size: "750ML",
+        price: "Ksh 5,700",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=J.W%20WHITE%20WALKER",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Kahawa Gold",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 1,928",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KAHAWA%20GOLD",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Kahlua Liquert",
+        category: "other",
+        size: "1L",
+        price: "Ksh 2,925",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KAHLUA%20LIQUERT",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Kahlua Liquer",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 2,250",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KAHLUA%20LIQUER",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Kakira Coffee Vodka",
+        category: "vodka",
+        size: "250ML",
+        price: "Ksh 720",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KAKIRA%20COFFEE%20VODKA",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Kakira Coffee Vodka",
+        category: "vodka",
+        size: "750ML",
+        price: "Ksh 1,995",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KAKIRA%20COFFEE%20VODKA",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Kakira Gin",
+        category: "gin",
+        size: "250ML",
+        price: "Ksh 540",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KAKIRA%20GIN",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Kakira Gin",
+        category: "gin",
+        size: "750ML",
+        price: "Ksh 1,688",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KAKIRA%20GIN",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Kakira Gold Rum",
+        category: "rum",
+        size: "750ML",
+        price: "Ksh 1,950",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KAKIRA%20GOLD%20RUM",
+        isKenyan: false,
+        country: "Unknown"
     }
 ];
 /* CATALOGUE_END */
