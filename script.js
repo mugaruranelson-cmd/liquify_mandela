@@ -9828,6 +9828,526 @@ const catalogueProducts = [
         image: "assets/images/real/squadron_d_rum.jpg",
         isKenyan: false,
         country: "Unknown"
+    },
+    {
+        name: "St.Anns",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 1,095",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=ST.ANNS",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Star Brandy",
+        category: "brandy",
+        size: "250ML",
+        price: "Ksh 180",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=STAR%20BRANDY",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Blue Moon",
+        category: "other",
+        size: "750M",
+        price: "Ksh 705",
+        description: "A medium bodied pure blueberry wine with intense blueberry character and a wonderful blueberry finish. Extremely tasty with cheesecake.",
+        image: "assets/images/real/blue_moon_750m.jpg",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Gilbeys Pink",
+        category: "gin",
+        size: "750M",
+        price: "Ksh 1875",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GILBEYS%20PINK%20750M",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Glendale Whsky",
+        category: "other",
+        size: "750M",
+        price: "Ksh 3975",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GLENDALE%20WHSKY%20750M",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "John Bannermans",
+        category: "other",
+        size: "750M",
+        price: "Ksh 1875",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=JOHN%20BANNERMANS%20750M",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Star Chaser Red",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 750",
+        description: "",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=STAR%20CHASER%20RED",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Star Chaser Sweet Rose",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 1179",
+        description: "",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=STAR%20CHASER%20SWEET%20ROSE",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Star Walker",
+        category: "whisky",
+        size: "750ML",
+        price: "Ksh 1650",
+        description: "",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=STAR%20WALKER",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "St.Celine",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 1095",
+        description: "",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=ST.CELINE",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Stolichnaya Vdka",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 2445",
+        description: "",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=STOLICHNAYA%20VDKA",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Strawberry Lips",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 2700",
+        description: "",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=STRAWBERRY%20LIPS",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "St.Remy  Vsopt",
+        category: "other",
+        size: "1L",
+        price: "Ksh 3075",
+        description: "",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=ST.REMY%20%20VSOPT",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "St.Remy Vsop",
+        category: "other",
+        size: "700ML",
+        price: "Ksh 2940",
+        description: "",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=ST.REMY%20VSOP",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "St. Remy Xo",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 3945",
+        description: "",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=ST.%20REMY%20XO",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Strettons Original Gin",
+        category: "gin",
+        size: "750ML",
+        price: "Ksh 1620",
+        description: "",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=STRETTONS%20ORIGINAL%20GIN",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Strettons Tripleberry",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 1950",
+        description: "",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=STRETTONS%20TRIPLEBERRY",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Stretttons Wildberry",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 1950",
+        description: "",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=STRETTTONS%20WILDBERRY",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Summit",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 240",
+        description: "",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=SUMMIT",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Sun Chaser Wine",
+        category: "wine",
+        size: "750ML",
+        price: "Ksh 750",
+        description: "",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=SUN%20CHASER%20WINE",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Supreme Vodka",
+        category: "vodka",
+        size: "250ML",
+        price: "Ksh 250.5",
+        description: "",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=SUPREME%20VODKA",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Supreme Vodka",
+        category: "vodka",
+        size: "750ML",
+        price: "Ksh 885",
+        description: "",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=SUPREME%20VODKA",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Sweet Berry",
+        category: "other",
+        size: "250ML",
+        price: "Ksh 188",
+        description: "",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=SWEET%20BERRY",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Taifa",
+        category: "other",
+        size: "250ML",
+        price: "Ksh 338",
+        description: "",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=TAIFA",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Taifa",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 1005",
+        description: "",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=TAIFA",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Talisker Storm",
+        category: "other",
+        size: "700ML",
+        price: "Ksh 7875",
+        description: "",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=TALISKER%20STORM",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Tall Horse Cab Sauv",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 1500",
+        description: "",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=TALL%20HORSE%20CAB%20SAUV",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Tall Horse Chardonnay",
+        category: "wine",
+        size: "750ML",
+        price: "Ksh 1500",
+        description: "",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=TALL%20HORSE%20CHARDONNAY",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Tall Horse Chenin Blanc",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 1500",
+        description: "",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=TALL%20HORSE%20CHENIN%20BLANC",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Tall Horse Merlot",
+        category: "wine",
+        size: "750ML",
+        price: "Ksh 1500",
+        description: "",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=TALL%20HORSE%20MERLOT",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Tall Horse Pinotage",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 1500",
+        description: "",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=TALL%20HORSE%20PINOTAGE",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Tall Horse Sav Blanc",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 1500",
+        description: "",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=TALL%20HORSE%20SAV%20BLANC",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Tall Horse Sweetred",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 1500",
+        description: "",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=TALL%20HORSE%20SWEETRED",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Tanqueray 10.T",
+        category: "gin",
+        size: "1L",
+        price: "Ksh 7725",
+        description: "",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=TANQUERAY%2010.T",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Tanqueray 10",
+        category: "gin",
+        size: "750ML",
+        price: "Ksh 6120",
+        description: "",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=TANQUERAY%2010",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Tanqueray Dry Gint",
+        category: "gin",
+        size: "1L",
+        price: "Ksh 4575",
+        description: "",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=TANQUERAY%20DRY%20GINT",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Tanqueray Dry Gin",
+        category: "gin",
+        size: "750ML",
+        price: "Ksh 3480",
+        description: "",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=TANQUERAY%20DRY%20GIN",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Tanqueray Malacca Ltr",
+        category: "gin",
+        size: "750ML",
+        price: "Ksh 4500",
+        description: "",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=TANQUERAY%20MALACCA%20LTR",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Tanqueray Rangpurt",
+        category: "gin",
+        size: "1L",
+        price: "Ksh 4725",
+        description: "",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=TANQUERAY%20RANGPURT",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Tanqueray Rangpur",
+        category: "gin",
+        size: "70CL",
+        price: "Ksh 3675",
+        description: "",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=TANQUERAY%20RANGPUR",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Tanqueray Royalet",
+        category: "gin",
+        size: "1L",
+        price: "Ksh 4950",
+        description: "",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=Tanqueray%20royalet",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Tanqueray Royale",
+        category: "gin",
+        size: "70CL",
+        price: "Ksh 3675",
+        description: "",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=TANQUERAY%20ROYALE",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Tanqueray Sevillat",
+        category: "gin",
+        size: "1L",
+        price: "Ksh 4725",
+        description: "",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=TANQUERAY%20SEVILLAT",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Tanqueray Sevilla",
+        category: "gin",
+        size: "750ML",
+        price: "Ksh 3675",
+        description: "",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=TANQUERAY%20SEVILLA",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Teacherst",
+        category: "other",
+        size: "1L",
+        price: "Ksh 2475",
+        description: "",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=TEACHERST",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Teachers",
+        category: "other",
+        size: "350ML",
+        price: "Ksh 540",
+        description: "",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=TEACHERS",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Teachers",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 2325",
+        description: "",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=TEACHERS",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Tequila Camino Clear",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 3420",
+        description: "",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=TEQUILA%20CAMINO%20CLEAR",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Tequila Camino Gold",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 3420",
+        description: "",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=TEQUILA%20CAMINO%20GOLD",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Tequila Rose",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 3150",
+        description: "",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=TEQUILA%20ROSE",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "The Guvnor",
+        category: "other",
+        size: "1.5L",
+        price: "Ksh 4788",
+        description: "",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=THE%20GUVNOR",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "The Guvnor",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 2388",
+        description: "",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=THE%20GUVNOR",
+        isKenyan: false,
+        country: "Unknown"
     }
 ];
 /* CATALOGUE_END */
