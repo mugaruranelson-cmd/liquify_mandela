@@ -1828,6 +1828,256 @@ const catalogueProducts = [
         image: "assets/images/real/bullet_vodka.jpg",
         isKenyan: false,
         country: "Unknown"
+    },
+    {
+        name: "Bumbu",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 6,300",
+        description: "At Bumbu Rum Company, our flagship product is distilled and blended in Barbados, the birthplace of rum, where the spirit was first created some 400 years ago.",
+        image: "assets/images/real/bumbu.jpg",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Buono  Amici   Brut",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 3,975",
+        description: "Crafted in the prestigious Veneto region of Italy, Buono Amici Prosecco Brut is made from the finest Glera grapes, handpicked and carefully vinified to achieve ...",
+        image: "assets/images/real/buono__amici___brut.jpg",
+        isKenyan: false,
+        country: "Italy"
+    },
+    {
+        name: "Buono Amici Cuvee",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 3,525",
+        description: "Experience the refined sparkle of Buono Amici Cuvee 750ML, a premium Italian sparkling wine known for its crisp, fruity profile and elegant effervescence.",
+        image: "assets/images/real/buono_amici_cuvee.jpg",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Buono Amici  Rose",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 4,425",
+        description: "Brand: Bon Ami. Country: France. Region: Vin de France. Grapes Varietal: Grenache. Type: Still Sparkling Wine. Wine Type: Sparkling Wine. Wine Style: Rose ...",
+        image: "assets/images/real/buono_amici__rose.jpg",
+        isKenyan: false,
+        country: "France"
+    },
+    {
+        name: "Bushmill 10Yrs",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 7,275",
+        description: "10 year old is triple distilled from 100% malted barley and matured for a minimum of 10 years in former Sherry casks and bourbon-seasoned casks.",
+        image: "assets/images/real/bushmill_10yrs.jpg",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Bushmill Black Bush",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 5,100",
+        description: "Black Bush is triple distilled from unpeated and malted barley, then blended with a single grain Irish whiskey. The blend contains 80% Bushmills malt whiskey, ...",
+        image: "assets/images/real/bushmill_black_bush.jpg",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Bushmills Original",
+        category: "gin",
+        size: "750ML",
+        price: "Ksh 3,750",
+        description: "The Old Bushmills Distillery is an Irish whiskey distillery in Bushmills, County Antrim, Northern Ireland, established in 1784 and owned by Proximo Spirits.",
+        image: "assets/images/real/bushmills_original.jpg",
+        isKenyan: false,
+        country: "Ireland"
+    },
+    {
+        name: "Cabernet Sauv Merlot Red Sweet",
+        category: "wine",
+        size: "750ML",
+        price: "Ksh 1,605",
+        description: "Cabernet Sauvignon Description – How Cabernet Differs from Merlot. Cabernet sauvignon hails from the legendary wine region of Bordeaux, France.",
+        image: "assets/images/real/cabernet_sauv_merlot_red_sweet.jpg",
+        isKenyan: false,
+        country: "France"
+    },
+    {
+        name: "Cabernet Sav Rose  Sweet",
+        category: "wine",
+        size: "750ML",
+        price: "Ksh 1,605",
+        description: "Cabernet Sauvignon's story begins in the 18th century in France's Bordeaux region. This remarkable grape arose through a serendipitous crossing ...",
+        image: "assets/images/real/cabernet_sav_rose__sweet.jpg",
+        isKenyan: false,
+        country: "France"
+    },
+    {
+        name: "Calvet Chardonny",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 2,625",
+        description: "Very expressive nose that reveals floral, creamy and exotic aromas. A fleshy, full and lively wine, with a perfect balance.",
+        image: "assets/images/real/calvet_chardonny.jpg",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Campari 3/4",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 2,925",
+        description: "It is a type of bitters, characterised by its dark red colour. It is produced by the Davide Campari Group, a multinational company based in Italy. Campari. Logo.",
+        image: "assets/images/real/campari_3_4.jpg",
+        isKenyan: false,
+        country: "Italy"
+    },
+    {
+        name: "Camus Vs",
+        category: "other",
+        size: "700ML",
+        price: "Ksh 6,300",
+        description: "Camus Cognac is a brand of cognac that has been produced by five generations of the Camus family, since 1863",
+        image: "assets/images/real/camus_vs.jpg",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Candy Floss",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 1,395",
+        description: "Candyfloss Natural Sweet Wines are a jubilant symphony of juicy fruits and delicate florals, spun with a weave of sweet nostalgia. Picture yourself biting into ...",
+        image: "assets/images/real/candy_floss.jpg",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Candy Floss Sweet Red",
+        category: "wine",
+        size: "750ML",
+        price: "Ksh 1,395",
+        description: "... drinking experience. Origin: South Africa; Alcohol Percentage: 13% ABV; Food Pairings: Best enjoyed with grilled meats, spicy dishes, creamy desserts, or a ...",
+        image: "assets/images/real/candy_floss_sweet_red.jpg",
+        isKenyan: false,
+        country: "South Africa"
+    },
+    {
+        name: "Candy Sweet White",
+        category: "wine",
+        size: "750ML",
+        price: "Ksh 1,395",
+        description: "White wine is a wine that is fermented without undergoing the process of maceration, which involves prolonged contact between the juice and the grape skins, ...",
+        image: "assets/images/real/candy_sweet_white.jpg",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Caprice Dry Red(Tetra) -",
+        category: "other",
+        size: "1L",
+        price: "Ksh 1,343",
+        description: "Caprice Dry Red Tetra is a popular South African Red dry wine mostly taken during special occasions. The wine gets its dark colour from the long fermentation ...",
+        image: "assets/images/real/caprice_dry_red_tetra.jpg",
+        isKenyan: false,
+        country: "South Africa"
+    },
+    {
+        name: "Caprice Red Sweet(Tetra)T",
+        category: "other",
+        size: "1L",
+        price: "Ksh 1,343",
+        description: "Caprice Sweet Red is a popular South African Sweet Red wine mostly taken during special occasions. It is a charming wine that offers a perfect balance of ...",
+        image: "assets/images/real/caprice_red_sweet_tetra_t.jpg",
+        isKenyan: false,
+        country: "South Africa"
+    },
+    {
+        name: "Captain Cola Bottle",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 210",
+        description: "Things I overlooked. captmorgan label Lots of different labels over the years. Note the prominence of Puerto Rico as the origin of the rum.",
+        image: "assets/images/real/captain_cola_bottle.jpg",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Captain Cola Can",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 240",
+        description: "With the Captain Morgan Original Spiced Gold and Cola premixed drink the Captain's tastiest combination is always at hand and always ready to drink.",
+        image: "assets/images/real/captain_cola_can.jpg",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Captain Dark Rumitre",
+        category: "rum",
+        size: "1L",
+        price: "Ksh 3,075",
+        description: "Captain Morgan Dark Rum is made with a secret blend of fine Caribbean rums and exotic spices to make our darkest flavour rum. Captain Morgan Dark Rum bursts ...",
+        image: "assets/images/real/captain_dark_rumitre.jpg",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Captain Darkrum",
+        category: "rum",
+        size: "750ML",
+        price: "Ksh 2,850",
+        description: "Captain Morgan is a brand of flavoured rums produced by British alcohol conglomerate Diageo. It is named after the 17th-century Welsh privateer of the ...",
+        image: "assets/images/real/captain_darkrum.jpg",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Captain Morgan",
+        category: "rum",
+        size: "250ML",
+        price: "Ksh 498",
+        description: "Captain Morgan is a brand of flavoured rums produced by British alcohol conglomerate Diageo. It is named after the 17th-century Welsh privateer of the ...",
+        image: "assets/images/real/captain_morgan.jpg",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Captain Morgan Gold",
+        category: "rum",
+        size: "750ML",
+        price: "Ksh 1,373",
+        description: "Captain Morgan is a brand of flavoured rums produced by British alcohol conglomerate Diageo. It is named after the 17th-century Welsh privateer of the ...",
+        image: "assets/images/real/captain_morgan_gold.jpg",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Captain Morgan Spcd",
+        category: "rum",
+        size: "750ML",
+        price: "Ksh 2,775",
+        description: "Captain Morgan is a brand of flavoured rums produced by British alcohol conglomerate Diageo. It is named after the 17th-century Welsh privateer of the ...",
+        image: "assets/images/real/captain_morgan_spcd.jpg",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Captain Morgan Spiced",
+        category: "rum",
+        size: "1L",
+        price: "Ksh 3,225",
+        description: "Captain Morgan is a brand of flavoured rums produced by British alcohol conglomerate Diageo. It is named after the 17th-century Welsh privateer of the ...",
+        image: "assets/images/real/captain_morgan_spiced.jpg",
+        isKenyan: false,
+        country: "Unknown"
     }
 ];
 /* CATALOGUE_END */
