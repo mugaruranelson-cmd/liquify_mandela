@@ -964,6 +964,15 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "assets/images/real/balozi_beer.jpg",
         isKenyan: false
+    },
+    {
+        name: "Balozi Can",
+        category: "beer",
+        size: "750ML",
+        price: "Ksh 305",
+        description: "A quality drink offering exceptional taste.",
+        image: "assets/images/real/balozi_can.jpg",
+        isKenyan: false
     }
 ];
 /* CATALOGUE_END */
