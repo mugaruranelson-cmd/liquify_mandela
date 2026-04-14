@@ -7828,6 +7828,256 @@ const catalogueProducts = [
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=NAPOLEON%20GOLD",
         isKenyan: false,
         country: "Unknown"
+    },
+    {
+        name: "Napoleon Gold",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 998",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=NAPOLEON%20GOLD",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Nature'S Mango & Apple",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 258",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=NATURE%27S%20MANGO%20%26%20APPLE",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Nederberg Rose",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 2,250",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=NEDERBERG%20rose",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Nederburg Barone",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 2,250",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=NEDERBURG%20BARONE",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Nederburg Cab Sav",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 2,250",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=NEDERBURG%20CAB%20SAV",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Nederburg Chardonnay",
+        category: "wine",
+        size: "750ML",
+        price: "Ksh 2,250",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=NEDERBURG%20CHARDONNAY",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Nederburg Merlot",
+        category: "wine",
+        size: "750ML",
+        price: "Ksh 2,250",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=NEDERBURG%20MERLOT",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Nederburg Pinotage",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 2,250",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=NEDERBURG%20PINOTAGE",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Nederburg Sav Blanc",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 2,250",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=NEDERBURG%20SAV%20BLANC",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Nederburg Shiraz",
+        category: "wine",
+        size: "750ML",
+        price: "Ksh 2,250",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=NEDERBURG%20SHIRAZ",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Neon",
+        category: "other",
+        size: "350ML",
+        price: "Ksh 435",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=NEON",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Neon Chocolate",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 675",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=NEON%20CHOCOLATE",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Neon Coffee",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 675",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=NEON%20COFFEE",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "New Groove Flvd",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 1,635",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=NEW%20GROOVE%20FLVD",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Nicotine Mango",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 615",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=NICOTINE%20MANGO",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Nicotine Mint",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 615",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=NICOTINE%20MINT",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Nicotine Passion Fruit",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 615",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=NICOTINE%20PASSION%20FRUIT",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Oak Cask",
+        category: "other",
+        size: "700ML",
+        price: "Ksh 1,193",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=OAK%20CASK",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Ocean Energy Drink",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 173",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=OCEAN%20ENERGY%20DRINK",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Officers Choice Red",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 1,125",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=OFFICERS%20CHOICE%20RED",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Oj 12%",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 413",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=OJ%2012%25",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Oj 16%",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 413",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=OJ%2016%25",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Oj 20%",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 428",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=OJ%2020%25",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Oj 5%",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 375",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=OJ%205%25",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Oj 8.5%",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 278",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=OJ%208.5%25",
+        isKenyan: false,
+        country: "Unknown"
     }
 ];
 /* CATALOGUE_END */
