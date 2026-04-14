@@ -2078,6 +2078,256 @@ const catalogueProducts = [
         image: "assets/images/real/captain_morgan_spiced.jpg",
         isKenyan: false,
         country: "Unknown"
+    },
+    {
+        name: "Cardhu",
+        category: "other",
+        size: "700ML",
+        price: "Ksh 7,650",
+        description: "Cardhu distillery is a Speyside single malt Scotch whisky distillery near Archiestown, Moray, Scotland. It was founded in 1824 by whisky smuggler John Cumming ...",
+        image: "assets/images/real/cardhu.jpg",
+        isKenyan: false,
+        country: "Scotland"
+    },
+    {
+        name: "Caribia Cane",
+        category: "rum",
+        size: "250ML",
+        price: "Ksh 278",
+        description: "Caribia is a finely crafted smooth cane spirit that is designed to mirror the progressive attitudes and behaviours of the Kenyan Millennial.",
+        image: "assets/images/real/caribia_cane.jpg",
+        isKenyan: false,
+        country: "Kenya"
+    },
+    {
+        name: "Caribia Cane",
+        category: "rum",
+        size: "750ML",
+        price: "Ksh 750",
+        description: "Caribia is a finely crafted smooth cane spirit that is designed to mirror the progressive attitudes and behaviours of the Kenyan Millennial.",
+        image: "assets/images/real/caribia_cane.jpg",
+        isKenyan: false,
+        country: "Kenya"
+    },
+    {
+        name: "Caribia Gin",
+        category: "gin",
+        size: "250ML",
+        price: "Ksh 368",
+        description: "Caribia Gin 750ml is a popular gin from Kenya mostly taken during special occasions. It is a well-balanced gin with an incredibly smooth palate.",
+        image: "assets/images/real/caribia_gin.jpg",
+        isKenyan: false,
+        country: "Kenya"
+    },
+    {
+        name: "Caribia Gin",
+        category: "gin",
+        size: "350ML",
+        price: "Ksh 537",
+        description: "Caribia Gin 750ml is a popular gin from Kenya mostly taken during special occasions. It is a well-balanced gin with an incredibly smooth palate.",
+        image: "assets/images/real/caribia_gin.jpg",
+        isKenyan: false,
+        country: "Kenya"
+    },
+    {
+        name: "Caribia Gin",
+        category: "gin",
+        size: "750ML",
+        price: "Ksh 1,080",
+        description: "Caribia Gin 750ml is a popular gin from Kenya mostly taken during special occasions. It is a well-balanced gin with an incredibly smooth palate.",
+        image: "assets/images/real/caribia_gin.jpg",
+        isKenyan: false,
+        country: "Kenya"
+    },
+    {
+        name: "Carlo Rossit",
+        category: "other",
+        size: "4L",
+        price: "Ksh 4,500",
+        description: "Our Wines. From Red & White to Pink & Sangria. Carlo Rossi wines always start with the most delicious grapes from California's Central Valley.",
+        image: "assets/images/real/carlo_rossit.jpg",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Carlo Rossi Red",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 1,500",
+        description: "This sweet red wine is well balanced, light to medium-bodied red wine that has flavors of bright red fruits and fresh floral notes with a nice crisp finish.",
+        image: "assets/images/real/carlo_rossi_red.jpg",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Carmela",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 2,250",
+        description: "Rooted in tradition, yet embracing innovation, Carmela embodies the spirit of Spain's sun-soaked vineyards and the extensive heritage of Bodegas Fernando Castro ...",
+        image: "assets/images/real/carmela.jpg",
+        isKenyan: false,
+        country: "Spain"
+    },
+    {
+        name: "Casa Buena Red",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 1,103",
+        description: "We offer free delivery within and around Nairobi CBD. Alcohol by Volume: 8% ABV. Country of Origin: Spain. Size/Volume: 1 Litre. Status: In stock.",
+        image: "assets/images/real/casa_buena_red.jpg",
+        isKenyan: false,
+        country: "Spain"
+    },
+    {
+        name: "Casa Buena White",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 1,103",
+        description: "Casa Buena Sweet white is a popular Spanish sweet white Wine mostly taken during special occasions. Casa Buena Sweet white contains 8% alcohol.",
+        image: "assets/images/real/casa_buena_white.jpg",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Casamigos Anejo",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 10,575",
+        description: "Casamigos Añejo Tequila, crafted from 100% Blue Weber agaves, offers a perfect balance of natural sweetness, subtle spice, and oak-aged complexity, ...",
+        image: "assets/images/real/casamigos_anejo.jpg",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Casamigos Blanco",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 10,050",
+        description: "Our Bottled Tequilas are made from 100% Blue Weber agave from the rich clay soil of Jalisco, Mexico, and then hand-selected to ensure highest quality. Our agave ...",
+        image: "assets/images/real/casamigos_blanco.jpg",
+        isKenyan: false,
+        country: "Mexico"
+    },
+    {
+        name: "Casamigos Reposado",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 9,525",
+        description: "Casamigos Reposado Tequila is made from 100% Blue Weber agaves. It is soft, slightly oaky with hints of caramel and cocoa, it has a medium to long smooth ...",
+        image: "assets/images/real/casamigos_reposado.jpg",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Castle Bottle",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 24",
+        description: "Its core spirits include rum, whiskey/bourbon and liqueurs, which are marketed and sold in the United States, Canada, Europe, Latin America and Asia. Castle ...",
+        image: "assets/images/real/castle_bottle.jpg",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Castle Lite Beer",
+        category: "beer",
+        size: "750ML",
+        price: "Ksh 180",
+        description: "What Does It Taste Like? ... smoother, crisper and even more refreshing. ... Not For Sale To Persons Under The Age Of 18. Don't Drink And Drive. Enjoy Responsibly.",
+        image: "assets/images/real/castle_lite_beer.jpg",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Castle Lite Can",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 225",
+        description: "Castle Lite is SA's Favourite Draught. But that crisp, refreshing taste isn't always within reach. Until now. With Castle Lite Draught in a Can, Your favourite ...",
+        image: "assets/images/real/castle_lite_can.jpg",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Cellar Cask Redtrs",
+        category: "wine",
+        size: "5L",
+        price: "Ksh 6,600",
+        description: "Cellar Cask Sweet Red is a popular South African Sweet Red Wine mostly taken during special occasions. It is a clean, bright, ruby young wine.",
+        image: "assets/images/real/cellar_cask_redtrs.jpg",
+        isKenyan: false,
+        country: "South Africa"
+    },
+    {
+        name: "Cellar Cask Red",
+        category: "wine",
+        size: "750ML",
+        price: "Ksh 1,530",
+        description: "Cellar Cask is renowned for its commitment to quality and tradition. Originating from the fertile vineyards of South Africa, this wine reflects ...",
+        image: "assets/images/real/cellar_cask_red.jpg",
+        isKenyan: false,
+        country: "South Africa"
+    },
+    {
+        name: "Cellar Cask White",
+        category: "wine",
+        size: "5L",
+        price: "Ksh 6,600",
+        description: "Cellar Cask Natural Lively White Wine 5L ; Alcohol Content. 11% ; Packaging. Boxed ; Flavour Profile. Light & fruity ; Country of Origin. South Africa ; SKU: ...",
+        image: "assets/images/real/cellar_cask_white.jpg",
+        isKenyan: false,
+        country: "South Africa"
+    },
+    {
+        name: "Cellar Cask White",
+        category: "wine",
+        size: "750ML",
+        price: "Ksh 1,530",
+        description: "Cellar Cask Natural Lively White Wine 5L ; Alcohol Content. 11% ; Packaging. Boxed ; Flavour Profile. Light & fruity ; Country of Origin. South Africa ; SKU: ...",
+        image: "assets/images/real/cellar_cask_white.jpg",
+        isKenyan: false,
+        country: "South Africa"
+    },
+    {
+        name: "Cellar Redt",
+        category: "other",
+        size: "1L",
+        price: "Ksh 1,140",
+        description: "Appellations Cellar was founded by Ivonne Zhu in 2016. She was born in Guangdong Province (formerly Canton) in China and immigrated to the U.S. in 2002 by ...",
+        image: "assets/images/real/cellar_redt.jpg",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Cellar Whitet",
+        category: "other",
+        size: "1L",
+        price: "Ksh 1,140",
+        description: "Cellar Cask Natural Lively White Wine 5L ; Alcohol Content. 11% ; Packaging. Boxed ; Flavour Profile. Light & fruity ; Country of Origin. South Africa ; SKU: ...",
+        image: "assets/images/real/cellar_whitet.jpg",
+        isKenyan: false,
+        country: "South Africa"
+    },
+    {
+        name: "Chamdor Red",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 1,110",
+        description: "It has a rich and refreshing taste that makes it a good choice for celebrations. Chamdor Sparkling Red Grape is an alcohol ... Country of origin: South Africa.",
+        image: "assets/images/real/chamdor_red.jpg",
+        isKenyan: false,
+        country: "South Africa"
+    },
+    {
+        name: "Chamdor 750 White",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 1,110",
+        description: "Alcohol Content. 0.0%. Size. 750ml. Country of Origin. South Africa. 1 review for Chamdor Sparkling White Grape 75cl. 4.0. Based on 1 review.",
+        image: "assets/images/real/chamdor_750_white.jpg",
+        isKenyan: false,
+        country: "South Africa"
     }
 ];
 /* CATALOGUE_END */
