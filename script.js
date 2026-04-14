@@ -1578,6 +1578,256 @@ const catalogueProducts = [
         image: "assets/images/real/blue_moon.jpg",
         isKenyan: false,
         country: "Unknown"
+    },
+    {
+        name: "Blue Moon 750M",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 705",
+        description: "A medium bodied pure blueberry wine with intense blueberry character and a wonderful blueberry finish. Extremely tasty with cheesecake.",
+        image: "assets/images/real/blue_moon_750m.jpg",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Bols Blue Curacao",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 2,775",
+        description: "The Curaçao liqueur was first made by the Dutch settlers who colonized the island in the 17th century, and it quickly became popular in Europe.",
+        image: "assets/images/real/bols_blue_curacao.jpg",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Bols Elderflower",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 2,775",
+        description: "Bols Elderflower Liqueur from Netherlands - Bols Elderflower is a clear liqueur made from honey scented blossoms of the elder tree, also called the sambucus ...",
+        image: "assets/images/real/bols_elderflower.jpg",
+        isKenyan: false,
+        country: "Netherlands"
+    },
+    {
+        name: "Bols Triple Sec",
+        category: "other",
+        size: "700ML",
+        price: "Ksh 2,775",
+        description: "Triple Sec is a type of orange-flavored liqueur that originated in France in the mid-19th century. The term 'Triple Sec' refers to the triple ...",
+        image: "assets/images/real/bols_triple_sec.jpg",
+        isKenyan: false,
+        country: "France"
+    },
+    {
+        name: "Bols Vodka",
+        category: "vodka",
+        size: "750ML",
+        price: "Ksh 1,425",
+        description: "Bols is a brand name used by Lucas Bols, a Dutch distiller of alcoholic beverages. The brand line consists of vodkas, gins, genevers, advocaats and liqueurs.",
+        image: "assets/images/real/bols_vodka.jpg",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Bombay Dry Gint",
+        category: "gin",
+        size: "1L",
+        price: "Ksh 2,400",
+        description: "Bombay Sapphire is a brand of infused gin distilled by the Bombay Spirits Company, a subsidiary company of Bacardi, at Laverstoke Mill in the village of ...",
+        image: "assets/images/real/bombay_dry_gint.jpg",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Bombay Dry Gin",
+        category: "gin",
+        size: "750ML",
+        price: "Ksh 2,400",
+        description: "Bombay Dry Gin, similar to its more famous sister Bombay Sapphire, is distilled from a base of grain and imparts the botanicals through vapor infusion.",
+        image: "assets/images/real/bombay_dry_gin.jpg",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Bombay Sapphireitre",
+        category: "gin",
+        size: "1L",
+        price: "Ksh 4,050",
+        description: "Bombay Sapphire is a brand of infused gin distilled by the Bombay Spirits Company, a subsidiary company of Bacardi, at Laverstoke Mill in the village of ...",
+        image: "assets/images/real/bombay_sapphireitre.jpg",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Bombay Sapphire",
+        category: "gin",
+        size: "750ML",
+        price: "Ksh 3,600",
+        description: "Bombay Sapphire is a brand of infused gin distilled by the Bombay Spirits Company, a subsidiary company of Bacardi, at Laverstoke Mill in the village of ...",
+        image: "assets/images/real/bombay_sapphire.jpg",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Bond7",
+        category: "other",
+        size: "250ML",
+        price: "Ksh 623",
+        description: "The original Bond Seven Whisky was distilled & bottled in warehouse No. 7 of Milne & Co, wine merchants in South Australia during the 1950s.",
+        image: "assets/images/real/bond7.jpg",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Bond7",
+        category: "other",
+        size: "350ML",
+        price: "Ksh 864",
+        description: "The original Bond Seven Whisky was distilled & bottled in warehouse No. 7 of Milne & Co, wine merchants in South Australia during the 1950s.",
+        image: "assets/images/real/bond7.jpg",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Bond7",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 1,905",
+        description: "The original Bond Seven Whisky was distilled & bottled in warehouse No. 7 of Milne & Co, wine merchants in South Australia during the 1950s.",
+        image: "assets/images/real/bond7.jpg",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Bonne Esperance Dry Reditre",
+        category: "other",
+        size: "5L",
+        price: "Ksh 6,075",
+        description: "The Cape of Good Hope or Bonne Esperance, is a magical place where sunshine and rich soil combine to create the ideal conditions for the perfect wine.",
+        image: "assets/images/real/bonne_esperance_dry_reditre.jpg",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Bonne Esperance Dry Red",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 1,500",
+        description: "A Red wine from Paarl, Coastal Region, Western Cape, South Africa. Made from Shiraz/Syrah, Cabernet Sauvignon, Merlot, Pinotage.",
+        image: "assets/images/real/bonne_esperance_dry_red.jpg",
+        isKenyan: false,
+        country: "South Africa"
+    },
+    {
+        name: "Bonne Esperance Red Sweet",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 1,500",
+        description: "The Cape of Good Hope or Bonne Esperance, is a magical place where sunshine and rich soil combine to create the ideal conditions for the perfect wine.",
+        image: "assets/images/real/bonne_esperance_red_sweet.jpg",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Bravado",
+        category: "other",
+        size: "330ML",
+        price: "Ksh 51",
+        description: "The first premium vodka made in Puerto Rico, crafted with the skill, knowledge and passion of Puerto Rican craftsmen.",
+        image: "assets/images/real/bravado.jpg",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Breezer Lime",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 323",
+        description: "Bacardi Breezer is an alcoholic fruit-flavoured drink made by Bacardi that comes in a variety of fruit flavours: lemon, peach, lychee, pineapple, apple, ruby ...",
+        image: "assets/images/real/breezer_lime.jpg",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Breezer Peach",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 323",
+        description: "BACARDI Breezer Peach is a tasty and refreshing alcohol drink containing genuine imported BACARDI Rum, fruit flavours and sparkling water.",
+        image: "assets/images/real/breezer_peach.jpg",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Breezer Pineapple",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 323",
+        description: "Bacardi Breezer is an alcoholic fruit-flavoured drink made by Bacardi that comes in a variety of fruit flavours: lemon, peach, lychee, pineapple, apple, ruby ...",
+        image: "assets/images/real/breezer_pineapple.jpg",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Breezer W.Lemon",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 323",
+        description: "Bacardi Breezer is an alcoholic fruit-flavoured drink made by Bacardi that comes in a variety of fruit flavours: lemon, peach, lychee, pineapple, apple, ruby ...",
+        image: "assets/images/real/breezer_w_lemon.jpg",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Brokers",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 1,350",
+        description: "Our mission is to educate the consumer by offering knowledge and tasting of your product. We are based in Houston, Texas with our services extending ...",
+        image: "assets/images/real/brokers.jpg",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Bull Dog",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 2,955",
+        description: "Bulldog London Dry Gin was developed by a globe-trotting American and is distilled in the United Kingdom. While tagged as a London dry, ...",
+        image: "assets/images/real/bull_dog.jpg",
+        isKenyan: false,
+        country: "United Kingdom"
+    },
+    {
+        name: "Bulleit Bourbont",
+        category: "other",
+        size: "1L",
+        price: "Ksh 5,700",
+        description: "Bulleit Bourbon is a brand of Kentucky straight bourbon whiskey produced at the Bulleit Distillery in Shelbyville, Kentucky and the Bulleit Distillery in ...",
+        image: "assets/images/real/bulleit_bourbont.jpg",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Bulleit Bourbon",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 4,800",
+        description: "Bulleit Bourbon is a brand of Kentucky straight bourbon whiskey produced at the Bulleit Distillery in Shelbyville, Kentucky and the Bulleit Distillery in ...",
+        image: "assets/images/real/bulleit_bourbon.jpg",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Bullet Vodka",
+        category: "vodka",
+        size: "250ML",
+        price: "Ksh 315",
+        description: "Alcohol Content. 18%. Country of Origin. Belgium. Size. 250ml. Packaging. Can. Reviews. There are no reviews yet. Add a review. You must be logged in to post a ...",
+        image: "assets/images/real/bullet_vodka.jpg",
+        isKenyan: false,
+        country: "Unknown"
     }
 ];
 /* CATALOGUE_END */
