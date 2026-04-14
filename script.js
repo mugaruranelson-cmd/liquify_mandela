@@ -7578,6 +7578,256 @@ const catalogueProducts = [
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MONSTER%20MUCHO%20LOCO%28BLUE%29",
         isKenyan: false,
         country: "Unknown"
+    },
+    {
+        name: "Monster Mule(Brown",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 225",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MONSTER%20MULE%28BROWN",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Monster Original",
+        category: "gin",
+        size: "750ML",
+        price: "Ksh 270",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MONSTER%20ORIGINAL",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Monster Rossi(Yellow)",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 225",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MONSTER%20ROSSI%28YELLOW%29",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Monster White",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 225",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MONSTER%20WHITE",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Mr Dowells",
+        category: "other",
+        size: "250ML",
+        price: "Ksh 413",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MR%20DOWELLS",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Mr Dowels",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 1,238",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MR%20DOWELS",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Mt Kenyan H20",
+        category: "other",
+        size: "500ML",
+        price: "Ksh 60",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MT%20KENYAN%20H20",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Mucho Mas",
+        category: "other",
+        size: "1.5L",
+        price: "Ksh 6,000",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MUCHO%20MAS",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Mucho Mas Red (Black Edition)",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 3,030",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MUCHO%20MAS%20RED%20%28BLACK%20EDITION%29",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Mucho Mas White",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 2,745",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MUCHO%20MAS%20WHITE",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Muscat White Sweet750",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 1,605",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MUSCAT%20WHITE%20SWEET750",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Musketeer Brdy",
+        category: "other",
+        size: "250ML",
+        price: "Ksh 263",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MUSKETEER%20BRDY",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Musketeer Brndy",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 1,125",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MUSKETEER%20BRNDY",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Myers Rumt",
+        category: "rum",
+        size: "1 L",
+        price: "Ksh 2,775",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MYERS%20RUMT",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Myers Rum 750",
+        category: "rum",
+        size: "750ML",
+        price: "Ksh 2,700",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MYERS%20RUM%20750",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Naked Maltt",
+        category: "other",
+        size: "1L",
+        price: "Ksh 4,950",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=NAKED%20MALTT",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Naked Malt",
+        category: "other",
+        size: "700ML",
+        price: "Ksh 3,975",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=NAKED%20MALT",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Namaqua Dry Redtr",
+        category: "other",
+        size: "5L",
+        price: "Ksh 5,025",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=NAMAQUA%20DRY%20REDTR",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Namaqua Dry Whitetrs",
+        category: "other",
+        size: "5L",
+        price: "Ksh 3,750",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=NAMAQUA%20DRY%20WHITETRS",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Namaqua Sweet Red",
+        category: "wine",
+        size: "5L",
+        price: "Ksh 5,025",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=NAMAQUA%20SWEET%20RED",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Namaqua Sweet Red",
+        category: "wine",
+        size: "750ML",
+        price: "Ksh 1,560",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=NAMAQUA%20SWEET%20RED",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Namaqua White Swt",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 1,560",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=NAMAQUA%20WHITE%20SWT",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Napoleon Crown",
+        category: "other",
+        size: "250ML",
+        price: "Ksh 390",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=NAPOLEON%20CROWN",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Napoleon Crown",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 1,095",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=NAPOLEON%20CROWN",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Napoleon Gold",
+        category: "other",
+        size: "250ML",
+        price: "Ksh 330",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=NAPOLEON%20GOLD",
+        isKenyan: false,
+        country: "Unknown"
     }
 ];
 /* CATALOGUE_END */
