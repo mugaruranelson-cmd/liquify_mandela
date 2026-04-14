@@ -5328,6 +5328,256 @@ const catalogueProducts = [
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=JACK%20DANIEL%20FIRE",
         isKenyan: false,
         country: "Unknown"
+    },
+    {
+        name: "Jack Daniel Honey",
+        category: "whisky",
+        size: "750ML",
+        price: "Ksh 5,400",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=JACK%20DANIEL%20HONEY",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Jack Daniels 3/4",
+        category: "whisky",
+        size: "750ML",
+        price: "Ksh 4,163",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=JACK%20DANIELS%203/4",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Jack Daniels",
+        category: "whisky",
+        size: "350ML",
+        price: "Ksh 2,925",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=JACK%20DANIELS",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Jack Daniels Honeyt",
+        category: "whisky",
+        size: "1L",
+        price: "Ksh 5,850",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=JACK%20DANIELS%20HONEYT",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Jack Daniels Honey",
+        category: "whisky",
+        size: "350ML",
+        price: "Ksh 2,400",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=JACK%20DANIELS%20HONEY",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Jack D Single Barrel",
+        category: "other",
+        size: "700ML",
+        price: "Ksh 8,400",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=JACK%20D%20SINGLE%20BARREL",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Jacob Creek Chardonnay",
+        category: "wine",
+        size: "750ML",
+        price: "Ksh 1,950",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=JACOB%20CREEK%20CHARDONNAY",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Jacob Creek Merlot",
+        category: "wine",
+        size: "750ML",
+        price: "Ksh 1,950",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=JACOB%20CREEK%20MERLOT",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Jacob Creek Rose",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 1,950",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=JACOB%20CREEK%20ROSE",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Jacob Creek Shiraz",
+        category: "wine",
+        size: "750ML",
+        price: "Ksh 1,950",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=JACOB%20CREEK%20SHIRAZ",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Jagermeister Giftpack",
+        category: "other",
+        size: "1L",
+        price: "Ksh 4,800",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=JAGERMEISTER%20GIFTPACK",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Jagermeister 700 With Cork",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 3,525",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=JAGERMEISTER%20700%20WITH%20CORK",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Jagermestert",
+        category: "other",
+        size: "1L",
+        price: "Ksh 4,425",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=JAGERMESTERT",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Jagermester",
+        category: "other",
+        size: "350ML",
+        price: "Ksh 2,025",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=JAGERMESTER",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Jagermester",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 3,525",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=JAGERMESTER",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Jamaican Rum",
+        category: "rum",
+        size: "750ML",
+        price: "Ksh 1,050",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=JAMAICAN%20RUM",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Jambo Vodka",
+        category: "vodka",
+        size: "250ML",
+        price: "Ksh 150",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=JAMBO%20VODKA",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Jameson Cask Mate",
+        category: "whisky",
+        size: "750ML",
+        price: "Ksh 4,575",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=JAMESON%20CASK%20MATE",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Jameson Crested",
+        category: "whisky",
+        size: "750ML",
+        price: "Ksh 4,875",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=JAMESON%20CRESTED",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Jamesonst",
+        category: "whisky",
+        size: "1L",
+        price: "Ksh 4,950",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=JAMESONST",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Jamesons",
+        category: "whisky",
+        size: "350ML",
+        price: "Ksh 1,935",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=JAMESONS",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Jamesons",
+        category: "whisky",
+        size: "750ML",
+        price: "Ksh 3,750",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=JAMESONS",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Jamesons Black Barrel",
+        category: "whisky",
+        size: "750ML",
+        price: "Ksh 6,075",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=JAMESONS%20BLACK%20BARREL",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "J & Btr",
+        category: "other",
+        size: "1L",
+        price: "Ksh 3,135",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=J%20%26%20BTR",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "J & B 3/4",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 2,370",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=J%20%26%20B%203/4",
+        isKenyan: false,
+        country: "Unknown"
     }
 ];
 /* CATALOGUE_END */
