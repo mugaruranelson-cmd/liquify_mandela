@@ -2708,6 +2708,126 @@ const catalogueProducts = [
         image: "assets/images/real/dallas_brandy.jpg",
         isKenyan: false,
         country: "Unknown"
+    },
+    {
+        name: "Dallas Brandy",
+        category: "brandy",
+        size: "750ML",
+        price: "Ksh 780",
+        description: "Cognac traces its origins to the 17th century, when wines of the Charente region were distilled to withstand shipment to distant European ports.",
+        image: "assets/images/real/dallas_brandy.jpg",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Dargent Gin",
+        category: "gin",
+        size: "750ML",
+        price: "Ksh 1,800",
+        description: "Award-winning internationally, the Blue d'Argent gin has a distinctive London style but is made in France's north. Les Grands Chais de France (GCF) is a group ...",
+        image: "assets/images/real/dargent_gin.jpg",
+        isKenyan: false,
+        country: "France"
+    },
+    {
+        name: "Dargent Rose",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 1,575",
+        description: "Created wine from the best grapes of Pinot Noir grown in the Jura region, which is the smallest wine region in France. ... production and aging of wine before ...",
+        image: "assets/images/real/dargent_rose.jpg",
+        isKenyan: false,
+        country: "France"
+    },
+    {
+        name: "Darling Ice",
+        category: "other",
+        size: "250ML",
+        price: "Ksh 195",
+        description: "Darling Cellars De-Alcoholised is a product range of varietals where the focus is on fruit driven, varietal true, value for money products.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=DARLING%20ICE",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Delmonte Applet",
+        category: "other",
+        size: "1L",
+        price: "Ksh 372",
+        description: "Del Monte Apple Juice ; Palate: Crisp, lightly sweet apple flavour with balanced acidity ; Finish: Clean, refreshing, and smooth ; Country of Origin. Kenya ; Size.",
+        image: "assets/images/real/delmonte_applet.jpg",
+        isKenyan: false,
+        country: "Kenya"
+    },
+    {
+        name: "Delmonte Mango-",
+        category: "other",
+        size: "1L",
+        price: "Ksh 372",
+        description: "Del Monte's MANGO juice is made with real fruits. Get information about the ingredients and nutritional values right here!",
+        image: "assets/images/real/delmonte_mango.jpg",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Delmonte Mixd Berry",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 372",
+        description: "Del Monte Juice Blend Mixed Berry 1L ; Size. 1L ; Country of Origin. Kenya ; Flavours & Spices. Mixed Berry ; EAN, 024000150138 ...",
+        image: "assets/images/real/delmonte_mixd_berry.jpg",
+        isKenyan: false,
+        country: "Kenya"
+    },
+    {
+        name: "Delmonte Oranget",
+        category: "other",
+        size: "1L",
+        price: "Ksh 372",
+        description: "Del Monte offers a variety of juice products, ranging from 100% pure juices such as Farmer's Juice Bar premium extract juice;",
+        image: "assets/images/real/delmonte_oranget.jpg",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Delmonte Passiont",
+        category: "other",
+        size: "1L",
+        price: "Ksh 372",
+        description: "Excellent source of Vitamin C Water, Sugars (sugar/glucose-fructose, concentrated passion fruit juice), Guar gum, Citric acid, Vitamin C, Natural flavour, Beta ...",
+        image: "assets/images/real/delmonte_passiont.jpg",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Delmonte Pineaple Goldt",
+        category: "other",
+        size: "1L",
+        price: "Ksh 372",
+        description: "These are carefully quality selected and handpicked at Del Monte plantations in Costa Rica at optimal ripeness to guarantee the best tasting experience. They ...",
+        image: "assets/images/real/delmonte_pineaple_goldt.jpg",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Delmonte Pineapple",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 372",
+        description: "Delmonte pineapple is a premium under the Delmonte-Juice brand, expertly crafted in kenya. This has an Alcohol by Volume (ABV) of 0.0. Ideal for sipping neat, ...",
+        image: "assets/images/real/delmonte_pineapple.jpg",
+        isKenyan: false,
+        country: "Kenya"
+    },
+    {
+        name: "Delmonte Pnapple/Mangot",
+        category: "other",
+        size: "1L",
+        price: "Ksh 372",
+        description: "Del Monte® mango and pineapple in extra light syrup delivers the sweet tropical taste you crave. Enjoy the convenience of sweet mango in a jar!",
+        image: "assets/images/real/delmonte_pnapple_mangot.jpg",
+        isKenyan: false,
+        country: "Unknown"
     }
 ];
 /* CATALOGUE_END */
