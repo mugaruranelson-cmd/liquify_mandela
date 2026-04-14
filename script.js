@@ -6578,6 +6578,256 @@ const catalogueProducts = [
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KO%20LIME",
         isKenyan: false,
         country: "Unknown"
+    },
+    {
+        name: "Ko Lime Can",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 345",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KO%20LIME%20CAN",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Ko Mango",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 345",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KO%20MANGO",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Konyagi 1/2",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 788",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KONYAGI%201/2",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Konyagi",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 1,065",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KONYAGI",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Ko Passion",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 345",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KO%20PASSION",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Ko Passion Can",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 345",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KO%20PASSION%20CAN",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Ko Passion Ice Tea Can",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 210",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KO%20PASSION%20ICE%20TEA%20CAN",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Ko Pineapple",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 345",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KO%20PINEAPPLE",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Ko Tambuzi",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 3,300",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KO%20TAMBUZI",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Ko Tropical Ice Tea Can",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 210",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KO%20TROPICAL%20ICE%20TEA%20CAN",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "K Vant",
+        category: "other",
+        size: "250ML",
+        price: "Ksh 458",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=K%20VANT",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "K Vant",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 1,650",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=K%20VANT",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Kwv 20Yrs",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 15,000",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KWV%2020YRS",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Kwv 3Yrs",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 1,800",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KWV%203YRS",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Kwv Cape Ruby",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 2,550",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KWV%20CAPE%20RUBY",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Kwv Cevee Brut",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 1,200",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KWV%20CEVEE%20BRUT",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Kwv Chenin Blanc",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 2,100",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KWV%20CHENIN%20BLANC",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Kwv Roodeberg Black",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 2,550",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KWV%20ROODEBERG%20BLACK",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Kwv Sauvignon Blanc",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 2,100",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KWV%20SAUVIGNON%20BLANC",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Label 5 Whisky",
+        category: "whisky",
+        size: "750ML",
+        price: "Ksh 2,190",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=LABEL%205%20WHISKY",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Larios Gint",
+        category: "gin",
+        size: "1L",
+        price: "Ksh 2,100",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=LARIOS%20GINT",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Larios Premium",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 2,250",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=LARIOS%20PREMIUM",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Legend",
+        category: "other",
+        size: "250ML",
+        price: "Ksh 270",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=LEGEND",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Legend",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 780",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=LEGEND",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Leopard Cab Sauv",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 2,235",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=LEOPARD%20CAB%20SAUV",
+        isKenyan: false,
+        country: "Unknown"
     }
 ];
 /* CATALOGUE_END */
