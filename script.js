@@ -3828,6 +3828,256 @@ const catalogueProducts = [
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FRONTERA%20SHIRAZ",
         isKenyan: false,
         country: "Unknown"
+    },
+    {
+        name: "Frontera Sweet Red",
+        category: "wine",
+        size: "750ML",
+        price: "Ksh 1,440",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FRONTERA%20SWEET%20RED",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Frosti Berries",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 150",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FROSTI%20BERRIES",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Frosti Tropical",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 150",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FROSTI%20TROPICAL",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Fruitville Apple",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 282",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FRUITVILLE%20APPLE",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Fruitville Berry",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 282",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FRUITVILLE%20BERRY",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Fruitville Mango",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 282",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FRUITVILLE%20MANGO",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Fruitville Tropical",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 282",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FRUITVILLE%20TROPICAL",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Furaha",
+        category: "other",
+        size: "250ML",
+        price: "Ksh 233",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FURAHA",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "G1",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 855",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=G1",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Gatonegro Cab Sauvt",
+        category: "other",
+        size: "1.5L",
+        price: "Ksh 2,250",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GATONEGRO%20CAB%20SAUVT",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Gatonegro Cab Sauv",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 1,620",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GATONEGRO%20CAB%20SAUV",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Gatonegro Cabsav Mrlt",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 1,320",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GATONEGRO%20CABSAV%20MRLT",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Gatonegro Chardonnay",
+        category: "wine",
+        size: "1.5ML",
+        price: "Ksh 2,250",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GATONEGRO%20CHARDONNAY",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Gatonegro Chardony",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 1,320",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GATONEGRO%20CHARDONY",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Gatonegro Merlot",
+        category: "wine",
+        size: "1.5ML",
+        price: "Ksh 2,250",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GATONEGRO%20MERLOT",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Gatonegro Merlot",
+        category: "wine",
+        size: "750ML",
+        price: "Ksh 2,835",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GATONEGRO%20MERLOT",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Gatonegro Mix",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 1,320",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GATONEGRO%20MIX",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Gatonegro Sauv Blanc",
+        category: "other",
+        size: "1.5L",
+        price: "Ksh 2,250",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GATONEGRO%20SAUV%20BLANC",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Gatonegro Sauv Blnc",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 1,320",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GATONEGRO%20SAUV%20BLNC",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Gatonegro Semiswt Red",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 1,320",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GATONEGRO%20SEMISWT%20RED",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "General Meakins",
+        category: "other",
+        size: "250ML",
+        price: "Ksh 327",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GENERAL%20MEAKINS",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "General Meakins",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 983",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GENERAL%20MEAKINS",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Genius Gin",
+        category: "gin",
+        size: "250ML",
+        price: "Ksh 173",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GENIUS%20GIN",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Gentleman Jackitre",
+        category: "other",
+        size: "1L",
+        price: "Ksh 7,500",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GENTLEMAN%20JACKITRE",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Gentleman Jack",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 7,200",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GENTLEMAN%20JACK",
+        isKenyan: false,
+        country: "Unknown"
     }
 ];
 /* CATALOGUE_END */
