@@ -9578,6 +9578,256 @@ const catalogueProducts = [
         image: "assets/images/real/smirnoff_espressot.jpg",
         isKenyan: false,
         country: "Unknown"
+    },
+    {
+        name: "Smirnoff Gold",
+        category: "vodka",
+        size: "750ML",
+        price: "Ksh 1,950",
+        description: "A quality drink offering exceptional taste.",
+        image: "assets/images/real/smirnoff_gold.jpg",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Smirnoff Limet",
+        category: "vodka",
+        size: "1L",
+        price: "Ksh 2,250",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=SMIRNOFF%20LIMET",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Smirnoff Mango&Passion",
+        category: "vodka",
+        size: "750ML",
+        price: "Ksh 293",
+        description: "A quality drink offering exceptional taste.",
+        image: "assets/images/real/smirnoff_mango_passion.jpg",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Smirnoff Orange &Lemon",
+        category: "vodka",
+        size: "750ML",
+        price: "Ksh 293",
+        description: "A quality drink offering exceptional taste.",
+        image: "assets/images/real/smirnoff_orange__lemon.jpg",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Smirnoff Pineapple Beer",
+        category: "vodka",
+        size: "750ML",
+        price: "Ksh 243",
+        description: "A quality drink offering exceptional taste.",
+        image: "assets/images/real/smirnoff_pineapple_beer.jpg",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Smirnoff Pineapple Can",
+        category: "vodka",
+        size: "750ML",
+        price: "Ksh 268",
+        description: "A quality drink offering exceptional taste.",
+        image: "assets/images/real/smirnoff_pineapple_can.jpg",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Smirnoff Vanilla",
+        category: "vodka",
+        size: "700ML",
+        price: "Ksh 1,800",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=SMIRNOFF%20VANILLA",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Smirnoff Vodka Red",
+        category: "vodka",
+        size: "1L",
+        price: "Ksh 2,430",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=SMIRNOFF%20VODKA%20RED",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Smirnoff Vodka",
+        category: "vodka",
+        size: "250ML",
+        price: "Ksh 624",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=SMIRNOFF%20VODKA",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Smirnoff Vodka",
+        category: "vodka",
+        size: "350ML",
+        price: "Ksh 864",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=SMIRNOFF%20VODKA",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Smirnoff Vodka",
+        category: "vodka",
+        size: "750ML",
+        price: "Ksh 1,860",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=SMIRNOFF%20VODKA",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Sm -Sweet Menthol",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 528",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=SM%20-SWEET%20MENTHOL",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Snap Dry Cider",
+        category: "other",
+        size: "330ML",
+        price: "Ksh 367",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=SNAP%20DRY%20CIDER",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Snapp Beer",
+        category: "beer",
+        size: "750ML",
+        price: "Ksh 241",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=SNAPP%20BEER",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Snapp Can",
+        category: "other",
+        size: "330ML",
+        price: "Ksh 267",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=SNAPP%20CAN",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Soda Tonic Water",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 99",
+        description: "A quality drink offering exceptional taste.",
+        image: "assets/images/real/soda_tonic_water.jpg",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Southern  Black",
+        category: "other",
+        size: "70CL",
+        price: "Ksh 2,700",
+        description: "A quality drink offering exceptional taste.",
+        image: "assets/images/real/southern__black.jpg",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Southern Comfort",
+        category: "other",
+        size: "1L",
+        price: "Ksh 3,525",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=SOUTHERN%20COMFORT",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Southern Comfort",
+        category: "other",
+        size: "350ML",
+        price: "Ksh 1,275",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=SOUTHERN%20COMFORT",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Southern Comfort",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 2,700",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=SOUTHERN%20COMFORT",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Southern Ocean",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 4,275",
+        description: "A quality drink offering exceptional taste.",
+        image: "assets/images/real/southern_ocean.jpg",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Spier Carbanet",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 2,400",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=SPIER%20CARBANET",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Spike Vodka",
+        category: "vodka",
+        size: "250ML",
+        price: "Ksh 195",
+        description: "A quality drink offering exceptional taste.",
+        image: "assets/images/real/spike_vodka.jpg",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Sportsman",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 528",
+        description: "A quality drink offering exceptional taste.",
+        image: "assets/images/real/sportsman.jpg",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Squadron D Rum",
+        category: "rum",
+        size: "750ML",
+        price: "Ksh 1,005",
+        description: "A quality drink offering exceptional taste.",
+        image: "assets/images/real/squadron_d_rum.jpg",
+        isKenyan: false,
+        country: "Unknown"
     }
 ];
 /* CATALOGUE_END */
