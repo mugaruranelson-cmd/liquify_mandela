@@ -10948,6 +10948,286 @@ const catalogueProducts = [
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=WHITE%20PEARL%20XTRA",
         isKenyan: false,
         country: "Unknown"
+    },
+    {
+        name: "White Pearl Xtra",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 1020",
+        description: "",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=WHITE%20PEARL%20XTRA",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Whytehall Firet",
+        category: "other",
+        size: "1L",
+        price: "Ksh 2205",
+        description: "",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=WHYTEHALL%20FIRET",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Whythall Honey",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 2205",
+        description: "",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=WHYTHALL%20HONEY",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Wild Africa Cream",
+        category: "liqueur",
+        size: "750ML",
+        price: "Ksh 2325",
+        description: "",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=WILD%20AFRICA%20CREAM",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Wild Turkeyt",
+        category: "other",
+        size: "1L",
+        price: "Ksh 3975",
+        description: "",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=WILD%20TURKEYT",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Wild Turkey 750",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 4050",
+        description: "",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=WILD%20TURKEY%20750",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "William Can",
+        category: "other",
+        size: "330ML",
+        price: "Ksh 338",
+        description: "",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=WILLIAM%20CAN",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "William Can Cola",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 338",
+        description: "",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=WILLIAM%20CAN%20COLA",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "William Lawsont",
+        category: "other",
+        size: "1.5L",
+        price: "Ksh 4620",
+        description: "",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=WILLIAM%20LAWSONT",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Williamsont",
+        category: "other",
+        size: "1L",
+        price: "Ksh 3113",
+        description: "",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=WILLIAMSONT",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "William Son",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 2685",
+        description: "",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=WILLIAM%20SON",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "William Spcd",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 2580",
+        description: "",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=WILLIAM%20SPCD",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "William Wson",
+        category: "other",
+        size: "350ML",
+        price: "Ksh 1283",
+        description: "",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=WILLIAM%20WSON",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Wilson Whisky",
+        category: "whisky",
+        size: "750ML",
+        price: "Ksh 2550",
+        description: "",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=WILSON%20WHISKY",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Windhoek Draught",
+        category: "other",
+        size: "330ML",
+        price: "Ksh 285",
+        description: "",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=WINDHOEK%20DRAUGHT",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Windhoek Lager",
+        category: "other",
+        size: "330ML",
+        price: "Ksh 285",
+        description: "",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=WINDHOEK%20LAGER",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Xo Brandy",
+        category: "brandy",
+        size: "250ML",
+        price: "Ksh 353",
+        description: "",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=XO%20BRANDY",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Xo Brandy",
+        category: "brandy",
+        size: "750ML",
+        price: "Ksh 1020",
+        description: "",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=XO%20BRANDY",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Yatta Mangot",
+        category: "other",
+        size: "1L",
+        price: "Ksh 293",
+        description: "",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=YATTA%20MANGOT",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Yatta Redt",
+        category: "other",
+        size: "1L",
+        price: "Ksh 293",
+        description: "",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=YATTA%20REDT",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Yatta  Tropical",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 293",
+        description: "",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=YATTA%20%20TROPICAL",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Yatta  White",
+        category: "other",
+        size: "1 L",
+        price: "Ksh 293",
+        description: "",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=YATTA%20%20WHITE",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Zanzi Cream Lq",
+        category: "liqueur",
+        size: "750ML",
+        price: "Ksh 750",
+        description: "",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=ZANZI%20CREAM%20LQ",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Zappa Black",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 2100",
+        description: "",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=ZAPPA%20BLACK",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Zappa Blue",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 2100",
+        description: "",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=ZAPPA%20BLUE",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Zappa Clear",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 2100",
+        description: "",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=ZAPPA%20CLEAR",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Zappa Green",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 2100",
+        description: "",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=ZAPPA%20GREEN",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Zappa Red",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 2100",
+        description: "",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=ZAPPA%20RED",
+        isKenyan: false,
+        country: "Unknown"
     }
 ];
 /* CATALOGUE_END */
