@@ -263,6 +263,294 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "assets/images/real/7gin_blueberry.jpg",
         isKenyan: false
+    },
+    {
+        name: "#7Gin Lime And Lemon",
+        category: "gin",
+        size: "750ML",
+        price: "Ksh 1,500",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=%237GIN%20LIME%20AND%20LEMON",
+        isKenyan: false
+    },
+    {
+        name: "#7Gin Mixed Berry",
+        category: "gin",
+        size: "750ML",
+        price: "Ksh 1,500",
+        description: "A quality drink offering exceptional taste.",
+        image: "assets/images/real/7gin_mixed_berry.jpg",
+        isKenyan: false
+    },
+    {
+        name: "#7Gin Orange",
+        category: "gin",
+        size: "750ML",
+        price: "Ksh 1,500",
+        description: "A quality drink offering exceptional taste.",
+        image: "assets/images/real/7gin_orange.jpg",
+        isKenyan: false
+    },
+    {
+        name: "#7Gin Original",
+        category: "gin",
+        size: "750ML",
+        price: "Ksh 1,500",
+        description: "A quality drink offering exceptional taste.",
+        image: "assets/images/real/7gin_original.jpg",
+        isKenyan: false
+    },
+    {
+        name: "#7Gin Passion",
+        category: "gin",
+        size: "750ML",
+        price: "Ksh 1,500",
+        description: "A quality drink offering exceptional taste.",
+        image: "assets/images/real/7gin_passion.jpg",
+        isKenyan: false
+    },
+    {
+        name: "#7Gin Pineapple",
+        category: "gin",
+        size: "750ML",
+        price: "Ksh 1,500",
+        description: "A quality drink offering exceptional taste.",
+        image: "assets/images/real/7gin_pineapple.jpg",
+        isKenyan: false
+    },
+    {
+        name: "7 Hills  Sweetred",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 1,328",
+        description: "A quality drink offering exceptional taste.",
+        image: "assets/images/real/7_hills__sweetred.jpg",
+        isKenyan: false
+    },
+    {
+        name: "7 Hills Sweet White",
+        category: "wine",
+        size: "750ML",
+        price: "Ksh 1,328",
+        description: "A quality drink offering exceptional taste.",
+        image: "assets/images/real/7_hills_sweet_white.jpg",
+        isKenyan: false
+    },
+    {
+        name: "8Pmt",
+        category: "other",
+        size: "1L",
+        price: "Ksh 1,950",
+        description: "A quality drink offering exceptional taste.",
+        image: "assets/images/real/8pmt.jpg",
+        isKenyan: false
+    },
+    {
+        name: "8Pm Fire",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 1,680",
+        description: "A quality drink offering exceptional taste.",
+        image: "assets/images/real/8pm_fire.jpg",
+        isKenyan: false
+    },
+    {
+        name: "8Pm Honey",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 1,680",
+        description: "A quality drink offering exceptional taste.",
+        image: "assets/images/real/8pm_honey.jpg",
+        isKenyan: false
+    },
+    {
+        name: "8Pm Whisky",
+        category: "whisky",
+        size: "750ML",
+        price: "Ksh 1,500",
+        description: "A quality drink offering exceptional taste.",
+        image: "assets/images/real/8pm_whisky.jpg",
+        isKenyan: false
+    },
+    {
+        name: "99 Rosas Chardonnay Viog",
+        category: "wine",
+        size: "750ML",
+        price: "Ksh 1,920",
+        description: "A quality drink offering exceptional taste.",
+        image: "assets/images/real/99_rosas_chardonnay_viog.jpg",
+        isKenyan: false
+    },
+    {
+        name: "99 Rosas Temp Cab Sauv",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 1,920",
+        description: "A quality drink offering exceptional taste.",
+        image: "assets/images/real/99_rosas_temp_cab_sauv.jpg",
+        isKenyan: false
+    },
+    {
+        name: "Absolute (Pernod)",
+        category: "vodka",
+        size: "750ML",
+        price: "Ksh 3,825",
+        description: "A quality drink offering exceptional taste.",
+        image: "assets/images/real/absolute__pernod.jpg",
+        isKenyan: false
+    },
+    {
+        name: "Absolute Vodkat",
+        category: "vodka",
+        size: "1L",
+        price: "Ksh 3,075",
+        description: "A quality drink offering exceptional taste.",
+        image: "assets/images/real/absolute_vodkat.jpg",
+        isKenyan: false
+    },
+    {
+        name: "Absolute Vodka",
+        category: "vodka",
+        size: "750ML",
+        price: "Ksh 2,925",
+        description: "A quality drink offering exceptional taste.",
+        image: "assets/images/real/absolute_vodka.jpg",
+        isKenyan: false
+    },
+    {
+        name: "Ac Blackitre",
+        category: "other",
+        size: "1L",
+        price: "Ksh 2,100",
+        description: "A quality drink offering exceptional taste.",
+        image: "assets/images/real/ac_blackitre.jpg",
+        isKenyan: false
+    },
+    {
+        name: "Ac Black",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 1,620",
+        description: "A quality drink offering exceptional taste.",
+        image: "assets/images/real/ac_black.jpg",
+        isKenyan: false
+    },
+    {
+        name: "Afia Energy",
+        category: "other",
+        size: "330ML",
+        price: "Ksh 75",
+        description: "A quality drink offering exceptional taste.",
+        image: "assets/images/real/afia_energy.jpg",
+        isKenyan: false
+    },
+    {
+        name: "Afribullcafe",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 2,070",
+        description: "A quality drink offering exceptional taste.",
+        image: "assets/images/real/afribullcafe.jpg",
+        isKenyan: false
+    },
+    {
+        name: "Air Vodka",
+        category: "vodka",
+        size: "700ML",
+        price: "Ksh 825",
+        description: "A quality drink offering exceptional taste.",
+        image: "assets/images/real/air_vodka.jpg",
+        isKenyan: false
+    },
+    {
+        name: "Alandra Red",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 1,800",
+        description: "A quality drink offering exceptional taste.",
+        image: "assets/images/real/alandra_red.jpg",
+        isKenyan: false
+    },
+    {
+        name: "Alandra White",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 1,800",
+        description: "A quality drink offering exceptional taste.",
+        image: "assets/images/real/alandra_white.jpg",
+        isKenyan: false
+    },
+    {
+        name: "All Seasons Whisky",
+        category: "whisky",
+        size: "250ML",
+        price: "Ksh 570",
+        description: "A quality drink offering exceptional taste.",
+        image: "assets/images/real/all_seasons_whisky.jpg",
+        isKenyan: false
+    },
+    {
+        name: "All Seasons Whisky",
+        category: "whisky",
+        size: "500ML",
+        price: "Ksh 1,178",
+        description: "A quality drink offering exceptional taste.",
+        image: "assets/images/real/all_seasons_whisky.jpg",
+        isKenyan: false
+    },
+    {
+        name: "All Seasons Whsky",
+        category: "other",
+        size: "375ML",
+        price: "Ksh 878",
+        description: "A quality drink offering exceptional taste.",
+        image: "assets/images/real/all_seasons_whsky.jpg",
+        isKenyan: false
+    },
+    {
+        name: "All Seasons Whsky",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 1,763",
+        description: "A quality drink offering exceptional taste.",
+        image: "assets/images/real/all_seasons_whsky.jpg",
+        isKenyan: false
+    },
+    {
+        name: "Allsops Beer",
+        category: "beer",
+        size: "750ML",
+        price: "Ksh 203",
+        description: "A quality drink offering exceptional taste.",
+        image: "assets/images/real/allsops_beer.jpg",
+        isKenyan: false
+    },
+    {
+        name: "Alta Wine",
+        category: "wine",
+        size: "750ML",
+        price: "Ksh 1,740",
+        description: "A quality drink offering exceptional taste.",
+        image: "assets/images/real/alta_wine.jpg",
+        isKenyan: false
+    },
+    {
+        name: "Amani Sweet Red",
+        category: "wine",
+        size: "750ML",
+        price: "Ksh 1,065",
+        description: "A quality drink offering exceptional taste.",
+        image: "assets/images/real/amani_sweet_red.jpg",
+        isKenyan: false
+    },
+    {
+        name: "Amani Sweet White",
+        category: "wine",
+        size: "750ML",
+        price: "Ksh 1,065",
+        description: "A quality drink offering exceptional taste.",
+        image: "assets/images/real/amani_sweet_white.jpg",
+        isKenyan: false
     }
 ];
 /* CATALOGUE_END */
