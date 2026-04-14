@@ -3078,6 +3078,256 @@ const catalogueProducts = [
         image: "assets/images/real/dusse_vsop.jpg",
         isKenyan: false,
         country: "France"
+    },
+    {
+        name: "Elderflower Liqueur",
+        category: "liqueur",
+        size: "700ML",
+        price: "Ksh 3,225",
+        description: "St‑Germain is a French liqueur made with fresh elderflowers, handpicked in full bloom every spring. Up to one thousand carefully selected flowers to fill every ...",
+        image: "assets/images/real/elderflower_liqueur.jpg",
+        isKenyan: false,
+        country: "USA"
+    },
+    {
+        name: "Electio  Red",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 1,650",
+        description: "Electio Cabernet Sauvignon is a dry red wine, distinguished by its elegant ruby colour and fresh fruity aroma, featuring hints of Moroccan leather and violets.",
+        image: "assets/images/real/electio__red.jpg",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Electio White",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 1,650",
+        description: "Electio Sauvignon Blanc 750ml ; Producer: Five ; Origin: Republic of Moldova ; Variety: Sauvignon Blanc ; Color: Red ; Type: Dry.",
+        image: "assets/images/real/electio_white.jpg",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Embassy",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 653",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=EMBASSY",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Embassy King",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 653",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=EMBASSY%20KING",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Eristoff Vodka",
+        category: "vodka",
+        size: "750ML",
+        price: "Ksh 1,380",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=ERISTOFF%20VODKA",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Espanature Cab Sauv",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 1,545",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=ESPANATURE%20CAB%20SAUV",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Espanature Viura Ver",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 1,545",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=ESPANATURE%20VIURA%20VER",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Expresion Sweet Red",
+        category: "wine",
+        size: "750ML",
+        price: "Ksh 1,800",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=EXPRESION%20SWEET%20RED",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Famouse 1/2",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 1,470",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FAMOUSE%201/2",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Famouse G Smky Blkt",
+        category: "other",
+        size: "1L",
+        price: "Ksh 3,750",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FAMOUSE%20G%20SMKY%20BLKT",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Famous Grouse 3/4",
+        category: "whisky",
+        size: "750ML",
+        price: "Ksh 2,925",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FAMOUS%20GROUSE%203/4",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Famous Grouse Il",
+        category: "whisky",
+        size: "750ML",
+        price: "Ksh 3,270",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FAMOUS%20GROUSE%20IL",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Famous Smoky Black",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 3,495",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FAMOUS%20SMOKY%20BLACK",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Famous Toasted Casklitre",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 3,225",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FAMOUS%20TOASTED%20CASKLITRE",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Faxe 10%Itre",
+        category: "other",
+        size: "1L",
+        price: "Ksh 0",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FAXE%2010%25ITRE",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Faxe",
+        category: "other",
+        size: "500ML",
+        price: "Ksh 420",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FAXE",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Ferari Ice Can",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 120",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FERARI%20ICE%20CAN",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Fernet Branca",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 3,375",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FERNET%20BRANCA",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "First Choice",
+        category: "other",
+        size: "250ML",
+        price: "Ksh 795",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FIRST%20CHOICE",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "First Choice",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 1,125",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FIRST%20CHOICE",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Flirt Blackt",
+        category: "vodka",
+        size: "1L",
+        price: "Ksh 2,175",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FLIRT%20BLACKT",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Flirt Caramelt",
+        category: "vodka",
+        size: "1L",
+        price: "Ksh 2,175",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FLIRT%20CARAMELT",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Flirt Chocoitre",
+        category: "vodka",
+        size: "1L",
+        price: "Ksh 2,175",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FLIRT%20CHOCOITRE",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Flirt Choco",
+        category: "vodka",
+        size: "250ML",
+        price: "Ksh 375",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FLIRT%20CHOCO",
+        isKenyan: false,
+        country: "Unknown"
     }
 ];
 /* CATALOGUE_END */
