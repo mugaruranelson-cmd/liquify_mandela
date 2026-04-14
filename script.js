@@ -224,27 +224,27 @@ const catalogueProducts = [
         category: "other",
         size: "350ML",
         price: "Ksh 1,050",
-        description: "A quality drink offering exceptional taste.",
+        description: "KO 58 gin Spiced Orange is a light refreshing citrus-forward gin. It is made with ingredients grown in Kenya including; Orange, Dried Mango, Chilli and Turmeric ...",
         image: "assets/images/real/58_spiced_orange.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "Kenya"
     },
     {
         name: "58 Spiced Orange",
         category: "other",
         size: "750ML",
         price: "Ksh 2,055",
-        description: "A quality drink offering exceptional taste.",
+        description: "KO 58 gin Spiced Orange is a light refreshing citrus-forward gin. It is made with ingredients grown in Kenya including; Orange, Dried Mango, Chilli and Turmeric ...",
         image: "assets/images/real/58_spiced_orange.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "Kenya"
     },
     {
         name: "58 Spiced Orange G&T Can",
         category: "other",
         size: "750ML",
         price: "Ksh 315",
-        description: "A quality drink offering exceptional taste.",
+        description: "The 58 Spiced Orange G&T is a ready-to-drink cocktail from a distillery located in a country in East Africa. The gin is infused with local oranges and a ...",
         image: "assets/images/real/58_spiced_orange_g_t_can.jpg",
         isKenyan: false,
         country: "Unknown"
@@ -254,17 +254,17 @@ const catalogueProducts = [
         category: "other",
         size: "750ML",
         price: "Ksh 315",
-        description: "A quality drink offering exceptional taste.",
+        description: "5.8 Gin & Tonic Very Berry 330ml ; Country of Origin. Kenya ; Alcohol Content. 5% ; Flavours & Spices. Berries ; Size. 330ml ; EAN, 5065010192713 ...",
         image: "assets/images/real/58_very_berry_g_t_can.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "Kenya"
     },
     {
         name: "5Th Generationtr Red",
         category: "other",
         size: "5L",
         price: "Ksh 4,500",
-        description: "A quality drink offering exceptional taste.",
+        description: "Product Red is a licensed brand by the company Red that seeks to engage the private sector in raising awareness and funds to help eliminate HIV/AIDS in ...",
         image: "assets/images/real/5th_generationtr_red.jpg",
         isKenyan: false,
         country: "Unknown"
@@ -274,7 +274,7 @@ const catalogueProducts = [
         category: "other",
         size: "5L",
         price: "Ksh 4,500",
-        description: "A quality drink offering exceptional taste.",
+        description: "The iPad is a brand of tablet computers developed and marketed by Apple that run the company's mobile operating systems iOS (older models) and iPadOS.",
         image: "assets/images/real/5th_generation_whitetr.jpg",
         isKenyan: false,
         country: "Unknown"
@@ -284,7 +284,7 @@ const catalogueProducts = [
         category: "gin",
         size: "750ML",
         price: "Ksh 1,500",
-        description: "A quality drink offering exceptional taste.",
+        description: "The blueberry, a member of the genus Vaccinium, is one of the few fruits native to North America. Long before it became a staple in grocery ...",
         image: "assets/images/real/7gin_blueberry.jpg",
         isKenyan: false,
         country: "Unknown"
@@ -294,7 +294,7 @@ const catalogueProducts = [
         category: "gin",
         size: "750ML",
         price: "Ksh 1,500",
-        description: "A quality drink offering exceptional taste.",
+        description: "It originated in Persia (modern day Iran) and was introduced to the Mediterranean region at an unknown time. The lime was introduced to Europe ...",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=%237GIN%20LIME%20AND%20LEMON",
         isKenyan: false,
         country: "Unknown"
@@ -304,27 +304,27 @@ const catalogueProducts = [
         category: "gin",
         size: "750ML",
         price: "Ksh 1,500",
-        description: "A quality drink offering exceptional taste.",
+        description: "#7 Mixed Berry Flavoured Gin ; Country of Origin. South Africa ; Size. 750ml ; Flavours & Spices. Mixed Berry ; SKU: #74537 ; Brand · #7 ...",
         image: "assets/images/real/7gin_mixed_berry.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "South Africa"
     },
     {
         name: "#7Gin Orange",
         category: "gin",
         size: "750ML",
         price: "Ksh 1,500",
-        description: "A quality drink offering exceptional taste.",
+        description: "This gin, hailing from Italy, is certainly worth drinking and it also comes in a uniquely attractive bottle that invites tasters to enjoy “La ...",
         image: "assets/images/real/7gin_orange.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "Italy"
     },
     {
         name: "#7Gin Original",
         category: "gin",
         size: "750ML",
         price: "Ksh 1,500",
-        description: "A quality drink offering exceptional taste.",
+        description: "Colombo No.7 - based on a 70-year-old recipe, tells a most intriguing tale of war, resourcefulness and regulation in Sri Lanka.",
         image: "assets/images/real/7gin_original.jpg",
         isKenyan: false,
         country: "Unknown"
@@ -334,17 +334,17 @@ const catalogueProducts = [
         category: "gin",
         size: "750ML",
         price: "Ksh 1,500",
-        description: "A quality drink offering exceptional taste.",
+        description: "#7 Gin Passion Fruit 750ml + 2 Free Brothers Indian Tonic 330ml ; Country of Origin. South Africa ; Flavours & Spices. Passion ; Weight, N/A ; Dimensions, N/A ; Size.",
         image: "assets/images/real/7gin_passion.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "South Africa"
     },
     {
         name: "#7Gin Pineapple",
         category: "gin",
         size: "750ML",
         price: "Ksh 1,500",
-        description: "A quality drink offering exceptional taste.",
+        description: "The pineapple (Ananas comosus) is a tropical plant with an edible fruit; it is the most economically significant plant in the family Bromeliaceae.",
         image: "assets/images/real/7gin_pineapple.jpg",
         isKenyan: false,
         country: "Unknown"
@@ -354,27 +354,27 @@ const catalogueProducts = [
         category: "other",
         size: "750ML",
         price: "Ksh 1,328",
-        description: "A quality drink offering exceptional taste.",
+        description: "7 Hills Sweet Red 750ml is a South African Wine mostly taken during special occasions. It contains 8.4% alcohol. 7 Hills wine pairs well with red meat and ...",
         image: "assets/images/real/7_hills__sweetred.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "South Africa"
     },
     {
         name: "7 Hills Sweet White",
         category: "wine",
         size: "750ML",
         price: "Ksh 1,328",
-        description: "A quality drink offering exceptional taste.",
+        description: "7 Hills Sweet White 750ml is a South African Wine mostly taken during special occasions. 7 Hills Sweet White 750ml contains 12% alcohol.",
         image: "assets/images/real/7_hills_sweet_white.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "South Africa"
     },
     {
         name: "8Pmt",
         category: "other",
         size: "1L",
         price: "Ksh 1,950",
-        description: "A quality drink offering exceptional taste.",
+        description: "60876526 Entry Summary (ES) Query Updates Deployed to Production on June 4, 2024 ... Goods with Country of Origin of Cuba can be Manually Filed in ...",
         image: "assets/images/real/8pmt.jpg",
         isKenyan: false,
         country: "Unknown"
@@ -384,7 +384,7 @@ const catalogueProducts = [
         category: "other",
         size: "750ML",
         price: "Ksh 1,680",
-        description: "A quality drink offering exceptional taste.",
+        description: "8 PM Fire Liqueur is a premium spiced liqueur that ignites your senses with its rich, fiery character and smooth sweetness. Distilled in India, this liqueur ...",
         image: "assets/images/real/8pm_fire.jpg",
         isKenyan: false,
         country: "Unknown"
@@ -394,7 +394,7 @@ const catalogueProducts = [
         category: "other",
         size: "750ML",
         price: "Ksh 1,680",
-        description: "A quality drink offering exceptional taste.",
+        description: "Now in stock in Zimbabwe, 8pm Honey Liqueur. A beautiful harmony of flavour and character. Made with the finest quality grain and infused ...",
         image: "assets/images/real/8pm_honey.jpg",
         isKenyan: false,
         country: "Unknown"
@@ -404,7 +404,7 @@ const catalogueProducts = [
         category: "whisky",
         size: "750ML",
         price: "Ksh 1,500",
-        description: "A quality drink offering exceptional taste.",
+        description: "8 PM is produced in India by Radico Khaitan Ltd, a major Indian spirits company founded in 1943. The grain blended expression is specifically formulated for ...",
         image: "assets/images/real/8pm_whisky.jpg",
         isKenyan: false,
         country: "Unknown"
@@ -414,10 +414,10 @@ const catalogueProducts = [
         category: "wine",
         size: "750ML",
         price: "Ksh 1,920",
-        description: "A quality drink offering exceptional taste.",
+        description: "The 99 Rosas Chardonnay Viognier 75cl offers a delightful fusion of two of Spain's most cherished grape varieties. Produced in the sunlit ...",
         image: "assets/images/real/99_rosas_chardonnay_viog.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "Spain"
     },
     {
         name: "99 Rosas Temp Cab Sauv",
@@ -1634,7 +1634,7 @@ function initShop() {
             const name = item.querySelector('h3').textContent.toLowerCase();
             const desc = item.querySelector('p').textContent.toLowerCase();
             const itemCategory = item.getAttribute('data-category');
-            const isKenyan = item.getAttribute('data-kenyan') === 'true' || item.getAttribute('data-kenyan') === 'true';
+            const isKenyan = item.getAttribute('data-kenyan') === 'true';
 
             let categoryMatch = (filterValue === 'all') || 
                               (filterValue === 'kenyan' && isKenyan) || 
@@ -1650,28 +1650,6 @@ function initShop() {
                 item.style.display = 'none';
                 item.classList.remove('active');
             }
-        });
-
-        if (noProductsMsg) {
-            noProductsMsg.style.display = (visibleCount === 0) ? 'block' : 'none';
-        }
-    }
-
-    if (searchInput) searchInput.addEventListener('input', performFiltering);
-    filterBtns.forEach(btn => {
-        btn.addEventListener('click', () => {
-            filterBtns.forEach(b => b.classList.remove('active'));
-            btn.classList.add('active');
-            performFiltering();
-        });
-    });
-
-    // Initial reveal
-    setTimeout(reveal, 100);
-}
-
-document.addEventListener('DOMContentLoaded', initShop);
-        }
         });
 
         if (noProductsMsg) {
