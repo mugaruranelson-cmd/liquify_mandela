@@ -4078,6 +4078,256 @@ const catalogueProducts = [
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GENTLEMAN%20JACK",
         isKenyan: false,
         country: "Unknown"
+    },
+    {
+        name: "Gibson Orange",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 2,175",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GIBSON%20ORANGE",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Gibson Pink",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 2,175",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GIBSON%20PINK",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Gibsons Gint",
+        category: "gin",
+        size: "1L",
+        price: "Ksh 2,400",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GIBSONS%20GINT",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Gibsons Gin",
+        category: "gin",
+        size: "750ML",
+        price: "Ksh 2,070",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GIBSONS%20GIN",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Gilbeyst",
+        category: "gin",
+        size: "1L",
+        price: "Ksh 2,775",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GILBEYST",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Gilbeys",
+        category: "gin",
+        size: "250ML",
+        price: "Ksh 624",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GILBEYS",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Gilbeys",
+        category: "gin",
+        size: "350ML",
+        price: "Ksh 864",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GILBEYS",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Gilbeys",
+        category: "gin",
+        size: "750ML",
+        price: "Ksh 1,860",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GILBEYS",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Gilbeys Mxd B",
+        category: "gin",
+        size: "250ML",
+        price: "Ksh 624",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GILBEYS%20MXD%20B",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Gilbeys Pink",
+        category: "gin",
+        size: "250ML",
+        price: "Ksh 630",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GILBEYS%20PINK",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Gilbeys Pink",
+        category: "gin",
+        size: "350ML",
+        price: "Ksh 864",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GILBEYS%20PINK",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Gilbeys Pink 750M",
+        category: "gin",
+        size: "750ML",
+        price: "Ksh 1,875",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GILBEYS%20PINK%20750M",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Glendale Whskyt",
+        category: "other",
+        size: "1L",
+        price: "Ksh 4,500",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GLENDALE%20WHSKYT",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Glendale Whsky 750M",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 3,975",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GLENDALE%20WHSKY%20750M",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Glenfiddich 12Yrstr",
+        category: "whisky",
+        size: "1L",
+        price: "Ksh 12,000",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GLENFIDDICH%2012YRSTR",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Glenfiddich 21Yrs",
+        category: "whisky",
+        size: "750ML",
+        price: "Ksh 37,500",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GLENFIDDICH%2021YRS",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Glenfiddich Ipa",
+        category: "whisky",
+        size: "750ML",
+        price: "Ksh 9,000",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GLENFIDDICH%20IPA",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Glenfiddich Project Xx",
+        category: "whisky",
+        size: "750ML",
+        price: "Ksh 9,750",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GLENFIDDICH%20PROJECT%20XX",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Glengrant",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 3,150",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GLENGRANT",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Glenlivet 12Yrst",
+        category: "other",
+        size: "1L",
+        price: "Ksh 8,700",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GLENLIVET%2012YRST",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Glenlivet 12Yrs",
+        category: "other",
+        size: "700ML",
+        price: "Ksh 8,550",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GLENLIVET%2012YRS",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Glenlivet Founder",
+        category: "other",
+        size: "700ML",
+        price: "Ksh 8,100",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GLENLIVET%20FOUNDER",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Glenmorangie 10Yrsitre",
+        category: "whisky",
+        size: "1L",
+        price: "Ksh 15,000",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GLENMORANGIE%2010YRSITRE",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Glenmorangie 18Yrs",
+        category: "whisky",
+        size: "750ML",
+        price: "Ksh 16,500",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GLENMORANGIE%2018YRS",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Glenmorangie",
+        category: "whisky",
+        size: "75CL",
+        price: "Ksh 7,200",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GLENMORANGIE",
+        isKenyan: false,
+        country: "Unknown"
     }
 ];
 /* CATALOGUE_END */
