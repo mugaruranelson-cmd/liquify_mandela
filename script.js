@@ -4328,6 +4328,256 @@ const catalogueProducts = [
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GLENMORANGIE",
         isKenyan: false,
         country: "Unknown"
+    },
+    {
+        name: "Glen Scanlan W",
+        category: "other",
+        size: "350ML",
+        price: "Ksh 1,170",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GLEN%20SCANLAN%20W",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Glen Silverst",
+        category: "other",
+        size: "1L",
+        price: "Ksh 2,175",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GLEN%20SILVERST",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Glen Silvers",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 1,755",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GLEN%20SILVERS",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Gold Seal 16%",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 285",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GOLD%20SEAL%2016%25",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Gold Supreme",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 795",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GOLD%20SUPREME",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Gordon Gin",
+        category: "gin",
+        size: "350ML",
+        price: "Ksh 1,275",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GORDON%20GIN",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Gordon Greent",
+        category: "gin",
+        size: "1L",
+        price: "Ksh 2,775",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GORDON%20GREENT",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Gordon Green",
+        category: "gin",
+        size: "750ML",
+        price: "Ksh 2,400",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GORDON%20GREEN",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Gordon Lemont",
+        category: "gin",
+        size: "1L",
+        price: "Ksh 3,225",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GORDON%20LEMONT",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Gordon Lemon",
+        category: "gin",
+        size: "70CL",
+        price: "Ksh 2,850",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GORDON%20LEMON",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Gordon Orange",
+        category: "gin",
+        size: "700ML",
+        price: "Ksh 2,805",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GORDON%20ORANGE",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Gordon Pinkt",
+        category: "gin",
+        size: "1L",
+        price: "Ksh 3,075",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GORDON%20PINKT",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Gordon Pink",
+        category: "gin",
+        size: "700ML",
+        price: "Ksh 2,775",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GORDON%20PINK",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Gordons Dry & Tonic Can",
+        category: "gin",
+        size: "750ML",
+        price: "Ksh 293",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GORDONS%20DRY%20%26%20TONIC%20CAN",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Gordons Gintr",
+        category: "gin",
+        size: "1L",
+        price: "Ksh 3,480",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GORDONS%20GINTR",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Gordons Gin",
+        category: "gin",
+        size: "250ML",
+        price: "Ksh 375",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GORDONS%20GIN",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Gordons Gin 3/4",
+        category: "gin",
+        size: "750ML",
+        price: "Ksh 3,000",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GORDONS%20GIN%203/4",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Gordons Pink &Tonic Can",
+        category: "gin",
+        size: "750ML",
+        price: "Ksh 293",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GORDONS%20PINK%20%26TONIC%20CAN",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Grace O Malley Whiskey",
+        category: "whisky",
+        size: "750ML",
+        price: "Ksh 6,195",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GRACE%20O%20MALLEY%20WHISKEY",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Grand Master Whisky",
+        category: "whisky",
+        size: "750ML",
+        price: "Ksh 1,035",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GRAND%20MASTER%20WHISKY",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Gran Mirador Dark",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 2,970",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GRAN%20MIRADOR%20DARK",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Gran Mirador Red",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 2,970",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GRAN%20MIRADOR%20RED",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Grants 1/2",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 1,155",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GRANTS%201/2",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Grantst With Glass",
+        category: "other",
+        size: "1L",
+        price: "Ksh 3,150",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GRANTST%20WITH%20GLASS",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Grants With Glass",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 2,550",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GRANTS%20WITH%20GLASS",
+        isKenyan: false,
+        country: "Unknown"
     }
 ];
 /* CATALOGUE_END */
