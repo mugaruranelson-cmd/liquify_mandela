@@ -4578,6 +4578,256 @@ const catalogueProducts = [
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GRANTS%20WITH%20GLASS",
         isKenyan: false,
         country: "Unknown"
+    },
+    {
+        name: "Grants Smoky",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 2,100",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GRANTS%20SMOKY",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Grants Triple W 12Yrs",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 5,625",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GRANTS%20TRIPLE%20W%2012YRS",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Grayson Gold",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 1,950",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=grayson%20gold",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Grayson Whiskey",
+        category: "whisky",
+        size: "750ML",
+        price: "Ksh 1,170",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GRAYSON%20WHISKEY",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Grayson Whisky",
+        category: "whisky",
+        size: "250ML",
+        price: "Ksh 390",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GRAYSON%20WHISKY",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Grenadine Syrup",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 570",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GRENADINE%20SYRUP",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Grey Goose Vodkat",
+        category: "vodka",
+        size: "1L",
+        price: "Ksh 5,325",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GREY%20GOOSE%20VODKAT",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Grouse Sherry Whsky",
+        category: "whisky",
+        size: "750ML",
+        price: "Ksh 4,125",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GROUSE%20SHERRY%20WHSKY",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Guarana",
+        category: "other",
+        size: "440ML",
+        price: "Ksh 240",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GUARANA",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Guarana Can",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 267",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GUARANA%20CAN",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Guarana Iceberg",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 255",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GUARANA%20ICEBERG",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Guiness Smooth Beer",
+        category: "beer",
+        size: "330ML",
+        price: "Ksh 240",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GUINESS%20SMOOTH%20BEER",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Guinness Beer",
+        category: "beer",
+        size: "750ML",
+        price: "Ksh 308",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GUINNESS%20BEER",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Guinness Can",
+        category: "beer",
+        size: "500ML",
+        price: "Ksh 329",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GUINNESS%20CAN",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Guinness Smooth Beer",
+        category: "beer",
+        size: "500ML",
+        price: "Ksh 254",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GUINNESS%20SMOOTH%20BEER",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Guinness Smooth Can",
+        category: "beer",
+        size: "750ML",
+        price: "Ksh 303",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GUINNESS%20SMOOTH%20CAN",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Guinness Smooth  Can",
+        category: "beer",
+        size: "330ML",
+        price: "Ksh 263",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GUINNESS%20SMOOTH%20%20CAN",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Hampton Whisky",
+        category: "whisky",
+        size: "750ML",
+        price: "Ksh 1,950",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=HAMPTON%20WHISKY",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Hart Blueberry",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 2,250",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=HART%20BLUEBERRY",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Hart Grape Ice",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 2,250",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=HART%20GRAPE%20ICE",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Hart Manhattan Mint",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 2,250",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=HART%20MANHATTAN%20MINT",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Hart Pineappleice",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 2,250",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=HART%20PINEAPPLEICE",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Hart Strawberry Cosmo",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 2,250",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=HART%20STRAWBERRY%20COSMO",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Harveys",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 2,775",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=HARVEYS",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Havana Anejo Especial Plus",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 3,720",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=HAVANA%20ANEJO%20ESPECIAL%20PLUS",
+        isKenyan: false,
+        country: "Unknown"
     }
 ];
 /* CATALOGUE_END */
