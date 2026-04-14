@@ -973,6 +973,222 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "assets/images/real/balozi_can.jpg",
         isKenyan: false
+    },
+    {
+        name: "Balvenie 14",
+        category: "other",
+        size: "700ML",
+        price: "Ksh 30,000",
+        description: "A quality drink offering exceptional taste.",
+        image: "assets/images/real/balvenie_14.jpg",
+        isKenyan: false
+    },
+    {
+        name: "Banana Beer",
+        category: "beer",
+        size: "500ML",
+        price: "Ksh 108",
+        description: "A quality drink offering exceptional taste.",
+        image: "assets/images/real/banana_beer.jpg",
+        isKenyan: false
+    },
+    {
+        name: "Base Qube Energy",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 165",
+        description: "A quality drink offering exceptional taste.",
+        image: "assets/images/real/base_qube_energy.jpg",
+        isKenyan: false
+    },
+    {
+        name: "Bavaria(8.6)",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 413",
+        description: "A quality drink offering exceptional taste.",
+        image: "assets/images/real/bavaria_8_6.jpg",
+        isKenyan: false
+    },
+    {
+        name: "Bavaria Apple",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 203",
+        description: "A quality drink offering exceptional taste.",
+        image: "assets/images/real/bavaria_apple.jpg",
+        isKenyan: false
+    },
+    {
+        name: "Bavaria Orange",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 203",
+        description: "A quality drink offering exceptional taste.",
+        image: "assets/images/real/bavaria_orange.jpg",
+        isKenyan: false
+    },
+    {
+        name: "Bavaria Original 0.0",
+        category: "gin",
+        size: "750ML",
+        price: "Ksh 203",
+        description: "A quality drink offering exceptional taste.",
+        image: "assets/images/real/bavaria_original_0_0.jpg",
+        isKenyan: false
+    },
+    {
+        name: "Beefeater Cleart",
+        category: "gin",
+        size: "1L",
+        price: "Ksh 5,077",
+        description: "A quality drink offering exceptional taste.",
+        image: "assets/images/real/beefeater_cleart.jpg",
+        isKenyan: false
+    },
+    {
+        name: "Beefeater Clear",
+        category: "gin",
+        size: "750ML",
+        price: "Ksh 3,870",
+        description: "A quality drink offering exceptional taste.",
+        image: "assets/images/real/beefeater_clear.jpg",
+        isKenyan: false
+    },
+    {
+        name: "Beefeater Orange",
+        category: "gin",
+        size: "750ML",
+        price: "Ksh 3,600",
+        description: "A quality drink offering exceptional taste.",
+        image: "assets/images/real/beefeater_orange.jpg",
+        isKenyan: false
+    },
+    {
+        name: "Beefeater Pinkt",
+        category: "gin",
+        size: "1L",
+        price: "Ksh 3,975",
+        description: "A quality drink offering exceptional taste.",
+        image: "assets/images/real/beefeater_pinkt.jpg",
+        isKenyan: false
+    },
+    {
+        name: "Beefeater Pink",
+        category: "gin",
+        size: "750ML",
+        price: "Ksh 4,125",
+        description: "A quality drink offering exceptional taste.",
+        image: "assets/images/real/beefeater_pink.jpg",
+        isKenyan: false
+    },
+    {
+        name: "Belaire Bleu",
+        category: "wine",
+        size: "750ML",
+        price: "Ksh 6,300",
+        description: "A quality drink offering exceptional taste.",
+        image: "assets/images/real/belaire_bleu.jpg",
+        isKenyan: false
+    },
+    {
+        name: "Belaire Brut",
+        category: "wine",
+        size: "750ML",
+        price: "Ksh 6,300",
+        description: "A quality drink offering exceptional taste.",
+        image: "assets/images/real/belaire_brut.jpg",
+        isKenyan: false
+    },
+    {
+        name: "Belaire Fantome Gold",
+        category: "wine",
+        size: "750ML",
+        price: "Ksh 6,600",
+        description: "Bel-Air: Created by Andy Borowitz, Susan Borowitz, T.J. Brady, Morgan Stevenson Cooper, Rasheed Newson, Malcolm Spellman. With Jabari Banks, Cassandra Freeman, Jimmy Akingbola, Olly Sholotan. The life",
+        image: "assets/images/real/belaire_fantome_gold.jpg",
+        isKenyan: false
+    },
+    {
+        name: "Belaire Gold",
+        category: "wine",
+        size: "750ML",
+        price: "Ksh 6,600",
+        description: "A quality drink offering exceptional taste.",
+        image: "assets/images/real/belaire_gold.jpg",
+        isKenyan: false
+    },
+    {
+        name: "Belaire Gold(Pernod)",
+        category: "wine",
+        size: "750ML",
+        price: "Ksh 8,340",
+        description: "A quality drink offering exceptional taste.",
+        image: "assets/images/real/belaire_gold_pernod.jpg",
+        isKenyan: false
+    },
+    {
+        name: "Belaire Luxe",
+        category: "wine",
+        size: "750ML",
+        price: "Ksh 6,600",
+        description: "A quality drink offering exceptional taste.",
+        image: "assets/images/real/belaire_luxe.jpg",
+        isKenyan: false
+    },
+    {
+        name: "Belaire Luxe (Pernod)",
+        category: "wine",
+        size: "750ML",
+        price: "Ksh 7,485",
+        description: "A quality drink offering exceptional taste.",
+        image: "assets/images/real/belaire_luxe__pernod.jpg",
+        isKenyan: false
+    },
+    {
+        name: "Belaire Rose Black",
+        category: "wine",
+        size: "750ML",
+        price: "Ksh 6,600",
+        description: "A quality drink offering exceptional taste.",
+        image: "assets/images/real/belaire_rose_black.jpg",
+        isKenyan: false
+    },
+    {
+        name: "Belaire Rose Black(Fantome)",
+        category: "wine",
+        size: "750ML",
+        price: "Ksh 6,750",
+        description: "A quality drink offering exceptional taste.",
+        image: "assets/images/real/belaire_rose_black_fantome.jpg",
+        isKenyan: false
+    },
+    {
+        name: "Belaire Rose Black(Pernod)",
+        category: "wine",
+        size: "750ML",
+        price: "Ksh 7,485",
+        description: "A quality drink offering exceptional taste.",
+        image: "assets/images/real/belaire_rose_black_pernod.jpg",
+        isKenyan: false
+    },
+    {
+        name: "Belaire Rose Pink",
+        category: "wine",
+        size: "750ML",
+        price: "Ksh 6,600",
+        description: "A quality drink offering exceptional taste.",
+        image: "assets/images/real/belaire_rose_pink.jpg",
+        isKenyan: false
+    },
+    {
+        name: "Bertrams Vo Brdy",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 1,275",
+        description: "A quality drink offering exceptional taste.",
+        image: "assets/images/real/bertrams_vo_brdy.jpg",
+        isKenyan: false
     }
 ];
 /* CATALOGUE_END */
