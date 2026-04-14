@@ -3578,6 +3578,256 @@ const catalogueProducts = [
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FOUR%20COUSIN%20REDT",
         isKenyan: false,
         country: "Unknown"
+    },
+    {
+        name: "Four Cousin Red",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 1,335",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FOUR%20COUSIN%20RED",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Four Cousinst",
+        category: "other",
+        size: "3L",
+        price: "Ksh 2,400",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FOUR%20COUSINST",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Four Cousins  Marula",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 2,730",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FOUR%20COUSINS%20%20MARULA",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Four Cousins Redt",
+        category: "other",
+        size: "5L",
+        price: "Ksh 5,475",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FOUR%20COUSINS%20REDT",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Four Cousins Red Sparkling",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 1,440",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FOUR%20COUSINS%20RED%20SPARKLING",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Four Cousins  Strawberry",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 2,730",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FOUR%20COUSINS%20%20STRAWBERRY",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Four Cousins  Sweetrose Can",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 540",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FOUR%20COUSINS%20%20SWEETROSE%20CAN",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Four Cousins Whitet",
+        category: "other",
+        size: "5L",
+        price: "Ksh 5,475",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FOUR%20COUSINS%20WHITET",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Four Cousins White",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 1,335",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FOUR%20COUSINS%20WHITE",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Four Cousin Whitet",
+        category: "other",
+        size: "1.5L",
+        price: "Ksh 2,400",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FOUR%20COUSIN%20WHITET",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Fragolino Red",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 2,153",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FRAGOLINO%20RED",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Fragolino White",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 2,153",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FRAGOLINO%20WHITE",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Freedom",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 765",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FREEDOM",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Frontera After Mid9T",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 1,440",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FRONTERA%20AFTER%20MID9T",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Frontera Cab Sauvt",
+        category: "other",
+        size: "1.5L",
+        price: "Ksh 2,400",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FRONTERA%20CAB%20sauvT",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Frontera Cab Sauv",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 1,440",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FRONTERA%20CAB%20SAUV",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Fronteracabsav Blush 750",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 1,440",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FRONTERACABSAV%20BLUSH%20750",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Frontera Chardonaytr",
+        category: "other",
+        size: "1.5 L",
+        price: "Ksh 2,400",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FRONTERA%20CHARDONAYTR",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Frontera Chardonnay",
+        category: "wine",
+        size: "750ML",
+        price: "Ksh 1,440",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FRONTERA%20CHARDONNAY",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Frontera Lt Harvest",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 1,440",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FRONTERA%20LT%20HARVEST",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Frontera Merlottrs",
+        category: "wine",
+        size: "1.5L",
+        price: "Ksh 2,355",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FRONTERA%20MERLOTTRS",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Frontera Merlot 750",
+        category: "wine",
+        size: "750ML",
+        price: "Ksh 1,440",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FRONTERA%20MERLOT%20750",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Frontera Sauv Blanct",
+        category: "other",
+        size: "1.5L",
+        price: "Ksh 2,400",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FRONTERA%20SAUV%20BLANCT",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Frontera Sav Blanc 750",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 1,440",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FRONTERA%20SAV%20BLANC%20750",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Frontera Shiraz",
+        category: "wine",
+        size: "750ML",
+        price: "Ksh 1,440",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FRONTERA%20SHIRAZ",
+        isKenyan: false,
+        country: "Unknown"
     }
 ];
 /* CATALOGUE_END */
