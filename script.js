@@ -8078,6 +8078,256 @@ const catalogueProducts = [
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=OJ%208.5%25",
         isKenyan: false,
         country: "Unknown"
+    },
+    {
+        name: "Old Cock",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 2,625",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=OLD%20COCK",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Old Monk",
+        category: "other",
+        size: "375ML",
+        price: "Ksh 525",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=OLD%20MONK",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Old Monk Rum",
+        category: "rum",
+        size: "750ML",
+        price: "Ksh 1,500",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=OLD%20MONK%20RUM",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Old Nickdark",
+        category: "other",
+        size: "700ML",
+        price: "Ksh 1,830",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=OLD%20NICKDARK",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Old Nick Dark Litre",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 2,205",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=OLD%20NICK%20DARK%20LITRE",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Old Nick Spiced",
+        category: "other",
+        size: "700ML",
+        price: "Ksh 1,830",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=OLD%20NICK%20SPICED",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Old Nick Whiteitre",
+        category: "other",
+        size: "1L",
+        price: "Ksh 2,205",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=OLD%20NICK%20WHITEITRE",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Old Nick White",
+        category: "other",
+        size: "700ML",
+        price: "Ksh 1,830",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=OLD%20NICK%20WHITE",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Old Smuggler 3/4",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 1,665",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=OLD%20SMUGGLER%203/4",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Olepasu Red Wine",
+        category: "wine",
+        size: "70CL",
+        price: "Ksh 1,050",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=OLEPASU%20RED%20WINE",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Olepasu White Wine",
+        category: "wine",
+        size: "750ML",
+        price: "Ksh 1,050",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=OLEPASU%20WHITE%20WINE",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Olmeca Blanco",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 3,975",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=OLMECA%20BLANCO",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Olmeca Choco",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 3,975",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=OLMECA%20CHOCO",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Olmeca Gold",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 4,020",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=OLMECA%20GOLD",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Opm",
+        category: "other",
+        size: "375ML",
+        price: "Ksh 698",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=OPM",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Opm Vodka",
+        category: "vodka",
+        size: "250ML",
+        price: "Ksh 465",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=OPM%20VODKA",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Opm Vodka",
+        category: "vodka",
+        size: "750ML",
+        price: "Ksh 1,575",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=OPM%20VODKA",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Opulenza",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 2,700",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=OPULENZA",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Orange Rum Can",
+        category: "rum",
+        size: "750ML",
+        price: "Ksh 255",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=ORANGE%20RUM%20CAN",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Orchid Apple",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 323",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=ORCHID%20APPLE",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Orchid Guava",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 323",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=ORCHID%20GUAVA",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Orchid Mango",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 323",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=ORCHID%20MANGO",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Orchid Orange",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 323",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=ORCHID%20ORANGE",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Orchid Passion",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 323",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=ORCHID%20PASSION",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Orchid Tropical",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 323",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=ORCHID%20TROPICAL",
+        isKenyan: false,
+        country: "Unknown"
     }
 ];
 /* CATALOGUE_END */
