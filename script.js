@@ -9078,6 +9078,256 @@ const catalogueProducts = [
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=ROYAL%20ARMS%20BRDY",
         isKenyan: false,
         country: "Unknown"
+    },
+    {
+        name: "Royal Challege",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 1,178",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=ROYAL%20CHALLEGE",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Royal Circle Honey",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 2,085",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=ROYAL%20CIRCLE%20HONEY",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Royal Circle Whisky",
+        category: "whisky",
+        size: "750ML",
+        price: "Ksh 2,100",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=ROYAL%20CIRCLE%20WHISKY",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Royal Dutch 12%",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 330",
+        description: "A quality drink offering exceptional taste.",
+        image: "assets/images/real/royal_dutch_12.jpg",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Royal Gold Premium",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 1,035",
+        description: "A quality drink offering exceptional taste.",
+        image: "assets/images/real/royal_gold_premium.jpg",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Royal Kingston",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 645",
+        description: "A quality drink offering exceptional taste.",
+        image: "assets/images/real/royal_kingston.jpg",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Royal Legend 3/4",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 1,650",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=ROYAL%20LEGEND%203/4",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Royal Pride",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 1,110",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=ROYAL%20PRIDE",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Royal Stag",
+        category: "other",
+        size: "375ML",
+        price: "Ksh 908",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=ROYAL%20STAG",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Royal Stag",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 1,695",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=ROYAL%20STAG",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Safari  Appy Fizz",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 60",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=safari%20%20appy%20fizz",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Safari Cane",
+        category: "other",
+        size: "250ML",
+        price: "Ksh 338",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=SAFARI%20CANE",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Safari Cane",
+        category: "other",
+        size: "500ML",
+        price: "Ksh 480",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=SAFARI%20CANE",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Safari Cane",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 953",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=SAFARI%20CANE",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Safari Energy B",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 60",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=SAFARI%20ENERGY%20B",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Safari H2Or",
+        category: "other",
+        size: "1L",
+        price: "Ksh 63",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=SAFARI%20H2OR",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Safari H2O",
+        category: "other",
+        size: "500ML",
+        price: "Ksh 33",
+        description: "A quality drink offering exceptional taste.",
+        image: "assets/images/real/safari_h2o.jpg",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Safari Kings",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 317",
+        description: "A quality drink offering exceptional taste.",
+        image: "assets/images/real/safari_kings.jpg",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Safari Lemonade",
+        category: "other",
+        size: "300ML",
+        price: "Ksh 60",
+        description: "A quality drink offering exceptional taste.",
+        image: "assets/images/real/safari_lemonade.jpg",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Safari Orange",
+        category: "other",
+        size: "300ML",
+        price: "Ksh 45",
+        description: "A quality drink offering exceptional taste.",
+        image: "assets/images/real/safari_orange.jpg",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Safari Whisky",
+        category: "whisky",
+        size: "250ML",
+        price: "Ksh 398",
+        description: "A quality drink offering exceptional taste.",
+        image: "assets/images/real/safari_whisky.jpg",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Safari Whisky",
+        category: "whisky",
+        size: "750ML",
+        price: "Ksh 1,170",
+        description: "A quality drink offering exceptional taste.",
+        image: "assets/images/real/safari_whisky.jpg",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Samantha Red",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 1,425",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=SAMANTHA%20RED",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Samantha White",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 1,425",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=SAMANTHA%20WHITE",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Sangria Redt",
+        category: "other",
+        size: "1L",
+        price: "Ksh 1,058",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=SANGRIA%20REDT",
+        isKenyan: false,
+        country: "Unknown"
     }
 ];
 /* CATALOGUE_END */
