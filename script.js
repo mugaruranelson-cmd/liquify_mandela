@@ -2578,9 +2578,244 @@ const catalogueProducts = [
         image: "assets/images/real/county.jpg",
         isKenyan: false,
         country: "Unknown"
+    },
+    {
+        name: "County",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 990",
+        description: "100% of the wine is derived from grapes (or other agricultural commodity) grown in the labeled counties; The percentage of wine derived from ...",
+        image: "assets/images/real/county.jpg",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Courvoisier Vs 3/4",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 6,375",
+        description: "Courvoisier VS cognac is a blend of several crus aged between three and seven years, composed principally of Fins Bois with a balancing hand of Petite ...",
+        image: "assets/images/real/courvoisier_vs_3_4.jpg",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Courvosier Vsop",
+        category: "other",
+        size: "700ML",
+        price: "Ksh 9,900",
+        description: "Courvoisier V.S.O.P. Cognac 750ml offers a refined, smooth, and well-balanced cognac crafted from a selection of carefully aged eaux-de-vie.",
+        image: "assets/images/real/courvosier_vsop.jpg",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Courvosier Vsop Litre",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 10,650",
+        description: "Courvoisier is a rich and full-flavored cognac that won't break the bank. Flavors of stone fruit, almonds, raisins, and sweet spice lead to a dry, woody finish.",
+        image: "assets/images/real/courvosier_vsop_litre.jpg",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Crazy Cock",
+        category: "other",
+        size: "250ML",
+        price: "Ksh 548",
+        description: "Crazy Cock 'RARE' is a exquisite single malt whisky from India, rare and exquisite, full-bodied single malt whisky from India matured to perfection in two kinds ...",
+        image: "assets/images/real/crazy_cock.jpg",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Crazy Cock",
+        category: "other",
+        size: "350ML",
+        price: "Ksh 758",
+        description: "Crazy Cock 'RARE' is a exquisite single malt whisky from India, rare and exquisite, full-bodied single malt whisky from India matured to perfection in two kinds ...",
+        image: "assets/images/real/crazy_cock.jpg",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Crazy Cock",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 1,605",
+        description: "Crazy Cock 'RARE' is a exquisite single malt whisky from India, rare and exquisite, full-bodied single malt whisky from India matured to perfection in two kinds ...",
+        image: "assets/images/real/crazy_cock.jpg",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Cruxland Gin",
+        category: "gin",
+        size: "750ML",
+        price: "Ksh 3,975",
+        description: "Cruxland Gin infused with Kalahari Truffles brings together the rare Kalahari truffle and nine Southern African botanicals.",
+        image: "assets/images/real/cruxland_gin.jpg",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Cruz Vodka",
+        category: "vodka",
+        size: "750ML",
+        price: "Ksh 1,950",
+        description: "Cruz Chamber gives you access to limited-edition capsule collections by the hottest designers, the latest Cruz news and highly-curated Cruz content. SIGN UP.",
+        image: "assets/images/real/cruz_vodka.jpg",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Curonia  Beer 10%",
+        category: "beer",
+        size: "750ML",
+        price: "Ksh 338",
+        description: "Curonia 10% Strong Beer 500ml. KShs 260. Size: 500ml; Alcohol Content: 16%; Country of Origin: Latvia.",
+        image: "assets/images/real/curonia__beer_10.jpg",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Cutty Sark Whiskyt",
+        category: "whisky",
+        size: "1L",
+        price: "Ksh 2,730",
+        description: "Cutty Sark is a brand of blended Scotch whisky produced by La Martiniquaise in Scotland. Cutty Sark. A bottle of Cutty Sark. Type, Scotch whisky.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=CUTTY%20SARK%20WHISKYT",
+        isKenyan: false,
+        country: "Scotland"
+    },
+    {
+        name: "Cutty Sark Whisky",
+        category: "whisky",
+        size: "750ML",
+        price: "Ksh 2,130",
+        description: "Cutty Sark is a brand of blended Scotch whisky produced by La Martiniquaise in Scotland. Cutty Sark. A bottle of Cutty Sark. Type, Scotch whisky.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=CUTTY%20SARK%20WHISKY",
+        isKenyan: false,
+        country: "Scotland"
+    },
+    {
+        name: "Dallas Brandy",
+        category: "brandy",
+        size: "250ML",
+        price: "Ksh 188",
+        description: "Cognac traces its origins to the 17th century, when wines of the Charente region were distilled to withstand shipment to distant European ports.",
+        image: "assets/images/real/dallas_brandy.jpg",
+        isKenyan: false,
+        country: "Unknown"
     }
 ];
 /* CATALOGUE_END */
+
+// Initialize Global Collections for Home Page
+function initGlobalCollections() {
+    const tabsContainer = document.getElementById('country-tabs');
+    const gridContainer = document.getElementById('collection-grid-container');
+    const mapImage = document.getElementById('country-map');
+
+    if (!tabsContainer || !gridContainer) return;
+
+    const featuredCountries = [
+        { name: 'Kenya', id: 'kenya', icon: '🇰🇪' },
+        { name: 'Scotland', id: 'scotland', icon: '🏴󠁧󠁢󠁳󠁣󠁴󠁿' },
+        { name: 'France', id: 'france', icon: '🇫🇷' },
+        { name: 'South Africa', id: 'south-africa', icon: '🇿🇦' },
+        { name: 'Ireland', id: 'ireland', icon: '🇮🇪' }
+    ];
+
+    tabsContainer.innerHTML = '';
+    gridContainer.innerHTML = '';
+
+    featuredCountries.forEach((country, index) => {
+        // Create Tab
+        const tab = document.createElement('div');
+        tab.className = `country-tab ${index === 0 ? 'active' : ''}`;
+        tab.innerHTML = `${country.icon} ${country.name}`;
+        tab.setAttribute('data-country', country.id);
+        tab.setAttribute('data-name', country.name);
+        tabsContainer.appendChild(tab);
+
+        // Create Grid for this country
+        const group = document.createElement('div');
+        group.id = `group-${country.id}`;
+        group.className = `collection-group ${index === 0 ? 'active' : ''}`;
+        
+        const grid = document.createElement('div');
+        grid.className = 'collection-grid';
+
+        // Filter products for this country
+        // We look for name contains or country field
+        const countryProducts = catalogueProducts.filter(p => 
+            (p.country && p.country.toLowerCase() === country.name.toLowerCase()) ||
+            (p.name.toLowerCase().includes(country.name.toLowerCase()))
+        ).slice(0, 4);
+
+        if (countryProducts.length === 0) {
+            grid.innerHTML = `<p style="text-align: center; color: var(--text-muted); grid-column: 1/-1;">Coming soon: More premium selections from ${country.name}.</p>`;
+        } else {
+            countryProducts.forEach(product => {
+                const itemHtml = `
+                    <div class="product-card reveal">
+                        <div class="product-image">
+                            <img src="${product.image}" alt="${product.name}" style="max-height: 180px; object-fit: contain;" loading="lazy">
+                        </div>
+                        <div class="product-info">
+                            <h3>${product.name}</h3>
+                            <div class="product-size">${product.size} - <span style="color: var(--accent-gold); font-weight: bold;">${product.price}</span></div>
+                            <button class="btn btn-primary shop-order-btn" data-product="${product.name} ${product.size}">Order on WA</button>
+                        </div>
+                    </div>
+                `;
+                grid.innerHTML += itemHtml;
+            });
+        }
+
+        group.appendChild(grid);
+        gridContainer.appendChild(group);
+
+        // Tab click event
+        tab.addEventListener('click', () => {
+            // Update tabs
+            document.querySelectorAll('.country-tab').forEach(t => t.classList.remove('active'));
+            tab.classList.add('active');
+
+            // Update grids
+            document.querySelectorAll('.collection-group').forEach(g => g.classList.remove('active'));
+            group.classList.add('active');
+
+            // Update map
+            if (mapImage) {
+                mapImage.style.opacity = '0';
+                setTimeout(() => {
+                    mapImage.src = `assets/images/maps/${country.id}.png`;
+                    mapImage.style.opacity = '0.08';
+                }, 300);
+            }
+        });
+    });
+
+    // Re-attach WhatsApp listeners for new buttons
+    gridContainer.addEventListener('click', (e) => {
+        if (e.target.classList.contains('shop-order-btn')) {
+            const productInfo = e.target.getAttribute('data-product');
+            window.location.href = buildWhatsAppLink(`Hi Liquify, I want to order ${productInfo} from your Global Collection.`);
+        }
+    });
+
+    if (typeof reveal === 'function') setTimeout(reveal, 500);
+}
+
+// Attach to DOMContentLoaded
+document.addEventListener('DOMContentLoaded', () => {
+    if (document.getElementById('global-collections')) {
+        initGlobalCollections();
+    }
+});
 
 // Initialize Shop Catalogue (for shop.html)
 function initShop() {
