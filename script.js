@@ -6078,6 +6078,256 @@ const catalogueProducts = [
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KAKIRA%20GOLD%20RUM",
         isKenyan: false,
         country: "Unknown"
+    },
+    {
+        name: "Kalanov Vdka",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 825",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KALANOV%20VDKA",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Kane Extra",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 893",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KANE%20EXTRA",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Kane Extra Gold",
+        category: "other",
+        size: "250ML",
+        price: "Ksh 293",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KANE%20EXTRA%20GOLD",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Karigen Watert",
+        category: "other",
+        size: "1L",
+        price: "Ksh 53",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KARIGEN%20WATERT",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Kb",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 225",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KB",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Keg Empties",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 5,250",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KEG%20EMPTIES",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Kensington Gin",
+        category: "gin",
+        size: "750ML",
+        price: "Ksh 1,200",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KENSINGTON%20GIN",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Kenya Cane",
+        category: "other",
+        size: "350ML",
+        price: "Ksh 540",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KENYA%20CANE",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Kenya Cane Citrus",
+        category: "other",
+        size: "250ML",
+        price: "Ksh 383",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KENYA%20CANE%20CITRUS",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Kenya Cane Citrus",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 1,013",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KENYA%20CANE%20CITRUS",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Kenya Cane Coco",
+        category: "other",
+        size: "250ML",
+        price: "Ksh 383",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KENYA%20CANE%20COCO",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Kenya Cane Coco",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 1,013",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KENYA%20CANE%20COCO",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Kenya Cane Lemon",
+        category: "other",
+        size: "250ML",
+        price: "Ksh 383",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KENYA%20CANE%20LEMON",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Kenya Cane Lemon",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 1,013",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KENYA%20CANE%20LEMON",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Kenya Cane Pineapple",
+        category: "other",
+        size: "250ML",
+        price: "Ksh 383",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KENYA%20CANE%20PINEAPPLE",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Kenya Cane Pineapple",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 1,013",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KENYA%20CANE%20PINEAPPLE",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Kenya Cane Smooth",
+        category: "other",
+        size: "250ML",
+        price: "Ksh 383",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KENYA%20CANE%20SMOOTH",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Kenya Cane Smooth",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 1,013",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KENYA%20CANE%20SMOOTH",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Kenya Gold",
+        category: "other",
+        size: "250ML",
+        price: "Ksh 278",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KENYA%20GOLD",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Kenya King",
+        category: "other",
+        size: "250ML",
+        price: "Ksh 345",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KENYA%20KING",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Kenya King",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 990",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KENYA%20KING",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Keror White Grape",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 750",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KEROR%20WHITE%20GRAPE",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Ketel One",
+        category: "vodka",
+        size: "750ML",
+        price: "Ksh 4,440",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KETEL%20ONE",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Kgb Classic",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 930",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KGB%20CLASSIC",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Kgb Limon",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 1,065",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KGB%20LIMON",
+        isKenyan: false,
+        country: "Unknown"
     }
 ];
 /* CATALOGUE_END */
