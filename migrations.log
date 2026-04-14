@@ -1,0 +1,41 @@
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Loaded 146 items.
+MIGRATION MODE: Updating existing items with country and rich descriptions...
+  [MIGRATE] 4Th Street Red Swtt... OK (South Africa)
+  [MIGRATE] 4Th Street Rosetr... OK (Unknown)
+  [MIGRATE] 4Th Street White... OK (Unknown)
+  [SAVE] script.js updated (146 items).
+  [MIGRATE] 4Th Strt Redt... OK (Unknown)
+  [MIGRATE] 4Th Strt Red... OK (Unknown)
+  [MIGRATE] 4Th Strt White Sweett... OK (Unknown)
+  [MIGRATE] Assic Gin... OK (Netherlands)
+  [MIGRATE] Assic G&T Can... OK (Unknown)
+  [SAVE] script.js updated (146 items).
+  [MIGRATE] 58 Spiced Orange... OK (Kenya)
+  [MIGRATE] 58 Spiced Orange... OK (Kenya)
+  [MIGRATE] 58 Spiced Orange G&T Can... OK (Kenya)
+  [MIGRATE] 58 Very Berry G&T Can... OK (Kenya)
+  [MIGRATE] 5Th Generationtr Red... OK (South Africa)
+  [SAVE] script.js updated (146 items).
+  [MIGRATE] 5Th Generation Whitetr... OK (Unknown)
+  [MIGRATE] #7Gin Blueberry... OK (South Africa)
+  [MIGRATE] #7Gin Lime And Lemon... OK (South Africa)
+  [MIGRATE] #7Gin Mixed Berry... OK (South Africa)
+  [MIGRATE] #7Gin Orange... OK (Unknown)
+  [SAVE] script.js updated (146 items).
+  [MIGRATE] #7Gin Original... OK (South Africa)
+  [MIGRATE] #7Gin Passion... OK (South Africa)
+  [MIGRATE] #7Gin Pineapple... OK (Unknown)
+  [MIGRATE] 7 Hills  Sweetred... OK (South Africa)
+  [MIGRATE] 7 Hills Sweet White... OK (South Africa)
+  [SAVE] script.js updated (146 items).
+  [MIGRATE] 8Pmt... OK (Unknown)
+  [MIGRATE] 8Pm Fire... OK (Unknown)
+  [MIGRATE] 8Pm Honey... OK (Unknown)
+  [MIGRATE] 8Pm Whisky...(Unknown)
+  [MIGRATE] 8Pm Honey... OK (Unknown)
+  [MIGRATE] 8Pm Whisky... OK (Unknown)
+  [MIGRATE] 99 Rosas Chardonnay Viog... OK (Spain)
+  [SAVE] script.js updated (146 items).
+  [MIGRATE] 99 Rosas Temp Cab Sauv...

@@ -10848,6 +10848,106 @@ const catalogueProducts = [
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=WHITE%20CAP%20CRISP%20CAN",
         isKenyan: false,
         country: "Unknown"
+    },
+    {
+        name: "White House",
+        category: "other",
+        size: "375ML",
+        price: "Ksh 480",
+        description: "",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=WHITE%20HOUSE",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "White House",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 1590",
+        description: "",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=WHITE%20HOUSE",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "White Lace Gin",
+        category: "gin",
+        size: "500ML",
+        price: "Ksh 1350",
+        description: "",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=WHITE%20LACE%20GIN",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "White Mischief",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 1178",
+        description: "",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=WHITE%20MISCHIEF",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "White Owl",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 1110",
+        description: "",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=WHITE%20OWL",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "White Pearl",
+        category: "other",
+        size: "250ML",
+        price: "Ksh 339",
+        description: "",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=WHITE%20PEARL",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "White Pearl",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 1020",
+        description: "",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=WHITE%20PEARL",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "White Pearl Pink",
+        category: "other",
+        size: "250ML",
+        price: "Ksh 339",
+        description: "",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=WHITE%20PEARL%20PINK",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "White Pearl Pink",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 1020",
+        description: "",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=WHITE%20PEARL%20PINK",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "White Pearl Xtra",
+        category: "other",
+        size: "250ML",
+        price: "Ksh 339",
+        description: "",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=WHITE%20PEARL%20XTRA",
+        isKenyan: false,
+        country: "Unknown"
     }
 ];
 /* CATALOGUE_END */

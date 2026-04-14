@@ -96,6 +96,13 @@ nav.scrolled {
   color: var(--accent-gold);
   text-transform: uppercase;
   letter-spacing: 2px;
+  text-decoration: none;
+  transition: var(--transition-smooth);
+}
+
+.logo:hover {
+  opacity: 0.8;
+  color: var(--accent-gold);
 }
 
 .nav-links {

@@ -1,0 +1,658 @@
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Loaded 94 items.
+[100/1165] [NEW] BALOZI CAN (750ML, beer)
+  [SERPAPI] Call #1 this hour
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:90: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [SAVE] script.js updated (95 items).
+[101/1165] [NEW] BALVENIE 14 (700ML, other)
+  [SERPAPI] Call #2 this hour
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:90: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [SAVE] script.js updated (96 items).
+[102/1165] [NEW] BANANA BEER (500ML, beer)
+  [SERPAPI] Call #3 this hour
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:90: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [SAVE] script.js updated (97 items).
+[103/1165] [NEW] BASE QUBE ENERGY (750ML, other)
+  [SERPAPI] Call #4 this hour
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:90: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [SAVE] script.js updated (98 items).
+[104/1165] [NEW] BAVARIA(8.6) (750ML, other)
+  [SERPAPI] Call #5 this hour
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:90: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [SAVE] script.js updated (99 items).
+[105/1165] [NEW] BAVARIA APPLE (750ML, other)
+  [SERPAPI] Call #6 this hour
+Context leak detected, CoreAnalytics returned false
+Context leak detected, CoreAnalytics returned false
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/venv/lib/python3.9/site-packages/rembg/sessions/u2net.py:44: DeprecationWarning: 'mode' parameter is deprecated and will be removed in Pillow 13 (2026-10-15)
+  mask = Image.fromarray((pred * 255).astype("uint8"), mode="L")
+  [SAVED] bavaria_apple.jpg
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:90: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [SAVE] script.js updated (100 items).
+[106/1165] [NEW] BAVARIA ORANGE (750ML, other)
+  [SERPAPI] Call #7 this hour
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:90: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [SAVE] script.js updated (101 items).
+[107/1165] [NEW] BAVARIA ORIGINAL 0.0 (750ML, gin)
+  [SERPAPI] Call #8 this hour
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:90: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [SAVE] script.js updated (102 items).
+[109/1165] [NEW] BEEFEATER CLEART (1L, gin)
+  [SERPAPI] Call #9 this hour
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:81: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+Context leak detected, CoreAnalytics returned false
+Context leak detected, CoreAnalytics returned false
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/venv/lib/python3.9/site-packages/rembg/sessions/u2net.py:44: DeprecationWarning: 'mode' parameter is deprecated and will be removed in Pillow 13 (2026-10-15)
+  mask = Image.fromarray((pred * 255).astype("uint8"), mode="L")
+  [SAVED] beefeater_cleart.jpg
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:90: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [SAVE] script.js updated (103 items).
+[110/1165] [NEW] BEEFEATER CLEAR (750ML, gin)
+  [SERPAPI] Call #10 this hour
+Context leak detected, CoreAnalytics returned false
+Context leak detected, CoreAnalytics returned false
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/venv/lib/python3.9/site-packages/rembg/sessions/u2net.py:44: DeprecationWarning: 'mode' parameter is deprecated and will be removed in Pillow 13 (2026-10-15)
+  mask = Image.fromarray((pred * 255).astype("uint8"), mode="L")
+  [SAVED] beefeater_clear.jpg
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:90: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [SAVE] script.js updated (104 items).
+[111/1165] [NEW] BEEFEATER ORANGE (750ML, gin)
+  [SERPAPI] Call #11 this hour
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:90: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [SAVE] script.js updated (105 items).
+[112/1165] [NEW] BEEFEATER PINKT (1L, gin)
+  [SERPAPI] Call #12 this hour
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:90: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [SAVE] script.js updated (106 items).
+[113/1165] [NEW] BEEFEATER PINK (750ML, gin)
+  [SERPAPI] Call #13 this hour
+Context leak detected, CoreAnalytics returned false
+Context leak detected, CoreAnalytics returned false
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/venv/lib/python3.9/site-packages/rembg/sessions/u2net.py:44: DeprecationWarning: 'mode' parameter is deprecated and will be removed in Pillow 13 (2026-10-15)
+  mask = Image.fromarray((pred * 255).astype("uint8"), mode="L")
+  [SAVED] beefeater_pink.jpg
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:90: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [SAVE] script.js updated (107 items).
+[116/1165] [NEW] BELAIRE BLEU (750ML, wine)
+  [SERPAPI] Call #14 this hour
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:90: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [SAVE] script.js updated (108 items).
+[117/1165] [NEW] BELAIRE BRUT (750ML, wine)
+  [SERPAPI] Call #15 this hour
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:90: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [SAVE] script.js updated (109 items).
+[118/1165] [NEW] BELAIRE FANTOME GOLD (750ML, wine)
+  [SERPAPI] Call #16 this hour
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:90: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [SAVE] script.js updated (110 items).
+[119/1165] [NEW] BELAIRE GOLD (750ML, wine)
+  [SERPAPI] Call #17 this hour
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:90: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [SAVE] script.js updated (111 items).
+[120/1165] [NEW] BELAIRE GOLD(PERNOD) (750ML, wine)
+  [SERPAPI] Call #18 this hour
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:90: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [SAVE] script.js updated (112 items).
+[121/1165] [NEW] BELAIRE LUXE (750ML, wine)
+  [SERPAPI] Call #19 this hour
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:90: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [SAVE] script.js updated (113 items).
+[122/1165] [NEW] BELAIRE LUXE (PERNOD) (750ML, wine)
+  [SERPAPI] Call #20 this hour
+Context leak detected, CoreAnalytics returned false
+Context leak detected, CoreAnalytics returned false
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/venv/lib/python3.9/site-packages/rembg/sessions/u2net.py:44: DeprecationWarning: 'mode' parameter is deprecated and will be removed in Pillow 13 (2026-10-15)
+  mask = Image.fromarray((pred * 255).astype("uint8"), mode="L")
+  [SAVED] belaire_luxe__pernod.jpg
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:90: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [SAVE] script.js updated (114 items).
+[123/1165] [NEW] BELAIRE ROSE BLACK (750ML, wine)
+  [SERPAPI] Call #21 this hour
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:90: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [SAVE] script.js updated (115 items).
+[124/1165] [NEW] BELAIRE ROSE BLACK(FANTOME) (750ML, wine)
+  [SERPAPI] Call #22 this hour
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:90: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [SAVE] script.js updated (116 items).
+[125/1165] [NEW] BELAIRE ROSE BLACK(PERNOD) (750ML, wine)
+  [SERPAPI] Call #23 this hour
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:90: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [SAVE] script.js updated (117 items).
+[126/1165] [NEW] BELAIRE ROSE PINK (750ML, wine)
+  [SERPAPI] Call #24 this hour
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:90: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [SAVE] script.js updated (118 items).
+[127/1165] [NEW] BERTRAMS VO BRDY (750ML, other)
+  [SERPAPI] Call #25 this hour
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:90: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [SAVE] script.js updated (119 items).
+  [GIT] Pushing 25 new items to trigger Vercel deploy...
+[main d2777dd] feat: auto-update catalogue - added 25 items
+ 9 files changed, 216 insertions(+)
+ create mode 100644 assets/images/real/bacardi_blance_3_4.jpg
+ create mode 100644 assets/images/real/baileys.jpg
+ create mode 100644 assets/images/real/ballantines.jpg
+ create mode 100644 assets/images/real/bavaria_apple.jpg
+ create mode 100644 assets/images/real/beefeater_clear.jpg
+ create mode 100644 assets/images/real/beefeater_cleart.jpg
+ create mode 100644 assets/images/real/beefeater_pink.jpg
+ create mode 100644 assets/images/real/belaire_luxe__pernod.jpg
+To https://github.com/mugaruranelson-cmd/liquify_mandela.git
+   5a85a16..d2777dd  main -> main
+  [GIT] Push complete.
+[128/1165] [NEW] BEST CREAM (250ML, liqueur)
+  [SERPAPI] Call #26 this hour
+Context leak detected, CoreAnalytics returned false
+Context leak detected, CoreAnalytics returned false
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/venv/lib/python3.9/site-packages/rembg/sessions/u2net.py:44: DeprecationWarning: 'mode' parameter is deprecated and will be removed in Pillow 13 (2026-10-15)
+  mask = Image.fromarray((pred * 255).astype("uint8"), mode="L")
+  [SAVED] best_cream.jpg
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:90: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [SAVE] script.js updated (120 items).
+[129/1165] [NEW] BEST CREAM (750ML, liqueur)
+  [SERPAPI] Call #27 this hour
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:90: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [SAVE] script.js updated (121 items).
+[130/1165] [NEW] BEST GIN (250ML, gin)
+  [SERPAPI] Call #28 this hour
+  [FAIL] Image best_gin: 403 Client Error: Forbidden for url: https://topshelfwineandspirits.com/cdn/shop/files/TSproductimage-Recoveredcopy_b3a4f420-45c6-498c-8416-bf0684644556.png?v=1723260459
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:90: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [SAVE] script.js updated (122 items).
+[131/1165] [NEW] BEST GIN (750ML, gin)
+  [SERPAPI] Call #29 this hour
+  [FAIL] Image best_gin: 403 Client Error: Forbidden for url: https://topshelfwineandspirits.com/cdn/shop/files/TSproductimage-Recoveredcopy_b3a4f420-45c6-498c-8416-bf0684644556.png?v=1723260459
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:90: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [SAVE] script.js updated (123 items).
+[132/1165] [NEW] BEST VODKA (250ML, vodka)
+  [SERPAPI] Call #30 this hour
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:90: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [SAVE] script.js updated (124 items).
+[133/1165] [NEW] BEST VODKA (750ML, vodka)
+  [SERPAPI] Call #31 this hour
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:90: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [SAVE] script.js updated (125 items).
+[134/1165] [NEW] BEST WHISKY (250ML, whisky)
+  [SERPAPI] Call #32 this hour
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:90: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [SAVE] script.js updated (126 items).
+[135/1165] [NEW] BEST WHISKY (750ML, whisky)
+  [SERPAPI] Call #33 this hour
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:90: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [SAVE] script.js updated (127 items).
+[136/1165] [NEW] Bittolla red (750ML, other)
+  [SERPAPI] Call #34 this hour
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:90: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [SAVE] script.js updated (128 items).
+[137/1165] [NEW] BL (750ML, other)
+  [SERPAPI] Call #35 this hour
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:90: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [SAVE] script.js updated (129 items).
+[138/1165] [NEW] BLACK BIRD SWT RED (750ML, other)
+  [SERPAPI] Call #36 this hour
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:90: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [SAVE] script.js updated (130 items).
+[140/1165] [NEW] BLACK BIRD SWT  WHITE (750ML, other)
+  [SERPAPI] Call #37 this hour
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:90: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [SAVE] script.js updated (131 items).
+[141/1165] [NEW] BLACK ICE BEER (750ML, beer)
+  [SERPAPI] Call #38 this hour
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:90: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [SAVE] script.js updated (132 items).
+[142/1165] [NEW] BLACK ICE CAN (330ML, other)
+  [SERPAPI] Call #39 this hour
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:90: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [SAVE] script.js updated (133 items).
+[143/1165] [NEW] BLACK RAM HONEY (750ML, other)
+  [SERPAPI] Call #40 this hour
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:90: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [SAVE] script.js updated (134 items).
+[144/1165] [NEW] BLACK RAM WHSKYT (1L, other)
+  [SERPAPI] Call #41 this hour
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:90: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [SAVE] script.js updated (135 items).
+[145/1165] [NEW] BLACK RAM WHSKY (750ML, other)
+  [SERPAPI] Call #42 this hour
+Context leak detected, CoreAnalytics returned false
+Context leak detected, CoreAnalytics returned false
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/venv/lib/python3.9/site-packages/rembg/sessions/u2net.py:44: DeprecationWarning: 'mode' parameter is deprecated and will be removed in Pillow 13 (2026-10-15)
+  mask = Image.fromarray((pred * 255).astype("uint8"), mode="L")
+  [SAVED] black_ram_whsky.jpg
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:90: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [SAVE] script.js updated (136 items).
+[146/1165] [NEW] BLACK & WHITET (1L, whisky)
+  [SERPAPI] Call #43 this hour
+Context leak detected, CoreAnalytics returned false
+Context leak detected, CoreAnalytics returned false
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/venv/lib/python3.9/site-packages/rembg/sessions/u2net.py:44: DeprecationWarning: 'mode' parameter is deprecated and will be removed in Pillow 13 (2026-10-15)
+  mask = Image.fromarray((pred * 255).astype("uint8"), mode="L")
+  [SAVED] black___whitet.jpg
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:90: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [SAVE] script.js updated (137 items).
+[147/1165] [NEW] BLACK & WHITE (250ML, whisky)
+  [SERPAPI] Call #44 this hour
+Context leak detected, CoreAnalytics returned false
+Context leak detected, CoreAnalytics returned false
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/venv/lib/python3.9/site-packages/rembg/sessions/u2net.py:44: DeprecationWarning: 'mode' parameter is deprecated and will be removed in Pillow 13 (2026-10-15)
+  mask = Image.fromarray((pred * 255).astype("uint8"), mode="L")
+  [SAVED] black___white.jpg
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:90: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [SAVE] script.js updated (138 items).
+[148/1165] [NEW] BLACK & WHITE (375ML, whisky)
+  [SERPAPI] Call #45 this hour
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:90: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [SAVE] script.js updated (139 items).
+[149/1165] [NEW] BLACK & WHITE (750ML, whisky)
+  [SERPAPI] Call #46 this hour
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:90: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [SAVE] script.js updated (140 items).
+[150/1165] [NEW] BLUE CURACAO LIQUEUR (700ML, liqueur)
+  [SERPAPI] Call #47 this hour
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:90: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [SAVE] script.js updated (141 items).
+[151/1165] [NEW] BLUE CURACAO SYRUP (700ML, other)
+  [SERPAPI] Call #48 this hour
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:90: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [SAVE] script.js updated (142 items).
+[152/1165] [NEW] BLUE ICE COCO 1/4 (750ML, other)
+  [SERPAPI] Call #49 this hour
+Context leak detected, CoreAnalytics returned false
+Context leak detected, CoreAnalytics returned false
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/venv/lib/python3.9/site-packages/rembg/sessions/u2net.py:44: DeprecationWarning: 'mode' parameter is deprecated and will be removed in Pillow 13 (2026-10-15)
+  mask = Image.fromarray((pred * 255).astype("uint8"), mode="L")
+  [SAVED] blue_ice_coco_1_4.jpg
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:90: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [SAVE] script.js updated (143 items).
+[154/1165] [NEW] BLUE ICE VODKA (250ML, vodka)
+  [SERPAPI] Call #50 this hour
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:90: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [SAVE] script.js updated (144 items).
+  [GIT] Pushing 50 new items to trigger Vercel deploy...
+[main 883a247] feat: auto-update catalogue - added 50 items
+ 6 files changed, 256 insertions(+), 4 deletions(-)
+ create mode 100644 assets/images/real/best_cream.jpg
+ create mode 100644 assets/images/real/black___white.jpg
+ create mode 100644 assets/images/real/black___whitet.jpg
+ create mode 100644 assets/images/real/black_ram_whsky.jpg
+ create mode 100644 assets/images/real/blue_ice_coco_1_4.jpg
+To https://github.com/mugaruranelson-cmd/liquify_mandela.git
+   d2777dd..883a247  main -> main
+  [GIT] Push complete.
+[155/1165] [NEW] BLUE ICE VODKA (750ML, vodka)
+  [SERPAPI] Call #51 this hour
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:90: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [SAVE] script.js updated (145 items).
+[156/1165] [NEW] BLUE MOON (250ML, other)
+  [SERPAPI] Call #52 this hour
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:90: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [SAVE] script.js updated (146 items).
+[157/1165] [NEW] BLUE MOON 750M (750ML, other)
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              [SERPAPI] Call #94 this hour
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:106: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [SAVE] script.js updated with 95 products.
+[101/1165] [NEW] BALVENIE 14 (700ML, other)
+  [SERPAPI] Call #95 this hour
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:106: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [SAVE] script.js updated with 96 products.
+[102/1165] [NEW] BANANA BEER (500ML, beer)
+  [SERPAPI] Call #96 this hour
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:106: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [SAVE] script.js updated with 97 products.
+[103/1165] [NEW] BASE QUBE ENERGY (750ML, other)
+  [SERPAPI] Call #97 this hour
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:106: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [SAVE] script.js updated with 98 products.
+[104/1165] [NEW] BAVARIA(8.6) (750ML, other)
+  [SERPAPI] Call #98 this hour
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:106: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [SAVE] script.js updated with 99 products.
+[105/1165] [NEW] BAVARIA APPLE (750ML, other)
+  [SERPAPI] Call #99 this hour
+Context leak detected, CoreAnalytics returned false
+Context leak detected, CoreAnalytics returned false
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/venv/lib/python3.9/site-packages/rembg/sessions/u2net.py:44: DeprecationWarning: 'mode' parameter is deprecated and will be removed in Pillow 13 (2026-10-15)
+  mask = Image.fromarray((pred * 255).astype("uint8"), mode="L")
+  [SAVED] bavaria_apple.jpg
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:106: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [SAVE] script.js updated with 100 products.
+[106/1165] [NEW] BAVARIA ORANGE (750ML, other)
+  [SERPAPI] Call #100 this hour
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:106: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [SAVE] script.js updated with 101 products.
+[107/1165] [NEW] BAVARIA ORIGINAL 0.0 (750ML, gin)
+  [SERPAPI] Call #101 this hour
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:106: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [SAVE] script.js updated with 102 products.
+[109/1165] [NEW] BEEFEATER CLEART (1L, gin)
+  [SERPAPI] Call #102 this hour
+  SerpAPI error: Google Images hasn't returned any results for this query.
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:97: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+Context leak detected, CoreAnalytics returned false
+Context leak detected, CoreAnalytics returned false
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/venv/lib/python3.9/site-packages/rembg/sessions/u2net.py:44: DeprecationWarning: 'mode' parameter is deprecated and will be removed in Pillow 13 (2026-10-15)
+  mask = Image.fromarray((pred * 255).astype("uint8"), mode="L")
+  [SAVED] beefeater_cleart.jpg
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:106: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [SAVE] script.js updated with 103 products.
+[110/1165] [NEW] BEEFEATER CLEAR (750ML, gin)
+  [SERPAPI] Call #103 this hour
+Context leak detected, CoreAnalytics returned false
+Context leak detected, CoreAnalytics returned false
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/venv/lib/python3.9/site-packages/rembg/sessions/u2net.py:44: DeprecationWarning: 'mode' parameter is deprecated and will be removed in Pillow 13 (2026-10-15)
+  mask = Image.fromarray((pred * 255).astype("uint8"), mode="L")
+  [SAVED] beefeater_clear.jpg
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:106: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [SAVE] script.js updated with 104 products.
+[111/1165] [NEW] BEEFEATER ORANGE (750ML, gin)
+  [SERPAPI] Call #104 this hour
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:106: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [SAVE] script.js updated with 105 products.
+[112/1165] [NEW] BEEFEATER PINKT (1L, gin)
+  [SERPAPI] Call #105 this hour
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:106: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [SAVE] script.js updated with 106 products.
+[113/1165] [NEW] BEEFEATER PINK (750ML, gin)
+  [SERPAPI] Call #106 this hour
+Context leak detected, CoreAnalytics returned false
+Context leak detected, CoreAnalytics returned false
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/venv/lib/python3.9/site-packages/rembg/sessions/u2net.py:44: DeprecationWarning: 'mode' parameter is deprecated and will be removed in Pillow 13 (2026-10-15)
+  mask = Image.fromarray((pred * 255).astype("uint8"), mode="L")
+  [SAVED] beefeater_pink.jpg
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:106: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [SAVE] script.js updated with 107 products.
+[116/1165] [NEW] BELAIRE BLEU (750ML, wine)
+  [SERPAPI] Call #107 this hour
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:106: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [SAVE] script.js updated with 108 products.
+[117/1165] [NEW] BELAIRE BRUT (750ML, wine)
+  [SERPAPI] Call #108 this hour
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:106: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [SAVE] script.js updated with 109 products.
+[118/1165] [NEW] BELAIRE FANTOME GOLD (750ML, wine)
+  [SERPAPI] Call #109 this hour
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:106: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [SAVE] script.js updated with 110 products.
+[119/1165] [NEW] BELAIRE GOLD (750ML, wine)
+  [SERPAPI] Call #110 this hour
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:106: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [SAVE] script.js updated with 111 products.
+[120/1165] [NEW] BELAIRE GOLD(PERNOD) (750ML, wine)
+  [SERPAPI] Call #111 this hour
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:106: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [SAVE] script.js updated with 112 products.
+[121/1165] [NEW] BELAIRE LUXE (750ML, wine)
+  [SERPAPI] Call #112 this hour
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:106: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [SAVE] script.js updated with 113 products.
+[122/1165] [NEW] BELAIRE LUXE (PERNOD) (750ML, wine)
+  [SERPAPI] Call #113 this hour
+Context leak detected, CoreAnalytics returned false
+Context leak detected, CoreAnalytics returned false
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/venv/lib/python3.9/site-packages/rembg/sessions/u2net.py:44: DeprecationWarning: 'mode' parameter is deprecated and will be removed in Pillow 13 (2026-10-15)
+  mask = Image.fromarray((pred * 255).astype("uint8"), mode="L")
+  [SAVED] belaire_luxe__pernod.jpg
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:106: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [SAVE] script.js updated with 114 products.
+[123/1165] [NEW] BELAIRE ROSE BLACK (750ML, wine)
+  [SERPAPI] Call #114 this hour
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:106: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [SAVE] script.js updated with 115 products.
+[124/1165] [NEW] BELAIRE ROSE BLACK(FANTOME) (750ML, wine)
+  [SERPAPI] Call #115 this hour
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:106: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [SAVE] script.js updated with 116 products.
+[125/1165] [NEW] BELAIRE ROSE BLACK(PERNOD) (750ML, wine)
+  [SERPAPI] Call #116 this hour
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:106: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [SAVE] script.js updated with 117 products.
+[126/1165] [NEW] BELAIRE ROSE PINK (750ML, wine)
+  [SERPAPI] Call #117 this hour
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:106: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [SAVE] script.js updated with 118 products.
+[127/1165] [NEW] BERTRAMS VO BRDY (750ML, other)
+  [SERPAPI] Call #118 this hour
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:106: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [SAVE] script.js updated with 119 products.
+[128/1165] [NEW] BEST CREAM (250ML, liqueur)
+  [SERPAPI] Call #119 this hour
+Context leak detected, CoreAnalytics returned false
+Context leak detected, CoreAnalytics returned false
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/venv/lib/python3.9/site-packages/rembg/sessions/u2net.py:44: DeprecationWarning: 'mode' parameter is deprecated and will be removed in Pillow 13 (2026-10-15)
+  mask = Image.fromarray((pred * 255).astype("uint8"), mode="L")
+  [SAVED] best_cream.jpg
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:106: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [SAVE] script.js updated with 120 products.
+[129/1165] [NEW] BEST CREAM (750ML, liqueur)
+  [SERPAPI] Call #120 this hour
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:106: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [SAVE] script.js updated with 121 products.
+[130/1165] [NEW] BEST GIN (250ML, gin)
+  [SERPAPI] Call #121 this hour
+  [FAIL] Image best_gin: 403 Client Error: Forbidden for url: https://topshelfwineandspirits.com/cdn/shop/files/TSproductimage-Recoveredcopy_b3a4f420-45c6-498c-8416-bf0684644556.png?v=1723260459
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:106: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [SAVE] script.js updated with 122 products.
+[131/1165] [NEW] BEST GIN (750ML, gin)
+  [SERPAPI] Call #122 this hour
+  [FAIL] Image best_gin: 403 Client Error: Forbidden for url: https://topshelfwineandspirits.com/cdn/shop/files/TSproductimage-Recoveredcopy_b3a4f420-45c6-498c-8416-bf0684644556.png?v=1723260459
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:106: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [SAVE] script.js updated with 123 products.
+[132/1165] [NEW] BEST VODKA (250ML, vodka)
+  [SERPAPI] Call #123 this hour
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:106: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [SAVE] script.js updated with 124 products.
+[133/1165] [NEW] BEST VODKA (750ML, vodka)
+  [SERPAPI] Call #124 this hour
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:106: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [SAVE] script.js updated with 125 products.
+[134/1165] [NEW] BEST WHISKY (250ML, whisky)
+  [SERPAPI] Call #125 this hour
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:106: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [SAVE] script.js updated with 126 products.
+[135/1165] [NEW] BEST WHISKY (750ML, whisky)
+  [SERPAPI] Call #126 this hour
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:106: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [SAVE] script.js updated with 127 products.
+[136/1165] [NEW] Bittolla red (750ML, other)
+  [SERPAPI] Call #127 this hour
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:106: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [SAVE] script.js updated with 128 products.
+[137/1165] [NEW] BL (750ML, other)
+  [SERPAPI] Call #128 this hour
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:106: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [SAVE] script.js updated with 129 products.
+[138/1165] [NEW] BLACK BIRD SWT RED (750ML, other)
+  [SERPAPI] Call #129 this hour
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:106: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [SAVE] script.js updated with 130 products.
+[140/1165] [NEW] BLACK BIRD SWT  WHITE (750ML, other)
+  [SERPAPI] Call #130 this hour
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:106: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [SAVE] script.js updated with 131 products.
+[141/1165] [NEW] BLACK ICE BEER (750ML, beer)
+  [SERPAPI] Call #131 this hour
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:106: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [SAVE] script.js updated with 132 products.
+[142/1165] [NEW] BLACK ICE CAN (330ML, other)
+  [SERPAPI] Call #132 this hour
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:106: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [SAVE] script.js updated with 133 products.
+[143/1165] [NEW] BLACK RAM HONEY (750ML, other)
+  [SERPAPI] Call #133 this hour
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:106: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [SAVE] script.js updated with 134 products.
+[144/1165] [NEW] BLACK RAM WHSKYT (1L, other)
+  [SERPAPI] Call #134 this hour
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:106: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [SAVE] script.js updated with 135 products.
+[145/1165] [NEW] BLACK RAM WHSKY (750ML, other)
+  [SERPAPI] Call #135 this hour
+Context leak detected, CoreAnalytics returned false
+Context leak detected, CoreAnalytics returned false
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/venv/lib/python3.9/site-packages/rembg/sessions/u2net.py:44: DeprecationWarning: 'mode' parameter is deprecated and will be removed in Pillow 13 (2026-10-15)
+  mask = Image.fromarray((pred * 255).astype("uint8"), mode="L")
+  [SAVED] black_ram_whsky.jpg
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:106: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [SAVE] script.js updated with 136 products.
+[146/1165] [NEW] BLACK & WHITET (1L, whisky)
+  [SERPAPI] Call #136 this hour
+Context leak detected, CoreAnalytics returned false
+Context leak detected, CoreAnalytics returned false
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/venv/lib/python3.9/site-packages/rembg/sessions/u2net.py:44: DeprecationWarning: 'mode' parameter is deprecated and will be removed in Pillow 13 (2026-10-15)
+  mask = Image.fromarray((pred * 255).astype("uint8"), mode="L")
+  [SAVED] black___whitet.jpg
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:106: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [SAVE] script.js updated with 137 products.
+[147/1165] [NEW] BLACK & WHITE (250ML, whisky)
+  [SERPAPI] Call #137 this hour
+Context leak detected, CoreAnalytics returned false
+Context leak detected, CoreAnalytics returned false
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/venv/lib/python3.9/site-packages/rembg/sessions/u2net.py:44: DeprecationWarning: 'mode' parameter is deprecated and will be removed in Pillow 13 (2026-10-15)
+  mask = Image.fromarray((pred * 255).astype("uint8"), mode="L")
+  [SAVED] black___white.jpg
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:106: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [SAVE] script.js updated with 138 products.
+[148/1165] [NEW] BLACK & WHITE (375ML, whisky)
+  [SERPAPI] Call #138 this hour
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:106: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [SAVE] script.js updated with 139 products.
+[149/1165] [NEW] BLACK & WHITE (750ML, whisky)
+  [SERPAPI] Call #139 this hour
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:106: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [SAVE] script.js updated with 140 products.
+[150/1165] [NEW] BLUE CURACAO LIQUEUR (700ML, liqueur)
+  [SERPAPI] Call #140 this hour
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:106: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [SAVE] script.js updated with 141 products.
+[151/1165] [NEW] BLUE CURACAO SYRUP (700ML, other)
+  [SERPAPI] Call #141 this hour
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:106: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [SAVE] script.js updated with 142 products.
+[152/1165] [NEW] BLUE ICE COCO 1/4 (750ML, other)
+  [SERPAPI] Call #142 this hour
+Context leak detected, CoreAnalytics returned false
+Context leak detected, CoreAnalytics returned false
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/venv/lib/python3.9/site-packages/rembg/sessions/u2net.py:44: DeprecationWarning: 'mode' parameter is deprecated and will be removed in Pillow 13 (2026-10-15)
+  mask = Image.fromarray((pred * 255).astype("uint8"), mode="L")
+  [SAVED] blue_ice_coco_1_4.jpg
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:106: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [SAVE] script.js updated with 143 products.
+[154/1165] [NEW] BLUE ICE VODKA (250ML, vodka)
+  [SERPAPI] Call #143 this hour
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:106: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [SAVE] script.js updated with 144 products.
+[155/1165] [NEW] BLUE ICE VODKA (750ML, vodka)
+  [SERPAPI] Call #1 this hour
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:106: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [SAVE] script.js updated with 145 products.
+[156/1165] [NEW] BLUE MOON (250ML, other)
+  [SERPAPI] Call #2 this hour
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:106: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [SAVE] script.js updated with 146 products.
+[157/1165] [NEW] BLUE MOON 750M (750ML, other)
