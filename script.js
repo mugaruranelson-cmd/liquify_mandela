@@ -6828,6 +6828,256 @@ const catalogueProducts = [
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=LEOPARD%20CAB%20SAUV",
         isKenyan: false,
         country: "Unknown"
+    },
+    {
+        name: "Leopard Cab Sav Merlot",
+        category: "wine",
+        size: "750ML",
+        price: "Ksh 2,235",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=LEOPARD%20CAB%20SAV%20MERLOT",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Leopard Chardonnay",
+        category: "wine",
+        size: "750ML",
+        price: "Ksh 2,235",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=LEOPARD%20CHARDONNAY",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Leopard Chenin Blanc",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 2,235",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=LEOPARD%20CHENIN%20BLANC",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Leopard Merlot",
+        category: "wine",
+        size: "750ML",
+        price: "Ksh 2,235",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=LEOPARD%20MERLOT",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Leopard Sav Blanc",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 2,235",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=LEOPARD%20SAV%20BLANC",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Lime Juice",
+        category: "other",
+        size: "1.5L",
+        price: "Ksh 368",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=LIME%20JUICE",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Lime Juice",
+        category: "other",
+        size: "700ML",
+        price: "Ksh 210",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=LIME%20JUICE",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Lion Export Premium(8.8%)",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 323",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=LION%20EXPORT%20PREMIUM%288.8%25%29",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Lion Extra Strong (12%_",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 338",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=LION%20EXTRA%20STRONG%20%2812%25_",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Lion Stout(8.8)",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 413",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=LION%20STOUT%288.8%29",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Luksusowa Vodka",
+        category: "vodka",
+        size: "750ML",
+        price: "Ksh 1,035",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=LUKSUSOWA%20VODKA",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Lupini Black",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 1,575",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=LUPINI%20BLACK",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Lupini Gold",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 1,200",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=LUPINI%20GOLD",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Macallan 12Yrs",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 20,250",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MACALLAN%2012YRS",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Madafu Liqueor",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 1,200",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MADAFU%20LIQUEOR",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Magic Momentt",
+        category: "other",
+        size: "1.75L",
+        price: "Ksh 2,190",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MAGIC%20MOMENTT",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Magic Moment 3/4",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 1,275",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MAGIC%20MOMENT%203/4",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Magic Moments Apple",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 1,305",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MAGIC%20MOMENTS%20APPLE",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Magic Moments Choco",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 1,305",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MAGIC%20MOMENTS%20CHOCO",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Magic Moments Original",
+        category: "gin",
+        size: "750ML",
+        price: "Ksh 1,305",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MAGIC%20MOMENTS%20ORIGINAL",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Magic Momenys Orange",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 1,305",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MAGIC%20MOMENYS%20ORANGE",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Magic Times",
+        category: "other",
+        size: "250ML",
+        price: "Ksh 150",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MAGIC%20TIMES",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Magnumt",
+        category: "other",
+        size: "1L",
+        price: "Ksh 2,250",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MAGNUMT",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Magnum",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 1,725",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MAGNUM",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Malbec",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 3,105",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MALBEC",
+        isKenyan: false,
+        country: "Unknown"
     }
 ];
 /* CATALOGUE_END */
