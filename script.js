@@ -10348,6 +10348,56 @@ const catalogueProducts = [
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=THE%20GUVNOR",
         isKenyan: false,
         country: "Unknown"
+    },
+    {
+        name: "The Wilshire Blended Whisky",
+        category: "whisky",
+        size: "750ML",
+        price: "Ksh 1725",
+        description: "",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=THE%20WILSHIRE%20BLENDED%20WHISKY",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Three Barrelt",
+        category: "other",
+        size: "1L",
+        price: "Ksh 3600",
+        description: "",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=THREE%20BARRELT",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Three Barrel",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 2250",
+        description: "",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=THREE%20BARREL",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Tia Mariat",
+        category: "other",
+        size: "1L",
+        price: "Ksh 4050",
+        description: "",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=TIA%20MARIAT",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Time Virginia Blend Bulk",
+        category: "gin",
+        size: "750ML",
+        price: "Ksh 263",
+        description: "",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=TIME%20VIRGINIA%20BLEND%20BULK",
+        isKenyan: false,
+        country: "Unknown"
     }
 ];
 /* CATALOGUE_END */
@@ -10457,20 +10507,51 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 });
 
-// Initialize Shop Catalogue (for shop.html)
+// Initialize Shop Catalogue (for shop.html) with Batch Rendering
 function initShop() {
     const productGrid = document.getElementById('shop-product-grid');
     if (!productGrid) return;
 
-    productGrid.innerHTML = ''; // Clear existing
-    
-    catalogueProducts.forEach(product => {
-        const countryTag = product.country && product.country !== 'Unknown' 
-            ? `<div class="country-tag"><i class="fas fa-globe-africa"></i> ${product.country}</div>` 
-            : '';
+    const filterBtns = document.querySelectorAll('.filter-btn');
+    const searchInput = document.getElementById('shop-search');
+    const noProductsMsg = document.getElementById('no-products-message');
 
-        const itemHtml = `
-            <div class="product-card product-item reveal" data-category="${product.category}" data-kenyan="${product.isKenyan || false}">
+    // Batching State
+    let filteredData = [...catalogueProducts];
+    let renderedCount = 0;
+    const BATCH_SIZE = 30;
+    
+    // Create Sentinel for Infinite Scroll
+    const sentinel = document.createElement('div');
+    sentinel.className = 'scroll-sentinel';
+    sentinel.innerHTML = `
+        <div class="loader-dots">
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+        </div>
+    `;
+
+    function renderProductBatch() {
+        const nextBatch = filteredData.slice(renderedCount, renderedCount + BATCH_SIZE);
+        if (nextBatch.length === 0) {
+            sentinel.style.display = 'none';
+            return;
+        }
+
+        const fragment = document.createDocumentFragment();
+        
+        nextBatch.forEach(product => {
+            const countryTag = product.country && product.country !== 'Unknown' 
+                ? `<div class="country-tag"><i class="fas fa-globe-africa"></i> ${product.country}</div>` 
+                : '';
+
+            const col = document.createElement('div');
+            col.className = 'product-card product-item reveal active';
+            col.setAttribute('data-category', product.category);
+            col.setAttribute('data-kenyan', product.isKenyan || false);
+            
+            col.innerHTML = `
                 <div class="product-image">
                     <img src="${product.image}" alt="${product.name}" style="border-radius: 10px; max-height: 200px; object-fit: contain;" loading="lazy">
                 </div>
@@ -10481,58 +10562,86 @@ function initShop() {
                     <p style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 1rem; line-height: 1.4;">${product.description}</p>
                     <button class="btn btn-primary shop-order-btn" data-product="${product.name} ${product.size}">Order on WA</button>
                 </div>
-            </div>
-        `;
-        productGrid.innerHTML += itemHtml;
-    });
+            `;
+            
+            // Attach WhatsApp listener
+            col.querySelector('.shop-order-btn').addEventListener('click', () => {
+                const productInfo = `${product.name} ${product.size}`;
+                window.location.href = buildWhatsAppLink(`Hi Liquify, I want to order ${productInfo}. Please confirm availability.`);
+            });
 
-    // Attach dynamic order buttons
-    document.querySelectorAll('.shop-order-btn').forEach(btn => {
-        btn.addEventListener('click', () => {
-            const productInfo = btn.getAttribute('data-product');
-            window.location.href = buildWhatsAppLink(`Hi Liquify, I want to order ${productInfo}. Please confirm availability and delivery to Embakasi.`);
+            fragment.appendChild(col);
         });
-    });
 
-    // Filtering logic
-    const filterBtns = document.querySelectorAll('.filter-btn');
-    const searchInput = document.getElementById('shop-search');
-    const noProductsMsg = document.getElementById('no-products-message');
+        productGrid.insertBefore(fragment, sentinel);
+        renderedCount += nextBatch.length;
+        
+        // Check if we reached the end
+        if (renderedCount >= filteredData.length) {
+            sentinel.style.display = 'none';
+        } else {
+            sentinel.style.display = 'flex';
+        }
+
+        if (typeof reveal === 'function') setTimeout(reveal, 100);
+    }
 
     function performFiltering() {
         const activeBtn = document.querySelector('.filter-btn.active');
-        const filterValue = activeBtn ? activeBtn.getAttribute('data-filter') : 'all';
+        const filterCategory = activeBtn ? activeBtn.getAttribute('data-filter') : 'all';
         const searchQuery = (searchInput ? searchInput.value : "").toLowerCase().trim();
-        let visibleCount = 0;
 
-        document.querySelectorAll('.product-item').forEach(item => {
-            const name = item.querySelector('h3').textContent.toLowerCase();
-            const desc = item.querySelector('p').textContent.toLowerCase();
-            const itemCategory = item.getAttribute('data-category');
-            const isKenyan = item.getAttribute('data-kenyan') === 'true';
+        // 1. Filter the Data Array first (Fast)
+        filteredData = catalogueProducts.filter(product => {
+            const name = product.name.toLowerCase();
+            const desc = product.description.toLowerCase();
+            const isKenyan = product.isKenyan === true || String(product.isKenyan) === 'true';
 
-            let categoryMatch = (filterValue === 'all') || 
-                              (filterValue === 'kenyan' && isKenyan) || 
-                              (filterValue === itemCategory);
+            const categoryMatch = (filterCategory === 'all') || 
+                                (filterCategory === 'kenyan' && isKenyan) || 
+                                (filterCategory === product.category);
 
             const searchMatch = !searchQuery || name.includes(searchQuery) || desc.includes(searchQuery);
 
-            if (categoryMatch && searchMatch) {
-                item.style.display = 'block';
-                item.classList.add('active');
-                visibleCount++;
-            } else {
-                item.style.display = 'none';
-                item.classList.remove('active');
-            }
+            return categoryMatch && searchMatch;
         });
 
+        // 2. Reset Grid and Batching
+        renderedCount = 0;
+        productGrid.innerHTML = ''; 
+        productGrid.appendChild(sentinel);
+        
         if (noProductsMsg) {
-            noProductsMsg.style.display = (visibleCount === 0) ? 'block' : 'none';
+            noProductsMsg.style.display = (filteredData.length === 0) ? 'block' : 'none';
         }
+
+        // 3. Render first batch
+        renderProductBatch();
     }
 
-    if (searchInput) searchInput.addEventListener('input', performFiltering);
+    // Initialize Infinite Scroll Observer
+    const observer = new IntersectionObserver((entries) => {
+        if (entries[0].isIntersecting && renderedCount < filteredData.length) {
+            renderProductBatch();
+        }
+    }, { rootMargin: '200px' });
+
+    // Initial Setup
+    productGrid.innerHTML = '';
+    productGrid.appendChild(sentinel);
+    observer.observe(sentinel);
+
+    // Initial Load
+    performFiltering();
+
+    // Event Listeners
+    if (searchInput) {
+        searchInput.addEventListener('input', () => {
+            // Debounce or at least delay filtering slightly for perf
+            performFiltering();
+        });
+    }
+
     filterBtns.forEach(btn => {
         btn.addEventListener('click', () => {
             filterBtns.forEach(b => b.classList.remove('active'));
@@ -10540,9 +10649,6 @@ function initShop() {
             performFiltering();
         });
     });
-
-    // Initial reveal
-    setTimeout(reveal, 100);
 }
 
 document.addEventListener('DOMContentLoaded', initShop);
