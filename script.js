@@ -3328,6 +3328,256 @@ const catalogueProducts = [
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FLIRT%20CHOCO",
         isKenyan: false,
         country: "Unknown"
+    },
+    {
+        name: "Flirt Choco",
+        category: "vodka",
+        size: "350ML",
+        price: "Ksh 525",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FLIRT%20CHOCO",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Flirt Choco",
+        category: "vodka",
+        size: "700ML",
+        price: "Ksh 1,650",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FLIRT%20CHOCO",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Flirt Green Applet",
+        category: "vodka",
+        size: "1L",
+        price: "Ksh 2,175",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FLIRT%20GREEN%20APPLET",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Flirt Green Apple",
+        category: "vodka",
+        size: "250ML",
+        price: "Ksh 375",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FLIRT%20GREEN%20APPLE",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Flirt Green Apple",
+        category: "vodka",
+        size: "700ML",
+        price: "Ksh 1,650",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FLIRT%20GREEN%20APPLE",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Flirt Lemont",
+        category: "vodka",
+        size: "1L",
+        price: "Ksh 2,175",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FLIRT%20LEMONT",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Flirt Lemon",
+        category: "vodka",
+        size: "750ML",
+        price: "Ksh 1,650",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FLIRT%20LEMON",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Flirt Oranget",
+        category: "vodka",
+        size: "1L",
+        price: "Ksh 2,175",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FLIRT%20ORANGET",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Flirt Orange",
+        category: "vodka",
+        size: "250ML",
+        price: "Ksh 375",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FLIRT%20ORANGE",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Flirt Orange",
+        category: "vodka",
+        size: "350ML",
+        price: "Ksh 525",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FLIRT%20ORANGE",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Flirt Orange",
+        category: "vodka",
+        size: "700ML",
+        price: "Ksh 1,650",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FLIRT%20ORANGE",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Flirt Originalt",
+        category: "vodka",
+        size: "1L",
+        price: "Ksh 2,175",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FLIRT%20ORIGINALT",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Flirt Original",
+        category: "vodka",
+        size: "350ML",
+        price: "Ksh 525",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FLIRT%20ORIGINAL",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Flirt Raspberryt",
+        category: "vodka",
+        size: "1L",
+        price: "Ksh 2,175",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FLIRT%20RASPBERRYT",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Flirt Strawberryt",
+        category: "vodka",
+        size: "1L",
+        price: "Ksh 2,175",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FLIRT%20STRAWBERRYT",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Flirt Strawberry",
+        category: "vodka",
+        size: "250ML",
+        price: "Ksh 375",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FLIRT%20strawberry",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Flirt Strawberry",
+        category: "vodka",
+        size: "350ML",
+        price: "Ksh 525",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FLIRT%20STRAWBERRY",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Flirt Strawberry",
+        category: "vodka",
+        size: "750ML",
+        price: "Ksh 1,650",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FLIRT%20STRAWBERRY",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Flirt Vodka",
+        category: "vodka",
+        size: "250ML",
+        price: "Ksh 375",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=Flirt%20vodka",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Flirt Vodka",
+        category: "vodka",
+        size: "750ML",
+        price: "Ksh 1,650",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FLIRT%20VODKA",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Footprint Cab Sauv",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 1,950",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FOOTPRINT%20CAB%20SAUV",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Footprint Chenin Blanc",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 1,800",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FOOTPRINT%20CHENIN%20BLANC",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Footprint Merlot",
+        category: "wine",
+        size: "750ML",
+        price: "Ksh 1,800",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FOOTPRINT%20MERLOT",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Footprint Sauv Blanc",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 1,950",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FOOTPRINT%20SAUV%20BLANC",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Four Cousin Redt",
+        category: "other",
+        size: "1.5L",
+        price: "Ksh 2,400",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FOUR%20COUSIN%20REDT",
+        isKenyan: false,
+        country: "Unknown"
     }
 ];
 /* CATALOGUE_END */
