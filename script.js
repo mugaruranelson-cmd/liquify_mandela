@@ -2828,6 +2828,256 @@ const catalogueProducts = [
         image: "assets/images/real/delmonte_pnapple_mangot.jpg",
         isKenyan: false,
         country: "Unknown"
+    },
+    {
+        name: "Delmonte Tropicalt",
+        category: "other",
+        size: "1L",
+        price: "Ksh 372",
+        description: "Water, Cane sugar, Citric acid, Natural flavour, Natural colour (concentrated apple and lemon juices, safflower, paprika extract). Serve on ice, enjoy!",
+        image: "assets/images/real/delmonte_tropicalt.jpg",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Delush Redt",
+        category: "other",
+        size: "5L",
+        price: "Ksh 4,200",
+        description: "Delush Natural Sweet Red Wine has a creamy butterscotch and caramel flavour. Delush Sweet Red 750ml quantity. Add to cart.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=DELUSH%20REDT",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Delush Sweet Rose",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 1,500",
+        description: "Delush Sweet Rose 750ml is a popular South African sweet rose Wine mostly taken during special occasions. It is known for its sweet and fruity taste with ...",
+        image: "assets/images/real/delush_sweet_rose.jpg",
+        isKenyan: false,
+        country: "South Africa"
+    },
+    {
+        name: "Delush Whitet",
+        category: "other",
+        size: "5L",
+        price: "Ksh 4,200",
+        description: "Delush Natural Sweet White 75cl ; Alcohol Content. 8.5% ; Size. 750ml ; Sweetness. Sweet ; Country of Origin. South Africa ; Packaging. Bottle.",
+        image: "assets/images/real/delush_whitet.jpg",
+        isKenyan: false,
+        country: "South Africa"
+    },
+    {
+        name: "Delush Wine Red",
+        category: "wine",
+        size: "750ML",
+        price: "Ksh 1,320",
+        description: "Delush Sweet Red 750ml is a popular South African Red sweet Wine mostly taken during special occasions. It contains 9% alcohol. Delush Sweet Red can Best be ...",
+        image: "assets/images/real/delush_wine_red.jpg",
+        isKenyan: false,
+        country: "South Africa"
+    },
+    {
+        name: "Delush Wine White",
+        category: "wine",
+        size: "750ML",
+        price: "Ksh 1,500",
+        description: "Facts about the wine. Winery. Delush. Region. South Africa / Northern Cape. Wine style. South African Dessert. Alcohol content. 8.5%. Allergens. Contains ...",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=DELUSH%20WINE%20WHITE",
+        isKenyan: false,
+        country: "South Africa"
+    },
+    {
+        name: "Desperados",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 428",
+        description: "Desperados is an agave spirit flavoured pale lager beer with 5.9% alcohol by volume (ABV) originally created and produced by the French brewing company Fischer ...",
+        image: "assets/images/real/desperados.jpg",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Dimple 15Yrs",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 6,000",
+        description: "Details about this bottle, Edit. Whisky-ID: 4586. Distillery: Blend-Scotch. Country, Region: Scotland. Type: Blended Whisky. Age: 15 Years. ABV: 40%. Bottle ...",
+        image: "assets/images/real/dimple_15yrs.jpg",
+        isKenyan: false,
+        country: "Scotland"
+    },
+    {
+        name: "Dompo Sweetred",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 1,350",
+        description: "Dompo is a full-bodied, deep garnet red wine, made using distinctive overripe red grapes, sourced from a range of first-class vineyards.",
+        image: "assets/images/real/dompo_sweetred.jpg",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Don Julio 1942",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 38,940",
+        description: "The iconic Don Julio 1942® Tequila is the choice of connoisseurs around the globe. Produced in small batches and aged for a minimum of two and a half years.",
+        image: "assets/images/real/don_julio_1942.jpg",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Don Julio Anejo",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 15,750",
+        description: "Don Julio Añejo Tequila is a testament to the craft of making a superior tasting, aged tequila. Rich, distinctive and wonderfully complex.",
+        image: "assets/images/real/don_julio_anejo.jpg",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Don Julio Blanco",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 10,500",
+        description: "Don Julio is a brand of tequila produced in Mexico. It is owned by the British-based multinational alcoholic beverage company Diageo.",
+        image: "assets/images/real/don_julio_blanco.jpg",
+        isKenyan: false,
+        country: "Mexico"
+    },
+    {
+        name: "Don Julio Reposado",
+        category: "other",
+        size: "75CL",
+        price: "Ksh 11,400",
+        description: "Aged for eight months in American white-oak barrels, Don Julio® Reposado Tequila is golden amber in color, and offers a rich, smooth finish.",
+        image: "assets/images/real/don_julio_reposado.jpg",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Don Montego",
+        category: "other",
+        size: "250ML",
+        price: "Ksh 930",
+        description: "Don Montego 750ml is an exquisite French brandy produced by the KVINT distillery, since the year 1897. It is produced by a classical process of ageing the ...",
+        image: "assets/images/real/don_montego.jpg",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Don Montego",
+        category: "other",
+        size: "500ML",
+        price: "Ksh 1,770",
+        description: "Don Montego 750ml is an exquisite French brandy produced by the KVINT distillery, since the year 1897. It is produced by a classical process of ageing the ...",
+        image: "assets/images/real/don_montego.jpg",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Don Montego",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 2,520",
+        description: "Don Montego 750ml is an exquisite French brandy produced by the KVINT distillery, since the year 1897. It is produced by a classical process of ageing the ...",
+        image: "assets/images/real/don_montego.jpg",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Drambuie",
+        category: "other",
+        size: "700ML",
+        price: "Ksh 3,975",
+        description: "Drambuie /dræmˈbuːi/ is a golden-coloured, 40% ABV liqueur made from Scotch whisky, heather honey, herbs and spices. The brand was owned by the MacKinnon ...",
+        image: "assets/images/real/drambuie.jpg",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Drostdy -Hof Red",
+        category: "other",
+        size: "5L",
+        price: "Ksh 6,600",
+        description: "As we have seen in the Introduction, this company had pioneered the export of Australian wines to Britain in the later nineteenth century. Despite earlier ...",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=DROSTDY%20-HOF%20RED",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Drostdy Hof Red.",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 1,380",
+        description: "Drostdy-Hof was launched in South Africa in 1973 and has extended its reach into African and key international markets. The team of skilled winemakers uses ...",
+        image: "assets/images/real/drostdy_hof_red.jpg",
+        isKenyan: false,
+        country: "South Africa"
+    },
+    {
+        name: "Drostdy Hof Wh.",
+        category: "other",
+        size: "5L",
+        price: "Ksh 6,675",
+        description: "Drostdy Hof is South Africa's most trusted and accessible wine brand, producing quality wines that have been the backbone of SA wine culture.",
+        image: "assets/images/real/drostdy_hof_wh.jpg",
+        isKenyan: false,
+        country: "South Africa"
+    },
+    {
+        name: "Drostdy Wht",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 1,500",
+        description: "Enjoy the refreshing Drostdy Hof Sweet White 5L from South Africa: crisp, fruity, lightly sweet perfect for casual sipping or chilled gatherings in Nairobi.",
+        image: "assets/images/real/drostdy_wht.jpg",
+        isKenyan: false,
+        country: "South Africa"
+    },
+    {
+        name: "Drostyt",
+        category: "other",
+        size: "3L",
+        price: "Ksh 2,850",
+        description: "Icewine (or ice wine; German: Eiswein) is a type of dessert wine produced from grapes that have been frozen while still on the vine.",
+        image: "assets/images/real/drostyt.jpg",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Dunhill Dbl Capsule",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 668",
+        description: "Vail Fine Wines. Inventory Summary. Department. Item Description. Regular Price. Avail Qty. Accessories. True Bear Keychain Bottle Opener. $0.93.",
+        image: "assets/images/real/dunhill_dbl_capsule.jpg",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Dunhill Switch",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 668",
+        description: "The quality of a Dunhill cigarette is undeniable with its firm filter and slow burn which enables you to enjoy a smooth taste. It's a pity they ...",
+        image: "assets/images/real/dunhill_switch.jpg",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Dusse Vsop",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 18,000",
+        description: "Cognac is a wine-based spirit solely produced in the Cognac area of France. To be considered Cognac, it must be made from white grapes from one or more of 6 ...",
+        image: "assets/images/real/dusse_vsop.jpg",
+        isKenyan: false,
+        country: "France"
     }
 ];
 /* CATALOGUE_END */
