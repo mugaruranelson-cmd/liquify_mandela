@@ -4828,6 +4828,256 @@ const catalogueProducts = [
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=HAVANA%20ANEJO%20ESPECIAL%20PLUS",
         isKenyan: false,
         country: "Unknown"
+    },
+    {
+        name: "Havana Club 3Yrs",
+        category: "other",
+        size: "750 ML",
+        price: "Ksh 2,880",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=HAVANA%20CLUB%203YRS",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "H B",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 270",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=H%20B",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "H C",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 240",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=H%20C",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Heineken Bottle",
+        category: "beer",
+        size: "330ML",
+        price: "Ksh 398",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=HEINEKEN%20BOTTLE",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Heineken Can",
+        category: "beer",
+        size: "500ML",
+        price: "Ksh 420",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=HEINEKEN%20CAN",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Heineken Zero%",
+        category: "beer",
+        size: "750ML",
+        price: "Ksh 315",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=HEINEKEN%20ZERO%25",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Hendricks Dry Gint",
+        category: "gin",
+        size: "1L",
+        price: "Ksh 9,750",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=HENDRICKS%20DRY%20GINT",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Hendricks Dry Gin",
+        category: "gin",
+        size: "70CL",
+        price: "Ksh 7,950",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=HENDRICKS%20DRY%20GIN",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Hennessy Vst",
+        category: "brandy",
+        size: "1L",
+        price: "Ksh 11,325",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=HENNESSY%20vsT",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Hennessy Vs 3/4",
+        category: "brandy",
+        size: "750ML",
+        price: "Ksh 6,975",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=HENNESSY%20vs%203/4",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Hennessy Vs",
+        category: "brandy",
+        size: "350ML",
+        price: "Ksh 3,600",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=HENNESSY%20VS",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Hennessy Vsop",
+        category: "brandy",
+        size: "700ML",
+        price: "Ksh 13,500",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=HENNESSY%20VSOP",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Hennessy  Xo",
+        category: "brandy",
+        size: "700ML",
+        price: "Ksh 54,750",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=HENNESSY%20%20XO",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Herdsman",
+        category: "other",
+        size: "250ML",
+        price: "Ksh 420",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=HERDSMAN",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Herdsman",
+        category: "other",
+        size: "500ML",
+        price: "Ksh 855",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=HERDSMAN",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Highland Queent",
+        category: "other",
+        size: "1L",
+        price: "Ksh 1,560",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=HIGHLAND%20QUEENT",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Highland Queen",
+        category: "other",
+        size: "350ML",
+        price: "Ksh 600",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=HIGHLAND%20QUEEN",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Highland Queen",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 1,170",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=HIGHLAND%20QUEEN",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Hlibny Dar Crafted Cornitre",
+        category: "other",
+        size: "1L",
+        price: "Ksh 2,700",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=HLIBNY%20DAR%20CRAFTED%20CORNITRE",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Hlibny Dar Crafted  Ginger &Honey Litre",
+        category: "gin",
+        size: "750ML",
+        price: "Ksh 2,700",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=HLIBNY%20DAR%20CRAFTED%20%20GINGER%20%26HONEY%20LITRE",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Hunter Cider Dry",
+        category: "whisky",
+        size: "330ML",
+        price: "Ksh 296",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=HUNTER%20CIDER%20DRY",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Hunter Cider Gold",
+        category: "whisky",
+        size: "330ML",
+        price: "Ksh 296",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=HUNTER%20CIDER%20GOLD",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Hunters",
+        category: "whisky",
+        size: "250ML",
+        price: "Ksh 447",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=HUNTERS",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Hunters",
+        category: "whisky",
+        size: "350ML",
+        price: "Ksh 653",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=HUNTERS",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Hunters",
+        category: "whisky",
+        size: "750ML",
+        price: "Ksh 1,380",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=HUNTERS",
+        isKenyan: false,
+        country: "Unknown"
     }
 ];
 /* CATALOGUE_END */
