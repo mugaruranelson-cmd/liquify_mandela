@@ -6328,6 +6328,256 @@ const catalogueProducts = [
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KGB%20LIMON",
         isKenyan: false,
         country: "Unknown"
+    },
+    {
+        name: "Kibao Gin",
+        category: "vodka",
+        size: "250ML",
+        price: "Ksh 341",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KIBAO%20GIN",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Kibao Gin",
+        category: "vodka",
+        size: "350ML",
+        price: "Ksh 525",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KIBAO%20GIN",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Kibao Gin",
+        category: "vodka",
+        size: "750ML",
+        price: "Ksh 957",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KIBAO%20GIN",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Kibao Vodka",
+        category: "vodka",
+        size: "250ML",
+        price: "Ksh 341",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KIBAO%20VODKA",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Kibao Vodka",
+        category: "vodka",
+        size: "350ML",
+        price: "Ksh 525",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KIBAO%20VODKA",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Kibao Vodka",
+        category: "vodka",
+        size: "750ML",
+        price: "Ksh 957",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KIBAO%20VODKA",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Kienyeji",
+        category: "other",
+        size: "250ML",
+        price: "Ksh 320",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KIENYEJI",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Kienyeji",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 930",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KIENYEJI",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Kingfisher",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 297",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KINGFISHER",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Kingrobert Ii",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 1,200",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KINGROBERT%20II",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Kingroberts Ginitre",
+        category: "gin",
+        size: "1L",
+        price: "Ksh 1,350",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KINGROBERTS%20GINITRE",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Kingroberts Vodkaitre",
+        category: "vodka",
+        size: "1L",
+        price: "Ksh 1,500",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KINGROBERTS%20VODKAITRE",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Kingroberts Whsky",
+        category: "other",
+        size: "75CL",
+        price: "Ksh 1,125",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KINGROBERTS%20WHSKY",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Kingroberts Wskyt",
+        category: "other",
+        size: "1L",
+        price: "Ksh 1,800",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KINGROBERTS%20WSKYT",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Kingstone Gin Litre",
+        category: "gin",
+        size: "750ML",
+        price: "Ksh 1,170",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KINGSTONE%20GIN%20LITRE",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Klar H2O",
+        category: "other",
+        size: "500ML",
+        price: "Ksh 45",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KLAR%20H2O",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Klar H2O Litre",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 83",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KLAR%20H2O%20LITRE",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Klubemonade",
+        category: "other",
+        size: "101 L",
+        price: "Ksh 75",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KLUBEMONADE",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Ko Apple",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 345",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KO%20APPLE",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Ko Apple Can",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 345",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KO%20APPLE%20CAN",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Ko Classic Gin",
+        category: "gin",
+        size: "750ML",
+        price: "Ksh 3,150",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KO%20CLASSIC%20GIN",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Ko Classic Tonic Can",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 158",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KO%20CLASSIC%20TONIC%20CAN",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Ko Honey",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 345",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KO%20HONEY",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Ko Light Toniccan",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 158",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KO%20LIGHT%20TONICCAN",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Ko Lime",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 345",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KO%20LIME",
+        isKenyan: false,
+        country: "Unknown"
     }
 ];
 /* CATALOGUE_END */
