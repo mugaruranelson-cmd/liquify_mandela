@@ -1006,7 +1006,7 @@ const catalogueProducts = [
         category: "other",
         size: "750ML",
         price: "Ksh 413",
-        description: "A quality drink offering exceptional taste.",
+        description: "于是， 在英语里，Bayern 就产生了不同于 Bavaria 的义项分工。 Bayern Munich 默认指的就是「拜仁慕尼黑」俱乐部。 Bavaria Munich 特指15世纪的「巴 …",
         image: "assets/images/real/bavaria_8_6.jpg",
         isKenyan: false
     },
@@ -1105,7 +1105,7 @@ const catalogueProducts = [
         category: "wine",
         size: "750ML",
         price: "Ksh 6,600",
-        description: "Bel-Air: Created by Andy Borowitz, Susan Borowitz, T.J. Brady, Morgan Stevenson Cooper, Rasheed Newson, Malcolm Spellman. With Jabari Banks, Cassandra Freeman, Jimmy Akingbola, Olly Sholotan. The life",
+        description: "A quality drink offering exceptional taste.",
         image: "assets/images/real/belaire_fantome_gold.jpg",
         isKenyan: false
     },
@@ -1159,7 +1159,7 @@ const catalogueProducts = [
         category: "wine",
         size: "750ML",
         price: "Ksh 6,750",
-        description: "A quality drink offering exceptional taste.",
+        description: "Bel-Air: Created by Andy Borowitz, Susan Borowitz, T.J. Brady, Morgan Stevenson Cooper, Rasheed Newson, Malcolm Spellman. With …",
         image: "assets/images/real/belaire_rose_black_fantome.jpg",
         isKenyan: false
     },
@@ -1186,8 +1186,233 @@ const catalogueProducts = [
         category: "other",
         size: "750ML",
         price: "Ksh 1,275",
-        description: "A quality drink offering exceptional taste.",
+        description: "Firma Bertrams Pečky, spol. s r.o. vyrábí nerezové komínové systémy od roku 1997. Nejprve se specializovala pouze na nerezové …",
         image: "assets/images/real/bertrams_vo_brdy.jpg",
+        isKenyan: false
+    },
+    {
+        name: "Best Cream",
+        category: "liqueur",
+        size: "250ML",
+        price: "Ksh 525",
+        description: "A quality drink offering exceptional taste.",
+        image: "assets/images/real/best_cream.jpg",
+        isKenyan: false
+    },
+    {
+        name: "Best Cream",
+        category: "liqueur",
+        size: "750ML",
+        price: "Ksh 1,463",
+        description: "A quality drink offering exceptional taste.",
+        image: "assets/images/real/best_cream.jpg",
+        isKenyan: false
+    },
+    {
+        name: "Best Gin",
+        category: "gin",
+        size: "250ML",
+        price: "Ksh 390",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=BEST%20GIN",
+        isKenyan: false
+    },
+    {
+        name: "Best Gin",
+        category: "gin",
+        size: "750ML",
+        price: "Ksh 1,103",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=BEST%20GIN",
+        isKenyan: false
+    },
+    {
+        name: "Best Vodka",
+        category: "vodka",
+        size: "250ML",
+        price: "Ksh 368",
+        description: "A quality drink offering exceptional taste.",
+        image: "assets/images/real/best_vodka.jpg",
+        isKenyan: false
+    },
+    {
+        name: "Best Vodka",
+        category: "vodka",
+        size: "750ML",
+        price: "Ksh 1,043",
+        description: "A quality drink offering exceptional taste.",
+        image: "assets/images/real/best_vodka.jpg",
+        isKenyan: false
+    },
+    {
+        name: "Best Whisky",
+        category: "whisky",
+        size: "250ML",
+        price: "Ksh 465",
+        description: "A quality drink offering exceptional taste.",
+        image: "assets/images/real/best_whisky.jpg",
+        isKenyan: false
+    },
+    {
+        name: "Best Whisky",
+        category: "whisky",
+        size: "750ML",
+        price: "Ksh 1,365",
+        description: "A quality drink offering exceptional taste.",
+        image: "assets/images/real/best_whisky.jpg",
+        isKenyan: false
+    },
+    {
+        name: "Bittolla Red",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 1,800",
+        description: "A quality drink offering exceptional taste.",
+        image: "assets/images/real/bittolla_red.jpg",
+        isKenyan: false
+    },
+    {
+        name: "Bl",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 3,225",
+        description: "A quality drink offering exceptional taste.",
+        image: "assets/images/real/bl.jpg",
+        isKenyan: false
+    },
+    {
+        name: "Black Bird Swt Red",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 1,425",
+        description: "A quality drink offering exceptional taste.",
+        image: "assets/images/real/black_bird_swt_red.jpg",
+        isKenyan: false
+    },
+    {
+        name: "Black Bird Swt  White",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 1,425",
+        description: "Crimson Desert Pre-Order BonusBlack Desert Limited Items Steps to claim the Crimson Desert Pre-Order Exclusive rewards will be notified separately on Mar 20, 2026 (Fri).Learn MoreThis is your one-time",
+        image: "assets/images/real/black_bird_swt__white.jpg",
+        isKenyan: false
+    },
+    {
+        name: "Black Ice Beer",
+        category: "beer",
+        size: "750ML",
+        price: "Ksh 242",
+        description: "A quality drink offering exceptional taste.",
+        image: "assets/images/real/black_ice_beer.jpg",
+        isKenyan: false
+    },
+    {
+        name: "Black Ice Can",
+        category: "other",
+        size: "330ML",
+        price: "Ksh 267",
+        description: "Crimson Desert Pre-Order BonusBlack Desert Limited Items Steps to claim the Crimson Desert Pre-Order Exclusive rewards will be notified …",
+        image: "assets/images/real/black_ice_can.jpg",
+        isKenyan: false
+    },
+    {
+        name: "Black Ram Honey",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 1,200",
+        description: "A quality drink offering exceptional taste.",
+        image: "assets/images/real/black_ram_honey.jpg",
+        isKenyan: false
+    },
+    {
+        name: "Black Ram Whskyt",
+        category: "other",
+        size: "1L",
+        price: "Ksh 1,560",
+        description: "A quality drink offering exceptional taste.",
+        image: "assets/images/real/black_ram_whskyt.jpg",
+        isKenyan: false
+    },
+    {
+        name: "Black Ram Whsky",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 1,178",
+        description: "A quality drink offering exceptional taste.",
+        image: "assets/images/real/black_ram_whsky.jpg",
+        isKenyan: false
+    },
+    {
+        name: "Black & Whitet",
+        category: "whisky",
+        size: "1L",
+        price: "Ksh 2,250",
+        description: "Crimson Desert Pre-Order BonusBlack Desert Limited Items Steps to claim the Crimson Desert Pre-Order Exclusive rewards will be notified separately on Mar 20, 2026 (Fri).Learn MoreThis is your one-time",
+        image: "assets/images/real/black___whitet.jpg",
+        isKenyan: false
+    },
+    {
+        name: "Black & White",
+        category: "whisky",
+        size: "250ML",
+        price: "Ksh 593",
+        description: "A quality drink offering exceptional taste.",
+        image: "assets/images/real/black___white.jpg",
+        isKenyan: false
+    },
+    {
+        name: "Black & White",
+        category: "whisky",
+        size: "375ML",
+        price: "Ksh 863",
+        description: "A quality drink offering exceptional taste.",
+        image: "assets/images/real/black___white.jpg",
+        isKenyan: false
+    },
+    {
+        name: "Black & White",
+        category: "whisky",
+        size: "750ML",
+        price: "Ksh 1,695",
+        description: "A quality drink offering exceptional taste.",
+        image: "assets/images/real/black___white.jpg",
+        isKenyan: false
+    },
+    {
+        name: "Blue Curacao Liqueur",
+        category: "liqueur",
+        size: "700ML",
+        price: "Ksh 3,225",
+        description: "A quality drink offering exceptional taste.",
+        image: "assets/images/real/blue_curacao_liqueur.jpg",
+        isKenyan: false
+    },
+    {
+        name: "Blue Curacao Syrup",
+        category: "other",
+        size: "700ML",
+        price: "Ksh 2,145",
+        description: "A quality drink offering exceptional taste.",
+        image: "assets/images/real/blue_curacao_syrup.jpg",
+        isKenyan: false
+    },
+    {
+        name: "Blue Ice Coco 1/4",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 630",
+        description: "A quality drink offering exceptional taste.",
+        image: "assets/images/real/blue_ice_coco_1_4.jpg",
+        isKenyan: false
+    },
+    {
+        name: "Blue Ice Vodka",
+        category: "vodka",
+        size: "250ML",
+        price: "Ksh 225",
+        description: "A quality drink offering exceptional taste.",
+        image: "assets/images/real/blue_ice_vodka.jpg",
         isKenyan: false
     }
 ];
@@ -1201,12 +1426,17 @@ function initShop() {
     productGrid.innerHTML = ''; // Clear existing
     
     catalogueProducts.forEach(product => {
+        const countryTag = product.country && product.country !== 'Unknown' 
+            ? `<div class="country-tag"><i class="fas fa-globe-africa"></i> ${product.country}</div>` 
+            : '';
+
         const itemHtml = `
             <div class="product-card product-item reveal" data-category="${product.category}" data-kenyan="${product.isKenyan || false}">
                 <div class="product-image">
                     <img src="${product.image}" alt="${product.name}" style="border-radius: 10px; max-height: 200px; object-fit: contain;" loading="lazy">
                 </div>
                 <div class="product-info">
+                    ${countryTag}
                     <h3>${product.name}</h3>
                     <div class="product-size">${product.size} - <span style="color: var(--accent-gold); font-weight: bold;">${product.price}</span></div>
                     <p style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 1rem; line-height: 1.4;">${product.description}</p>
@@ -1256,6 +1486,28 @@ function initShop() {
                 item.style.display = 'none';
                 item.classList.remove('active');
             }
+        });
+
+        if (noProductsMsg) {
+            noProductsMsg.style.display = (visibleCount === 0) ? 'block' : 'none';
+        }
+    }
+
+    if (searchInput) searchInput.addEventListener('input', performFiltering);
+    filterBtns.forEach(btn => {
+        btn.addEventListener('click', () => {
+            filterBtns.forEach(b => b.classList.remove('active'));
+            btn.classList.add('active');
+            performFiltering();
+        });
+    });
+
+    // Initial reveal
+    setTimeout(reveal, 100);
+}
+
+document.addEventListener('DOMContentLoaded', initShop);
+        }
         });
 
         if (noProductsMsg) {
