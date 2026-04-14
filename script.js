@@ -5078,6 +5078,256 @@ const catalogueProducts = [
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=HUNTERS",
         isKenyan: false,
         country: "Unknown"
+    },
+    {
+        name: "Hunting Apple",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 1,440",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=HUNTING%20APPLE",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Hunting Choco",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 1,440",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=HUNTING%20CHOCO",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Hunting Ldg Vodka",
+        category: "vodka",
+        size: "750ML",
+        price: "Ksh 1,440",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=HUNTING%20LDG%20VODKA",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Hunting  Lg Gin",
+        category: "gin",
+        size: "750ML",
+        price: "Ksh 1,440",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=HUNTING%20%20LG%20GIN",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Hunting Whisky",
+        category: "whisky",
+        size: "750ML",
+        price: "Ksh 1,620",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=HUNTING%20WHISKY",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Ice Vodka",
+        category: "vodka",
+        size: "750ML",
+        price: "Ksh 825",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=ICE%20VODKA",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Icon Golden Brandy",
+        category: "brandy",
+        size: "250ML",
+        price: "Ksh 203",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=ICON%20GOLDEN%20BRANDY",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Icon Vodka",
+        category: "vodka",
+        size: "250ML",
+        price: "Ksh 203",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=ICON%20VODKA",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Identity Brandy",
+        category: "brandy",
+        size: "250ML",
+        price: "Ksh 255",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=IDENTITY%20BRANDY",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Identity Gin",
+        category: "gin",
+        size: "250ML",
+        price: "Ksh 255",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=IDENTITY%20GIN",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Identity Vodka",
+        category: "vodka",
+        size: "250ML",
+        price: "Ksh 255",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=IDENTITY%20VODKA",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Imperial Blue",
+        category: "other",
+        size: "250ML",
+        price: "Ksh 548",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=IMPERIAL%20BLUE",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Imperial Blue",
+        category: "other",
+        size: "375ML",
+        price: "Ksh 825",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=IMPERIAL%20BLUE",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Imperial Blue",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 1,605",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=IMPERIAL%20BLUE",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Imperial Blue Giftpack",
+        category: "other",
+        size: "750ML",
+        price: "Ksh 1,380",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=IMPERIAL%20BLUE%20GIFTPACK",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Inverroche Gin",
+        category: "gin",
+        size: "750ML",
+        price: "Ksh 7,350",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=INVERROCHE%20GIN",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Iris Whisky",
+        category: "whisky",
+        size: "375ML",
+        price: "Ksh 548",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=IRIS%20WHISKY",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Iris Whisky",
+        category: "whisky",
+        size: "750ML",
+        price: "Ksh 1,035",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=IRIS%20WHISKY",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Jack Danieltr",
+        category: "whisky",
+        size: "1 L",
+        price: "Ksh 4,950",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=JACK%20DANIELTR",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Jack Daniel Applet",
+        category: "whisky",
+        size: "1L",
+        price: "Ksh 5,175",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=JACK%20DANIEL%20APPLET",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Jack Daniel Apple",
+        category: "whisky",
+        size: "700ML",
+        price: "Ksh 5,550",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=JACK%20DANIEL%20APPLE",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Jack Daniel Can Cola",
+        category: "whisky",
+        size: "750ML",
+        price: "Ksh 375",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=JACK%20DANIEL%20CAN%20COLA",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Jack Daniel Can Lynchburg",
+        category: "whisky",
+        size: "750ML",
+        price: "Ksh 420",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=JACK%20DANIEL%20CAN%20lynchburg",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Jack Daniel Firet",
+        category: "whisky",
+        size: "1L",
+        price: "Ksh 5,475",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=JACK%20DANIEL%20FIRET",
+        isKenyan: false,
+        country: "Unknown"
+    },
+    {
+        name: "Jack Daniel Fire",
+        category: "whisky",
+        size: "700ML",
+        price: "Ksh 4,350",
+        description: "A quality drink offering exceptional taste.",
+        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=JACK%20DANIEL%20FIRE",
+        isKenyan: false,
+        country: "Unknown"
     }
 ];
 /* CATALOGUE_END */
