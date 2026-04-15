@@ -11330,10 +11330,71 @@ function initGlobalCollections() {
     if (typeof reveal === 'function') setTimeout(reveal, 500);
 }
 
+// Initialize Kenyan Section for Home Page
+function initKenyanSection() {
+    const grid = document.getElementById('kenyan-products-grid');
+    if (!grid) return;
+
+    // Filter all Kenyan products
+    const kenyanAll = catalogueProducts.filter(p => 
+        (p.country && p.country.toLowerCase() === 'kenya') || 
+        (p.isKenyan === true || String(p.isKenyan) === 'true')
+    );
+
+    // Pick a diverse set (one from each category if possible) to show variety
+    const categories = ['beer', 'gin', 'vodka', 'whisky'];
+    const chosen = [];
+    
+    categories.forEach(cat => {
+        const item = kenyanAll.find(p => p.category === cat && !chosen.includes(p));
+        if (item) chosen.push(item);
+    });
+
+    // Fill up to 4 if we haven't reached it
+    kenyanAll.forEach(p => {
+        if (chosen.length < 4 && !chosen.includes(p)) {
+            chosen.push(p);
+        }
+    });
+
+    grid.innerHTML = '';
+    chosen.forEach(product => {
+        const card = `
+            <div class="product-card kenyan-card reveal">
+                <div class="product-image">
+                    <img src="${product.image}" alt="${product.name}" style="max-height: 200px; object-fit: contain;" loading="lazy">
+                </div>
+                <div class="product-info">
+                    <span class="kenyan-badge" style="border: none; padding: 0;">${product.category.toUpperCase()}</span>
+                    <h3>${product.name}</h3>
+                    <div class="product-size">${product.size} - <span style="color: var(--accent-gold); font-weight: bold;">${product.price}</span></div>
+                    <button class="btn btn-primary shop-order-btn" data-product="${product.name} ${product.size}">
+                        <i class="fab fa-whatsapp"></i> Order Now
+                    </button>
+                </div>
+            </div>
+        `;
+        grid.innerHTML += card;
+    });
+
+    // Attach listeners
+    grid.querySelectorAll('.shop-order-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+            const productInfo = btn.getAttribute('data-product');
+            window.location.href = buildWhatsAppLink(`Hi Liquify, I want to order ${productInfo} from your 'Made in Kenya' collection.`);
+        });
+    });
+
+    if (typeof reveal === 'function') setTimeout(reveal, 600);
+}
+
 // Attach to DOMContentLoaded
 document.addEventListener('DOMContentLoaded', () => {
     if (document.getElementById('global-collections')) {
         initGlobalCollections();
+    }
+    if (document.getElementById('kenyan-products-grid')) {
+        initKenyanSection();
     }
 });
 
