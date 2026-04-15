@@ -1,0 +1,764 @@
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Loaded 979 items. Cache primed with 884 brands.
+[1029/1165] Processing STAR CHASER RED (750ML).../Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:80: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:60: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+Context leak detected, CoreAnalytics returned false
+Context leak detected, CoreAnalytics returned false
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/venv/lib/python3.9/site-packages/rembg/sessions/u2net.py:44: DeprecationWarning: 'mode' parameter is deprecated and will be removed in Pillow 13 (2026-10-15)
+  mask = Image.fromarray((pred * 255).astype("uint8"), mode="L")
+ DONE (Unknown)
+[1030/1165] Processing STAR CHASER SWEET ROSE (750ML).../Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:60: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:80: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+Context leak detected, CoreAnalytics returned false
+Context leak detected, CoreAnalytics returned false
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/venv/lib/python3.9/site-packages/rembg/sessions/u2net.py:44: DeprecationWarning: 'mode' parameter is deprecated and will be removed in Pillow 13 (2026-10-15)
+  mask = Image.fromarray((pred * 255).astype("uint8"), mode="L")
+ DONE (Unknown)
+[1032/1165] Processing STAR WALKER (750ML).../Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:60: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:80: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+ DONE (Unknown)
+[1033/1165] Processing ST.CELINE (750ML).../Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:60: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:80: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+ DONE (Unknown)
+[1034/1165] Processing STOLICHNAYA VDKA (750ML).../Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:60: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:80: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+Context leak detected, CoreAnalytics returned false
+Context leak detected, CoreAnalytics returned false
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/venv/lib/python3.9/site-packages/rembg/sessions/u2net.py:44: DeprecationWarning: 'mode' parameter is deprecated and will be removed in Pillow 13 (2026-10-15)
+  mask = Image.fromarray((pred * 255).astype("uint8"), mode="L")
+ DONE (Unknown)
+[1035/1165] Processing STRAWBERRY LIPS (750ML).../Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:60: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:80: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+Context leak detected, CoreAnalytics returned false
+Context leak detected, CoreAnalytics returned false
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/venv/lib/python3.9/site-packages/rembg/sessions/u2net.py:44: DeprecationWarning: 'mode' parameter is deprecated and will be removed in Pillow 13 (2026-10-15)
+  mask = Image.fromarray((pred * 255).astype("uint8"), mode="L")
+ DONE (Unknown)
+[1036/1165] Processing ST.REMY  VSOPT (1L).../Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:60: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:80: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [DDG IMAGE FAIL] https://duckduckgo.com/i.js?o=json&q=ST.REMY++VSOPT+bottle&l=us-en&vqd=4-119832829727884258590332422009563341729&p=1&f=%2C%2C%2C%2C%2C 403 Ratelimit
+ DONE (Unknown)
+[1037/1165] Processing ST.REMY VSOP (700ML).../Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:60: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:80: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [DDG IMAGE FAIL] https://duckduckgo.com/i.js?o=json&q=ST.REMY+VSOP+bottle&l=us-en&vqd=4-184832542342884247090316429688320165180&p=1&f=%2C%2C%2C%2C%2C 403 Ratelimit
+ DONE (Unknown)
+[1038/1165] Processing ST. REMY XO (750ML).../Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:60: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:80: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [DDG IMAGE FAIL] https://duckduckgo.com/i.js?o=json&q=ST.+REMY+XO+bottle&l=us-en&vqd=4-254696125753207566166954164495913732535&p=1&f=%2C%2C%2C%2C%2C 403 Ratelimit
+ DONE (Unknown)
+[1039/1165] Processing STRETTONS ORIGINAL GIN (750ML).../Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:60: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:80: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [DDG IMAGE FAIL] https://duckduckgo.com/i.js?o=json&q=STRETTONS+ORIGINAL+GIN+bottle&l=us-en&vqd=4-25015757392150410666660228272508916878&p=1&f=%2C%2C%2C%2C%2C 403 Ratelimit
+ DONE (Unknown)
+[1040/1165] Processing STRETTONS TRIPLEBERRY (750ML).../Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:60: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:80: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [DDG IMAGE FAIL] https://duckduckgo.com/i.js?o=json&q=STRETTONS+TRIPLEBERRY+bottle&l=us-en&vqd=4-95491122870032806977462857195448881950&p=1&f=%2C%2C%2C%2C%2C 403 Ratelimit
+ DONE (Unknown)
+[1041/1165] Processing STRETTTONS WILDBERRY (750ML).../Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:60: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:80: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [DDG IMAGE FAIL] https://duckduckgo.com/?q=STRETTTONS+WILDBERRY+bottle 202 Ratelimit
+ DONE (Unknown)
+[1042/1165] Processing SUMMIT (750ML).../Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:60: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:80: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [DDG IMAGE FAIL] https://duckduckgo.com/i.js?o=json&q=SUMMIT+bottle&l=us-en&vqd=4-19794334355360367690909225715906095665&p=1&f=%2C%2C%2C%2C%2C 403 Ratelimit
+ DONE (Unknown)
+[1043/1165] Processing SUN CHASER WINE (750ML).../Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:60: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:80: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [DDG IMAGE FAIL] https://duckduckgo.com/i.js?o=json&q=SUN+CHASER+WINE+bottle&l=us-en&vqd=4-254184449704316034359563374995604292065&p=1&f=%2C%2C%2C%2C%2C 403 Ratelimit
+ DONE (Unknown)
+[1044/1165] Processing SUPREME VODKA (250ML).../Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:60: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:80: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [DDG IMAGE FAIL] https://duckduckgo.com/i.js?o=json&q=SUPREME+VODKA+bottle&l=us-en&vqd=4-276959452991502072809748137285185465002&p=1&f=%2C%2C%2C%2C%2C 403 Ratelimit
+ DONE (Unknown)
+[1045/1165] Processing SUPREME VODKA (750ML)... CACHED (Unknown)
+[1046/1165] Processing SWEET BERRY (250ML).../Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:60: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:80: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [DDG IMAGE FAIL] https://duckduckgo.com/i.js?o=json&q=SWEET+BERRY+bottle&l=us-en&vqd=4-214688921328051198050304211320661792934&p=1&f=%2C%2C%2C%2C%2C 403 Ratelimit
+ DONE (Unknown)
+[1047/1165] Processing TAIFA (250ML).../Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:60: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:80: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [DDG IMAGE FAIL] https://duckduckgo.com/i.js?o=json&q=TAIFA+bottle&l=us-en&vqd=4-147929848301517926780523255623995873652&p=1&f=%2C%2C%2C%2C%2C 403 Ratelimit
+ DONE (Unknown)
+[1048/1165] Processing TAIFA (750ML)... CACHED (Unknown)
+[1049/1165] Processing TALISKER STORM (700ML).../Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:60: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:80: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [DDG IMAGE FAIL] https://duckduckgo.com/i.js?o=json&q=TALISKER+STORM+bottle&l=us-en&vqd=4-337314099034713935468636142515432553099&p=1&f=%2C%2C%2C%2C%2C 403 Ratelimit
+ DONE (Unknown)
+[1050/1165] Processing TALL HORSE CAB SAUV (750ML).../Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:60: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:80: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [DDG IMAGE FAIL] https://duckduckgo.com/i.js?o=json&q=TALL+HORSE+CAB+SAUV+bottle&l=us-en&vqd=4-95239880262313905371252381837015495410&p=1&f=%2C%2C%2C%2C%2C 403 Ratelimit
+ DONE (Unknown)
+[1051/1165] Processing TALL HORSE CHARDONNAY (750ML).../Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:60: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:80: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [DDG IMAGE FAIL] https://duckduckgo.com/?q=TALL+HORSE+CHARDONNAY+bottle 202 Ratelimit
+ DONE (Unknown)
+[1052/1165] Processing TALL HORSE CHENIN BLANC (750ML).../Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:60: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:80: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [DDG IMAGE FAIL] https://duckduckgo.com/?q=TALL+HORSE+CHENIN+BLANC+bottle 202 Ratelimit
+ DONE (Unknown)
+[1053/1165] Processing TALL HORSE MERLOT (750ML).../Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:60: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:80: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [DDG IMAGE FAIL] https://duckduckgo.com/i.js?o=json&q=TALL+HORSE+MERLOT+bottle&l=us-en&vqd=4-318546364177599516237164543649663737756&p=1&f=%2C%2C%2C%2C%2C 403 Ratelimit
+ DONE (Unknown)
+[1054/1165] Processing TALL HORSE PINOTAGE (750ML).../Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:60: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:80: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [DDG IMAGE FAIL] https://duckduckgo.com/i.js?o=json&q=TALL+HORSE+PINOTAGE+bottle&l=us-en&vqd=4-82290984849402416776789325113747816908&p=1&f=%2C%2C%2C%2C%2C 403 Ratelimit
+ DONE (Unknown)
+[1056/1165] Processing TALL HORSE SAV BLANC (750ML).../Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:60: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:80: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [DDG IMAGE FAIL] https://duckduckgo.com/i.js?o=json&q=TALL+HORSE+SAV+BLANC+bottle&l=us-en&vqd=4-290174725291505309657532689199672491464&p=1&f=%2C%2C%2C%2C%2C 403 Ratelimit
+ DONE (Unknown)
+[1057/1165] Processing TALL HORSE SWEETRED (750ML).../Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:60: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:80: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [DDG IMAGE FAIL] https://duckduckgo.com/i.js?o=json&q=TALL+HORSE+SWEETRED+bottle&l=us-en&vqd=4-265780309935182001146599366869192443019&p=1&f=%2C%2C%2C%2C%2C 403 Ratelimit
+ DONE (Unknown)
+[1058/1165] Processing TANQUERAY 10.T (1L).../Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:60: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:80: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [DDG IMAGE FAIL] https://duckduckgo.com/i.js?o=json&q=TANQUERAY+10.T+bottle&l=us-en&vqd=4-279662995093158303259378985862521235868&p=1&f=%2C%2C%2C%2C%2C 403 Ratelimit
+ DONE (Unknown)
+[1059/1165] Processing TANQUERAY 10 (750ML).../Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:60: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:80: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [DDG IMAGE FAIL] https://duckduckgo.com/i.js?o=json&q=TANQUERAY+10+bottle&l=us-en&vqd=4-19614447884230191198608169582773272479&p=1&f=%2C%2C%2C%2C%2C 403 Ratelimit
+ DONE (Unknown)
+[1060/1165] Processing TANQUERAY DRY GINT (1L).../Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:60: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:80: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [DDG IMAGE FAIL] https://duckduckgo.com/?q=TANQUERAY+DRY+GINT+bottle 202 Ratelimit
+ DONE (Unknown)
+[1061/1165] Processing TANQUERAY DRY GIN (750ML).../Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:60: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:80: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [DDG IMAGE FAIL] https://duckduckgo.com/i.js?o=json&q=TANQUERAY+DRY+GIN+bottle&l=us-en&vqd=4-338606681601974813453643951133476628855&p=1&f=%2C%2C%2C%2C%2C 403 Ratelimit
+ DONE (Unknown)
+[1062/1165] Processing TANQUERAY MALACCA LTR (750ML).../Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:60: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:80: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [DDG IMAGE FAIL] https://duckduckgo.com/i.js?o=json&q=TANQUERAY+MALACCA+LTR+bottle&l=us-en&vqd=4-87595151603976972862251431159655925314&p=1&f=%2C%2C%2C%2C%2C 403 Ratelimit
+ DONE (Unknown)
+[1063/1165] Processing TANQUERAY RANGPURT (1L).../Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:60: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:80: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [DDG IMAGE FAIL] https://duckduckgo.com/i.js?o=json&q=TANQUERAY+RANGPURT+bottle&l=us-en&vqd=4-31904588388568085941642896481311610502&p=1&f=%2C%2C%2C%2C%2C 403 Ratelimit
+ DONE (Unknown)
+[1064/1165] Processing TANQUERAY RANGPUR (70CL).../Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:60: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:80: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [DDG IMAGE FAIL] https://duckduckgo.com/i.js?o=json&q=TANQUERAY+RANGPUR+bottle&l=us-en&vqd=4-47836971332819513610579760897063287057&p=1&f=%2C%2C%2C%2C%2C 403 Ratelimit
+ DONE (Unknown)
+[1065/1165] Processing Tanqueray royalet (1L).../Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:60: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:80: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [DDG IMAGE FAIL] https://duckduckgo.com/i.js?o=json&q=Tanqueray+royalet+bottle&l=us-en&vqd=4-219384907747168746551370866395912883265&p=1&f=%2C%2C%2C%2C%2C 403 Ratelimit
+ DONE (Unknown)
+[1066/1165] Processing TANQUERAY ROYALE (70CL).../Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:60: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:80: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [DDG IMAGE FAIL] https://duckduckgo.com/i.js?o=json&q=TANQUERAY+ROYALE+bottle&l=us-en&vqd=4-231915973223809713065325606248434246397&p=1&f=%2C%2C%2C%2C%2C 403 Ratelimit
+ DONE (Unknown)
+[1067/1165] Processing TANQUERAY SEVILLAT (1L).../Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:60: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:80: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [DDG IMAGE FAIL] https://duckduckgo.com/?q=TANQUERAY+SEVILLAT+bottle 202 Ratelimit
+ DONE (Unknown)
+[1068/1165] Processing TANQUERAY SEVILLA (750ML).../Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:60: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:80: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [DDG IMAGE FAIL] https://duckduckgo.com/i.js?o=json&q=TANQUERAY+SEVILLA+bottle&l=us-en&vqd=4-339193615654767450836085950047604233109&p=1&f=%2C%2C%2C%2C%2C 403 Ratelimit
+ DONE (Unknown)
+[1069/1165] Processing TEACHERST (1L).../Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:60: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:80: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [DDG IMAGE FAIL] https://duckduckgo.com/i.js?o=json&q=TEACHERST+bottle&l=us-en&vqd=4-79920703166356639082117920673352174630&p=1&f=%2C%2C%2C%2C%2C 403 Ratelimit
+ DONE (Unknown)
+[1070/1165] Processing TEACHERS (350ML).../Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:60: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:80: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [DDG IMAGE FAIL] https://duckduckgo.com/i.js?o=json&q=TEACHERS+bottle&l=us-en&vqd=4-274979663729009415548782831862947593050&p=1&f=%2C%2C%2C%2C%2C 403 Ratelimit
+ DONE (Unknown)
+[1071/1165] Processing TEACHERS (750ML)... CACHED (Unknown)
+[1072/1165] Processing TEQUILA CAMINO CLEAR (750ML).../Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:60: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:80: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [DDG IMAGE FAIL] https://duckduckgo.com/i.js?o=json&q=TEQUILA+CAMINO+CLEAR+bottle&l=us-en&vqd=4-301946873871160815453412902538632329758&p=1&f=%2C%2C%2C%2C%2C 403 Ratelimit
+ DONE (Unknown)
+[1073/1165] Processing TEQUILA CAMINO GOLD (750ML).../Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:60: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:80: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [DDG IMAGE FAIL] https://duckduckgo.com/i.js?o=json&q=TEQUILA+CAMINO+GOLD+bottle&l=us-en&vqd=4-153947574984322219637025891467202838333&p=1&f=%2C%2C%2C%2C%2C 403 Ratelimit
+ DONE (Unknown)
+[1074/1165] Processing TEQUILA ROSE (750ML).../Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:60: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:80: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [DDG IMAGE FAIL] https://duckduckgo.com/i.js?o=json&q=TEQUILA+ROSE+bottle&l=us-en&vqd=4-19300547742058931618514516969337191721&p=1&f=%2C%2C%2C%2C%2C 403 Ratelimit
+ DONE (Unknown)
+[1075/1165] Processing THE GUVNOR (1.5L).../Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:60: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:80: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [DDG IMAGE FAIL] https://duckduckgo.com/i.js?o=json&q=THE+GUVNOR+bottle&l=us-en&vqd=4-126653460400001168556410558373937681738&p=1&f=%2C%2C%2C%2C%2C 403 Ratelimit
+ DONE (Unknown)
+[1076/1165] Processing THE GUVNOR (750ML)... CACHED (Unknown)
+[1077/1165] Processing THE WILSHIRE BLENDED WHISKY (750ML).../Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:60: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:80: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [DDG IMAGE FAIL] https://duckduckgo.com/i.js?o=json&q=THE+WILSHIRE+BLENDED+WHISKY+bottle&l=us-en&vqd=4-301376057473082890683410877787068758436&p=1&f=%2C%2C%2C%2C%2C 403 Ratelimit
+ DONE (Unknown)
+[1078/1165] Processing THREE BARRELT (1L).../Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:60: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:80: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [DDG IMAGE FAIL] https://duckduckgo.com/i.js?o=json&q=THREE+BARRELT+bottle&l=us-en&vqd=4-108707979121449700634278934191272558855&p=1&f=%2C%2C%2C%2C%2C 403 Ratelimit
+ DONE (Unknown)
+[1079/1165] Processing THREE BARREL (750ML).../Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:60: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:80: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [DDG IMAGE FAIL] https://duckduckgo.com/i.js?o=json&q=THREE+BARREL+bottle&l=us-en&vqd=4-305803520743897142762980525330436515991&p=1&f=%2C%2C%2C%2C%2C 403 Ratelimit
+ DONE (Unknown)
+[1080/1165] Processing TIA MARIAT (1L).../Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:60: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:80: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [DDG IMAGE FAIL] https://duckduckgo.com/i.js?o=json&q=TIA+MARIAT+bottle&l=us-en&vqd=4-49793567572778673512852635147033908418&p=1&f=%2C%2C%2C%2C%2C 403 Ratelimit
+ DONE (Unknown)
+  [GIT] Pushing 50 updates...
+[main 9274f3f] feat: high-speed update - processed 50
+ 5 files changed, 74 insertions(+), 894 deletions(-)
+ create mode 100644 assets/images/real/star_chaser_red.jpg
+ create mode 100644 assets/images/real/star_chaser_sweet_rose.jpg
+ create mode 100644 assets/images/real/stolichnaya_vdka.jpg
+ create mode 100644 assets/images/real/strawberry_lips.jpg
+To https://github.com/mugaruranelson-cmd/liquify_mandela.git
+   ccdb344..9274f3f  main -> main
+[1081/1165] Processing TIME VIRGINIA BLEND BULK (750ML).../Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:60: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:80: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [DDG IMAGE FAIL] https://duckduckgo.com/i.js?o=json&q=TIME+VIRGINIA+BLEND+BULK+bottle&l=us-en&vqd=4-321737491468131068937465617415361030178&p=1&f=%2C%2C%2C%2C%2C 403 Ratelimit
+ DONE (Unknown)
+[1082/1165] Processing TOP SECRET (250ML).../Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:60: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:80: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [DDG IMAGE FAIL] https://duckduckgo.com/i.js?o=json&q=TOP+SECRET+bottle&l=us-en&vqd=4-204950156521568045119915464957804138007&p=1&f=%2C%2C%2C%2C%2C 403 Ratelimit
+ DONE (Unknown)
+[1083/1165] Processing TOP SECRET (750ML)... CACHED (Unknown)
+[1084/1165] Processing TORRERO (750ML).../Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:60: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:80: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [DDG IMAGE FAIL] https://duckduckgo.com/i.js?o=json&q=TORRERO+bottle&l=us-en&vqd=4-87832425711455233979600720411588584352&p=1&f=%2C%2C%2C%2C%2C 403 Ratelimit
+ DONE (Unknown)
+[1085/1165] Processing TORRERO LIQUER (250ML).../Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:60: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:80: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [DDG IMAGE FAIL] https://duckduckgo.com/i.js?o=json&q=TORRERO+LIQUER+bottle&l=us-en&vqd=4-300031496248654539104693336996138815713&p=1&f=%2C%2C%2C%2C%2C 403 Ratelimit
+ DONE (Unknown)
+[1086/1165] Processing TR (750ML).../Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:60: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:80: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [DDG IMAGE FAIL] https://duckduckgo.com/?q=TR+bottle 202 Ratelimit
+ DONE (Unknown)
+[1087/1165] Processing TRACE VODKA (250ML).../Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:60: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:80: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [DDG IMAGE FAIL] https://duckduckgo.com/i.js?o=json&q=TRACE+VODKA+bottle&l=us-en&vqd=4-115580960278005486144954385155817840830&p=1&f=%2C%2C%2C%2C%2C 403 Ratelimit
+ DONE (Unknown)
+[1088/1165] Processing TRIPLE ACE (250ML).../Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:60: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:80: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [DDG IMAGE FAIL] https://duckduckgo.com/i.js?o=json&q=TRIPLE+ACE+bottle&l=us-en&vqd=4-332913894877847213989217205101047826606&p=1&f=%2C%2C%2C%2C%2C 403 Ratelimit
+ DONE (Unknown)
+[1089/1165] Processing TRIPLE ACE (750ML)... CACHED (Unknown)
+[1090/1165] Processing TRIPPLE SEC CURACAO LIQUEUR (700ML).../Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:60: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:80: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [DDG IMAGE FAIL] https://duckduckgo.com/i.js?o=json&q=TRIPPLE+SEC+CURACAO+LIQUEUR+bottle&l=us-en&vqd=4-114514105424530400472094219276357724332&p=1&f=%2C%2C%2C%2C%2C 403 Ratelimit
+ DONE (Unknown)
+[1091/1165] Processing TULLAMOREITRE (1L).../Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:60: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:80: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [DDG IMAGE FAIL] https://duckduckgo.com/i.js?o=json&q=TULLAMOREITRE+bottle&l=us-en&vqd=4-78968211730858238182370143384168001919&p=1&f=%2C%2C%2C%2C%2C 403 Ratelimit
+ DONE (Unknown)
+[1092/1165] Processing TULLAMORE (700ML).../Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:60: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:80: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [DDG IMAGE FAIL] https://duckduckgo.com/i.js?o=json&q=TULLAMORE+bottle&l=us-en&vqd=4-49642678675723769551196514272257059567&p=1&f=%2C%2C%2C%2C%2C 403 Ratelimit
+ DONE (Unknown)
+[1093/1165] Processing TUSKER BEER (750ML).../Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:60: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:80: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [DDG IMAGE FAIL] https://duckduckgo.com/i.js?o=json&q=TUSKER+BEER+bottle&l=us-en&vqd=4-254812690397743630105695791008357335020&p=1&f=%2C%2C%2C%2C%2C 403 Ratelimit
+ DONE (Unknown)
+[1094/1165] Processing TUSKER CAN (500ML).../Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:60: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:80: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [DDG IMAGE FAIL] https://duckduckgo.com/i.js?o=json&q=TUSKER+CAN+bottle&l=us-en&vqd=4-298907886784698567674501518491303858410&p=1&f=%2C%2C%2C%2C%2C 403 Ratelimit
+ DONE (Unknown)
+[1095/1165] Processing TUSKER CIDER BEER (750ML).../Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:60: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:80: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [DDG IMAGE FAIL] https://duckduckgo.com/i.js?o=json&q=TUSKER+CIDER+BEER+bottle&l=us-en&vqd=4-49007874786812934495655877168424728335&p=1&f=%2C%2C%2C%2C%2C 403 Ratelimit
+ DONE (Unknown)
+[1096/1165] Processing TUSKER CIDER CAN (500ML).../Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:60: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:80: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [DDG IMAGE FAIL] https://duckduckgo.com/i.js?o=json&q=TUSKER+CIDER+CAN+bottle&l=us-en&vqd=4-22737461767885282439937669383850105885&p=1&f=%2C%2C%2C%2C%2C 403 Ratelimit
+ DONE (Unknown)
+[1097/1165] Processing TUSKER LITE BEER (750ML).../Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:60: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:80: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [DDG IMAGE FAIL] https://duckduckgo.com/i.js?o=json&q=TUSKER+LITE+BEER+bottle&l=us-en&vqd=4-211766181987352729415384830559841581190&p=1&f=%2C%2C%2C%2C%2C 403 Ratelimit
+ DONE (Unknown)
+[1098/1165] Processing TUSKER LITE CAN (500ML).../Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:60: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:80: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [DDG IMAGE FAIL] https://duckduckgo.com/i.js?o=json&q=TUSKER+LITE+CAN+bottle&l=us-en&vqd=4-318356092284014702234477576361984133135&p=1&f=%2C%2C%2C%2C%2C 403 Ratelimit
+ DONE (Unknown)
+[1100/1165] Processing TUSKER MALT CAN (750ML).../Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:60: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:80: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [DDG IMAGE FAIL] https://duckduckgo.com/i.js?o=json&q=TUSKER+MALT+CAN+bottle&l=us-en&vqd=4-286169413150832591763103397667940120746&p=1&f=%2C%2C%2C%2C%2C 403 Ratelimit
+ DONE (Unknown)
+[1101/1165] Processing TUSKER NDIMU BEER (750ML).../Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:60: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:80: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [DDG IMAGE FAIL] https://duckduckgo.com/i.js?o=json&q=TUSKER+NDIMU+BEER+bottle&l=us-en&vqd=4-2645774927312702546510898865526616690&p=1&f=%2C%2C%2C%2C%2C 403 Ratelimit
+ DONE (Unknown)
+[1102/1165] Processing UGIN MANGO (750ML).../Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:60: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:80: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [DDG IMAGE FAIL] https://duckduckgo.com/i.js?o=json&q=UGIN+MANGO+bottle&l=us-en&vqd=4-303706273816543044677516513245150271955&p=1&f=%2C%2C%2C%2C%2C 403 Ratelimit
+ DONE (Unknown)
+[1103/1165] Processing UPRISE WHSKY FLVD (750ML).../Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:60: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:80: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [DDG IMAGE FAIL] https://duckduckgo.com/i.js?o=json&q=UPRISE+WHSKY+FLVD+bottle&l=us-en&vqd=4-93402634957544530204676919521655360506&p=1&f=%2C%2C%2C%2C%2C 403 Ratelimit
+ DONE (Unknown)
+[1104/1165] Processing URBAN WHISKEY (750ML).../Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:60: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:80: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [DDG IMAGE FAIL] https://duckduckgo.com/i.js?o=json&q=URBAN+WHISKEY+bottle&l=us-en&vqd=4-183395667000512307258719385180120481999&p=1&f=%2C%2C%2C%2C%2C 403 Ratelimit
+ DONE (Unknown)
+[1105/1165] Processing V& A 1/4 (750ML).../Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:60: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:80: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [DDG IMAGE FAIL] https://duckduckgo.com/i.js?o=json&q=V%26+A+1%2F4+bottle&l=us-en&vqd=4-70537696449529603449152805686689154540&p=1&f=%2C%2C%2C%2C%2C 403 Ratelimit
+ DONE (Unknown)
+[1106/1165] Processing V& A (750ML).../Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:60: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:80: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [DDG IMAGE FAIL] https://duckduckgo.com/i.js?o=json&q=V%26+A+bottle&l=us-en&vqd=4-280341057165192976551702268328563432999&p=1&f=%2C%2C%2C%2C%2C 403 Ratelimit
+ DONE (Unknown)
+[1107/1165] Processing VAT (250ML).../Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:60: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:80: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [DDG IMAGE FAIL] https://duckduckgo.com/i.js?o=json&q=VAT+bottle&l=us-en&vqd=4-322847532542255327878289293719611826129&p=1&f=%2C%2C%2C%2C%2C 403 Ratelimit
+ DONE (Unknown)
+[1108/1165] Processing VAT 69T (1L).../Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:60: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:80: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [DDG IMAGE FAIL] https://duckduckgo.com/?q=VAT+69T+bottle 202 Ratelimit
+ DONE (Unknown)
+[1109/1165] Processing VAT 69  3/4 (750ML).../Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:60: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:80: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [DDG IMAGE FAIL] https://duckduckgo.com/?q=VAT+69++3%2F4+bottle 202 Ratelimit
+ DONE (Unknown)
+[1110/1165] Processing VAT 69 (375ML).../Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:60: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:80: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [DDG IMAGE FAIL] https://duckduckgo.com/i.js?o=json&q=VAT+69+bottle&l=us-en&vqd=4-189037994913365897071800583674176230523&p=1&f=%2C%2C%2C%2C%2C 403 Ratelimit
+ DONE (Unknown)
+[1111/1165] Processing VELO  CANS (750ML).../Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:60: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:80: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [DDG IMAGE FAIL] https://duckduckgo.com/i.js?o=json&q=VELO++CANS+bottle&l=us-en&vqd=4-22502986682199696203250384984518390577&p=1&f=%2C%2C%2C%2C%2C 403 Ratelimit
+ DONE (Unknown)
+[1112/1165] Processing VELO SARCHETS (750ML).../Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:60: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:80: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [DDG IMAGE FAIL] https://duckduckgo.com/i.js?o=json&q=VELO+SARCHETS+bottle&l=us-en&vqd=4-263711425016175635638967897466932582972&p=1&f=%2C%2C%2C%2C%2C 403 Ratelimit
+ DONE (Unknown)
+[1113/1165] Processing VERSUS RED WINE (750ML).../Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:60: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:80: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [DDG IMAGE FAIL] https://duckduckgo.com/i.js?o=json&q=VERSUS+RED+WINE+bottle&l=us-en&vqd=4-337960186981711072666319536566991873105&p=1&f=%2C%2C%2C%2C%2C 403 Ratelimit
+ DONE (Unknown)
+[1114/1165] Processing VERSUS WHITE (750ML).../Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:60: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:80: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [DDG IMAGE FAIL] https://duckduckgo.com/i.js?o=json&q=VERSUS+WHITE+bottle&l=us-en&vqd=4-252108659214910200723272469982058797185&p=1&f=%2C%2C%2C%2C%2C 403 Ratelimit
+ DONE (Unknown)
+[1115/1165] Processing VICEROY 10YRS (750ML).../Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:60: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:80: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [DDG IMAGE FAIL] https://duckduckgo.com/?q=VICEROY+10YRS+bottle 202 Ratelimit
+ DONE (Unknown)
+[1116/1165] Processing VICEROY (250ML).../Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:60: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:80: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [DDG IMAGE FAIL] https://duckduckgo.com/?q=VICEROY+bottle 202 Ratelimit
+ DONE (Unknown)
+[1117/1165] Processing VICEROY 350 (750ML).../Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:60: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:80: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [DDG IMAGE FAIL] https://duckduckgo.com/i.js?o=json&q=VICEROY+350+bottle&l=us-en&vqd=4-264957286932631279583095626277115942249&p=1&f=%2C%2C%2C%2C%2C 403 Ratelimit
+ DONE (Unknown)
+[1118/1165] Processing VICEROY (750ML)... CACHED (Unknown)
+[1119/1165] Processing VIENA ICE (500ML).../Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:60: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:80: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [DDG IMAGE FAIL] https://duckduckgo.com/i.js?o=json&q=VIENA+ICE+bottle&l=us-en&vqd=4-301725658446553716233034883059614402106&p=1&f=%2C%2C%2C%2C%2C 403 Ratelimit
+ DONE (Unknown)
+[1120/1165] Processing VIVA VODKA (250ML).../Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:60: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:80: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [DDG IMAGE FAIL] https://duckduckgo.com/i.js?o=json&q=VIVA+VODKA+bottle&l=us-en&vqd=4-293840661593106526388559479142436603807&p=1&f=%2C%2C%2C%2C%2C 403 Ratelimit
+ DONE (Unknown)
+[1121/1165] Processing VODKA LEMONADE CAN (750ML).../Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:60: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:80: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [DDG IMAGE FAIL] https://duckduckgo.com/i.js?o=json&q=VODKA+LEMONADE+CAN+bottle&l=us-en&vqd=4-67990198082114949026806828162620866075&p=1&f=%2C%2C%2C%2C%2C 403 Ratelimit
+ DONE (Unknown)
+[1122/1165] Processing WARAGI (750ML).../Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:60: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:80: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [DDG IMAGE FAIL] https://duckduckgo.com/?q=WARAGI+bottle 202 Ratelimit
+ DONE (Unknown)
+[1123/1165] Processing WAVE DANCER WINE (750ML).../Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:60: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:80: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [DDG IMAGE FAIL] https://duckduckgo.com/i.js?o=json&q=WAVE+DANCER+WINE+bottle&l=us-en&vqd=4-310598748079856985407770964449370555911&p=1&f=%2C%2C%2C%2C%2C 403 Ratelimit
+ DONE (Unknown)
+[1124/1165] Processing WHITE CAP BEER (750ML).../Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:60: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:80: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [DDG IMAGE FAIL] https://duckduckgo.com/i.js?o=json&q=WHITE+CAP+BEER+bottle&l=us-en&vqd=4-194504013535358266157327777291224625278&p=1&f=%2C%2C%2C%2C%2C 403 Ratelimit
+ DONE (Unknown)
+[1125/1165] Processing WHITE CAP CAN (500ML).../Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:60: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:80: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [DDG IMAGE FAIL] https://duckduckgo.com/i.js?o=json&q=WHITE+CAP+CAN+bottle&l=us-en&vqd=4-74568477823505811932692519556910584006&p=1&f=%2C%2C%2C%2C%2C 403 Ratelimit
+ DONE (Unknown)
+[1128/1165] Processing WHITE HOUSE (375ML).../Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:60: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:80: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [DDG IMAGE FAIL] https://duckduckgo.com/i.js?o=json&q=WHITE+HOUSE+bottle&l=us-en&vqd=4-269317511940119567419242358301596876773&p=1&f=%2C%2C%2C%2C%2C 403 Ratelimit
+ DONE (Unknown)
+[1129/1165] Processing WHITE HOUSE (750ML)... CACHED (Unknown)
+[1130/1165] Processing WHITE LACE GIN (500ML).../Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:60: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:80: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [DDG IMAGE FAIL] https://duckduckgo.com/i.js?o=json&q=WHITE+LACE+GIN+bottle&l=us-en&vqd=4-76693048764485653405160365492718821376&p=1&f=%2C%2C%2C%2C%2C 403 Ratelimit
+ DONE (Unknown)
+[1131/1165] Processing WHITE MISCHIEF (750ML).../Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:60: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:80: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [DDG IMAGE FAIL] https://duckduckgo.com/i.js?o=json&q=WHITE+MISCHIEF+bottle&l=us-en&vqd=4-217752523994455111287728710080520707022&p=1&f=%2C%2C%2C%2C%2C 403 Ratelimit
+ DONE (Unknown)
+[1132/1165] Processing WHITE OWL (750ML).../Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:60: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:80: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [DDG IMAGE FAIL] https://duckduckgo.com/i.js?o=json&q=WHITE+OWL+bottle&l=us-en&vqd=4-262430137170836184772345963893632074169&p=1&f=%2C%2C%2C%2C%2C 403 Ratelimit
+ DONE (Unknown)
+[1133/1165] Processing WHITE PEARL (250ML).../Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:60: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:80: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [DDG IMAGE FAIL] https://duckduckgo.com/i.js?o=json&q=WHITE+PEARL+bottle&l=us-en&vqd=4-55923900098895986609737625675357192977&p=1&f=%2C%2C%2C%2C%2C 403 Ratelimit
+ DONE (Unknown)
+  [GIT] Pushing 100 updates...
+[main aaf13a2] feat: high-speed update - processed 100
+ 1 file changed, 500 insertions(+)
+To https://github.com/mugaruranelson-cmd/liquify_mandela.git
+   9274f3f..aaf13a2  main -> main
+[1134/1165] Processing WHITE PEARL (750ML)... CACHED (Unknown)
+[1135/1165] Processing WHITE PEARL PINK (250ML).../Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:60: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:80: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [DDG IMAGE FAIL] https://duckduckgo.com/i.js?o=json&q=WHITE+PEARL+PINK+bottle&l=us-en&vqd=4-69841778923478983758436728065917714510&p=1&f=%2C%2C%2C%2C%2C 403 Ratelimit
+ DONE (Unknown)
+[1136/1165] Processing WHITE PEARL PINK (750ML)... CACHED (Unknown)
+[1137/1165] Processing WHITE PEARL XTRA (250ML).../Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:60: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:80: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [DDG IMAGE FAIL] https://duckduckgo.com/i.js?o=json&q=WHITE+PEARL+XTRA+bottle&l=us-en&vqd=4-87829659856104868017903392508485234042&p=1&f=%2C%2C%2C%2C%2C 403 Ratelimit
+ DONE (Unknown)
+[1138/1165] Processing WHITE PEARL XTRA (750ML)... CACHED (Unknown)
+[1139/1165] Processing WHYTEHALL FIRET (1L).../Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:60: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:80: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [DDG IMAGE FAIL] https://duckduckgo.com/?q=WHYTEHALL+FIRET+bottle 202 Ratelimit
+ DONE (Unknown)
+[1140/1165] Processing WHYTHALL HONEY (750ML).../Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:60: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:80: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [DDG IMAGE FAIL] https://duckduckgo.com/i.js?o=json&q=WHYTHALL+HONEY+bottle&l=us-en&vqd=4-143618129922254227369827880187022318074&p=1&f=%2C%2C%2C%2C%2C 403 Ratelimit
+ DONE (Unknown)
+[1141/1165] Processing WILD AFRICA CREAM (750ML).../Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:60: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:80: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [DDG IMAGE FAIL] https://duckduckgo.com/i.js?o=json&q=WILD+AFRICA+CREAM+bottle&l=us-en&vqd=4-292011848487146783100125505480220680847&p=1&f=%2C%2C%2C%2C%2C 403 Ratelimit
+ DONE (Unknown)
+[1142/1165] Processing WILD TURKEYT (1L).../Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:60: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:80: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [DDG IMAGE FAIL] https://duckduckgo.com/i.js?o=json&q=WILD+TURKEYT+bottle&l=us-en&vqd=4-325232215273771673624575777035890998106&p=1&f=%2C%2C%2C%2C%2C 403 Ratelimit
+ DONE (Unknown)
+[1143/1165] Processing WILD TURKEY 750 (750ML).../Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:60: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:80: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [DDG IMAGE FAIL] https://duckduckgo.com/i.js?o=json&q=WILD+TURKEY+750+bottle&l=us-en&vqd=4-299228888101051976022360847527018299641&p=1&f=%2C%2C%2C%2C%2C 403 Ratelimit
+ DONE (Unknown)
+[1144/1165] Processing WILLIAM CAN (330ML).../Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:60: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:80: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [DDG IMAGE FAIL] https://duckduckgo.com/i.js?o=json&q=WILLIAM+CAN+bottle&l=us-en&vqd=4-255093925474414350959219371736868118175&p=1&f=%2C%2C%2C%2C%2C 403 Ratelimit
+ DONE (Unknown)
+[1145/1165] Processing WILLIAM CAN COLA (750ML).../Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:60: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:80: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [DDG IMAGE FAIL] https://duckduckgo.com/i.js?o=json&q=WILLIAM+CAN+COLA+bottle&l=us-en&vqd=4-47232958445152732003084427425335191888&p=1&f=%2C%2C%2C%2C%2C 403 Ratelimit
+ DONE (Unknown)
+[1146/1165] Processing WILLIAM LAWSONT (1.5L).../Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:60: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:80: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [DDG IMAGE FAIL] https://duckduckgo.com/?q=WILLIAM+LAWSONT+bottle 202 Ratelimit
+ DONE (Unknown)
+[1147/1165] Processing WILLIAMSONT (1L).../Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:60: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:80: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [DDG IMAGE FAIL] https://duckduckgo.com/i.js?o=json&q=WILLIAMSONT+bottle&l=us-en&vqd=4-254095818943398032464129165384327507008&p=1&f=%2C%2C%2C%2C%2C 403 Ratelimit
+ DONE (Unknown)
+[1148/1165] Processing WILLIAM SON (750ML).../Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:60: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:80: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [DDG IMAGE FAIL] https://duckduckgo.com/i.js?o=json&q=WILLIAM+SON+bottle&l=us-en&vqd=4-136124494575576900098618637350415921784&p=1&f=%2C%2C%2C%2C%2C 403 Ratelimit
+ DONE (Unknown)
+[1149/1165] Processing WILLIAM SPCD (750ML).../Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:60: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:80: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [DDG IMAGE FAIL] https://duckduckgo.com/i.js?o=json&q=WILLIAM+SPCD+bottle&l=us-en&vqd=4-145193128107179942019103075796054772406&p=1&f=%2C%2C%2C%2C%2C 403 Ratelimit
+ DONE (Unknown)
+[1150/1165] Processing WILLIAM WSON (350ML).../Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:60: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:80: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [DDG IMAGE FAIL] https://duckduckgo.com/i.js?o=json&q=WILLIAM+WSON+bottle&l=us-en&vqd=4-19388234663548271534312029125725861746&p=1&f=%2C%2C%2C%2C%2C 403 Ratelimit
+ DONE (Unknown)
+[1151/1165] Processing WILSON WHISKY (750ML).../Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:60: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:80: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [DDG IMAGE FAIL] https://duckduckgo.com/i.js?o=json&q=WILSON+WHISKY+bottle&l=us-en&vqd=4-182162873177042037625062449652138372330&p=1&f=%2C%2C%2C%2C%2C 403 Ratelimit
+ DONE (Unknown)
+[1152/1165] Processing WINDHOEK DRAUGHT (330ML).../Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:60: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:80: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [DDG IMAGE FAIL] https://duckduckgo.com/?q=WINDHOEK+DRAUGHT+bottle 202 Ratelimit
+ DONE (Unknown)
+[1153/1165] Processing WINDHOEK LAGER (330ML).../Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:60: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:80: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [DDG IMAGE FAIL] https://duckduckgo.com/i.js?o=json&q=WINDHOEK+LAGER+bottle&l=us-en&vqd=4-118494885709006187427234403937951073898&p=1&f=%2C%2C%2C%2C%2C 403 Ratelimit
+ DONE (Unknown)
+[1154/1165] Processing XO BRANDY (250ML).../Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:60: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:80: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [DDG IMAGE FAIL] https://duckduckgo.com/i.js?o=json&q=XO+BRANDY+bottle&l=us-en&vqd=4-155374699368153831552130792814279925021&p=1&f=%2C%2C%2C%2C%2C 403 Ratelimit
+ DONE (Unknown)
+[1155/1165] Processing XO BRANDY (750ML)... CACHED (Unknown)
+[1156/1165] Processing YATTA MANGOT (1L).../Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:60: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:80: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [DDG IMAGE FAIL] https://duckduckgo.com/i.js?o=json&q=YATTA+MANGOT+bottle&l=us-en&vqd=4-15112326384006126101653794557550264507&p=1&f=%2C%2C%2C%2C%2C 403 Ratelimit
+ DONE (Unknown)
+[1157/1165] Processing YATTA REDT (1L).../Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:60: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:80: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [DDG IMAGE FAIL] https://duckduckgo.com/i.js?o=json&q=YATTA+REDT+bottle&l=us-en&vqd=4-205262710887579266004180291922718326015&p=1&f=%2C%2C%2C%2C%2C 403 Ratelimit
+ DONE (Unknown)
+[1158/1165] Processing YATTA  TROPICAL (750ML).../Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:60: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:80: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [DDG IMAGE FAIL] https://duckduckgo.com/i.js?o=json&q=YATTA++TROPICAL+bottle&l=us-en&vqd=4-321047667221056199355637363518547168379&p=1&f=%2C%2C%2C%2C%2C 403 Ratelimit
+ DONE (Japan)
+[1159/1165] Processing YATTA  WHITE (1 L).../Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:60: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:80: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [DDG IMAGE FAIL] https://duckduckgo.com/i.js?o=json&q=YATTA++WHITE+bottle&l=us-en&vqd=4-224417242730346836855467819606138613147&p=1&f=%2C%2C%2C%2C%2C 403 Ratelimit
+ DONE (Unknown)
+[1160/1165] Processing ZANZI CREAM LQ (750ML).../Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:60: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:80: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [DDG IMAGE FAIL] https://duckduckgo.com/i.js?o=json&q=ZANZI+CREAM+LQ+bottle&l=us-en&vqd=4-64128312428572332840012974529421065707&p=1&f=%2C%2C%2C%2C%2C 403 Ratelimit
+ DONE (Unknown)
+[1161/1165] Processing ZAPPA BLACK (750ML).../Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:60: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:80: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [DDG IMAGE FAIL] https://duckduckgo.com/i.js?o=json&q=ZAPPA+BLACK+bottle&l=us-en&vqd=4-317195651782766754479874443269502488366&p=1&f=%2C%2C%2C%2C%2C 403 Ratelimit
+ DONE (Unknown)
+[1162/1165] Processing ZAPPA BLUE (750ML).../Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:60: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:80: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [DDG IMAGE FAIL] https://duckduckgo.com/i.js?o=json&q=ZAPPA+BLUE+bottle&l=us-en&vqd=4-162137666618135976722661164145995651496&p=1&f=%2C%2C%2C%2C%2C 403 Ratelimit
+ DONE (Unknown)
+[1163/1165] Processing ZAPPA CLEAR (750ML).../Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:60: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:80: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [DDG IMAGE FAIL] https://duckduckgo.com/?q=ZAPPA+CLEAR+bottle 202 Ratelimit
+ DONE (Unknown)
+[1164/1165] Processing ZAPPA GREEN (750ML).../Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:60: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:80: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [DDG IMAGE FAIL] https://duckduckgo.com/i.js?o=json&q=ZAPPA+GREEN+bottle&l=us-en&vqd=4-284516055777813095631546764147136470186&p=1&f=%2C%2C%2C%2C%2C 403 Ratelimit
+ DONE (Unknown)
+[1165/1165] Processing ZAPPA RED (750ML).../Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:60: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/populate_catalogue.py:80: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [DDG IMAGE FAIL] https://duckduckgo.com/i.js?o=json&q=ZAPPA+RED+bottle&l=us-en&vqd=4-120823733783478186009004835553792377457&p=1&f=%2C%2C%2C%2C%2C 403 Ratelimit
+ DONE (Unknown)
+  [GIT] Pushing 132 updates...
+[main 5b2f0cd] feat: high-speed update - processed 132
+ 1 file changed, 320 insertions(+)
+To https://github.com/mugaruranelson-cmd/liquify_mandela.git
+   aaf13a2..5b2f0cd  main -> main

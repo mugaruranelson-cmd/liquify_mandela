@@ -56,39 +56,33 @@ def rate_limit():
     _last_serpapi_time = time.time()
 
 def fetch_info(name):
-    rate_limit()
     try:
-        from serpapi import GoogleSearch
-        search = GoogleSearch({
-            "engine": "google",
-            "q": f"{name} drink spirits wine country of origin and product description summary",
-            "api_key": SERPAPI_KEY
-        })
-        res = search.get_dict()
-        desc = res.get('answer_box', {}).get('answer', '') or res.get('answer_box', {}).get('snippet', '')
-        if not desc:
-            kg = res.get('knowledge_graph', {})
-            desc = kg.get('description', '') or (res.get('organic_results', [{}])[0].get('snippet', '') if res.get('organic_results') else '')
-        
-        country = "Unknown"
-        countries = ['Kenya', 'Scotland', 'Ireland', 'France', 'USA', 'Mexico', 'Italy', 'South Africa', 'United Kingdom', 'England', 'Sweden', 'Netherlands', 'Jamaica', 'Japan', 'Chile', 'Spain', 'Germany']
-        full_text = (str(res.get('answer_box', '')) + str(res.get('knowledge_graph', '')) + str(res.get('organic_results', [{}])[0].get('snippet', ''))).lower()
-        for c in countries:
-            if c.lower() in full_text:
-                country = c
-                break
-        return country, desc[:250].replace('"', "'")
-    except:
+        with DDGS() as ddgs:
+            results = list(ddgs.text(f"{name} drink spirits wine country of origin summary", max_results=3))
+            full_text = " ".join([r.get('body', '') for r in results]).lower()
+            
+            # Simple country extraction
+            countries = ['Kenya', 'Scotland', 'Ireland', 'France', 'USA', 'Mexico', 'Italy', 'South Africa', 'United Kingdom', 'England', 'Sweden', 'Netherlands', 'Jamaica', 'Japan', 'Chile', 'Spain', 'Germany']
+            country = "Unknown"
+            for c in countries:
+                if c.lower() in full_text:
+                    country = c
+                    break
+            
+            desc = results[0].get('body', '')[:250].replace('"', "'") if results else "A quality drink offering exceptional taste."
+            return country, desc
+    except Exception as e:
+        print(f"  [DDG INFO FAIL] {e}")
         return "Unknown", "A quality drink offering exceptional taste."
 
 def fetch_image(name):
-    rate_limit()
     try:
-        from serpapi import GoogleSearch
-        search = GoogleSearch({"engine": "google_images", "q": name + " bottle transparent background", "api_key": SERPAPI_KEY, "num": 1})
-        results = search.get_dict()
-        if 'images_results' in results: return results['images_results'][0].get('original', '')
-    except: pass
+        with DDGS() as ddgs:
+            results = list(ddgs.images(f"{name} bottle", max_results=1))
+            if results:
+                return results[0].get('image', '')
+    except Exception as e:
+        print(f"  [DDG IMAGE FAIL] {e}")
     return ""
 
 def process_image(img_url, safe_name):
