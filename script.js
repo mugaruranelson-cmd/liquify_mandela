@@ -120,6 +120,9 @@ document.addEventListener('DOMContentLoaded', () => {
     if (document.getElementById('featured-products-grid')) {
         initHome();
     }
+    if (document.getElementById('shop-product-grid')) {
+        initShop();
+    }
 });
 
 // Fisher-Yates Shuffle Algorithm
@@ -132,6 +135,46 @@ function shuffleArray(array) {
 
 // Shuffle catalogue on load
 shuffleArray(catalogueProducts);
+
+// --- REUSABLE RENDERING ENGINE ---
+function createProductCard(product) {
+    const isKenyan = product.isKenyan === true || String(product.isKenyan) === 'true';
+    const kenyanBadge = isKenyan
+        ? `<div class="kenyan-flag-badge">
+                <img src="https://flagcdn.com/w80/ke.png" class="kenyan-flag-img" alt="Kenya">
+                <span class="badg-text">KENYAN PRIDE</span>
+           </div>`
+        : '';
+        
+    const countryTag = product.country && product.country !== 'Unknown' 
+        ? `<div class="country-tag"><i class="fas fa-globe-africa"></i> ${product.country}</div>` 
+        : '';
+
+    return `
+        <div class="product-card reveal active">
+            <div class="product-image">
+                ${kenyanBadge}
+                <img src="${product.image}" alt="${product.name}" loading="lazy">
+            </div>
+            <div class="product-info">
+                ${countryTag}
+                <h3>${product.name}</h3>
+                <div class="product-size">${product.size} - <span style="color: var(--accent-gold); font-weight: bold;">${product.price}</span></div>
+                <p style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 1.5rem; line-height: 1.4;">${product.description}</p>
+                <button class="btn btn-primary shop-order-btn" data-product="${product.name} ${product.size}">Order on WA</button>
+            </div>
+        </div>
+    `;
+}
+
+function attachOrderListeners(container) {
+    container.querySelectorAll('.shop-order-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+            const productInfo = btn.getAttribute('data-product');
+            window.location.href = buildWhatsAppLink(`Hi Liquify, I want to order ${productInfo}. Please confirm availability.`);
+        });
+    });
+}
 
 // --- HOME PAGE LOGIC ---
 function initHome() {
@@ -146,48 +189,76 @@ function initHome() {
     // Kenyan: Filter and take first 4
     const kenyanItems = catalogueProducts.filter(p => p.isKenyan === true || String(p.isKenyan) === 'true').slice(0, 4);
 
-    function renderToGrid(items, grid) {
-        grid.innerHTML = items.map(product => {
-            const isKenyan = product.isKenyan === true || String(product.isKenyan) === 'true';
-            const kenyanBadge = isKenyan
-                ? `<div class="kenyan-flag-badge">
-                        <img src="https://flagcdn.com/w80/ke.png" class="kenyan-flag-img" alt="Kenya">
-                        <span class="badg-text">KENYAN PRIDE</span>
-                   </div>`
-                : '';
-                
-            const countryTag = product.country && product.country !== 'Unknown' 
-                ? `<div class="country-tag"><i class="fas fa-globe-africa"></i> ${product.country}</div>` 
-                : '';
+    featuredGrid.innerHTML = featuredItems.map(createProductCard).join('');
+    kenyanGrid.innerHTML = kenyanItems.map(createProductCard).join('');
 
-            return `
-                <div class="product-card reveal active">
-                    <div class="product-image">
-                        ${kenyanBadge}
-                        <img src="${product.image}" alt="${product.name}" loading="lazy">
-                    </div>
-                    <div class="product-info">
-                        ${countryTag}
-                        <h3>${product.name}</h3>
-                        <div class="product-size">${product.size} - <span style="color: var(--accent-gold); font-weight: bold;">${product.price}</span></div>
-                        <p style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 1.5rem; line-height: 1.4;">${product.description}</p>
-                        <button class="btn btn-primary shop-order-btn" data-product="${product.name} ${product.size}">Order on WA</button>
-                    </div>
-                </div>
-            `;
-        }).join('');
+    attachOrderListeners(featuredGrid);
+    attachOrderListeners(kenyanGrid);
+}
 
-        // Re-attach listeners because we used innerHTML
-        grid.querySelectorAll('.shop-order-btn').forEach(btn => {
-            btn.addEventListener('click', () => {
-                const productInfo = btn.getAttribute('data-product');
-                window.location.href = buildWhatsAppLink(`Hi Liquify, I want to order ${productInfo}. Please confirm availability.`);
-            });
+// --- SHOP PAGE LOGIC ---
+function initShop() {
+    const shopGrid = document.getElementById('shop-product-grid');
+    const searchInput = document.getElementById('shop-search');
+    const filterBtns = document.querySelectorAll('.filter-btn');
+    const noResults = document.getElementById('no-products-message');
+
+    if (!shopGrid) return;
+
+    let currentFilter = 'all';
+    let searchQuery = '';
+
+    function renderShop() {
+        // Filter logic
+        const filtered = catalogueProducts.filter(p => {
+            const matchesCategory = currentFilter === 'all' || 
+                                  (currentFilter === 'kenyan' && (p.isKenyan === true || String(p.isKenyan) === 'true')) ||
+                                  p.category === currentFilter;
+            const matchesSearch = p.name.toLowerCase().includes(searchQuery.toLowerCase()) || 
+                                 p.description.toLowerCase().includes(searchQuery.toLowerCase());
+            return matchesCategory && matchesSearch;
+        });
+
+        // Show/Hide no results message
+        if (filtered.length === 0) {
+            noResults.style.display = 'block';
+            shopGrid.innerHTML = '';
+            shopGrid.appendChild(noResults);
+        } else {
+            noResults.style.display = 'none';
+            // Render in batches to prevent UI freeze
+            shopGrid.innerHTML = filtered.map(createProductCard).join('');
+            attachOrderListeners(shopGrid);
+        }
+    }
+
+    // Search listener
+    if (searchInput) {
+        searchInput.addEventListener('input', (e) => {
+            searchQuery = e.target.value;
+            renderShop();
         });
     }
 
-    renderToGrid(featuredItems, featuredGrid);
-    renderToGrid(kenyanItems, kenyanGrid);
+    // Filter listeners
+    filterBtns.forEach(btn => {
+        btn.addEventListener('click', () => {
+            filterBtns.forEach(b => b.classList.remove('active'));
+            btn.classList.add('active');
+            currentFilter = btn.getAttribute('data-filter');
+            renderShop();
+        });
+    });
+
+    // Check URL for initial filter (e.g. ?category=whisky)
+    const urlParams = new URLSearchParams(window.location.search);
+    const catParam = urlParams.get('category') || urlParams.get('filter');
+    if (catParam) {
+        const targetBtn = document.querySelector(`.filter-btn[data-filter="${catParam}"]`);
+        if (targetBtn) targetBtn.click();
+    } else {
+        renderShop();
+    }
 }
 
 // --- CATALOGUE DATA ---
