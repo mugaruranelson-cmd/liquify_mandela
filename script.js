@@ -1,5 +1,5 @@
 // Base WhatsApp Number (Format: 254XXXXXXXXX)
-const WA_PHONE = '254141024938';
+const WA_PHONE = '254700000000'; // Replace with actual number
 
 // Age Verification Logic
 function initAgeGate() {
@@ -3616,7 +3616,7 @@ const catalogueProducts = [
         size: "5L",
         price: "Ksh 5,475",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FOUR%20COUSINS%20REDT",
+        image: "assets/images/real/four_cousins_redt.jpg",
         isKenyan: false,
         country: "Unknown"
     },
@@ -3636,7 +3636,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 2,730",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FOUR%20COUSINS%20%20STRAWBERRY",
+        image: "assets/images/real/four_cousins__strawberry.jpg",
         isKenyan: false,
         country: "Unknown"
     },
@@ -3716,7 +3716,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,440",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FRONTERA%20AFTER%20MID9T",
+        image: "assets/images/real/frontera_after_mid9t.jpg",
         isKenyan: false,
         country: "Unknown"
     },
@@ -3726,7 +3726,7 @@ const catalogueProducts = [
         size: "1.5L",
         price: "Ksh 2,400",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FRONTERA%20CAB%20sauvT",
+        image: "assets/images/real/frontera_cab_sauvt.jpg",
         isKenyan: false,
         country: "Unknown"
     },
@@ -3936,7 +3936,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,620",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GATONEGRO%20CAB%20SAUV",
+        image: "assets/images/real/gatonegro_cab_sauv.jpg",
         isKenyan: false,
         country: "Unknown"
     },
@@ -10996,7 +10996,7 @@ const catalogueProducts = [
         size: "1L",
         price: "Ksh 3975",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=WILD%20TURKEYT",
+        image: "assets/images/real/wild_turkeyt.jpg",
         isKenyan: false,
         country: "Unknown"
     },
@@ -11006,7 +11006,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 4050",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=WILD%20TURKEY%20750",
+        image: "assets/images/real/wild_turkey_750.jpg",
         isKenyan: false,
         country: "Unknown"
     },
@@ -11026,7 +11026,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 338",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=WILLIAM%20CAN%20COLA",
+        image: "assets/images/real/william_can_cola.jpg",
         isKenyan: false,
         country: "Unknown"
     },
@@ -11036,7 +11036,7 @@ const catalogueProducts = [
         size: "1.5L",
         price: "Ksh 4620",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=WILLIAM%20LAWSONT",
+        image: "assets/images/real/william_lawsont.jpg",
         isKenyan: false,
         country: "Unknown"
     },
@@ -11076,7 +11076,7 @@ const catalogueProducts = [
         size: "350ML",
         price: "Ksh 1283",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=WILLIAM%20WSON",
+        image: "assets/images/real/william_wson.jpg",
         isKenyan: false,
         country: "Unknown"
     },
@@ -11086,7 +11086,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 2550",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=WILSON%20WHISKY",
+        image: "assets/images/real/wilson_whisky.jpg",
         isKenyan: false,
         country: "Unknown"
     },
@@ -11096,7 +11096,7 @@ const catalogueProducts = [
         size: "330ML",
         price: "Ksh 285",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=WINDHOEK%20DRAUGHT",
+        image: "assets/images/real/windhoek_draught.jpg",
         isKenyan: false,
         country: "Namibia"
     },
@@ -11106,7 +11106,7 @@ const catalogueProducts = [
         size: "330ML",
         price: "Ksh 285",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=WINDHOEK%20LAGER",
+        image: "assets/images/real/windhoek_lager.jpg",
         isKenyan: false,
         country: "Namibia"
     },
