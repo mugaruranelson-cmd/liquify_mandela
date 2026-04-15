@@ -98,3 +98,5 @@ Caused by:
  DONE
 [50/50] DIVE: Captain Cola Bottle...  [DDG FAIL] Captain Cola Bottle: https://duckduckgo.com/i.js?o=json&q=Captain+Cola+Bottle+liquor+bottle+shot+transparent&l=us-en&vqd=4-23284947189232874568606993142353741849&p=1&f=%2C%2C%2C%2C%2C 403 Ratelimit
  DONE
+[main eea30c0] feat: consolidated deep search - resolved {lookup_count} experts and {processed} searches
+ 4 files changed, 301 insertions(+), 24 deletions(-)

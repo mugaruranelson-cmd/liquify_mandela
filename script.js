@@ -296,7 +296,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,500",
         description: "#7 Lemon & Lime Flavoured Gin 750ml ; Alcohol Content. 35% ; Flavours & Spices. Lemon ; Country of Origin. South Africa ; Size. 750ml ; SKU: GI#74540 ...",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=%237GIN%20LIME%20AND%20LEMON",
+        image: "assets/images/real/7gin_lime_and_lemon.jpg",
         isKenyan: false,
         country: "South Africa"
     },
@@ -688,7 +688,7 @@ const catalogueProducts = [
         description: "The Aquila Liqueurs distillery, founded in 1992, reached a remarkable development in a short time in the Albanian market. In its beginnings, a new modern plant ...",
         image: "assets/images/real/aqula.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "Albania"
     },
     {
         name: "Arcadia Rum",
@@ -698,7 +698,7 @@ const catalogueProducts = [
         description: "Acadian is a grassy and vegetal spirit with a citrus spark and notes of warm hay and green pears. It is plays well in cocktails designed for agricole and cacha ...",
         image: "assets/images/real/arcadia_rum.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "France"
     },
     {
         name: "Arcadia Whisky",
@@ -708,7 +708,7 @@ const catalogueProducts = [
         description: "Browse our handpicked collections of premium whiskey, wine, and spirits. Shop exclusive liquor selections, curated for your taste from ARCADIA WINE ...",
         image: "assets/images/real/arcadia_whisky.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "France"
     },
     {
         name: "Arcadia White Swt",
