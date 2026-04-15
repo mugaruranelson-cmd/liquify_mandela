@@ -353,38 +353,41 @@ section {
   background: var(--bg-card);
   border: var(--glass-border);
   border-radius: var(--radius-lg);
-  padding: 2rem;
+  padding: 1.5rem;
   text-align: center;
   backdrop-filter: blur(10px);
-  transition: var(--transition-smooth);
+  transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
   position: relative;
+  overflow: hidden;
 }
 
 .product-image {
-  height: 240px;
-  background: #000000;
+  height: 250px;
+  background: #0b0b0b;
   border-radius: var(--radius-md);
-  box-shadow: inset 0 0 20px rgba(255,255,255,0.02);
   display: flex;
   align-items: center;
   justify-content: center;
   margin-bottom: 1.5rem;
+  position: relative;
+  border: 1px solid rgba(255, 255, 255, 0.03);
 }
 
 .product-image img {
-  max-height: 100%;
-  filter: drop-shadow(0 10px 15px rgba(0,0,0,0.5));
+  max-height: 85%;
+  width: auto;
+  filter: drop-shadow(0 15px 25px rgba(0,0,0,0.8));
   transition: var(--transition-smooth);
 }
 
 .product-card:hover {
-  transform: translateY(-10px);
-  border-color: rgba(212, 175, 55, 0.5);
-  box-shadow: 0 15px 30px rgba(0,0,0,0.4), var(--gold-glow);
+  transform: translateY(-8px) scale(1.02);
+  border-color: var(--accent-gold);
+  box-shadow: 0 20px 40px rgba(0,0,0,0.6), var(--gold-glow);
 }
 
 .product-card:hover .product-image img {
-  transform: scale(1.08);
+  transform: scale(1.1) rotate(2deg);
 }
 
 .product-info h3 {
@@ -539,52 +542,60 @@ section {
   box-shadow: 0 6px 20px rgba(37, 211, 102, 0.6);
 }
 
-/* Made in Kenya Special Section */
-.section-kenyan {
-    background: linear-gradient(135deg, #050505 0%, #0d0d0d 100%);
-    position: relative;
-    overflow: hidden;
-}
-
-.section-kenyan::before {
-    content: '';
+/* Premium Kenyan Flag Badge - Top Right */
+.kenyan-flag-badge {
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 4px;
-    background: linear-gradient(90deg, #000000 0%, #AA0101 50%, #008100 100%);
-    opacity: 0.6;
+    top: 15px;
+    right: 15px;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(11, 11, 11, 0.85);
+    backdrop-filter: blur(8px);
+    border: 1px solid var(--accent-gold);
+    padding: 6px 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.5), var(--gold-glow);
+    animation: badgePulse 2s infinite alternate;
 }
 
-.kenyan-badge {
-    display: inline-block;
+.kenyan-flag-img {
+    width: 25px !important;
+    height: auto;
+    border-radius: 2px;
+    margin-bottom: 4px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.badg-text {
+    font-size: 0.6rem;
+    font-weight: 800;
+    color: var(--accent-gold);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    white-space: nowrap;
+}
+
+@keyframes badgePulse {
+    from { transform: scale(1); border-color: var(--accent-gold); }
+    to { transform: scale(1.05); border-color: #fff; box-shadow: 0 0 20px rgba(212, 175, 55, 0.4); }
+}
+
+.country-tag {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
     background: rgba(212, 175, 55, 0.1);
-    border: 1px solid var(--accent-gold);
+    border: 1px solid rgba(212, 175, 55, 0.2);
     color: var(--accent-gold);
     padding: 4px 12px;
     border-radius: 50px;
     font-size: 0.75rem;
     font-weight: 600;
     text-transform: uppercase;
-    margin-bottom: 1rem;
-    letter-spacing: 1px;
-}
-
-.country-tag {
-    display: inline-flex;
-    align-items: center;
-    gap: 4px;
-    background: rgba(255, 255, 255, 0.05);
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    color: var(--text-muted);
-    padding: 3px 10px;
-    border-radius: 4px;
-    font-size: 0.7rem;
-    font-weight: 500;
-    text-transform: uppercase;
     margin-bottom: 0.8rem;
-    letter-spacing: 0.5px;
+    letter-spacing: 1px;
 }
 
 /* Delivery Coverage Map */

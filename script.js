@@ -1,5 +1,5 @@
 // Base WhatsApp Number (Format: 254XXXXXXXXX)
-const WA_PHONE = '254700000000'; // Replace with actual number
+const WA_PHONE = '254141024938'; // Replace with actual number
 
 // Age Verification Logic
 function initAgeGate() {
@@ -115,7 +115,80 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         });
     });
+
+    // Initialize Page-Specific Logic
+    if (document.getElementById('featured-products-grid')) {
+        initHome();
+    }
 });
+
+// Fisher-Yates Shuffle Algorithm
+function shuffleArray(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
+    }
+}
+
+// Shuffle catalogue on load
+shuffleArray(catalogueProducts);
+
+// --- HOME PAGE LOGIC ---
+function initHome() {
+    const featuredGrid = document.getElementById('featured-products-grid');
+    const kenyanGrid = document.getElementById('kenyan-products-grid');
+
+    if (!featuredGrid || !kenyanGrid) return;
+
+    // Featured: Just take first 4 from shuffled list
+    const featuredItems = catalogueProducts.slice(0, 4);
+    
+    // Kenyan: Filter and take first 4
+    const kenyanItems = catalogueProducts.filter(p => p.isKenyan === true || String(p.isKenyan) === 'true').slice(0, 4);
+
+    function renderToGrid(items, grid) {
+        grid.innerHTML = items.map(product => {
+            const isKenyan = product.isKenyan === true || String(product.isKenyan) === 'true';
+            const kenyanBadge = isKenyan
+                ? `<div class="kenyan-flag-badge">
+                        <img src="https://flagcdn.com/w80/ke.png" class="kenyan-flag-img" alt="Kenya">
+                        <span class="badg-text">KENYAN PRIDE</span>
+                   </div>`
+                : '';
+                
+            const countryTag = product.country && product.country !== 'Unknown' 
+                ? `<div class="country-tag"><i class="fas fa-globe-africa"></i> ${product.country}</div>` 
+                : '';
+
+            return `
+                <div class="product-card reveal active">
+                    <div class="product-image">
+                        ${kenyanBadge}
+                        <img src="${product.image}" alt="${product.name}" loading="lazy">
+                    </div>
+                    <div class="product-info">
+                        ${countryTag}
+                        <h3>${product.name}</h3>
+                        <div class="product-size">${product.size} - <span style="color: var(--accent-gold); font-weight: bold;">${product.price}</span></div>
+                        <p style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 1.5rem; line-height: 1.4;">${product.description}</p>
+                        <button class="btn btn-primary shop-order-btn" data-product="${product.name} ${product.size}">Order on WA</button>
+                    </div>
+                </div>
+            `;
+        }).join('');
+
+        // Re-attach listeners because we used innerHTML
+        grid.querySelectorAll('.shop-order-btn').forEach(btn => {
+            btn.addEventListener('click', () => {
+                const productInfo = btn.getAttribute('data-product');
+                window.location.href = buildWhatsAppLink(`Hi Liquify, I want to order ${productInfo}. Please confirm availability.`);
+            });
+        });
+    }
+
+    renderToGrid(featuredItems, featuredGrid);
+    renderToGrid(kenyanItems, kenyanGrid);
+}
 
 // --- CATALOGUE DATA ---
 /* CATALOGUE_START */
@@ -217,8 +290,8 @@ const catalogueProducts = [
         price: "Ksh 315",
         description: "The first carbonated quinine drink was launched by Schweppes in 1870. Due to its popularity in India, it was branded Indian Tonic Water. The amount of quinine ...",
         image: "assets/images/real/assic_g_t_can.jpg",
-        isKenyan: false,
-        country: "Unknown"
+        isKenyan: true,
+        country: "Kenya"
     },
     {
         name: "58 Spiced Orange",
@@ -348,7 +421,7 @@ const catalogueProducts = [
         description: "Blend of Plantation Original Dark Rum macerated with Queen Victoria pineapple flesh and a portion of white rum distilled with the rinds, finished as a ...",
         image: "assets/images/real/7gin_pineapple.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "South Africa"
     },
     {
         name: "7 Hills  Sweetred",
@@ -578,7 +651,7 @@ const catalogueProducts = [
         description: "The first drop of bona fide Allsopp family beeris brewed in Burton-on-Trent – the beer capital of Britain – by Benjamin Wilson Sr. ... To expand operations, ...",
         image: "assets/images/real/allsops_beer.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "United Kingdom"
     },
     {
         name: "Alta Wine",
@@ -948,7 +1021,7 @@ const catalogueProducts = [
         description: "Tonight's Cocktail uses El Tesoro de Don Felipe Blanco, with flavors of Agave, Black Pepper, Citrus, Earthy, Vegetal, Minerally and Grass notes ...",
         image: "assets/images/real/back_bencher_wsky.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "India"
     },
     {
         name: "Baileys",
@@ -958,7 +1031,7 @@ const catalogueProducts = [
         description: "Baileys Irish Cream is a liqueur made of cream, cocoa and Irish whiskey emulsified together with vegetable oil. Baileys is made by Diageo at Nangor Road, ...",
         image: "assets/images/real/baileys.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "Ireland"
     },
     {
         name: "Baileys",
@@ -968,7 +1041,7 @@ const catalogueProducts = [
         description: "Baileys Irish Cream is a liqueur made of cream, cocoa and Irish whiskey emulsified together with vegetable oil. Baileys is made by Diageo at Nangor Road, ...",
         image: "assets/images/real/baileys.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "Ireland"
     },
     {
         name: "Baileys",
@@ -978,7 +1051,7 @@ const catalogueProducts = [
         description: "Baileys Irish Cream is a liqueur made of cream, cocoa and Irish whiskey emulsified together with vegetable oil. Baileys is made by Diageo at Nangor Road, ...",
         image: "assets/images/real/baileys.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "Ireland"
     },
     {
         name: "Baileys Delight",
@@ -988,7 +1061,7 @@ const catalogueProducts = [
         description: "Baileys Delight Cream Liqueur combines the finest Irish dairy cream with sweet African honey, creating a unique and indulgent drinking experience. Its smooth, ...",
         image: "assets/images/real/baileys_delight.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "Ireland"
     },
     {
         name: "Baileys Delight",
@@ -998,7 +1071,7 @@ const catalogueProducts = [
         description: "Baileys Delight Cream Liqueur combines the finest Irish dairy cream with sweet African honey, creating a unique and indulgent drinking experience. Its smooth, ...",
         image: "assets/images/real/baileys_delight.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "Ireland"
     },
     {
         name: "Baileys Strawberry",
@@ -1078,7 +1151,7 @@ const catalogueProducts = [
         description: "An exceptional single malt whisky with the traditional smooth, honeyed character of The Balvenie married with notes of toffee and a hint of fruit.",
         image: "assets/images/real/balvenie_14.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "Scotland"
     },
     {
         name: "Banana Beer",
@@ -1087,8 +1160,8 @@ const catalogueProducts = [
         price: "Ksh 108",
         description: "Banana beer is an alcoholic beverage made from fermentation of mashed bananas. Sorghum, millet or maize flour are added as a source of wild yeast.",
         image: "assets/images/real/banana_beer.jpg",
-        isKenyan: false,
-        country: "Unknown"
+        isKenyan: true,
+        country: "Kenya"
     },
     {
         name: "Base Qube Energy",
@@ -1108,7 +1181,7 @@ const catalogueProducts = [
         description: "ABV is 7.9%. Golden colour, large lasting head, decent lacing. Malty and fruity aroma with some alcoholic notes, but not unpleasant. Hints of oak and leather.",
         image: "assets/images/real/bavaria_8_6.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "Netherlands"
     },
     {
         name: "Bavaria Apple",
@@ -1118,7 +1191,7 @@ const catalogueProducts = [
         description: "German ciders are made from various kinds of sour tasting apples (such as 'Bohnapfel') and are distinguished by an alcohol content of 4.8–7.0% alongside a tart, ...",
         image: "assets/images/real/bavaria_apple.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "Netherlands"
     },
     {
         name: "Bavaria Orange",
@@ -1128,7 +1201,7 @@ const catalogueProducts = [
         description: "Bavaria 0.0% Orange Malt Drink is a non-alcoholic beverage crafted with ... Country of Origin. Netherland. Flavours & Spices. Orange. GTIN-8, 8714800050494 ...",
         image: "assets/images/real/bavaria_orange.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "Netherlands"
     },
     {
         name: "Bavaria Original 0.0",
@@ -1138,7 +1211,7 @@ const catalogueProducts = [
         description: "Bavaria 0.0% has a strong bite in its aftertaste, without alcohol. Brewed with the best natural ingredients and natural mineral water from Bavaria's own spring.",
         image: "assets/images/real/bavaria_original_0_0.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "Netherlands"
     },
     {
         name: "Beefeater Cleart",
@@ -1408,7 +1481,7 @@ const catalogueProducts = [
         description: "The TTB.gov Wine Appellations of Origin homepage serves as a virtual warehouse of all US and foreign appellations of origin.",
         image: "assets/images/real/bl.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "Scotland"
     },
     {
         name: "Black Bird Swt Red",
@@ -1437,8 +1510,8 @@ const catalogueProducts = [
         price: "Ksh 242",
         description: "An 'ice-brewed' beer with a clean, fresh, snappy taste and a mellow aftertaste from its unique ice-filtering process. 6.1% alcohol by volume.",
         image: "assets/images/real/black_ice_beer.jpg",
-        isKenyan: false,
-        country: "Unknown"
+        isKenyan: true,
+        country: "Kenya"
     },
     {
         name: "Black Ice Can",
@@ -1447,8 +1520,8 @@ const catalogueProducts = [
         price: "Ksh 267",
         description: "Black Ice. An 'ice-brewed' beer with a clean, fresh, snappy taste and a mellow aftertaste from its unique ice-filtering process. 6.1% alcohol by volume.",
         image: "assets/images/real/black_ice_can.jpg",
-        isKenyan: false,
-        country: "Unknown"
+        isKenyan: true,
+        country: "Kenya"
     },
     {
         name: "Black Ram Honey",
@@ -1458,7 +1531,7 @@ const catalogueProducts = [
         description: "Black Ram Honey spirit drink is made with Black Ram blended whisky and infused with rich honey Flavourings. The delicate sweetness of honey and ...",
         image: "assets/images/real/black_ram_honey.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "Bulgaria"
     },
     {
         name: "Black Ram Whskyt",
@@ -1468,7 +1541,7 @@ const catalogueProducts = [
         description: "Black Ram is pleasant to drink, has a smooth finish and little residual smoke which envelopes its legendary character – aged to perfection, made for everyday ...",
         image: "assets/images/real/black_ram_whskyt.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "Bulgaria"
     },
     {
         name: "Black Ram Whsky",
@@ -1478,7 +1551,7 @@ const catalogueProducts = [
         description: "Black Ram is pleasant to drink, has a smooth finish and little residual smoke which envelopes its legendary character – aged to perfection, made for everyday ...",
         image: "assets/images/real/black_ram_whsky.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "Bulgaria"
     },
     {
         name: "Black & Whitet",
@@ -1528,7 +1601,7 @@ const catalogueProducts = [
         description: "Curaçao is a liqueur flavored with the dried peel of the bitter orange variety laraha, a citrus fruit grown on the Caribbean island of Curaçao. Curaçao ...",
         image: "assets/images/real/blue_curacao_liqueur.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "Curacao"
     },
     {
         name: "Blue Curacao Syrup",
@@ -1538,7 +1611,7 @@ const catalogueProducts = [
         description: "Curaçao is a liqueur flavored with the dried peel of the bitter orange variety laraha, a citrus fruit grown on the Caribbean island of Curaçao. Curaçao ...",
         image: "assets/images/real/blue_curacao_syrup.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "Curacao"
     },
     {
         name: "Blue Ice Coco 1/4",
@@ -1548,7 +1621,7 @@ const catalogueProducts = [
         description: "We are handcrafted and American made with a singular goal – to create the best tasting vodka ...",
         image: "assets/images/real/blue_ice_coco_1_4.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "USA"
     },
     {
         name: "Blue Ice Vodka",
@@ -1558,7 +1631,7 @@ const catalogueProducts = [
         description: "We are handcrafted and American made with a singular goal – to create the best tasting vodka ...",
         image: "assets/images/real/blue_ice_vodka.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "USA"
     },
     {
         name: "Blue Ice Vodka",
@@ -1568,7 +1641,7 @@ const catalogueProducts = [
         description: "We are handcrafted and American made with a singular goal – to create the best tasting vodka ...",
         image: "assets/images/real/blue_ice_vodka.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "USA"
     },
     {
         name: "Blue Moon",
@@ -1578,7 +1651,7 @@ const catalogueProducts = [
         description: "Blue Moon Belgian White is a Belgian-style witbier brewed by Molson Coors under the name the Blue Moon Brewing Co. It was launched in 1995.",
         image: "assets/images/real/blue_moon.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "USA"
     },
     {
         name: "Blue Moon 750M",
@@ -1588,7 +1661,7 @@ const catalogueProducts = [
         description: "A medium bodied pure blueberry wine with intense blueberry character and a wonderful blueberry finish. Extremely tasty with cheesecake.",
         image: "assets/images/real/blue_moon_750m.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "USA"
     },
     {
         name: "Bols Blue Curacao",
@@ -1598,7 +1671,7 @@ const catalogueProducts = [
         description: "The Curaçao liqueur was first made by the Dutch settlers who colonized the island in the 17th century, and it quickly became popular in Europe.",
         image: "assets/images/real/bols_blue_curacao.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "Curacao"
     },
     {
         name: "Bols Elderflower",
@@ -1628,7 +1701,7 @@ const catalogueProducts = [
         description: "Bols is a brand name used by Lucas Bols, a Dutch distiller of alcoholic beverages. The brand line consists of vodkas, gins, genevers, advocaats and liqueurs.",
         image: "assets/images/real/bols_vodka.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "Netherlands"
     },
     {
         name: "Bombay Dry Gint",
@@ -1708,7 +1781,7 @@ const catalogueProducts = [
         description: "The Cape of Good Hope or Bonne Esperance, is a magical place where sunshine and rich soil combine to create the ideal conditions for the perfect wine.",
         image: "assets/images/real/bonne_esperance_dry_reditre.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "South Africa"
     },
     {
         name: "Bonne Esperance Dry Red",
@@ -1728,7 +1801,7 @@ const catalogueProducts = [
         description: "The Cape of Good Hope or Bonne Esperance, is a magical place where sunshine and rich soil combine to create the ideal conditions for the perfect wine.",
         image: "assets/images/real/bonne_esperance_red_sweet.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "South Africa"
     },
     {
         name: "Bravado",
@@ -1738,7 +1811,7 @@ const catalogueProducts = [
         description: "The first premium vodka made in Puerto Rico, crafted with the skill, knowledge and passion of Puerto Rican craftsmen.",
         image: "assets/images/real/bravado.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "Chile"
     },
     {
         name: "Breezer Lime",
@@ -1748,7 +1821,7 @@ const catalogueProducts = [
         description: "Bacardi Breezer is an alcoholic fruit-flavoured drink made by Bacardi that comes in a variety of fruit flavours: lemon, peach, lychee, pineapple, apple, ruby ...",
         image: "assets/images/real/breezer_lime.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "Puerto Rico"
     },
     {
         name: "Breezer Peach",
@@ -1758,7 +1831,7 @@ const catalogueProducts = [
         description: "BACARDI Breezer Peach is a tasty and refreshing alcohol drink containing genuine imported BACARDI Rum, fruit flavours and sparkling water.",
         image: "assets/images/real/breezer_peach.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "Puerto Rico"
     },
     {
         name: "Breezer Pineapple",
@@ -1768,7 +1841,7 @@ const catalogueProducts = [
         description: "Bacardi Breezer is an alcoholic fruit-flavoured drink made by Bacardi that comes in a variety of fruit flavours: lemon, peach, lychee, pineapple, apple, ruby ...",
         image: "assets/images/real/breezer_pineapple.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "Puerto Rico"
     },
     {
         name: "Breezer W.Lemon",
@@ -1778,7 +1851,7 @@ const catalogueProducts = [
         description: "Bacardi Breezer is an alcoholic fruit-flavoured drink made by Bacardi that comes in a variety of fruit flavours: lemon, peach, lychee, pineapple, apple, ruby ...",
         image: "assets/images/real/breezer_w_lemon.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "Puerto Rico"
     },
     {
         name: "Brokers",
@@ -1788,7 +1861,7 @@ const catalogueProducts = [
         description: "Our mission is to educate the consumer by offering knowledge and tasting of your product. We are based in Houston, Texas with our services extending ...",
         image: "assets/images/real/brokers.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "United Kingdom"
     },
     {
         name: "Bull Dog",
@@ -1838,7 +1911,7 @@ const catalogueProducts = [
         description: "At Bumbu Rum Company, our flagship product is distilled and blended in Barbados, the birthplace of rum, where the spirit was first created some 400 years ago.",
         image: "assets/images/real/bumbu.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "Barbados"
     },
     {
         name: "Buono  Amici   Brut",
@@ -1858,7 +1931,7 @@ const catalogueProducts = [
         description: "Experience the refined sparkle of Buono Amici Cuvee 750ML, a premium Italian sparkling wine known for its crisp, fruity profile and elegant effervescence.",
         image: "assets/images/real/buono_amici_cuvee.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "Italy"
     },
     {
         name: "Buono Amici  Rose",
@@ -1878,7 +1951,7 @@ const catalogueProducts = [
         description: "10 year old is triple distilled from 100% malted barley and matured for a minimum of 10 years in former Sherry casks and bourbon-seasoned casks.",
         image: "assets/images/real/bushmill_10yrs.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "United Kingdom"
     },
     {
         name: "Bushmill Black Bush",
@@ -1888,7 +1961,7 @@ const catalogueProducts = [
         description: "Black Bush is triple distilled from unpeated and malted barley, then blended with a single grain Irish whiskey. The blend contains 80% Bushmills malt whiskey, ...",
         image: "assets/images/real/bushmill_black_bush.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "United Kingdom"
     },
     {
         name: "Bushmills Original",
@@ -1928,7 +2001,7 @@ const catalogueProducts = [
         description: "Very expressive nose that reveals floral, creamy and exotic aromas. A fleshy, full and lively wine, with a perfect balance.",
         image: "assets/images/real/calvet_chardonny.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "France"
     },
     {
         name: "Campari 3/4",
@@ -1958,7 +2031,7 @@ const catalogueProducts = [
         description: "Candyfloss Natural Sweet Wines are a jubilant symphony of juicy fruits and delicate florals, spun with a weave of sweet nostalgia. Picture yourself biting into ...",
         image: "assets/images/real/candy_floss.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "United Kingdom"
     },
     {
         name: "Candy Floss Sweet Red",
@@ -1978,7 +2051,7 @@ const catalogueProducts = [
         description: "White wine is a wine that is fermented without undergoing the process of maceration, which involves prolonged contact between the juice and the grape skins, ...",
         image: "assets/images/real/candy_sweet_white.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "South Africa"
     },
     {
         name: "Caprice Dry Red(Tetra) -",
@@ -2008,7 +2081,7 @@ const catalogueProducts = [
         description: "Things I overlooked. captmorgan label Lots of different labels over the years. Note the prominence of Puerto Rico as the origin of the rum.",
         image: "assets/images/real/captain_cola_bottle.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "Italy"
     },
     {
         name: "Captain Cola Can",
@@ -2018,7 +2091,7 @@ const catalogueProducts = [
         description: "With the Captain Morgan Original Spiced Gold and Cola premixed drink the Captain's tastiest combination is always at hand and always ready to drink.",
         image: "assets/images/real/captain_cola_can.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "Italy"
     },
     {
         name: "Captain Dark Rumitre",
@@ -2028,7 +2101,7 @@ const catalogueProducts = [
         description: "Captain Morgan Dark Rum is made with a secret blend of fine Caribbean rums and exotic spices to make our darkest flavour rum. Captain Morgan Dark Rum bursts ...",
         image: "assets/images/real/captain_dark_rumitre.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "Jamaica"
     },
     {
         name: "Captain Darkrum",
@@ -2038,7 +2111,7 @@ const catalogueProducts = [
         description: "Captain Morgan is a brand of flavoured rums produced by British alcohol conglomerate Diageo. It is named after the 17th-century Welsh privateer of the ...",
         image: "assets/images/real/captain_darkrum.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "Jamaica"
     },
     {
         name: "Captain Morgan",
@@ -2148,7 +2221,7 @@ const catalogueProducts = [
         description: "Our Wines. From Red & White to Pink & Sangria. Carlo Rossi wines always start with the most delicious grapes from California's Central Valley.",
         image: "assets/images/real/carlo_rossit.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "USA"
     },
     {
         name: "Carlo Rossi Red",
@@ -2158,7 +2231,7 @@ const catalogueProducts = [
         description: "This sweet red wine is well balanced, light to medium-bodied red wine that has flavors of bright red fruits and fresh floral notes with a nice crisp finish.",
         image: "assets/images/real/carlo_rossi_red.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "USA"
     },
     {
         name: "Carmela",
@@ -2188,7 +2261,7 @@ const catalogueProducts = [
         description: "Casa Buena Sweet white is a popular Spanish sweet white Wine mostly taken during special occasions. Casa Buena Sweet white contains 8% alcohol.",
         image: "assets/images/real/casa_buena_white.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "Paraguay"
     },
     {
         name: "Casamigos Anejo",
@@ -2238,7 +2311,7 @@ const catalogueProducts = [
         description: "What Does It Taste Like? ... smoother, crisper and even more refreshing. ... Not For Sale To Persons Under The Age Of 18. Don't Drink And Drive. Enjoy Responsibly.",
         image: "assets/images/real/castle_lite_beer.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "South Africa"
     },
     {
         name: "Castle Lite Can",
@@ -2248,7 +2321,7 @@ const catalogueProducts = [
         description: "Castle Lite is SA's Favourite Draught. But that crisp, refreshing taste isn't always within reach. Until now. With Castle Lite Draught in a Can, Your favourite ...",
         image: "assets/images/real/castle_lite_can.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "South Africa"
     },
     {
         name: "Cellar Cask Redtrs",
@@ -2368,7 +2441,7 @@ const catalogueProducts = [
         description: "Deep dark red wine, with delicate nuances of toffee and a light breath of a noble chocolate taste. An enjoyment, that lets you melt away on every occassion.",
         image: "assets/images/real/choco_toffee_red_wine.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "Germany"
     },
     {
         name: "Chrome Gin",
@@ -2487,8 +2560,8 @@ const catalogueProducts = [
         price: "Ksh 1,050",
         description: "•Wines that do not meet the definition of any of the standards of identity are considered wine specialty products, and are subject to different class/type.",
         image: "assets/images/real/class_21.jpg",
-        isKenyan: false,
-        country: "Unknown"
+        isKenyan: true,
+        country: "Kenya"
     },
     {
         name: "Claymore",
@@ -2498,7 +2571,7 @@ const catalogueProducts = [
         description: "The Claymore Blended Scotch Whisky is a renowned blended whisky produced by Whyte & Mackay Ltd, a Scottish whisky producer with a rich history. The ---",
         image: "assets/images/real/claymore.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "Scotland"
     },
     {
         name: "Club Class Whisky",
@@ -2508,7 +2581,7 @@ const catalogueProducts = [
         description: "An American classic, this whiskey has been masterfully blended to produce a smooth and flavorful spirit. Perfect for many different cocktails.",
         image: "assets/images/real/club_class_whisky.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "Canada"
     },
     {
         name: "Clubman",
@@ -2518,7 +2591,7 @@ const catalogueProducts = [
         description: "Using cereal grains, Haig Club Clubman is distilled in one distillery – Cameronbridge. It is then matured exclusively in American ex-bourbon casks, ...",
         image: "assets/images/real/clubman.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "Scotland"
     },
     {
         name: "Clubman  350",
@@ -2528,7 +2601,7 @@ const catalogueProducts = [
         description: "Using cereal grains, Haig Club Clubman is distilled in one distillery – Cameronbridge. It is then matured exclusively in American ex-bourbon casks, ...",
         image: "assets/images/real/clubman__350.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "Scotland"
     },
     {
         name: "Clubman -",
@@ -2538,7 +2611,7 @@ const catalogueProducts = [
         description: "Using cereal grains, Haig Club Clubman is distilled in one distillery – Cameronbridge. It is then matured exclusively in American ex-bourbon casks, ...",
         image: "assets/images/real/clubman.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "Scotland"
     },
     {
         name: "Cointreaut",
@@ -2577,8 +2650,8 @@ const catalogueProducts = [
         price: "Ksh 353",
         description: "100% of the wine is derived from grapes (or other agricultural commodity) grown in the labeled counties; The percentage of wine derived from ...",
         image: "assets/images/real/county.jpg",
-        isKenyan: false,
-        country: "Unknown"
+        isKenyan: true,
+        country: "Kenya"
     },
     {
         name: "County",
@@ -2587,8 +2660,8 @@ const catalogueProducts = [
         price: "Ksh 990",
         description: "100% of the wine is derived from grapes (or other agricultural commodity) grown in the labeled counties; The percentage of wine derived from ...",
         image: "assets/images/real/county.jpg",
-        isKenyan: false,
-        country: "Unknown"
+        isKenyan: true,
+        country: "Kenya"
     },
     {
         name: "Courvoisier Vs 3/4",
@@ -2628,7 +2701,7 @@ const catalogueProducts = [
         description: "Crazy Cock 'RARE' is a exquisite single malt whisky from India, rare and exquisite, full-bodied single malt whisky from India matured to perfection in two kinds ...",
         image: "assets/images/real/crazy_cock.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "India"
     },
     {
         name: "Crazy Cock",
@@ -2638,7 +2711,7 @@ const catalogueProducts = [
         description: "Crazy Cock 'RARE' is a exquisite single malt whisky from India, rare and exquisite, full-bodied single malt whisky from India matured to perfection in two kinds ...",
         image: "assets/images/real/crazy_cock.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "India"
     },
     {
         name: "Crazy Cock",
@@ -2648,7 +2721,7 @@ const catalogueProducts = [
         description: "Crazy Cock 'RARE' is a exquisite single malt whisky from India, rare and exquisite, full-bodied single malt whisky from India matured to perfection in two kinds ...",
         image: "assets/images/real/crazy_cock.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "India"
     },
     {
         name: "Cruxland Gin",
@@ -2658,7 +2731,7 @@ const catalogueProducts = [
         description: "Cruxland Gin infused with Kalahari Truffles brings together the rare Kalahari truffle and nine Southern African botanicals.",
         image: "assets/images/real/cruxland_gin.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "South Africa"
     },
     {
         name: "Cruz Vodka",
@@ -2668,7 +2741,7 @@ const catalogueProducts = [
         description: "Cruz Chamber gives you access to limited-edition capsule collections by the hottest designers, the latest Cruz news and highly-curated Cruz content. SIGN UP.",
         image: "assets/images/real/cruz_vodka.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "South Africa"
     },
     {
         name: "Curonia  Beer 10%",
@@ -2678,7 +2751,7 @@ const catalogueProducts = [
         description: "Curonia 10% Strong Beer 500ml. KShs 260. Size: 500ml; Alcohol Content: 16%; Country of Origin: Latvia.",
         image: "assets/images/real/curonia__beer_10.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "Lithuania"
     },
     {
         name: "Cutty Sark Whiskyt",
@@ -2747,8 +2820,8 @@ const catalogueProducts = [
         price: "Ksh 195",
         description: "Darling Cellars De-Alcoholised is a product range of varietals where the focus is on fruit driven, varietal true, value for money products.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=DARLING%20ICE",
-        isKenyan: false,
-        country: "Unknown"
+        isKenyan: true,
+        country: "Kenya"
     },
     {
         name: "Delmonte Applet",
@@ -2898,7 +2971,7 @@ const catalogueProducts = [
         description: "Desperados is an agave spirit flavoured pale lager beer with 5.9% alcohol by volume (ABV) originally created and produced by the French brewing company Fischer ...",
         image: "assets/images/real/desperados.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "France"
     },
     {
         name: "Dimple 15Yrs",
@@ -2918,7 +2991,7 @@ const catalogueProducts = [
         description: "Dompo is a full-bodied, deep garnet red wine, made using distinctive overripe red grapes, sourced from a range of first-class vineyards.",
         image: "assets/images/real/dompo_sweetred.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "Tanzania"
     },
     {
         name: "Don Julio 1942",
@@ -2968,7 +3041,7 @@ const catalogueProducts = [
         description: "Don Montego 750ml is an exquisite French brandy produced by the KVINT distillery, since the year 1897. It is produced by a classical process of ageing the ...",
         image: "assets/images/real/don_montego.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "Moldova"
     },
     {
         name: "Don Montego",
@@ -2978,7 +3051,7 @@ const catalogueProducts = [
         description: "Don Montego 750ml is an exquisite French brandy produced by the KVINT distillery, since the year 1897. It is produced by a classical process of ageing the ...",
         image: "assets/images/real/don_montego.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "Moldova"
     },
     {
         name: "Don Montego",
@@ -2988,7 +3061,7 @@ const catalogueProducts = [
         description: "Don Montego 750ml is an exquisite French brandy produced by the KVINT distillery, since the year 1897. It is produced by a classical process of ageing the ...",
         image: "assets/images/real/don_montego.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "Moldova"
     },
     {
         name: "Drambuie",
@@ -2998,7 +3071,7 @@ const catalogueProducts = [
         description: "Drambuie /dræmˈbuːi/ is a golden-coloured, 40% ABV liqueur made from Scotch whisky, heather honey, herbs and spices. The brand was owned by the MacKinnon ...",
         image: "assets/images/real/drambuie.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "Scotland"
     },
     {
         name: "Drostdy -Hof Red",
@@ -3048,7 +3121,7 @@ const catalogueProducts = [
         description: "Icewine (or ice wine; German: Eiswein) is a type of dessert wine produced from grapes that have been frozen while still on the vine.",
         image: "assets/images/real/drostyt.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "South Africa"
     },
     {
         name: "Dunhill Dbl Capsule",
@@ -3058,7 +3131,7 @@ const catalogueProducts = [
         description: "Vail Fine Wines. Inventory Summary. Department. Item Description. Regular Price. Avail Qty. Accessories. True Bear Keychain Bottle Opener. $0.93.",
         image: "assets/images/real/dunhill_dbl_capsule.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "United Kingdom"
     },
     {
         name: "Dunhill Switch",
@@ -3068,7 +3141,7 @@ const catalogueProducts = [
         description: "The quality of a Dunhill cigarette is undeniable with its firm filter and slow burn which enables you to enjoy a smooth taste. It's a pity they ...",
         image: "assets/images/real/dunhill_switch.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "United Kingdom"
     },
     {
         name: "Dusse Vsop",
@@ -3098,7 +3171,7 @@ const catalogueProducts = [
         description: "Electio Cabernet Sauvignon is a dry red wine, distinguished by its elegant ruby colour and fresh fruity aroma, featuring hints of Moroccan leather and violets.",
         image: "assets/images/real/electio__red.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "Moldova"
     },
     {
         name: "Electio White",
@@ -3108,7 +3181,7 @@ const catalogueProducts = [
         description: "Electio Sauvignon Blanc 750ml ; Producer: Five ; Origin: Republic of Moldova ; Variety: Sauvignon Blanc ; Color: Red ; Type: Dry.",
         image: "assets/images/real/electio_white.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "Moldova"
     },
     {
         name: "Embassy",
@@ -3118,7 +3191,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=EMBASSY",
         isKenyan: false,
-        country: "Unknown"
+        country: "United Kingdom"
     },
     {
         name: "Embassy King",
@@ -3128,7 +3201,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=EMBASSY%20KING",
         isKenyan: false,
-        country: "Unknown"
+        country: "United Kingdom"
     },
     {
         name: "Eristoff Vodka",
@@ -3138,7 +3211,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=ERISTOFF%20VODKA",
         isKenyan: false,
-        country: "Unknown"
+        country: "France"
     },
     {
         name: "Espanature Cab Sauv",
@@ -3148,7 +3221,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=ESPANATURE%20CAB%20SAUV",
         isKenyan: false,
-        country: "Unknown"
+        country: "Spain"
     },
     {
         name: "Espanature Viura Ver",
@@ -3158,7 +3231,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=ESPANATURE%20VIURA%20VER",
         isKenyan: false,
-        country: "Unknown"
+        country: "Spain"
     },
     {
         name: "Expresion Sweet Red",
@@ -3168,7 +3241,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=EXPRESION%20SWEET%20RED",
         isKenyan: false,
-        country: "Unknown"
+        country: "South Africa"
     },
     {
         name: "Famouse 1/2",
@@ -3178,7 +3251,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FAMOUSE%201/2",
         isKenyan: false,
-        country: "Unknown"
+        country: "Scotland"
     },
     {
         name: "Famouse G Smky Blkt",
@@ -3188,7 +3261,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FAMOUSE%20G%20SMKY%20BLKT",
         isKenyan: false,
-        country: "Unknown"
+        country: "Scotland"
     },
     {
         name: "Famous Grouse 3/4",
@@ -3218,7 +3291,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FAMOUS%20SMOKY%20BLACK",
         isKenyan: false,
-        country: "Unknown"
+        country: "Scotland"
     },
     {
         name: "Famous Toasted Casklitre",
@@ -3228,7 +3301,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FAMOUS%20TOASTED%20CASKLITRE",
         isKenyan: false,
-        country: "Unknown"
+        country: "Scotland"
     },
     {
         name: "Faxe 10%Itre",
@@ -3238,7 +3311,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FAXE%2010%25ITRE",
         isKenyan: false,
-        country: "Unknown"
+        country: "Denmark"
     },
     {
         name: "Faxe",
@@ -3248,7 +3321,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FAXE",
         isKenyan: false,
-        country: "Unknown"
+        country: "Denmark"
     },
     {
         name: "Ferari Ice Can",
@@ -3257,8 +3330,8 @@ const catalogueProducts = [
         price: "Ksh 120",
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FERARI%20ICE%20CAN",
-        isKenyan: false,
-        country: "Unknown"
+        isKenyan: true,
+        country: "Kenya"
     },
     {
         name: "Fernet Branca",
@@ -3268,7 +3341,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FERNET%20BRANCA",
         isKenyan: false,
-        country: "Unknown"
+        country: "Italy"
     },
     {
         name: "First Choice",
@@ -3278,7 +3351,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FIRST%20CHOICE",
         isKenyan: false,
-        country: "Unknown"
+        country: "South Africa"
     },
     {
         name: "First Choice",
@@ -3288,7 +3361,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FIRST%20CHOICE",
         isKenyan: false,
-        country: "Unknown"
+        country: "South Africa"
     },
     {
         name: "Flirt Blackt",
@@ -3298,7 +3371,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FLIRT%20BLACKT",
         isKenyan: false,
-        country: "Unknown"
+        country: "Bulgaria"
     },
     {
         name: "Flirt Caramelt",
@@ -3308,7 +3381,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FLIRT%20CARAMELT",
         isKenyan: false,
-        country: "Unknown"
+        country: "Bulgaria"
     },
     {
         name: "Flirt Chocoitre",
@@ -3318,7 +3391,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FLIRT%20CHOCOITRE",
         isKenyan: false,
-        country: "Unknown"
+        country: "Bulgaria"
     },
     {
         name: "Flirt Choco",
@@ -3328,7 +3401,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FLIRT%20CHOCO",
         isKenyan: false,
-        country: "Unknown"
+        country: "Bulgaria"
     },
     {
         name: "Flirt Choco",
@@ -3338,7 +3411,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FLIRT%20CHOCO",
         isKenyan: false,
-        country: "Unknown"
+        country: "Bulgaria"
     },
     {
         name: "Flirt Choco",
@@ -3348,7 +3421,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FLIRT%20CHOCO",
         isKenyan: false,
-        country: "Unknown"
+        country: "Bulgaria"
     },
     {
         name: "Flirt Green Applet",
@@ -3358,7 +3431,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FLIRT%20GREEN%20APPLET",
         isKenyan: false,
-        country: "Unknown"
+        country: "Bulgaria"
     },
     {
         name: "Flirt Green Apple",
@@ -3368,7 +3441,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FLIRT%20GREEN%20APPLE",
         isKenyan: false,
-        country: "Unknown"
+        country: "Bulgaria"
     },
     {
         name: "Flirt Green Apple",
@@ -3378,7 +3451,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FLIRT%20GREEN%20APPLE",
         isKenyan: false,
-        country: "Unknown"
+        country: "Bulgaria"
     },
     {
         name: "Flirt Lemont",
@@ -3388,7 +3461,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FLIRT%20LEMONT",
         isKenyan: false,
-        country: "Unknown"
+        country: "Bulgaria"
     },
     {
         name: "Flirt Lemon",
@@ -3398,7 +3471,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FLIRT%20LEMON",
         isKenyan: false,
-        country: "Unknown"
+        country: "Bulgaria"
     },
     {
         name: "Flirt Oranget",
@@ -3408,7 +3481,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FLIRT%20ORANGET",
         isKenyan: false,
-        country: "Unknown"
+        country: "Bulgaria"
     },
     {
         name: "Flirt Orange",
@@ -3418,7 +3491,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FLIRT%20ORANGE",
         isKenyan: false,
-        country: "Unknown"
+        country: "Bulgaria"
     },
     {
         name: "Flirt Orange",
@@ -3428,7 +3501,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FLIRT%20ORANGE",
         isKenyan: false,
-        country: "Unknown"
+        country: "Bulgaria"
     },
     {
         name: "Flirt Orange",
@@ -3438,7 +3511,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FLIRT%20ORANGE",
         isKenyan: false,
-        country: "Unknown"
+        country: "Bulgaria"
     },
     {
         name: "Flirt Originalt",
@@ -3448,7 +3521,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FLIRT%20ORIGINALT",
         isKenyan: false,
-        country: "Unknown"
+        country: "Bulgaria"
     },
     {
         name: "Flirt Original",
@@ -3458,7 +3531,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FLIRT%20ORIGINAL",
         isKenyan: false,
-        country: "Unknown"
+        country: "Bulgaria"
     },
     {
         name: "Flirt Raspberryt",
@@ -3468,7 +3541,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FLIRT%20RASPBERRYT",
         isKenyan: false,
-        country: "Unknown"
+        country: "Bulgaria"
     },
     {
         name: "Flirt Strawberryt",
@@ -3478,7 +3551,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FLIRT%20STRAWBERRYT",
         isKenyan: false,
-        country: "Unknown"
+        country: "Bulgaria"
     },
     {
         name: "Flirt Strawberry",
@@ -3488,7 +3561,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FLIRT%20strawberry",
         isKenyan: false,
-        country: "Unknown"
+        country: "Bulgaria"
     },
     {
         name: "Flirt Strawberry",
@@ -3498,7 +3571,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FLIRT%20STRAWBERRY",
         isKenyan: false,
-        country: "Unknown"
+        country: "Bulgaria"
     },
     {
         name: "Flirt Strawberry",
@@ -3508,7 +3581,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FLIRT%20STRAWBERRY",
         isKenyan: false,
-        country: "Unknown"
+        country: "Bulgaria"
     },
     {
         name: "Flirt Vodka",
@@ -3518,7 +3591,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=Flirt%20vodka",
         isKenyan: false,
-        country: "Unknown"
+        country: "Bulgaria"
     },
     {
         name: "Flirt Vodka",
@@ -3528,7 +3601,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FLIRT%20VODKA",
         isKenyan: false,
-        country: "Unknown"
+        country: "Bulgaria"
     },
     {
         name: "Footprint Cab Sauv",
@@ -3538,7 +3611,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FOOTPRINT%20CAB%20SAUV",
         isKenyan: false,
-        country: "Unknown"
+        country: "South Africa"
     },
     {
         name: "Footprint Chenin Blanc",
@@ -3548,7 +3621,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FOOTPRINT%20CHENIN%20BLANC",
         isKenyan: false,
-        country: "Unknown"
+        country: "South Africa"
     },
     {
         name: "Footprint Merlot",
@@ -3558,7 +3631,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FOOTPRINT%20MERLOT",
         isKenyan: false,
-        country: "Unknown"
+        country: "South Africa"
     },
     {
         name: "Footprint Sauv Blanc",
@@ -3568,7 +3641,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FOOTPRINT%20SAUV%20BLANC",
         isKenyan: false,
-        country: "Unknown"
+        country: "South Africa"
     },
     {
         name: "Four Cousin Redt",
@@ -3578,7 +3651,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FOUR%20COUSIN%20REDT",
         isKenyan: false,
-        country: "Unknown"
+        country: "South Africa"
     },
     {
         name: "Four Cousin Red",
@@ -3588,7 +3661,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FOUR%20COUSIN%20RED",
         isKenyan: false,
-        country: "Unknown"
+        country: "South Africa"
     },
     {
         name: "Four Cousinst",
@@ -3678,7 +3751,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FOUR%20COUSIN%20WHITET",
         isKenyan: false,
-        country: "Unknown"
+        country: "South Africa"
     },
     {
         name: "Fragolino Red",
@@ -3707,8 +3780,8 @@ const catalogueProducts = [
         price: "Ksh 765",
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FREEDOM",
-        isKenyan: false,
-        country: "Unknown"
+        isKenyan: true,
+        country: "Kenya"
     },
     {
         name: "Frontera After Mid9T",
@@ -3848,7 +3921,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FROSTI%20BERRIES",
         isKenyan: false,
-        country: "Unknown"
+        country: "USA"
     },
     {
         name: "Frosti Tropical",
@@ -3867,8 +3940,8 @@ const catalogueProducts = [
         price: "Ksh 282",
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FRUITVILLE%20APPLE",
-        isKenyan: false,
-        country: "Unknown"
+        isKenyan: true,
+        country: "Kenya"
     },
     {
         name: "Fruitville Berry",
@@ -3877,8 +3950,8 @@ const catalogueProducts = [
         price: "Ksh 282",
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FRUITVILLE%20BERRY",
-        isKenyan: false,
-        country: "Unknown"
+        isKenyan: true,
+        country: "Kenya"
     },
     {
         name: "Fruitville Mango",
@@ -3887,8 +3960,8 @@ const catalogueProducts = [
         price: "Ksh 282",
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FRUITVILLE%20MANGO",
-        isKenyan: false,
-        country: "Unknown"
+        isKenyan: true,
+        country: "Kenya"
     },
     {
         name: "Fruitville Tropical",
@@ -3907,8 +3980,8 @@ const catalogueProducts = [
         price: "Ksh 233",
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FURAHA",
-        isKenyan: false,
-        country: "Unknown"
+        isKenyan: true,
+        country: "Kenya"
     },
     {
         name: "G1",
@@ -3917,8 +3990,8 @@ const catalogueProducts = [
         price: "Ksh 855",
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=G1",
-        isKenyan: false,
-        country: "Unknown"
+        isKenyan: true,
+        country: "Kenya"
     },
     {
         name: "Gatonegro Cab Sauvt",
@@ -3928,7 +4001,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GATONEGRO%20CAB%20SAUVT",
         isKenyan: false,
-        country: "Unknown"
+        country: "Chile"
     },
     {
         name: "Gatonegro Cab Sauv",
@@ -3938,7 +4011,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "assets/images/real/gatonegro_cab_sauv.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "Chile"
     },
     {
         name: "Gatonegro Cabsav Mrlt",
@@ -3948,7 +4021,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GATONEGRO%20CABSAV%20MRLT",
         isKenyan: false,
-        country: "Unknown"
+        country: "Chile"
     },
     {
         name: "Gatonegro Chardonnay",
@@ -3958,7 +4031,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GATONEGRO%20CHARDONNAY",
         isKenyan: false,
-        country: "Unknown"
+        country: "Chile"
     },
     {
         name: "Gatonegro Chardony",
@@ -3968,7 +4041,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GATONEGRO%20CHARDONY",
         isKenyan: false,
-        country: "Unknown"
+        country: "Chile"
     },
     {
         name: "Gatonegro Merlot",
@@ -3978,7 +4051,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GATONEGRO%20MERLOT",
         isKenyan: false,
-        country: "Unknown"
+        country: "Chile"
     },
     {
         name: "Gatonegro Merlot",
@@ -3988,7 +4061,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GATONEGRO%20MERLOT",
         isKenyan: false,
-        country: "Unknown"
+        country: "Chile"
     },
     {
         name: "Gatonegro Mix",
@@ -3998,7 +4071,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GATONEGRO%20MIX",
         isKenyan: false,
-        country: "Unknown"
+        country: "Chile"
     },
     {
         name: "Gatonegro Sauv Blanc",
@@ -4008,7 +4081,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GATONEGRO%20SAUV%20BLANC",
         isKenyan: false,
-        country: "Unknown"
+        country: "Chile"
     },
     {
         name: "Gatonegro Sauv Blnc",
@@ -4018,7 +4091,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GATONEGRO%20SAUV%20BLNC",
         isKenyan: false,
-        country: "Unknown"
+        country: "Chile"
     },
     {
         name: "Gatonegro Semiswt Red",
@@ -4028,7 +4101,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GATONEGRO%20SEMISWT%20RED",
         isKenyan: false,
-        country: "Unknown"
+        country: "Chile"
     },
     {
         name: "General Meakins",
@@ -4058,7 +4131,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GENIUS%20GIN",
         isKenyan: false,
-        country: "Unknown"
+        country: "USA"
     },
     {
         name: "Gentleman Jackitre",
@@ -4068,7 +4141,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GENTLEMAN%20JACKITRE",
         isKenyan: false,
-        country: "Unknown"
+        country: "USA"
     },
     {
         name: "Gentleman Jack",
@@ -4078,7 +4151,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GENTLEMAN%20JACK",
         isKenyan: false,
-        country: "Unknown"
+        country: "USA"
     },
     {
         name: "Gibson Orange",
@@ -4088,7 +4161,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GIBSON%20ORANGE",
         isKenyan: false,
-        country: "Unknown"
+        country: "United Kingdom"
     },
     {
         name: "Gibson Pink",
@@ -4098,7 +4171,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GIBSON%20PINK",
         isKenyan: false,
-        country: "Unknown"
+        country: "United Kingdom"
     },
     {
         name: "Gibsons Gint",
@@ -4108,7 +4181,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GIBSONS%20GINT",
         isKenyan: false,
-        country: "Unknown"
+        country: "United Kingdom"
     },
     {
         name: "Gibsons Gin",
@@ -4118,7 +4191,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GIBSONS%20GIN",
         isKenyan: false,
-        country: "Unknown"
+        country: "United Kingdom"
     },
     {
         name: "Gilbeyst",
@@ -4208,7 +4281,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GLENDALE%20WHSKYT",
         isKenyan: false,
-        country: "Unknown"
+        country: "Scotland"
     },
     {
         name: "Glendale Whsky 750M",
@@ -4218,7 +4291,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GLENDALE%20WHSKY%20750M",
         isKenyan: false,
-        country: "Unknown"
+        country: "Scotland"
     },
     {
         name: "Glenfiddich 12Yrstr",
@@ -4268,7 +4341,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GLENGRANT",
         isKenyan: false,
-        country: "Unknown"
+        country: "Scotland"
     },
     {
         name: "Glenlivet 12Yrst",
@@ -4278,7 +4351,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GLENLIVET%2012YRST",
         isKenyan: false,
-        country: "Unknown"
+        country: "Scotland"
     },
     {
         name: "Glenlivet 12Yrs",
@@ -4288,7 +4361,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GLENLIVET%2012YRS",
         isKenyan: false,
-        country: "Unknown"
+        country: "Scotland"
     },
     {
         name: "Glenlivet Founder",
@@ -4298,7 +4371,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GLENLIVET%20FOUNDER",
         isKenyan: false,
-        country: "Unknown"
+        country: "Scotland"
     },
     {
         name: "Glenmorangie 10Yrsitre",
@@ -4338,7 +4411,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GLEN%20SCANLAN%20W",
         isKenyan: false,
-        country: "Unknown"
+        country: "Scotland"
     },
     {
         name: "Glen Silverst",
@@ -4348,7 +4421,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GLEN%20SILVERST",
         isKenyan: false,
-        country: "Unknown"
+        country: "Scotland"
     },
     {
         name: "Glen Silvers",
@@ -4358,7 +4431,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GLEN%20SILVERS",
         isKenyan: false,
-        country: "Unknown"
+        country: "Scotland"
     },
     {
         name: "Gold Seal 16%",
@@ -4368,7 +4441,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GOLD%20SEAL%2016%25",
         isKenyan: false,
-        country: "Unknown"
+        country: "USA"
     },
     {
         name: "Gold Supreme",
@@ -4377,8 +4450,8 @@ const catalogueProducts = [
         price: "Ksh 795",
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GOLD%20SUPREME",
-        isKenyan: false,
-        country: "Unknown"
+        isKenyan: true,
+        country: "Kenya"
     },
     {
         name: "Gordon Gin",
@@ -4518,7 +4591,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GRACE%20O%20MALLEY%20WHISKEY",
         isKenyan: false,
-        country: "Unknown"
+        country: "Ireland"
     },
     {
         name: "Grand Master Whisky",
@@ -4527,8 +4600,8 @@ const catalogueProducts = [
         price: "Ksh 1,035",
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GRAND%20MASTER%20WHISKY",
-        isKenyan: false,
-        country: "Unknown"
+        isKenyan: true,
+        country: "Kenya"
     },
     {
         name: "Gran Mirador Dark",
@@ -4538,7 +4611,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GRAN%20MIRADOR%20DARK",
         isKenyan: false,
-        country: "Unknown"
+        country: "Spain"
     },
     {
         name: "Gran Mirador Red",
@@ -4548,7 +4621,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GRAN%20MIRADOR%20RED",
         isKenyan: false,
-        country: "Unknown"
+        country: "Spain"
     },
     {
         name: "Grants 1/2",
@@ -4607,8 +4680,8 @@ const catalogueProducts = [
         price: "Ksh 1,950",
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=grayson%20gold",
-        isKenyan: false,
-        country: "Unknown"
+        isKenyan: true,
+        country: "Kenya"
     },
     {
         name: "Grayson Whiskey",
@@ -4617,8 +4690,8 @@ const catalogueProducts = [
         price: "Ksh 1,170",
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GRAYSON%20WHISKEY",
-        isKenyan: false,
-        country: "Unknown"
+        isKenyan: true,
+        country: "Kenya"
     },
     {
         name: "Grayson Whisky",
@@ -4627,8 +4700,8 @@ const catalogueProducts = [
         price: "Ksh 390",
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GRAYSON%20WHISKY",
-        isKenyan: false,
-        country: "Unknown"
+        isKenyan: true,
+        country: "Kenya"
     },
     {
         name: "Grenadine Syrup",
@@ -4638,7 +4711,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GRENADINE%20SYRUP",
         isKenyan: false,
-        country: "Unknown"
+        country: "France"
     },
     {
         name: "Grey Goose Vodkat",
@@ -4658,7 +4731,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GROUSE%20SHERRY%20WHSKY",
         isKenyan: false,
-        country: "Unknown"
+        country: "Scotland"
     },
     {
         name: "Guarana",
@@ -4667,8 +4740,8 @@ const catalogueProducts = [
         price: "Ksh 240",
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GUARANA",
-        isKenyan: false,
-        country: "Unknown"
+        isKenyan: true,
+        country: "Kenya"
     },
     {
         name: "Guarana Can",
@@ -4677,8 +4750,8 @@ const catalogueProducts = [
         price: "Ksh 267",
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GUARANA%20CAN",
-        isKenyan: false,
-        country: "Unknown"
+        isKenyan: true,
+        country: "Kenya"
     },
     {
         name: "Guarana Iceberg",
@@ -4687,8 +4760,8 @@ const catalogueProducts = [
         price: "Ksh 255",
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GUARANA%20ICEBERG",
-        isKenyan: false,
-        country: "Unknown"
+        isKenyan: true,
+        country: "Kenya"
     },
     {
         name: "Guiness Smooth Beer",
@@ -4698,7 +4771,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GUINESS%20SMOOTH%20BEER",
         isKenyan: false,
-        country: "Unknown"
+        country: "Ireland"
     },
     {
         name: "Guinness Beer",
@@ -4707,8 +4780,8 @@ const catalogueProducts = [
         price: "Ksh 308",
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GUINNESS%20BEER",
-        isKenyan: false,
-        country: "Unknown"
+        isKenyan: true,
+        country: "Kenya"
     },
     {
         name: "Guinness Can",
@@ -4717,8 +4790,8 @@ const catalogueProducts = [
         price: "Ksh 329",
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GUINNESS%20CAN",
-        isKenyan: false,
-        country: "Unknown"
+        isKenyan: true,
+        country: "Kenya"
     },
     {
         name: "Guinness Smooth Beer",
@@ -4727,8 +4800,8 @@ const catalogueProducts = [
         price: "Ksh 254",
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GUINNESS%20SMOOTH%20BEER",
-        isKenyan: false,
-        country: "Unknown"
+        isKenyan: true,
+        country: "Kenya"
     },
     {
         name: "Guinness Smooth Can",
@@ -4737,8 +4810,8 @@ const catalogueProducts = [
         price: "Ksh 303",
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GUINNESS%20SMOOTH%20CAN",
-        isKenyan: false,
-        country: "Unknown"
+        isKenyan: true,
+        country: "Kenya"
     },
     {
         name: "Guinness Smooth  Can",
@@ -4747,8 +4820,8 @@ const catalogueProducts = [
         price: "Ksh 263",
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GUINNESS%20SMOOTH%20%20CAN",
-        isKenyan: false,
-        country: "Unknown"
+        isKenyan: true,
+        country: "Kenya"
     },
     {
         name: "Hampton Whisky",
@@ -4758,7 +4831,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=HAMPTON%20WHISKY",
         isKenyan: false,
-        country: "Unknown"
+        country: "India"
     },
     {
         name: "Hart Blueberry",
@@ -4768,7 +4841,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=HART%20BLUEBERRY",
         isKenyan: false,
-        country: "Unknown"
+        country: "China"
     },
     {
         name: "Hart Grape Ice",
@@ -4778,7 +4851,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=HART%20GRAPE%20ICE",
         isKenyan: false,
-        country: "Unknown"
+        country: "China"
     },
     {
         name: "Hart Manhattan Mint",
@@ -4788,7 +4861,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=HART%20MANHATTAN%20MINT",
         isKenyan: false,
-        country: "Unknown"
+        country: "China"
     },
     {
         name: "Hart Pineappleice",
@@ -4798,7 +4871,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=HART%20PINEAPPLEICE",
         isKenyan: false,
-        country: "Unknown"
+        country: "China"
     },
     {
         name: "Hart Strawberry Cosmo",
@@ -4808,7 +4881,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=HART%20STRAWBERRY%20COSMO",
         isKenyan: false,
-        country: "Unknown"
+        country: "China"
     },
     {
         name: "Harveys",
@@ -4818,7 +4891,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=HARVEYS",
         isKenyan: false,
-        country: "Unknown"
+        country: "Spain"
     },
     {
         name: "Havana Anejo Especial Plus",
@@ -4828,7 +4901,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=HAVANA%20ANEJO%20ESPECIAL%20PLUS",
         isKenyan: false,
-        country: "Unknown"
+        country: "Cuba"
     },
     {
         name: "Havana Club 3Yrs",
@@ -4838,7 +4911,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=HAVANA%20CLUB%203YRS",
         isKenyan: false,
-        country: "Unknown"
+        country: "Cuba"
     },
     {
         name: "H B",
@@ -4848,7 +4921,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=H%20B",
         isKenyan: false,
-        country: "Unknown"
+        country: "Germany"
     },
     {
         name: "H C",
@@ -4858,7 +4931,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=H%20C",
         isKenyan: false,
-        country: "Unknown"
+        country: "Cuba"
     },
     {
         name: "Heineken Bottle",
@@ -4898,7 +4971,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=HENDRICKS%20DRY%20GINT",
         isKenyan: false,
-        country: "Unknown"
+        country: "Scotland"
     },
     {
         name: "Hendricks Dry Gin",
@@ -4908,7 +4981,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=HENDRICKS%20DRY%20GIN",
         isKenyan: false,
-        country: "Unknown"
+        country: "Scotland"
     },
     {
         name: "Hennessy Vst",
@@ -4968,7 +5041,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=HERDSMAN",
         isKenyan: false,
-        country: "Unknown"
+        country: "South Africa"
     },
     {
         name: "Herdsman",
@@ -4978,7 +5051,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=HERDSMAN",
         isKenyan: false,
-        country: "Unknown"
+        country: "South Africa"
     },
     {
         name: "Highland Queent",
@@ -4988,7 +5061,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=HIGHLAND%20QUEENT",
         isKenyan: false,
-        country: "Unknown"
+        country: "Scotland"
     },
     {
         name: "Highland Queen",
@@ -4998,7 +5071,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=HIGHLAND%20QUEEN",
         isKenyan: false,
-        country: "Unknown"
+        country: "Scotland"
     },
     {
         name: "Highland Queen",
@@ -5008,7 +5081,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=HIGHLAND%20QUEEN",
         isKenyan: false,
-        country: "Unknown"
+        country: "Scotland"
     },
     {
         name: "Hlibny Dar Crafted Cornitre",
@@ -5018,7 +5091,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=HLIBNY%20DAR%20CRAFTED%20CORNITRE",
         isKenyan: false,
-        country: "Unknown"
+        country: "Ukraine"
     },
     {
         name: "Hlibny Dar Crafted  Ginger &Honey Litre",
@@ -5028,7 +5101,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=HLIBNY%20DAR%20CRAFTED%20%20GINGER%20%26HONEY%20LITRE",
         isKenyan: false,
-        country: "Unknown"
+        country: "Ukraine"
     },
     {
         name: "Hunter Cider Dry",
@@ -5048,7 +5121,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=HUNTER%20CIDER%20GOLD",
         isKenyan: false,
-        country: "Unknown"
+        country: "South Africa"
     },
     {
         name: "Hunters",
@@ -5058,7 +5131,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=HUNTERS",
         isKenyan: false,
-        country: "Unknown"
+        country: "South Africa"
     },
     {
         name: "Hunters",
@@ -5068,7 +5141,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=HUNTERS",
         isKenyan: false,
-        country: "Unknown"
+        country: "South Africa"
     },
     {
         name: "Hunters",
@@ -5078,7 +5151,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=HUNTERS",
         isKenyan: false,
-        country: "Unknown"
+        country: "South Africa"
     },
     {
         name: "Hunting Apple",
@@ -5088,7 +5161,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=HUNTING%20APPLE",
         isKenyan: false,
-        country: "Unknown"
+        country: "France"
     },
     {
         name: "Hunting Choco",
@@ -5098,7 +5171,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=HUNTING%20CHOCO",
         isKenyan: false,
-        country: "Unknown"
+        country: "France"
     },
     {
         name: "Hunting Ldg Vodka",
@@ -5108,7 +5181,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=HUNTING%20LDG%20VODKA",
         isKenyan: false,
-        country: "Unknown"
+        country: "France"
     },
     {
         name: "Hunting  Lg Gin",
@@ -5118,7 +5191,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=HUNTING%20%20LG%20GIN",
         isKenyan: false,
-        country: "Unknown"
+        country: "France"
     },
     {
         name: "Hunting Whisky",
@@ -5128,7 +5201,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=HUNTING%20WHISKY",
         isKenyan: false,
-        country: "Unknown"
+        country: "France"
     },
     {
         name: "Ice Vodka",
@@ -5138,7 +5211,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=ICE%20VODKA",
         isKenyan: false,
-        country: "Unknown"
+        country: "USA"
     },
     {
         name: "Icon Golden Brandy",
@@ -5148,7 +5221,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=ICON%20GOLDEN%20BRANDY",
         isKenyan: false,
-        country: "Unknown"
+        country: "India"
     },
     {
         name: "Icon Vodka",
@@ -5158,7 +5231,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=ICON%20VODKA",
         isKenyan: false,
-        country: "Unknown"
+        country: "India"
     },
     {
         name: "Identity Brandy",
@@ -5167,8 +5240,8 @@ const catalogueProducts = [
         price: "Ksh 255",
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=IDENTITY%20BRANDY",
-        isKenyan: false,
-        country: "Unknown"
+        isKenyan: true,
+        country: "Kenya"
     },
     {
         name: "Identity Gin",
@@ -5177,8 +5250,8 @@ const catalogueProducts = [
         price: "Ksh 255",
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=IDENTITY%20GIN",
-        isKenyan: false,
-        country: "Unknown"
+        isKenyan: true,
+        country: "Kenya"
     },
     {
         name: "Identity Vodka",
@@ -5187,8 +5260,8 @@ const catalogueProducts = [
         price: "Ksh 255",
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=IDENTITY%20VODKA",
-        isKenyan: false,
-        country: "Unknown"
+        isKenyan: true,
+        country: "Kenya"
     },
     {
         name: "Imperial Blue",
@@ -5198,7 +5271,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=IMPERIAL%20BLUE",
         isKenyan: false,
-        country: "Unknown"
+        country: "India"
     },
     {
         name: "Imperial Blue",
@@ -5208,7 +5281,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=IMPERIAL%20BLUE",
         isKenyan: false,
-        country: "Unknown"
+        country: "India"
     },
     {
         name: "Imperial Blue",
@@ -5218,7 +5291,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=IMPERIAL%20BLUE",
         isKenyan: false,
-        country: "Unknown"
+        country: "India"
     },
     {
         name: "Imperial Blue Giftpack",
@@ -5228,7 +5301,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=IMPERIAL%20BLUE%20GIFTPACK",
         isKenyan: false,
-        country: "Unknown"
+        country: "India"
     },
     {
         name: "Inverroche Gin",
@@ -5238,7 +5311,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=INVERROCHE%20GIN",
         isKenyan: false,
-        country: "Unknown"
+        country: "South Africa"
     },
     {
         name: "Iris Whisky",
@@ -5248,7 +5321,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=IRIS%20WHISKY",
         isKenyan: false,
-        country: "Unknown"
+        country: "Scotland"
     },
     {
         name: "Iris Whisky",
@@ -5258,7 +5331,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=IRIS%20WHISKY",
         isKenyan: false,
-        country: "Unknown"
+        country: "Scotland"
     },
     {
         name: "Jack Danieltr",
@@ -5268,7 +5341,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=JACK%20DANIELTR",
         isKenyan: false,
-        country: "Unknown"
+        country: "USA"
     },
     {
         name: "Jack Daniel Applet",
@@ -5278,7 +5351,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=JACK%20DANIEL%20APPLET",
         isKenyan: false,
-        country: "Unknown"
+        country: "USA"
     },
     {
         name: "Jack Daniel Apple",
@@ -5288,7 +5361,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=JACK%20DANIEL%20APPLE",
         isKenyan: false,
-        country: "Unknown"
+        country: "USA"
     },
     {
         name: "Jack Daniel Can Cola",
@@ -5298,7 +5371,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=JACK%20DANIEL%20CAN%20COLA",
         isKenyan: false,
-        country: "Unknown"
+        country: "USA"
     },
     {
         name: "Jack Daniel Can Lynchburg",
@@ -5308,7 +5381,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=JACK%20DANIEL%20CAN%20lynchburg",
         isKenyan: false,
-        country: "Unknown"
+        country: "USA"
     },
     {
         name: "Jack Daniel Firet",
@@ -5318,7 +5391,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=JACK%20DANIEL%20FIRET",
         isKenyan: false,
-        country: "Unknown"
+        country: "USA"
     },
     {
         name: "Jack Daniel Fire",
@@ -5328,7 +5401,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=JACK%20DANIEL%20FIRE",
         isKenyan: false,
-        country: "Unknown"
+        country: "USA"
     },
     {
         name: "Jack Daniel Honey",
@@ -5338,7 +5411,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=JACK%20DANIEL%20HONEY",
         isKenyan: false,
-        country: "Unknown"
+        country: "USA"
     },
     {
         name: "Jack Daniels 3/4",
@@ -5348,7 +5421,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=JACK%20DANIELS%203/4",
         isKenyan: false,
-        country: "Unknown"
+        country: "USA"
     },
     {
         name: "Jack Daniels",
@@ -5358,7 +5431,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=JACK%20DANIELS",
         isKenyan: false,
-        country: "Unknown"
+        country: "USA"
     },
     {
         name: "Jack Daniels Honeyt",
@@ -5368,7 +5441,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=JACK%20DANIELS%20HONEYT",
         isKenyan: false,
-        country: "Unknown"
+        country: "USA"
     },
     {
         name: "Jack Daniels Honey",
@@ -5378,7 +5451,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=JACK%20DANIELS%20HONEY",
         isKenyan: false,
-        country: "Unknown"
+        country: "USA"
     },
     {
         name: "Jack D Single Barrel",
@@ -5388,7 +5461,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=JACK%20D%20SINGLE%20BARREL",
         isKenyan: false,
-        country: "Unknown"
+        country: "USA"
     },
     {
         name: "Jacob Creek Chardonnay",
@@ -5398,7 +5471,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=JACOB%20CREEK%20CHARDONNAY",
         isKenyan: false,
-        country: "Unknown"
+        country: "Australia"
     },
     {
         name: "Jacob Creek Merlot",
@@ -5408,7 +5481,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=JACOB%20CREEK%20MERLOT",
         isKenyan: false,
-        country: "Unknown"
+        country: "Australia"
     },
     {
         name: "Jacob Creek Rose",
@@ -5418,7 +5491,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=JACOB%20CREEK%20ROSE",
         isKenyan: false,
-        country: "Unknown"
+        country: "Australia"
     },
     {
         name: "Jacob Creek Shiraz",
@@ -5428,7 +5501,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=JACOB%20CREEK%20SHIRAZ",
         isKenyan: false,
-        country: "Unknown"
+        country: "Australia"
     },
     {
         name: "Jagermeister Giftpack",
@@ -5488,7 +5561,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=JAMAICAN%20RUM",
         isKenyan: false,
-        country: "Unknown"
+        country: "Jamaica"
     },
     {
         name: "Jambo Vodka",
@@ -5497,8 +5570,8 @@ const catalogueProducts = [
         price: "Ksh 150",
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=JAMBO%20VODKA",
-        isKenyan: false,
-        country: "Unknown"
+        isKenyan: true,
+        country: "Kenya"
     },
     {
         name: "Jameson Cask Mate",
@@ -5588,7 +5661,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=J%20%26%20B",
         isKenyan: false,
-        country: "Unknown"
+        country: "Scotland"
     },
     {
         name: "J & B Honey",
@@ -5608,7 +5681,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=JC%20LE%20ROUX%20DOMAINE",
         isKenyan: false,
-        country: "Unknown"
+        country: "South Africa"
     },
     {
         name: "Jc Le Roux Flrte",
@@ -5618,7 +5691,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=JC%20LE%20ROUX%20FLRTE",
         isKenyan: false,
-        country: "Unknown"
+        country: "South Africa"
     },
     {
         name: "Jezlin Vodka",
@@ -5628,7 +5701,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=JEZLIN%20VODKA",
         isKenyan: false,
-        country: "Unknown"
+        country: "France"
     },
     {
         name: "Jim Beamt",
@@ -5638,7 +5711,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=JIM%20BEAMT",
         isKenyan: false,
-        country: "Unknown"
+        country: "USA"
     },
     {
         name: "Jim Beam",
@@ -5648,7 +5721,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=JIM%20BEAM",
         isKenyan: false,
-        country: "Unknown"
+        country: "USA"
     },
     {
         name: "Jim Beam Apple",
@@ -5658,7 +5731,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=JIM%20BEAM%20APPLE",
         isKenyan: false,
-        country: "Unknown"
+        country: "USA"
     },
     {
         name: "Jim Beam Blackt",
@@ -5668,7 +5741,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=JIM%20BEAM%20BLACKT",
         isKenyan: false,
-        country: "Unknown"
+        country: "USA"
     },
     {
         name: "Jim Beam Hnyt",
@@ -5678,7 +5751,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=JIM%20BEAM%20HNYT",
         isKenyan: false,
-        country: "Unknown"
+        country: "USA"
     },
     {
         name: "Jim Beam Honey",
@@ -5688,7 +5761,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=JIM%20BEAM%20HONEY",
         isKenyan: false,
-        country: "Unknown"
+        country: "USA"
     },
     {
         name: "John Bannermans 750M",
@@ -5698,7 +5771,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=JOHN%20BANNERMANS%20750M",
         isKenyan: false,
-        country: "Unknown"
+        country: "South Africa"
     },
     {
         name: "John Barr Blackt",
@@ -5708,7 +5781,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=JOHN%20BARR%20BLACKT",
         isKenyan: false,
-        country: "Unknown"
+        country: "Scotland"
     },
     {
         name: "John Barr Black",
@@ -5718,7 +5791,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=JOHN%20BARR%20BLACK",
         isKenyan: false,
-        country: "Unknown"
+        country: "Scotland"
     },
     {
         name: "John Barr Redt",
@@ -5728,7 +5801,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=JOHN%20BARR%20REDT",
         isKenyan: false,
-        country: "Unknown"
+        country: "Scotland"
     },
     {
         name: "John Barr Red",
@@ -5738,7 +5811,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=JOHN%20BARR%20RED",
         isKenyan: false,
-        country: "Unknown"
+        country: "Scotland"
     },
     {
         name: "John Walker 18Yrs",
@@ -5888,7 +5961,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=JOHN%20W%20BLACK",
         isKenyan: false,
-        country: "Unknown"
+        country: "Scotland"
     },
     {
         name: "John W Dbl Black",
@@ -5898,7 +5971,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=JOHN%20W%20DBL%20BLACK",
         isKenyan: false,
-        country: "Unknown"
+        country: "Scotland"
     },
     {
         name: "John W Red",
@@ -5908,7 +5981,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=JOHN%20W%20RED",
         isKenyan: false,
-        country: "Unknown"
+        country: "Scotland"
     },
     {
         name: "Jose Cuervo Goldt",
@@ -5958,7 +6031,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=JP%20AZELTAO",
         isKenyan: false,
-        country: "Unknown"
+        country: "Portugal"
     },
     {
         name: "Jp Chenet Nobless",
@@ -5978,7 +6051,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=JUMPING%20GOAT%20whisky",
         isKenyan: false,
-        country: "Unknown"
+        country: "New Zealand"
     },
     {
         name: "Just Right Smooth",
@@ -5987,8 +6060,8 @@ const catalogueProducts = [
         price: "Ksh 311",
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=JUST%20RIGHT%20SMOOTH",
-        isKenyan: false,
-        country: "Unknown"
+        isKenyan: true,
+        country: "Kenya"
     },
     {
         name: "J.W White Walker",
@@ -6007,8 +6080,8 @@ const catalogueProducts = [
         price: "Ksh 1,928",
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KAHAWA%20GOLD",
-        isKenyan: false,
-        country: "Unknown"
+        isKenyan: true,
+        country: "Kenya"
     },
     {
         name: "Kahlua Liquert",
@@ -6018,7 +6091,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KAHLUA%20LIQUERT",
         isKenyan: false,
-        country: "Unknown"
+        country: "Mexico"
     },
     {
         name: "Kahlua Liquer",
@@ -6028,7 +6101,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KAHLUA%20LIQUER",
         isKenyan: false,
-        country: "Unknown"
+        country: "Mexico"
     },
     {
         name: "Kakira Coffee Vodka",
@@ -6038,7 +6111,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KAKIRA%20COFFEE%20VODKA",
         isKenyan: false,
-        country: "Unknown"
+        country: "Uganda"
     },
     {
         name: "Kakira Coffee Vodka",
@@ -6048,7 +6121,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KAKIRA%20COFFEE%20VODKA",
         isKenyan: false,
-        country: "Unknown"
+        country: "Uganda"
     },
     {
         name: "Kakira Gin",
@@ -6058,7 +6131,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KAKIRA%20GIN",
         isKenyan: false,
-        country: "Unknown"
+        country: "Uganda"
     },
     {
         name: "Kakira Gin",
@@ -6068,7 +6141,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KAKIRA%20GIN",
         isKenyan: false,
-        country: "Unknown"
+        country: "Uganda"
     },
     {
         name: "Kakira Gold Rum",
@@ -6078,7 +6151,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KAKIRA%20GOLD%20RUM",
         isKenyan: false,
-        country: "Unknown"
+        country: "Uganda"
     },
     {
         name: "Kalanov Vdka",
@@ -6088,7 +6161,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KALANOV%20VDKA",
         isKenyan: false,
-        country: "Unknown"
+        country: "India"
     },
     {
         name: "Kane Extra",
@@ -6118,7 +6191,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KARIGEN%20WATERT",
         isKenyan: false,
-        country: "Unknown"
+        country: "Japan"
     },
     {
         name: "Kb",
@@ -6127,8 +6200,8 @@ const catalogueProducts = [
         price: "Ksh 225",
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KB",
-        isKenyan: false,
-        country: "Unknown"
+        isKenyan: true,
+        country: "Kenya"
     },
     {
         name: "Keg Empties",
@@ -6138,7 +6211,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KEG%20EMPTIES",
         isKenyan: false,
-        country: "Unknown"
+        country: "Service"
     },
     {
         name: "Kensington Gin",
@@ -6148,7 +6221,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KENSINGTON%20GIN",
         isKenyan: false,
-        country: "Unknown"
+        country: "South Africa"
     },
     {
         name: "Kenya Cane",
@@ -6267,8 +6340,8 @@ const catalogueProducts = [
         price: "Ksh 278",
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KENYA%20GOLD",
-        isKenyan: false,
-        country: "Unknown"
+        isKenyan: true,
+        country: "Kenya"
     },
     {
         name: "Kenya King",
@@ -6277,8 +6350,8 @@ const catalogueProducts = [
         price: "Ksh 345",
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KENYA%20KING",
-        isKenyan: false,
-        country: "Unknown"
+        isKenyan: true,
+        country: "Kenya"
     },
     {
         name: "Kenya King",
@@ -6287,8 +6360,8 @@ const catalogueProducts = [
         price: "Ksh 990",
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KENYA%20KING",
-        isKenyan: false,
-        country: "Unknown"
+        isKenyan: true,
+        country: "Kenya"
     },
     {
         name: "Keror White Grape",
@@ -6298,7 +6371,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KEROR%20WHITE%20GRAPE",
         isKenyan: false,
-        country: "Unknown"
+        country: "France"
     },
     {
         name: "Ketel One",
@@ -6308,7 +6381,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KETEL%20ONE",
         isKenyan: false,
-        country: "Unknown"
+        country: "Netherlands"
     },
     {
         name: "Kgb Classic",
@@ -6318,7 +6391,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KGB%20CLASSIC",
         isKenyan: false,
-        country: "Unknown"
+        country: "New Zealand"
     },
     {
         name: "Kgb Limon",
@@ -6328,7 +6401,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KGB%20LIMON",
         isKenyan: false,
-        country: "Unknown"
+        country: "New Zealand"
     },
     {
         name: "Kibao Gin",
@@ -6397,8 +6470,8 @@ const catalogueProducts = [
         price: "Ksh 320",
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KIENYEJI",
-        isKenyan: false,
-        country: "Unknown"
+        isKenyan: true,
+        country: "Kenya"
     },
     {
         name: "Kienyeji",
@@ -6407,8 +6480,8 @@ const catalogueProducts = [
         price: "Ksh 930",
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KIENYEJI",
-        isKenyan: false,
-        country: "Unknown"
+        isKenyan: true,
+        country: "Kenya"
     },
     {
         name: "Kingfisher",
@@ -6428,7 +6501,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KINGROBERT%20II",
         isKenyan: false,
-        country: "Unknown"
+        country: "United Kingdom"
     },
     {
         name: "Kingroberts Ginitre",
@@ -6438,7 +6511,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KINGROBERTS%20GINITRE",
         isKenyan: false,
-        country: "Unknown"
+        country: "United Kingdom"
     },
     {
         name: "Kingroberts Vodkaitre",
@@ -6448,7 +6521,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KINGROBERTS%20VODKAITRE",
         isKenyan: false,
-        country: "Unknown"
+        country: "United Kingdom"
     },
     {
         name: "Kingroberts Whsky",
@@ -6458,7 +6531,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KINGROBERTS%20WHSKY",
         isKenyan: false,
-        country: "Unknown"
+        country: "United Kingdom"
     },
     {
         name: "Kingroberts Wskyt",
@@ -6468,7 +6541,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KINGROBERTS%20WSKYT",
         isKenyan: false,
-        country: "Unknown"
+        country: "United Kingdom"
     },
     {
         name: "Kingstone Gin Litre",
@@ -6478,7 +6551,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KINGSTONE%20GIN%20LITRE",
         isKenyan: false,
-        country: "Unknown"
+        country: "France"
     },
     {
         name: "Klar H2O",
@@ -6487,8 +6560,8 @@ const catalogueProducts = [
         price: "Ksh 45",
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KLAR%20H2O",
-        isKenyan: false,
-        country: "Unknown"
+        isKenyan: true,
+        country: "Kenya"
     },
     {
         name: "Klar H2O Litre",
@@ -6497,8 +6570,8 @@ const catalogueProducts = [
         price: "Ksh 83",
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KLAR%20H2O%20LITRE",
-        isKenyan: false,
-        country: "Unknown"
+        isKenyan: true,
+        country: "Kenya"
     },
     {
         name: "Klubemonade",
@@ -6507,8 +6580,8 @@ const catalogueProducts = [
         price: "Ksh 75",
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KLUBEMONADE",
-        isKenyan: false,
-        country: "Unknown"
+        isKenyan: true,
+        country: "Kenya"
     },
     {
         name: "Ko Apple",
@@ -6517,8 +6590,8 @@ const catalogueProducts = [
         price: "Ksh 345",
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KO%20APPLE",
-        isKenyan: false,
-        country: "Unknown"
+        isKenyan: true,
+        country: "Kenya"
     },
     {
         name: "Ko Apple Can",
@@ -6527,8 +6600,8 @@ const catalogueProducts = [
         price: "Ksh 345",
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KO%20APPLE%20CAN",
-        isKenyan: false,
-        country: "Unknown"
+        isKenyan: true,
+        country: "Kenya"
     },
     {
         name: "Ko Classic Gin",
@@ -6537,8 +6610,8 @@ const catalogueProducts = [
         price: "Ksh 3,150",
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KO%20CLASSIC%20GIN",
-        isKenyan: false,
-        country: "Unknown"
+        isKenyan: true,
+        country: "Kenya"
     },
     {
         name: "Ko Classic Tonic Can",
@@ -6547,8 +6620,8 @@ const catalogueProducts = [
         price: "Ksh 158",
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KO%20CLASSIC%20TONIC%20CAN",
-        isKenyan: false,
-        country: "Unknown"
+        isKenyan: true,
+        country: "Kenya"
     },
     {
         name: "Ko Honey",
@@ -6557,8 +6630,8 @@ const catalogueProducts = [
         price: "Ksh 345",
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KO%20HONEY",
-        isKenyan: false,
-        country: "Unknown"
+        isKenyan: true,
+        country: "Kenya"
     },
     {
         name: "Ko Light Toniccan",
@@ -6567,8 +6640,8 @@ const catalogueProducts = [
         price: "Ksh 158",
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KO%20LIGHT%20TONICCAN",
-        isKenyan: false,
-        country: "Unknown"
+        isKenyan: true,
+        country: "Kenya"
     },
     {
         name: "Ko Lime",
@@ -6577,8 +6650,8 @@ const catalogueProducts = [
         price: "Ksh 345",
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KO%20LIME",
-        isKenyan: false,
-        country: "Unknown"
+        isKenyan: true,
+        country: "Kenya"
     },
     {
         name: "Ko Lime Can",
@@ -6587,8 +6660,8 @@ const catalogueProducts = [
         price: "Ksh 345",
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KO%20LIME%20CAN",
-        isKenyan: false,
-        country: "Unknown"
+        isKenyan: true,
+        country: "Kenya"
     },
     {
         name: "Ko Mango",
@@ -6598,7 +6671,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KO%20MANGO",
         isKenyan: false,
-        country: "Unknown"
+        country: "South Africa"
     },
     {
         name: "Konyagi 1/2",
@@ -6627,8 +6700,8 @@ const catalogueProducts = [
         price: "Ksh 345",
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KO%20PASSION",
-        isKenyan: false,
-        country: "Unknown"
+        isKenyan: true,
+        country: "Kenya"
     },
     {
         name: "Ko Passion Can",
@@ -6637,8 +6710,8 @@ const catalogueProducts = [
         price: "Ksh 345",
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KO%20PASSION%20CAN",
-        isKenyan: false,
-        country: "Unknown"
+        isKenyan: true,
+        country: "Kenya"
     },
     {
         name: "Ko Passion Ice Tea Can",
@@ -6647,8 +6720,8 @@ const catalogueProducts = [
         price: "Ksh 210",
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KO%20PASSION%20ICE%20TEA%20CAN",
-        isKenyan: false,
-        country: "Unknown"
+        isKenyan: true,
+        country: "Kenya"
     },
     {
         name: "Ko Pineapple",
@@ -6657,8 +6730,8 @@ const catalogueProducts = [
         price: "Ksh 345",
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KO%20PINEAPPLE",
-        isKenyan: false,
-        country: "Unknown"
+        isKenyan: true,
+        country: "Kenya"
     },
     {
         name: "Ko Tambuzi",
@@ -6667,8 +6740,8 @@ const catalogueProducts = [
         price: "Ksh 3,300",
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KO%20TAMBUZI",
-        isKenyan: false,
-        country: "Unknown"
+        isKenyan: true,
+        country: "Kenya"
     },
     {
         name: "Ko Tropical Ice Tea Can",
@@ -6688,7 +6761,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=K%20VANT",
         isKenyan: false,
-        country: "Unknown"
+        country: "Tanzania"
     },
     {
         name: "K Vant",
@@ -6698,7 +6771,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=K%20VANT",
         isKenyan: false,
-        country: "Unknown"
+        country: "Tanzania"
     },
     {
         name: "Kwv 20Yrs",
@@ -6778,7 +6851,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=LABEL%205%20WHISKY",
         isKenyan: false,
-        country: "Unknown"
+        country: "Scotland"
     },
     {
         name: "Larios Gint",
@@ -6788,7 +6861,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=LARIOS%20GINT",
         isKenyan: false,
-        country: "Unknown"
+        country: "Spain"
     },
     {
         name: "Larios Premium",
@@ -6798,7 +6871,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=LARIOS%20PREMIUM",
         isKenyan: false,
-        country: "Unknown"
+        country: "Spain"
     },
     {
         name: "Legend",
@@ -6828,7 +6901,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=LEOPARD%20CAB%20SAUV",
         isKenyan: false,
-        country: "Unknown"
+        country: "South Africa"
     },
     {
         name: "Leopard Cab Sav Merlot",
@@ -6838,7 +6911,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=LEOPARD%20CAB%20SAV%20MERLOT",
         isKenyan: false,
-        country: "Unknown"
+        country: "South Africa"
     },
     {
         name: "Leopard Chardonnay",
@@ -6848,7 +6921,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=LEOPARD%20CHARDONNAY",
         isKenyan: false,
-        country: "Unknown"
+        country: "South Africa"
     },
     {
         name: "Leopard Chenin Blanc",
@@ -6858,7 +6931,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=LEOPARD%20CHENIN%20BLANC",
         isKenyan: false,
-        country: "Unknown"
+        country: "South Africa"
     },
     {
         name: "Leopard Merlot",
@@ -6868,7 +6941,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=LEOPARD%20MERLOT",
         isKenyan: false,
-        country: "Unknown"
+        country: "South Africa"
     },
     {
         name: "Leopard Sav Blanc",
@@ -6878,7 +6951,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=LEOPARD%20SAV%20BLANC",
         isKenyan: false,
-        country: "Unknown"
+        country: "South Africa"
     },
     {
         name: "Lime Juice",
@@ -6887,8 +6960,8 @@ const catalogueProducts = [
         price: "Ksh 368",
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=LIME%20JUICE",
-        isKenyan: false,
-        country: "Unknown"
+        isKenyan: true,
+        country: "Kenya"
     },
     {
         name: "Lime Juice",
@@ -6897,8 +6970,8 @@ const catalogueProducts = [
         price: "Ksh 210",
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=LIME%20JUICE",
-        isKenyan: false,
-        country: "Unknown"
+        isKenyan: true,
+        country: "Kenya"
     },
     {
         name: "Lion Export Premium(8.8%)",
@@ -6908,7 +6981,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=LION%20EXPORT%20PREMIUM%288.8%25%29",
         isKenyan: false,
-        country: "Unknown"
+        country: "Sri Lanka"
     },
     {
         name: "Lion Extra Strong (12%_",
@@ -6918,7 +6991,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=LION%20EXTRA%20STRONG%20%2812%25_",
         isKenyan: false,
-        country: "Unknown"
+        country: "Sri Lanka"
     },
     {
         name: "Lion Stout(8.8)",
@@ -6928,7 +7001,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=LION%20STOUT%288.8%29",
         isKenyan: false,
-        country: "Unknown"
+        country: "Sri Lanka"
     },
     {
         name: "Luksusowa Vodka",
@@ -6938,7 +7011,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=LUKSUSOWA%20VODKA",
         isKenyan: false,
-        country: "Unknown"
+        country: "Poland"
     },
     {
         name: "Lupini Black",
@@ -6948,7 +7021,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=LUPINI%20BLACK",
         isKenyan: false,
-        country: "Unknown"
+        country: "Italy"
     },
     {
         name: "Lupini Gold",
@@ -6958,7 +7031,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=LUPINI%20GOLD",
         isKenyan: false,
-        country: "Unknown"
+        country: "Italy"
     },
     {
         name: "Macallan 12Yrs",
@@ -6977,8 +7050,8 @@ const catalogueProducts = [
         price: "Ksh 1,200",
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MADAFU%20LIQUEOR",
-        isKenyan: false,
-        country: "Unknown"
+        isKenyan: true,
+        country: "Kenya"
     },
     {
         name: "Magic Momentt",
@@ -6988,7 +7061,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MAGIC%20MOMENTT",
         isKenyan: false,
-        country: "Unknown"
+        country: "India"
     },
     {
         name: "Magic Moment 3/4",
@@ -6998,7 +7071,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MAGIC%20MOMENT%203/4",
         isKenyan: false,
-        country: "Unknown"
+        country: "India"
     },
     {
         name: "Magic Moments Apple",
@@ -7008,7 +7081,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MAGIC%20MOMENTS%20APPLE",
         isKenyan: false,
-        country: "Unknown"
+        country: "India"
     },
     {
         name: "Magic Moments Choco",
@@ -7018,7 +7091,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MAGIC%20MOMENTS%20CHOCO",
         isKenyan: false,
-        country: "Unknown"
+        country: "India"
     },
     {
         name: "Magic Moments Original",
@@ -7028,7 +7101,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MAGIC%20MOMENTS%20ORIGINAL",
         isKenyan: false,
-        country: "Unknown"
+        country: "India"
     },
     {
         name: "Magic Momenys Orange",
@@ -7038,7 +7111,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MAGIC%20MOMENYS%20ORANGE",
         isKenyan: false,
-        country: "Unknown"
+        country: "India"
     },
     {
         name: "Magic Times",
@@ -7048,7 +7121,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MAGIC%20TIMES",
         isKenyan: false,
-        country: "Unknown"
+        country: "India"
     },
     {
         name: "Magnumt",
@@ -7058,7 +7131,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MAGNUMT",
         isKenyan: false,
-        country: "Unknown"
+        country: "Scotland"
     },
     {
         name: "Magnum",
@@ -7068,7 +7141,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MAGNUM",
         isKenyan: false,
-        country: "Unknown"
+        country: "Scotland"
     },
     {
         name: "Malbec",
@@ -7078,7 +7151,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MALBEC",
         isKenyan: false,
-        country: "Unknown"
+        country: "Argentina"
     },
     {
         name: "Malfy Con Limone",
@@ -7088,7 +7161,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MALFY%20CON%20LIMONE",
         isKenyan: false,
-        country: "Unknown"
+        country: "Italy"
     },
     {
         name: "Malfy Con Rosa",
@@ -7098,7 +7171,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MALFY%20CON%20ROSA",
         isKenyan: false,
-        country: "Unknown"
+        country: "Italy"
     },
     {
         name: "Malfy Gin Originale",
@@ -7108,7 +7181,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MALFY%20GIN%20ORIGINALE",
         isKenyan: false,
-        country: "Unknown"
+        country: "Italy"
     },
     {
         name: "Malibutr",
@@ -7118,7 +7191,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MALIBUTR",
         isKenyan: false,
-        country: "Unknown"
+        country: "Barbados"
     },
     {
         name: "Malibu 750",
@@ -7128,7 +7201,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MALIBU%20750",
         isKenyan: false,
-        country: "Unknown"
+        country: "Barbados"
     },
     {
         name: "Manyatta Lemon",
@@ -7168,7 +7241,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MARENGO%20SWEET%20ROSE%20WINE",
         isKenyan: false,
-        country: "Unknown"
+        country: "Italy"
     },
     {
         name: "Marengo Sweet White Sparkling",
@@ -7178,7 +7251,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MARENGO%20SWEET%20WHITE%20SPARKLING",
         isKenyan: false,
-        country: "Unknown"
+        country: "Italy"
     },
     {
         name: "Marte",
@@ -7198,7 +7271,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MARTEL%20BLUE%20SWIFT",
         isKenyan: false,
-        country: "Unknown"
+        country: "France"
     },
     {
         name: "Martel Vs Litre",
@@ -7208,7 +7281,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MARTEL%20VS%20LITRE",
         isKenyan: false,
-        country: "Unknown"
+        country: "France"
     },
     {
         name: "Martel V.S.O.Pt",
@@ -7218,7 +7291,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MARTEL%20V.S.O.PT",
         isKenyan: false,
-        country: "Unknown"
+        country: "France"
     },
     {
         name: "Martel Vsop 3/4",
@@ -7228,7 +7301,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MARTEL%20VSOP%203/4",
         isKenyan: false,
-        country: "Unknown"
+        country: "France"
     },
     {
         name: "Martel Vssd",
@@ -7238,7 +7311,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MARTEL%20VSSD",
         isKenyan: false,
-        country: "Unknown"
+        country: "France"
     },
     {
         name: "Martel Xo",
@@ -7248,7 +7321,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MARTEL%20XO",
         isKenyan: false,
-        country: "Unknown"
+        country: "France"
     },
     {
         name: "Martens 10%",
@@ -7258,7 +7331,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MARTENS%2010%25",
         isKenyan: false,
-        country: "Unknown"
+        country: "Belgium"
     },
     {
         name: "Martens  Beer 16%",
@@ -7268,7 +7341,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MARTENS%20%20BEER%2016%25",
         isKenyan: false,
-        country: "Unknown"
+        country: "Belgium"
     },
     {
         name: "Martin Biancotr",
@@ -7278,7 +7351,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MARTIN%20BIANCOTR",
         isKenyan: false,
-        country: "Unknown"
+        country: "Italy"
     },
     {
         name: "Martin Bianco 3/4",
@@ -7288,7 +7361,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MARTIN%20BIANCO%203/4",
         isKenyan: false,
-        country: "Unknown"
+        country: "Italy"
     },
     {
         name: "Martini Dry",
@@ -7298,7 +7371,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MARTINI%20DRY",
         isKenyan: false,
-        country: "Unknown"
+        country: "Italy"
     },
     {
         name: "Martin Rosso -",
@@ -7308,7 +7381,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MARTIN%20ROSSO%20-",
         isKenyan: false,
-        country: "Unknown"
+        country: "Italy"
     },
     {
         name: "Martin Rosso 3/4",
@@ -7318,7 +7391,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MARTIN%20ROSSO%203/4",
         isKenyan: false,
-        country: "Unknown"
+        country: "Italy"
     },
     {
         name: "Mateus Original Rose",
@@ -7328,7 +7401,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MATEUS%20ORIGINAL%20ROSE",
         isKenyan: false,
-        country: "Unknown"
+        country: "Portugal"
     },
     {
         name: "Mc Mohan With Glass",
@@ -7338,7 +7411,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MC%20MOHAN%20WITH%20GLASS",
         isKenyan: false,
-        country: "Unknown"
+        country: "India"
     },
     {
         name: "Mikado Cherry Red",
@@ -7348,7 +7421,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MIKADO%20CHERRY%20RED",
         isKenyan: false,
-        country: "Unknown"
+        country: "Ukraine"
     },
     {
         name: "Mikado Red Plum",
@@ -7358,7 +7431,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MIKADO%20RED%20PLUM",
         isKenyan: false,
-        country: "Unknown"
+        country: "Ukraine"
     },
     {
         name: "Mikado Wht Apricot",
@@ -7368,7 +7441,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MIKADO%20WHT%20APRICOT",
         isKenyan: false,
-        country: "Unknown"
+        country: "Ukraine"
     },
     {
         name: "Mikado Wht Lychee",
@@ -7378,7 +7451,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MIKADO%20WHT%20LYCHEE",
         isKenyan: false,
-        country: "Unknown"
+        country: "Ukraine"
     },
     {
         name: "Mikado Wht Passion",
@@ -7388,7 +7461,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MIKADO%20WHT%20PASSION",
         isKenyan: false,
-        country: "Unknown"
+        country: "Ukraine"
     },
     {
         name: "Mikado Wht Pineapple",
@@ -7398,7 +7471,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MIKADO%20WHT%20PINEAPPLE",
         isKenyan: false,
-        country: "Unknown"
+        country: "Ukraine"
     },
     {
         name: "Mikado Wht Plum",
@@ -7408,7 +7481,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MIKADO%20WHT%20PLUM",
         isKenyan: false,
-        country: "Unknown"
+        country: "Ukraine"
     },
     {
         name: "Minute Maid Juice",
@@ -7418,7 +7491,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MINUTE%20MAID%20JUICE",
         isKenyan: false,
-        country: "Unknown"
+        country: "USA"
     },
     {
         name: "Mistral Apple",
@@ -7428,7 +7501,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MISTRAL%20APPLE",
         isKenyan: false,
-        country: "Unknown"
+        country: "India"
     },
     {
         name: "Mistral Chocolate",
@@ -7438,7 +7511,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MISTRAL%20CHOCOLATE",
         isKenyan: false,
-        country: "Unknown"
+        country: "India"
     },
     {
         name: "Mistral Mango",
@@ -7448,7 +7521,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MISTRAL%20MANGO",
         isKenyan: false,
-        country: "Unknown"
+        country: "South Africa"
     },
     {
         name: "Mistral Plain",
@@ -7458,7 +7531,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MISTRAL%20PLAIN",
         isKenyan: false,
-        country: "Unknown"
+        country: "India"
     },
     {
         name: "Mistral Strawberry",
@@ -7468,7 +7541,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MISTRAL%20STRAWBERRY",
         isKenyan: false,
-        country: "Unknown"
+        country: "India"
     },
     {
         name: "Modern Gin",
@@ -7477,8 +7550,8 @@ const catalogueProducts = [
         price: "Ksh 180",
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MODERN%20GIN",
-        isKenyan: false,
-        country: "Unknown"
+        isKenyan: true,
+        country: "Kenya"
     },
     {
         name: "Moet Ice Imperial",
@@ -7518,7 +7591,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MOHAN%20DRY%20RED",
         isKenyan: false,
-        country: "Unknown"
+        country: "South Africa"
     },
     {
         name: "Mohans Dry White",
@@ -7528,7 +7601,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MOHANS%20DRY%20WHITE",
         isKenyan: false,
-        country: "Unknown"
+        country: "South Africa"
     },
     {
         name: "Mohans Sweetred",
@@ -7538,7 +7611,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MOHANS%20SWEETRED",
         isKenyan: false,
-        country: "Unknown"
+        country: "South Africa"
     },
     {
         name: "Mohans  White Sweet",
@@ -7548,7 +7621,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MOHANS%20%20WHITE%20SWEET",
         isKenyan: false,
-        country: "Unknown"
+        country: "South Africa"
     },
     {
         name: "Monkey Shouldert",
@@ -7558,7 +7631,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MONKEY%20SHOULDERT",
         isKenyan: false,
-        country: "Unknown"
+        country: "Scotland"
     },
     {
         name: "Monkey Shoulder",
@@ -7568,7 +7641,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MONKEY%20SHOULDER",
         isKenyan: false,
-        country: "Unknown"
+        country: "Scotland"
     },
     {
         name: "Monster Mucho Loco(Blue)",
@@ -7578,7 +7651,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MONSTER%20MUCHO%20LOCO%28BLUE%29",
         isKenyan: false,
-        country: "Unknown"
+        country: "USA"
     },
     {
         name: "Monster Mule(Brown",
@@ -7588,7 +7661,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MONSTER%20MULE%28BROWN",
         isKenyan: false,
-        country: "Unknown"
+        country: "USA"
     },
     {
         name: "Monster Original",
@@ -7598,7 +7671,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MONSTER%20ORIGINAL",
         isKenyan: false,
-        country: "Unknown"
+        country: "USA"
     },
     {
         name: "Monster Rossi(Yellow)",
@@ -7608,7 +7681,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MONSTER%20ROSSI%28YELLOW%29",
         isKenyan: false,
-        country: "Unknown"
+        country: "USA"
     },
     {
         name: "Monster White",
@@ -7618,7 +7691,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MONSTER%20WHITE",
         isKenyan: false,
-        country: "Unknown"
+        country: "USA"
     },
     {
         name: "Mr Dowells",
@@ -7628,7 +7701,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MR%20DOWELLS",
         isKenyan: false,
-        country: "Unknown"
+        country: "India"
     },
     {
         name: "Mr Dowels",
@@ -7638,7 +7711,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MR%20DOWELS",
         isKenyan: false,
-        country: "Unknown"
+        country: "India"
     },
     {
         name: "Mt Kenyan H20",
@@ -7647,8 +7720,8 @@ const catalogueProducts = [
         price: "Ksh 60",
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MT%20KENYAN%20H20",
-        isKenyan: false,
-        country: "Unknown"
+        isKenyan: true,
+        country: "Kenya"
     },
     {
         name: "Mucho Mas",
@@ -7658,7 +7731,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MUCHO%20MAS",
         isKenyan: false,
-        country: "Unknown"
+        country: "Spain"
     },
     {
         name: "Mucho Mas Red (Black Edition)",
@@ -7668,7 +7741,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MUCHO%20MAS%20RED%20%28BLACK%20EDITION%29",
         isKenyan: false,
-        country: "Unknown"
+        country: "Spain"
     },
     {
         name: "Mucho Mas White",
@@ -7678,7 +7751,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MUCHO%20MAS%20WHITE",
         isKenyan: false,
-        country: "Unknown"
+        country: "Spain"
     },
     {
         name: "Muscat White Sweet750",
@@ -7688,7 +7761,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MUSCAT%20WHITE%20SWEET750",
         isKenyan: false,
-        country: "Unknown"
+        country: "South Africa"
     },
     {
         name: "Musketeer Brdy",
@@ -7698,7 +7771,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MUSKETEER%20BRDY",
         isKenyan: false,
-        country: "Unknown"
+        country: "India"
     },
     {
         name: "Musketeer Brndy",
@@ -7708,7 +7781,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MUSKETEER%20BRNDY",
         isKenyan: false,
-        country: "Unknown"
+        country: "India"
     },
     {
         name: "Myers Rumt",
@@ -7718,7 +7791,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MYERS%20RUMT",
         isKenyan: false,
-        country: "Unknown"
+        country: "Jamaica"
     },
     {
         name: "Myers Rum 750",
@@ -7728,7 +7801,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MYERS%20RUM%20750",
         isKenyan: false,
-        country: "Unknown"
+        country: "Jamaica"
     },
     {
         name: "Naked Maltt",
@@ -7738,7 +7811,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=NAKED%20MALTT",
         isKenyan: false,
-        country: "Unknown"
+        country: "Scotland"
     },
     {
         name: "Naked Malt",
@@ -7748,7 +7821,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=NAKED%20MALT",
         isKenyan: false,
-        country: "Unknown"
+        country: "Scotland"
     },
     {
         name: "Namaqua Dry Redtr",
@@ -7758,7 +7831,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=NAMAQUA%20DRY%20REDTR",
         isKenyan: false,
-        country: "Unknown"
+        country: "South Africa"
     },
     {
         name: "Namaqua Dry Whitetrs",
@@ -7768,7 +7841,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=NAMAQUA%20DRY%20WHITETRS",
         isKenyan: false,
-        country: "Unknown"
+        country: "South Africa"
     },
     {
         name: "Namaqua Sweet Red",
@@ -7778,7 +7851,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=NAMAQUA%20SWEET%20RED",
         isKenyan: false,
-        country: "Unknown"
+        country: "South Africa"
     },
     {
         name: "Namaqua Sweet Red",
@@ -7788,7 +7861,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=NAMAQUA%20SWEET%20RED",
         isKenyan: false,
-        country: "Unknown"
+        country: "South Africa"
     },
     {
         name: "Namaqua White Swt",
@@ -7798,7 +7871,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=NAMAQUA%20WHITE%20SWT",
         isKenyan: false,
-        country: "Unknown"
+        country: "South Africa"
     },
     {
         name: "Napoleon Crown",
@@ -7807,8 +7880,8 @@ const catalogueProducts = [
         price: "Ksh 390",
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=NAPOLEON%20CROWN",
-        isKenyan: false,
-        country: "Unknown"
+        isKenyan: true,
+        country: "Kenya"
     },
     {
         name: "Napoleon Crown",
@@ -7817,8 +7890,8 @@ const catalogueProducts = [
         price: "Ksh 1,095",
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=NAPOLEON%20CROWN",
-        isKenyan: false,
-        country: "Unknown"
+        isKenyan: true,
+        country: "Kenya"
     },
     {
         name: "Napoleon Gold",
@@ -7827,8 +7900,8 @@ const catalogueProducts = [
         price: "Ksh 330",
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=NAPOLEON%20GOLD",
-        isKenyan: false,
-        country: "Unknown"
+        isKenyan: true,
+        country: "Kenya"
     },
     {
         name: "Napoleon Gold",
@@ -7837,8 +7910,8 @@ const catalogueProducts = [
         price: "Ksh 998",
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=NAPOLEON%20GOLD",
-        isKenyan: false,
-        country: "Unknown"
+        isKenyan: true,
+        country: "Kenya"
     },
     {
         name: "Nature'S Mango & Apple",
@@ -7848,7 +7921,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=NATURE%27S%20MANGO%20%26%20APPLE",
         isKenyan: false,
-        country: "Unknown"
+        country: "South Africa"
     },
     {
         name: "Nederberg Rose",
@@ -7858,7 +7931,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=NEDERBERG%20rose",
         isKenyan: false,
-        country: "Unknown"
+        country: "South Africa"
     },
     {
         name: "Nederburg Barone",
@@ -7938,7 +8011,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=NEON",
         isKenyan: false,
-        country: "Unknown"
+        country: "India"
     },
     {
         name: "Neon Chocolate",
@@ -7948,7 +8021,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=NEON%20CHOCOLATE",
         isKenyan: false,
-        country: "Unknown"
+        country: "India"
     },
     {
         name: "Neon Coffee",
@@ -7958,7 +8031,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=NEON%20COFFEE",
         isKenyan: false,
-        country: "Unknown"
+        country: "India"
     },
     {
         name: "New Groove Flvd",
@@ -7968,7 +8041,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=NEW%20GROOVE%20FLVD",
         isKenyan: false,
-        country: "Unknown"
+        country: "Mauritius"
     },
     {
         name: "Nicotine Mango",
@@ -7978,7 +8051,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=NICOTINE%20MANGO",
         isKenyan: false,
-        country: "Unknown"
+        country: "South Africa"
     },
     {
         name: "Nicotine Mint",
@@ -7987,8 +8060,8 @@ const catalogueProducts = [
         price: "Ksh 615",
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=NICOTINE%20MINT",
-        isKenyan: false,
-        country: "Unknown"
+        isKenyan: true,
+        country: "Kenya"
     },
     {
         name: "Nicotine Passion Fruit",
@@ -7997,8 +8070,8 @@ const catalogueProducts = [
         price: "Ksh 615",
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=NICOTINE%20PASSION%20FRUIT",
-        isKenyan: false,
-        country: "Unknown"
+        isKenyan: true,
+        country: "Kenya"
     },
     {
         name: "Oak Cask",
@@ -8008,7 +8081,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=OAK%20CASK",
         isKenyan: false,
-        country: "Unknown"
+        country: "Argentina"
     },
     {
         name: "Ocean Energy Drink",
@@ -8018,7 +8091,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=OCEAN%20ENERGY%20DRINK",
         isKenyan: false,
-        country: "Unknown"
+        country: "India"
     },
     {
         name: "Officers Choice Red",
@@ -8038,7 +8111,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=OJ%2012%25",
         isKenyan: false,
-        country: "Unknown"
+        country: "Belgium"
     },
     {
         name: "Oj 16%",
@@ -8048,7 +8121,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=OJ%2016%25",
         isKenyan: false,
-        country: "Unknown"
+        country: "Belgium"
     },
     {
         name: "Oj 20%",
@@ -8058,7 +8131,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=OJ%2020%25",
         isKenyan: false,
-        country: "Unknown"
+        country: "Belgium"
     },
     {
         name: "Oj 5%",
@@ -8068,7 +8141,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=OJ%205%25",
         isKenyan: false,
-        country: "Unknown"
+        country: "Belgium"
     },
     {
         name: "Oj 8.5%",
@@ -8078,7 +8151,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=OJ%208.5%25",
         isKenyan: false,
-        country: "Unknown"
+        country: "Belgium"
     },
     {
         name: "Old Cock",
@@ -8088,7 +8161,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=OLD%20COCK",
         isKenyan: false,
-        country: "Unknown"
+        country: "United Kingdom"
     },
     {
         name: "Old Monk",
@@ -8118,7 +8191,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=OLD%20NICKDARK",
         isKenyan: false,
-        country: "Unknown"
+        country: "France"
     },
     {
         name: "Old Nick Dark Litre",
@@ -8128,7 +8201,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=OLD%20NICK%20DARK%20LITRE",
         isKenyan: false,
-        country: "Unknown"
+        country: "France"
     },
     {
         name: "Old Nick Spiced",
@@ -8138,7 +8211,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=OLD%20NICK%20SPICED",
         isKenyan: false,
-        country: "Unknown"
+        country: "France"
     },
     {
         name: "Old Nick Whiteitre",
@@ -8148,7 +8221,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=OLD%20NICK%20WHITEITRE",
         isKenyan: false,
-        country: "Unknown"
+        country: "France"
     },
     {
         name: "Old Nick White",
@@ -8158,7 +8231,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=OLD%20NICK%20WHITE",
         isKenyan: false,
-        country: "Unknown"
+        country: "France"
     },
     {
         name: "Old Smuggler 3/4",
@@ -8168,7 +8241,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=OLD%20SMUGGLER%203/4",
         isKenyan: false,
-        country: "Unknown"
+        country: "Scotland"
     },
     {
         name: "Olepasu Red Wine",
@@ -8178,7 +8251,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=OLEPASU%20RED%20WINE",
         isKenyan: false,
-        country: "Unknown"
+        country: "Italy"
     },
     {
         name: "Olepasu White Wine",
@@ -8188,7 +8261,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=OLEPASU%20WHITE%20WINE",
         isKenyan: false,
-        country: "Unknown"
+        country: "Italy"
     },
     {
         name: "Olmeca Blanco",
@@ -8198,7 +8271,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=OLMECA%20BLANCO",
         isKenyan: false,
-        country: "Unknown"
+        country: "Mexico"
     },
     {
         name: "Olmeca Choco",
@@ -8208,7 +8281,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=OLMECA%20CHOCO",
         isKenyan: false,
-        country: "Unknown"
+        country: "Mexico"
     },
     {
         name: "Olmeca Gold",
@@ -8218,7 +8291,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=OLMECA%20GOLD",
         isKenyan: false,
-        country: "Unknown"
+        country: "Mexico"
     },
     {
         name: "Opm",
@@ -8228,7 +8301,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=OPM",
         isKenyan: false,
-        country: "Unknown"
+        country: "India"
     },
     {
         name: "Opm Vodka",
@@ -8238,7 +8311,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=OPM%20VODKA",
         isKenyan: false,
-        country: "Unknown"
+        country: "India"
     },
     {
         name: "Opm Vodka",
@@ -8248,7 +8321,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=OPM%20VODKA",
         isKenyan: false,
-        country: "Unknown"
+        country: "India"
     },
     {
         name: "Opulenza",
@@ -8258,7 +8331,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=OPULENZA",
         isKenyan: false,
-        country: "Unknown"
+        country: "Chile"
     },
     {
         name: "Orange Rum Can",
@@ -8268,7 +8341,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=ORANGE%20RUM%20CAN",
         isKenyan: false,
-        country: "Unknown"
+        country: "Jamaica"
     },
     {
         name: "Orchid Apple",
@@ -8377,8 +8450,8 @@ const catalogueProducts = [
         price: "Ksh 317",
         description: "Experience the smooth taste of Pall Mall Green cigarettes. Enjoy a blend of rich flavors and quality tobacco for a satisfying smoking experience. Shop now!",
         image: "assets/images/real/pall_mall_green.jpg",
-        isKenyan: false,
-        country: "Unknown"
+        isKenyan: true,
+        country: "Kenya"
     },
     {
         name: "Pall Mall Plus",
@@ -8387,8 +8460,8 @@ const catalogueProducts = [
         price: "Ksh 252",
         description: "Super excited to share this episode with you. Find out how Amy got into the wine world, her favourite region and why? As well as her views on AI ...",
         image: "assets/images/real/pall_mall_plus.jpg",
-        isKenyan: false,
-        country: "Unknown"
+        isKenyan: true,
+        country: "Kenya"
     },
     {
         name: "Passport",
@@ -8408,7 +8481,7 @@ const catalogueProducts = [
         description: "Peachtree is the first liqueur that has the taste and smell of tree-ripe peaches, made following a well-balanced recipe and delicate distillation.",
         image: "assets/images/real/peach_liqueur.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "Variety"
     },
     {
         name: "Pearly Bay Dry Red",
@@ -8418,7 +8491,7 @@ const catalogueProducts = [
         description: "This is an easy-drinking wine with an abundance of strawberry and red fruit flavours and aromas. It is soft, juicy, and smooth on the.",
         image: "assets/images/real/pearly_bay_dry_red.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "South Africa"
     },
     {
         name: "Pearly Bay Dry White",
@@ -8428,7 +8501,7 @@ const catalogueProducts = [
         description: "This easy-drinking wine range will appeal to those looking for a wine partner for a jovial meeting with friends, a day out at the beach, an unplanned lunch and ...",
         image: "assets/images/real/pearly_bay_dry_white.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "South Africa"
     },
     {
         name: "Pearly Bay Rose",
@@ -8458,7 +8531,7 @@ const catalogueProducts = [
         description: "From the heart of Castilla – La Mancha comes our wide variety of wines, sangrias and grape juice, for those moments when you just need to enjoy.",
         image: "assets/images/real/penasal_red_bttl.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "Spain"
     },
     {
         name: "Penasol Dry Redt",
@@ -8468,7 +8541,7 @@ const catalogueProducts = [
         description: "From the heart of Castilla – La Mancha comes our wide variety of wines, sangrias and grape juice, for those moments when you just need to enjoy.",
         image: "assets/images/real/penasol_dry_redt.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "Spain"
     },
     {
         name: "Penasol Dry  White",
@@ -8488,7 +8561,7 @@ const catalogueProducts = [
         description: "From the heart of Castilla – La Mancha comes our wide variety of wines, sangrias and grape juice, for those moments when you just need to enjoy.",
         image: "assets/images/real/penasol_red_sweet_blue.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "Spain"
     },
     {
         name: "Penasol Sangiria Tetra",
@@ -8498,7 +8571,7 @@ const catalogueProducts = [
         description: "Very bright cherry red. Intense aromas of citrus fruits mixed with ripe red fruits. A gentle palate slightly sweet and very pleasant. Food Pairing. A perfect ...",
         image: "assets/images/real/penasol_sangiria_tetra.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "Spain"
     },
     {
         name: "Penasol Sangria",
@@ -8508,7 +8581,7 @@ const catalogueProducts = [
         description: "Sangria is the typical summer drink enjoyed on gorgeous Spanish beaches and around the world. A delicious blend of wine and citrus. This sangria can be ...",
         image: "assets/images/real/penasol_sangria.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "Spain"
     },
     {
         name: "Penasol Sangria Btlt",
@@ -8518,7 +8591,7 @@ const catalogueProducts = [
         description: "From the heart of Castilla – La Mancha comes our wide variety of wines, sangrias and grape juice, for those moments when you just need to enjoy.",
         image: "assets/images/real/penasol_sangria_btlt.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "Spain"
     },
     {
         name: "Penasol White Bttl",
@@ -8548,7 +8621,7 @@ const catalogueProducts = [
         description: "Purposeful production of alcoholic beverages is common and often reflects cultural and religious peculiarities as much as geographical and sociological ...",
         image: "assets/images/real/people.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "India"
     },
     {
         name: "Pick & Peel Apple",
@@ -8557,8 +8630,8 @@ const catalogueProducts = [
         price: "Ksh 383",
         description: "Picked n Peeled from fresh-eating, thirst-quenching crispy apples resulting in a sweet, crispy smooth tangy apple juice giving you a boost in all health ...",
         image: "assets/images/real/pick___peel_apple.jpg",
-        isKenyan: false,
-        country: "Unknown"
+        isKenyan: true,
+        country: "Kenya"
     },
     {
         name: "Pick & Peel Mango",
@@ -8577,8 +8650,8 @@ const catalogueProducts = [
         price: "Ksh 383",
         description: "Not only does Pick N' Peel's red grape flavor taste amazing, but it's also made with only the best ingredients to ensure that every sip is a burst of flavour.",
         image: "assets/images/real/pick___peel_redgrape.jpg",
-        isKenyan: false,
-        country: "Unknown"
+        isKenyan: true,
+        country: "Kenya"
     },
     {
         name: "Pick & Peel Tropical",
@@ -8598,7 +8671,7 @@ const catalogueProducts = [
         description: "Pierre Marcel Sweet Red 75cl is an easy-drinking French red wine made for those who enjoy a softer, fruit-forward style. Produced under the Vin ...",
         image: "assets/images/real/pierre_marcel_sweet_red.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "France"
     },
     {
         name: "Pilsner Beer",
@@ -8607,8 +8680,8 @@ const catalogueProducts = [
         price: "Ksh 254",
         description: "Certified cicerone Anne Becerra explains how Pilsner pioneered crisp, cold, refreshing beer when it was first brewed in the Czech Republic ...",
         image: "assets/images/real/pilsner_beer.jpg",
-        isKenyan: false,
-        country: "Unknown"
+        isKenyan: true,
+        country: "Kenya"
     },
     {
         name: "Pilsner Can",
@@ -8617,8 +8690,8 @@ const catalogueProducts = [
         price: "Ksh 303",
         description: "Certified cicerone Anne Becerra explains how Pilsner pioneered crisp, cold, refreshing beer when it was first brewed in the Czech Republic ...",
         image: "assets/images/real/pilsner_can.jpg",
-        isKenyan: false,
-        country: "Unknown"
+        isKenyan: true,
+        country: "Kenya"
     },
     {
         name: "Power Horse",
@@ -8628,7 +8701,7 @@ const catalogueProducts = [
         description: "OUR STORY ; 1992. The first ever Power Horse Energy Drink can is launched in Austria ; 1996. Power Horse enters Moto GP ; 1997. Power Horse sponsors Formula 1.",
         image: "assets/images/real/power_horse.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "Austria"
     },
     {
         name: "Power Play",
@@ -8638,7 +8711,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=POWER%20PLAY",
         isKenyan: false,
-        country: "Unknown"
+        country: "South Africa"
     },
     {
         name: "Predator Gold",
@@ -8648,7 +8721,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=PREDATOR%20GOLD",
         isKenyan: false,
-        country: "Unknown"
+        country: "USA"
     },
     {
         name: "Prosecco",
@@ -8658,7 +8731,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=PROSECCO",
         isKenyan: false,
-        country: "Unknown"
+        country: "Italy"
     },
     {
         name: "Q1 Gin",
@@ -8667,8 +8740,8 @@ const catalogueProducts = [
         price: "Ksh 1,125",
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=Q1%20GIN",
-        isKenyan: false,
-        country: "Unknown"
+        isKenyan: true,
+        country: "Kenya"
     },
     {
         name: "Quench Watert",
@@ -8677,8 +8750,8 @@ const catalogueProducts = [
         price: "Ksh 53",
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=QUENCH%20WATERT",
-        isKenyan: false,
-        country: "Unknown"
+        isKenyan: true,
+        country: "Kenya"
     },
     {
         name: "Rada Classic",
@@ -8688,7 +8761,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=RADA%20CLASSIC",
         isKenyan: false,
-        country: "Unknown"
+        country: "Ukraine"
     },
     {
         name: "Rebate",
@@ -8698,7 +8771,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "assets/images/real/rebate.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "Service"
     },
     {
         name: "Redbull",
@@ -8708,7 +8781,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=REDBULL",
         isKenyan: false,
-        country: "Unknown"
+        country: "Austria"
     },
     {
         name: "Redbull Sugarfree",
@@ -8718,7 +8791,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "assets/images/real/redbull_sugarfree.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "Austria"
     },
     {
         name: "Red Label Limited",
@@ -8728,7 +8801,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=RED%20LABEL%20LIMITED",
         isKenyan: false,
-        country: "Unknown"
+        country: "Scotland"
     },
     {
         name: "Red Star",
@@ -8737,8 +8810,8 @@ const catalogueProducts = [
         price: "Ksh 300",
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=RED%20STAR",
-        isKenyan: false,
-        country: "Unknown"
+        isKenyan: true,
+        country: "Kenya"
     },
     {
         name: "Remy Martin Vsopt",
@@ -8778,7 +8851,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=RENDEZ%20MOJITO",
         isKenyan: false,
-        country: "Unknown"
+        country: "Belgium"
     },
     {
         name: "Rendez Sparkling Apple",
@@ -8788,7 +8861,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "assets/images/real/rendez_sparkling_apple.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "France"
     },
     {
         name: "Rendez Sparkling Pink",
@@ -8798,7 +8871,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "assets/images/real/rendez_sparkling_pink.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "France"
     },
     {
         name: "Rendez Sparkling White",
@@ -8808,7 +8881,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=RENDEZ%20SPARKLING%20WHITE",
         isKenyan: false,
-        country: "Unknown"
+        country: "France"
     },
     {
         name: "Reserve 7 Whisky",
@@ -8818,7 +8891,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=RESERVE%207%20WHISKY",
         isKenyan: false,
-        country: "Unknown"
+        country: "India"
     },
     {
         name: "Reserve 7 Whisky",
@@ -8828,7 +8901,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=RESERVE%207%20WHISKY",
         isKenyan: false,
-        country: "Unknown"
+        country: "India"
     },
     {
         name: "Richot 1/2",
@@ -8938,7 +9011,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "assets/images/real/rooster.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "South Africa"
     },
     {
         name: "Rosso Nobile Al Cio Red",
@@ -8948,7 +9021,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=ROSSO%20NOBILE%20AL%20CIO%20RED",
         isKenyan: false,
-        country: "Unknown"
+        country: "Germany"
     },
     {
         name: "Rosso Nobile Bianco",
@@ -8958,7 +9031,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=ROSSO%20NOBILE%20BIANCO",
         isKenyan: false,
-        country: "Unknown"
+        country: "Germany"
     },
     {
         name: "Rosso Nobile  Bois Bande",
@@ -8968,7 +9041,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=ROSSO%20NOBILE%20%20BOIS%20BANDE",
         isKenyan: false,
-        country: "Unknown"
+        country: "Germany"
     },
     {
         name: "Rosso Nobile Cherry",
@@ -8978,7 +9051,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=ROSSO%20NOBILE%20CHERRY",
         isKenyan: false,
-        country: "Unknown"
+        country: "Germany"
     },
     {
         name: "Rosso Nobile Cioccolata",
@@ -8988,7 +9061,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=ROSSO%20NOBILE%20CIOCCOLATA",
         isKenyan: false,
-        country: "Unknown"
+        country: "Germany"
     },
     {
         name: "Rosso Nobile Crema",
@@ -8998,7 +9071,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "assets/images/real/rosso_nobile_crema.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "Germany"
     },
     {
         name: "Rosso Nobile Espresso",
@@ -9008,7 +9081,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "assets/images/real/rosso_nobile_espresso.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "Germany"
     },
     {
         name: "Rosso Nobile Marzipan",
@@ -9018,7 +9091,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "assets/images/real/rosso_nobile_marzipan.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "Germany"
     },
     {
         name: "Rosso Nobile Nero",
@@ -9028,7 +9101,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "assets/images/real/rosso_nobile_nero.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "Germany"
     },
     {
         name: "Rosso Nobile Nougat",
@@ -9038,7 +9111,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "assets/images/real/rosso_nobile_nougat.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "Germany"
     },
     {
         name: "Rosso Nobile Raspberry",
@@ -9048,7 +9121,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=ROSSO%20NOBILE%20RASPBERRY",
         isKenyan: false,
-        country: "Unknown"
+        country: "Germany"
     },
     {
         name: "Rothmans",
@@ -9058,7 +9131,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=ROTHMANS",
         isKenyan: false,
-        country: "Unknown"
+        country: "South Africa"
     },
     {
         name: "Rothmans Mint",
@@ -9068,7 +9141,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=ROTHMANS%20MINT",
         isKenyan: false,
-        country: "Unknown"
+        country: "South Africa"
     },
     {
         name: "Royal Arms Brdy",
@@ -9078,7 +9151,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=ROYAL%20ARMS%20BRDY",
         isKenyan: false,
-        country: "Unknown"
+        country: "India"
     },
     {
         name: "Royal Challege",
@@ -9098,7 +9171,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=ROYAL%20CIRCLE%20HONEY",
         isKenyan: false,
-        country: "Unknown"
+        country: "India"
     },
     {
         name: "Royal Circle Whisky",
@@ -9108,7 +9181,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=ROYAL%20CIRCLE%20WHISKY",
         isKenyan: false,
-        country: "Unknown"
+        country: "India"
     },
     {
         name: "Royal Dutch 12%",
@@ -9118,7 +9191,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "assets/images/real/royal_dutch_12.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "Netherlands"
     },
     {
         name: "Royal Gold Premium",
@@ -9128,7 +9201,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "assets/images/real/royal_gold_premium.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "India"
     },
     {
         name: "Royal Kingston",
@@ -9138,7 +9211,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "assets/images/real/royal_kingston.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "France"
     },
     {
         name: "Royal Legend 3/4",
@@ -9158,7 +9231,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=ROYAL%20PRIDE",
         isKenyan: false,
-        country: "Unknown"
+        country: "India"
     },
     {
         name: "Royal Stag",
@@ -9168,7 +9241,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=ROYAL%20STAG",
         isKenyan: false,
-        country: "Unknown"
+        country: "India"
     },
     {
         name: "Royal Stag",
@@ -9178,7 +9251,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=ROYAL%20STAG",
         isKenyan: false,
-        country: "Unknown"
+        country: "India"
     },
     {
         name: "Safari  Appy Fizz",
@@ -9188,7 +9261,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=safari%20%20appy%20fizz",
         isKenyan: false,
-        country: "Unknown"
+        country: "India"
     },
     {
         name: "Safari Cane",
@@ -9197,8 +9270,8 @@ const catalogueProducts = [
         price: "Ksh 338",
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=SAFARI%20CANE",
-        isKenyan: false,
-        country: "Unknown"
+        isKenyan: true,
+        country: "Kenya"
     },
     {
         name: "Safari Cane",
@@ -9207,8 +9280,8 @@ const catalogueProducts = [
         price: "Ksh 480",
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=SAFARI%20CANE",
-        isKenyan: false,
-        country: "Unknown"
+        isKenyan: true,
+        country: "Kenya"
     },
     {
         name: "Safari Cane",
@@ -9217,8 +9290,8 @@ const catalogueProducts = [
         price: "Ksh 953",
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=SAFARI%20CANE",
-        isKenyan: false,
-        country: "Unknown"
+        isKenyan: true,
+        country: "Kenya"
     },
     {
         name: "Safari Energy B",
@@ -9227,8 +9300,8 @@ const catalogueProducts = [
         price: "Ksh 60",
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=SAFARI%20ENERGY%20B",
-        isKenyan: false,
-        country: "Unknown"
+        isKenyan: true,
+        country: "Kenya"
     },
     {
         name: "Safari H2Or",
@@ -9237,8 +9310,8 @@ const catalogueProducts = [
         price: "Ksh 63",
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=SAFARI%20H2OR",
-        isKenyan: false,
-        country: "Unknown"
+        isKenyan: true,
+        country: "Kenya"
     },
     {
         name: "Safari H2O",
@@ -9247,8 +9320,8 @@ const catalogueProducts = [
         price: "Ksh 33",
         description: "A quality drink offering exceptional taste.",
         image: "assets/images/real/safari_h2o.jpg",
-        isKenyan: false,
-        country: "Unknown"
+        isKenyan: true,
+        country: "Kenya"
     },
     {
         name: "Safari Kings",
@@ -9257,8 +9330,8 @@ const catalogueProducts = [
         price: "Ksh 317",
         description: "A quality drink offering exceptional taste.",
         image: "assets/images/real/safari_kings.jpg",
-        isKenyan: false,
-        country: "Unknown"
+        isKenyan: true,
+        country: "Kenya"
     },
     {
         name: "Safari Lemonade",
@@ -9267,8 +9340,8 @@ const catalogueProducts = [
         price: "Ksh 60",
         description: "A quality drink offering exceptional taste.",
         image: "assets/images/real/safari_lemonade.jpg",
-        isKenyan: false,
-        country: "Unknown"
+        isKenyan: true,
+        country: "Kenya"
     },
     {
         name: "Safari Orange",
@@ -9277,8 +9350,8 @@ const catalogueProducts = [
         price: "Ksh 45",
         description: "A quality drink offering exceptional taste.",
         image: "assets/images/real/safari_orange.jpg",
-        isKenyan: false,
-        country: "Unknown"
+        isKenyan: true,
+        country: "Kenya"
     },
     {
         name: "Safari Whisky",
@@ -9287,8 +9360,8 @@ const catalogueProducts = [
         price: "Ksh 398",
         description: "A quality drink offering exceptional taste.",
         image: "assets/images/real/safari_whisky.jpg",
-        isKenyan: false,
-        country: "Unknown"
+        isKenyan: true,
+        country: "Kenya"
     },
     {
         name: "Safari Whisky",
@@ -9297,8 +9370,8 @@ const catalogueProducts = [
         price: "Ksh 1,170",
         description: "A quality drink offering exceptional taste.",
         image: "assets/images/real/safari_whisky.jpg",
-        isKenyan: false,
-        country: "Unknown"
+        isKenyan: true,
+        country: "Kenya"
     },
     {
         name: "Samantha Red",
@@ -9308,7 +9381,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=SAMANTHA%20RED",
         isKenyan: false,
-        country: "Unknown"
+        country: "South Africa"
     },
     {
         name: "Samantha White",
@@ -9318,7 +9391,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=SAMANTHA%20WHITE",
         isKenyan: false,
-        country: "Unknown"
+        country: "South Africa"
     },
     {
         name: "Sangria Redt",
@@ -9328,7 +9401,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=SANGRIA%20REDT",
         isKenyan: false,
-        country: "Unknown"
+        country: "Spain"
     },
     {
         name: "Sangria Whitet",
@@ -9338,7 +9411,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=SANGRIA%20WHITET",
         isKenyan: false,
-        country: "Unknown"
+        country: "Spain"
     },
     {
         name: "Savanna Dry",
@@ -9368,7 +9441,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=SCHWEPPES%20GINGER%20ALE%20CAN",
         isKenyan: false,
-        country: "Unknown"
+        country: "United Kingdom"
     },
     {
         name: "Schweppes Soda",
@@ -9378,7 +9451,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=SCHWEPPES%20SODA",
         isKenyan: false,
-        country: "Unknown"
+        country: "United Kingdom"
     },
     {
         name: "Schweppes Toni Can",
@@ -9388,7 +9461,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "assets/images/real/schweppes_toni_can.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "United Kingdom"
     },
     {
         name: "Scots Gold Blackt",
@@ -9398,7 +9471,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=SCOTS%20GOLD%20BLACKT",
         isKenyan: false,
-        country: "Unknown"
+        country: "Scotland"
     },
     {
         name: "Scots Gold Black",
@@ -9408,7 +9481,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=SCOTS%20GOLD%20BLACK",
         isKenyan: false,
-        country: "Unknown"
+        country: "Scotland"
     },
     {
         name: "Scots Gold Redtr",
@@ -9418,7 +9491,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=SCOTS%20GOLD%20REDTR",
         isKenyan: false,
-        country: "Unknown"
+        country: "Scotland"
     },
     {
         name: "Scots Gold Red",
@@ -9428,7 +9501,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=SCOTS%20GOLD%20RED",
         isKenyan: false,
-        country: "Unknown"
+        country: "Scotland"
     },
     {
         name: "Season Lemonade",
@@ -9437,8 +9510,8 @@ const catalogueProducts = [
         price: "Ksh 60",
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=SEASON%20LEMONADE",
-        isKenyan: false,
-        country: "Unknown"
+        isKenyan: true,
+        country: "Kenya"
     },
     {
         name: "Sheridans",
@@ -9448,7 +9521,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=SHERIDANS",
         isKenyan: false,
-        country: "Unknown"
+        country: "Ireland"
     },
     {
         name: "Shustoff Brdy",
@@ -9458,7 +9531,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=SHUSTOFF%20BRDY",
         isKenyan: false,
-        country: "Unknown"
+        country: "Ukraine"
     },
     {
         name: "Singleton 12Yrs",
@@ -9478,7 +9551,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=SINGLTON%2018YRS",
         isKenyan: false,
-        country: "Unknown"
+        country: "Scotland"
     },
     {
         name: "Sir Edward",
@@ -9488,7 +9561,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=SIR%20EDWARD",
         isKenyan: false,
-        country: "Unknown"
+        country: "Scotland"
     },
     {
         name: "Sir Edward Whskyt",
@@ -9498,7 +9571,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=SIR%20EDWARD%20WHSKYT",
         isKenyan: false,
-        country: "Unknown"
+        country: "Scotland"
     },
     {
         name: "Sir Edward Whsky",
@@ -9508,7 +9581,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=SIR%20EDWARD%20WHSKY",
         isKenyan: false,
-        country: "Unknown"
+        country: "Scotland"
     },
     {
         name: "Sky Vodka",
@@ -9518,7 +9591,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=SKY%20VODKA",
         isKenyan: false,
-        country: "Unknown"
+        country: "USA"
     },
     {
         name: "Smart Vodka",
@@ -9528,7 +9601,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=SMART%20VODKA",
         isKenyan: false,
-        country: "Unknown"
+        country: "USA"
     },
     {
         name: "Sminoff Vdka Flvd 3/4",
@@ -9538,7 +9611,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=SMINOFF%20VDKA%20FLVD%203/4",
         isKenyan: false,
-        country: "Unknown"
+        country: "United Kingdom"
     },
     {
         name: "Smirnoff Apple",
@@ -9697,8 +9770,8 @@ const catalogueProducts = [
         price: "Ksh 528",
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=SM%20-SWEET%20MENTHOL",
-        isKenyan: false,
-        country: "Unknown"
+        isKenyan: true,
+        country: "Kenya"
     },
     {
         name: "Snap Dry Cider",
@@ -9707,8 +9780,8 @@ const catalogueProducts = [
         price: "Ksh 367",
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=SNAP%20DRY%20CIDER",
-        isKenyan: false,
-        country: "Unknown"
+        isKenyan: true,
+        country: "Kenya"
     },
     {
         name: "Snapp Beer",
@@ -9717,8 +9790,8 @@ const catalogueProducts = [
         price: "Ksh 241",
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=SNAPP%20BEER",
-        isKenyan: false,
-        country: "Unknown"
+        isKenyan: true,
+        country: "Kenya"
     },
     {
         name: "Snapp Can",
@@ -9727,8 +9800,8 @@ const catalogueProducts = [
         price: "Ksh 267",
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=SNAPP%20CAN",
-        isKenyan: false,
-        country: "Unknown"
+        isKenyan: true,
+        country: "Kenya"
     },
     {
         name: "Soda Tonic Water",
@@ -9737,8 +9810,8 @@ const catalogueProducts = [
         price: "Ksh 99",
         description: "A quality drink offering exceptional taste.",
         image: "assets/images/real/soda_tonic_water.jpg",
-        isKenyan: false,
-        country: "Unknown"
+        isKenyan: true,
+        country: "Kenya"
     },
     {
         name: "Southern  Black",
@@ -9748,7 +9821,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "assets/images/real/southern__black.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "Scotland"
     },
     {
         name: "Southern Comfort",
@@ -9758,7 +9831,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=SOUTHERN%20COMFORT",
         isKenyan: false,
-        country: "Unknown"
+        country: "USA"
     },
     {
         name: "Southern Comfort",
@@ -9768,7 +9841,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=SOUTHERN%20COMFORT",
         isKenyan: false,
-        country: "Unknown"
+        country: "USA"
     },
     {
         name: "Southern Comfort",
@@ -9778,7 +9851,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=SOUTHERN%20COMFORT",
         isKenyan: false,
-        country: "Unknown"
+        country: "USA"
     },
     {
         name: "Southern Ocean",
@@ -9788,7 +9861,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "assets/images/real/southern_ocean.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "India"
     },
     {
         name: "Spier Carbanet",
@@ -9798,7 +9871,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=SPIER%20CARBANET",
         isKenyan: false,
-        country: "Unknown"
+        country: "South Africa"
     },
     {
         name: "Spike Vodka",
@@ -9808,7 +9881,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "assets/images/real/spike_vodka.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "USA"
     },
     {
         name: "Sportsman",
@@ -9818,7 +9891,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "assets/images/real/sportsman.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "South Africa"
     },
     {
         name: "Squadron D Rum",
@@ -9828,7 +9901,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "assets/images/real/squadron_d_rum.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "South Africa"
     },
     {
         name: "St.Anns",
@@ -9838,7 +9911,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=ST.ANNS",
         isKenyan: false,
-        country: "Unknown"
+        country: "Australia"
     },
     {
         name: "Star Brandy",
@@ -9848,7 +9921,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=STAR%20BRANDY",
         isKenyan: false,
-        country: "Unknown"
+        country: "India"
     },
     {
         name: "Blue Moon",
@@ -9858,7 +9931,7 @@ const catalogueProducts = [
         description: "A medium bodied pure blueberry wine with intense blueberry character and a wonderful blueberry finish. Extremely tasty with cheesecake.",
         image: "assets/images/real/blue_moon_750m.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "USA"
     },
     {
         name: "Gilbeys Pink",
@@ -9878,7 +9951,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GLENDALE%20WHSKY%20750M",
         isKenyan: false,
-        country: "Unknown"
+        country: "Scotland"
     },
     {
         name: "John Bannermans",
@@ -9888,7 +9961,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=JOHN%20BANNERMANS%20750M",
         isKenyan: false,
-        country: "Unknown"
+        country: "South Africa"
     },
     {
         name: "White Cap Crisp Beer",
@@ -9918,7 +9991,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "assets/images/real/star_chaser_red.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "South Africa"
     },
     {
         name: "Star Chaser Sweet Rose",
@@ -9928,7 +10001,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "assets/images/real/star_chaser_sweet_rose.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "South Africa"
     },
     {
         name: "Star Walker",
@@ -9948,7 +10021,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=ST.CELINE",
         isKenyan: false,
-        country: "Unknown"
+        country: "South Africa"
     },
     {
         name: "Stolichnaya Vdka",
@@ -9958,7 +10031,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "assets/images/real/stolichnaya_vdka.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "Latvia"
     },
     {
         name: "Strawberry Lips",
@@ -9968,7 +10041,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "assets/images/real/strawberry_lips.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "South Africa"
     },
     {
         name: "St.Remy  Vsopt",
@@ -9978,7 +10051,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=ST.REMY%20%20VSOPT",
         isKenyan: false,
-        country: "Unknown"
+        country: "France"
     },
     {
         name: "St.Remy Vsop",
@@ -9988,7 +10061,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=ST.REMY%20VSOP",
         isKenyan: false,
-        country: "Unknown"
+        country: "France"
     },
     {
         name: "St. Remy Xo",
@@ -9998,7 +10071,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=ST.%20REMY%20XO",
         isKenyan: false,
-        country: "Unknown"
+        country: "France"
     },
     {
         name: "Strettons Original Gin",
@@ -10008,7 +10081,7 @@ const catalogueProducts = [
         description: "Mit der ING haben Sie Ihre Finanzen immer im Blick - Girokonto, Kredit, Depot, Tagesgeldkonto oder Baufinanzierung: Was darf es sein für Sie?",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=STRETTONS%20ORIGINAL%20GIN",
         isKenyan: false,
-        country: "Unknown"
+        country: "South Africa"
     },
     {
         name: "Strettons Tripleberry",
@@ -10028,7 +10101,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=STRETTTONS%20WILDBERRY",
         isKenyan: false,
-        country: "Unknown"
+        country: "South Africa"
     },
     {
         name: "Summit",
@@ -10048,7 +10121,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=SUN%20CHASER%20WINE",
         isKenyan: false,
-        country: "Unknown"
+        country: "South Africa"
     },
     {
         name: "Supreme Vodka",
@@ -10057,8 +10130,8 @@ const catalogueProducts = [
         price: "Ksh 250.5",
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=SUPREME%20VODKA",
-        isKenyan: false,
-        country: "Unknown"
+        isKenyan: true,
+        country: "Kenya"
     },
     {
         name: "Supreme Vodka",
@@ -10067,8 +10140,8 @@ const catalogueProducts = [
         price: "Ksh 885",
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=SUPREME%20VODKA",
-        isKenyan: false,
-        country: "Unknown"
+        isKenyan: true,
+        country: "Kenya"
     },
     {
         name: "Sweet Berry",
@@ -10077,8 +10150,8 @@ const catalogueProducts = [
         price: "Ksh 188",
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=SWEET%20BERRY",
-        isKenyan: false,
-        country: "Unknown"
+        isKenyan: true,
+        country: "Kenya"
     },
     {
         name: "Taifa",
@@ -10087,8 +10160,8 @@ const catalogueProducts = [
         price: "Ksh 338",
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=TAIFA",
-        isKenyan: false,
-        country: "Unknown"
+        isKenyan: true,
+        country: "Kenya"
     },
     {
         name: "Taifa",
@@ -10097,8 +10170,8 @@ const catalogueProducts = [
         price: "Ksh 1005",
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=TAIFA",
-        isKenyan: false,
-        country: "Unknown"
+        isKenyan: true,
+        country: "Kenya"
     },
     {
         name: "Talisker Storm",
@@ -10298,7 +10371,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=TEACHERST",
         isKenyan: false,
-        country: "Unknown"
+        country: "Scotland"
     },
     {
         name: "Teachers",
@@ -10308,7 +10381,7 @@ const catalogueProducts = [
         description: "Download free Secondary School Editable 2026 End Term 1 Exams. Form 3, and 4 question papers with marking schemes provided. All …",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=TEACHERS",
         isKenyan: false,
-        country: "Unknown"
+        country: "Scotland"
     },
     {
         name: "Teachers",
@@ -10318,7 +10391,7 @@ const catalogueProducts = [
         description: "Download free Secondary School Editable 2026 End Term 1 Exams. Form 3, and 4 question papers with marking schemes provided. All …",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=TEACHERS",
         isKenyan: false,
-        country: "Unknown"
+        country: "Scotland"
     },
     {
         name: "Tequila Camino Clear",
@@ -10328,7 +10401,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=TEQUILA%20CAMINO%20CLEAR",
         isKenyan: false,
-        country: "Unknown"
+        country: "Mexico"
     },
     {
         name: "Tequila Camino Gold",
@@ -10338,7 +10411,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=TEQUILA%20CAMINO%20GOLD",
         isKenyan: false,
-        country: "Unknown"
+        country: "Mexico"
     },
     {
         name: "Tequila Rose",
@@ -10348,7 +10421,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=TEQUILA%20ROSE",
         isKenyan: false,
-        country: "Unknown"
+        country: "USA"
     },
     {
         name: "The Guvnor",
@@ -10358,7 +10431,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=THE%20GUVNOR",
         isKenyan: false,
-        country: "Unknown"
+        country: "Spain"
     },
     {
         name: "The Guvnor",
@@ -10368,7 +10441,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=THE%20GUVNOR",
         isKenyan: false,
-        country: "Unknown"
+        country: "Spain"
     },
     {
         name: "The Wilshire Blended Whisky",
@@ -10378,7 +10451,7 @@ const catalogueProducts = [
         description: "Pinterest is a place of endless possibilities. You can: - Discover everyday inspiration - Shop styles you love - Try and learn something new …",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=THE%20WILSHIRE%20BLENDED%20WHISKY",
         isKenyan: false,
-        country: "Unknown"
+        country: "India"
     },
     {
         name: "Three Barrelt",
@@ -10388,7 +10461,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=THREE%20BARRELT",
         isKenyan: false,
-        country: "Unknown"
+        country: "France"
     },
     {
         name: "Three Barrel",
@@ -10398,7 +10471,7 @@ const catalogueProducts = [
         description: "Jan 23, 2024 · 目前来看从画质、产品形态以及使用体验上来说，我认为这一代Pocket 3是非常非常物有所值的产品，拿到手后可以说是疯拍。 简评：超高集成 …",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=THREE%20BARREL",
         isKenyan: false,
-        country: "Unknown"
+        country: "France"
     },
     {
         name: "Tia Mariat",
@@ -10408,7 +10481,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=TIA%20MARIAT",
         isKenyan: false,
-        country: "Unknown"
+        country: "Jamaica"
     },
     {
         name: "Time Virginia Blend Bulk",
@@ -10417,8 +10490,8 @@ const catalogueProducts = [
         price: "Ksh 263",
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=TIME%20VIRGINIA%20BLEND%20BULK",
-        isKenyan: false,
-        country: "Unknown"
+        isKenyan: true,
+        country: "Kenya"
     },
     {
         name: "Top Secret",
@@ -10427,8 +10500,8 @@ const catalogueProducts = [
         price: "Ksh 390",
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=TOP%20SECRET",
-        isKenyan: false,
-        country: "Unknown"
+        isKenyan: true,
+        country: "Kenya"
     },
     {
         name: "Top Secret",
@@ -10437,8 +10510,8 @@ const catalogueProducts = [
         price: "Ksh 1095",
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=TOP%20SECRET",
-        isKenyan: false,
-        country: "Unknown"
+        isKenyan: true,
+        country: "Kenya"
     },
     {
         name: "Torrero",
@@ -10448,7 +10521,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=TORRERO",
         isKenyan: false,
-        country: "Unknown"
+        country: "South Africa"
     },
     {
         name: "Torrero Liquer",
@@ -10458,7 +10531,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=TORRERO%20LIQUER",
         isKenyan: false,
-        country: "Unknown"
+        country: "South Africa"
     },
     {
         name: "Tr",
@@ -10467,8 +10540,8 @@ const catalogueProducts = [
         price: "Ksh 3225",
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=TR",
-        isKenyan: false,
-        country: "Unknown"
+        isKenyan: true,
+        country: "Kenya"
     },
     {
         name: "Trace Vodka",
@@ -10477,8 +10550,8 @@ const catalogueProducts = [
         price: "Ksh 255",
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=TRACE%20VODKA",
-        isKenyan: false,
-        country: "Unknown"
+        isKenyan: true,
+        country: "Kenya"
     },
     {
         name: "Triple Ace",
@@ -10618,7 +10691,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=UGIN%20MANGO",
         isKenyan: false,
-        country: "Unknown"
+        country: "South Africa"
     },
     {
         name: "Uprise Whsky Flvd",
@@ -10627,8 +10700,8 @@ const catalogueProducts = [
         price: "Ksh 368",
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=UPRISE%20WHSKY%20FLVD",
-        isKenyan: false,
-        country: "Unknown"
+        isKenyan: true,
+        country: "Kenya"
     },
     {
         name: "Urban Whiskey",
@@ -10637,8 +10710,8 @@ const catalogueProducts = [
         price: "Ksh 1403",
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=URBAN%20WHISKEY",
-        isKenyan: false,
-        country: "Unknown"
+        isKenyan: true,
+        country: "Kenya"
     },
     {
         name: "V& A 1/4",
@@ -10647,8 +10720,8 @@ const catalogueProducts = [
         price: "Ksh 443",
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=V%26%20A%201/4",
-        isKenyan: false,
-        country: "Unknown"
+        isKenyan: true,
+        country: "Kenya"
     },
     {
         name: "V& A",
@@ -10668,7 +10741,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=VAT",
         isKenyan: false,
-        country: "Unknown"
+        country: "Scotland"
     },
     {
         name: "Vat 69T",
@@ -10708,7 +10781,7 @@ const catalogueProducts = [
         description: "现在已经没有任何区别，VELO和美国线下开的华美已经合并了，使用同一个数据库。 2018年11月，我在美国旧金山唐人街的华美银行网点开了户。VELO上线以 …",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=VELO%20%20CANS",
         isKenyan: false,
-        country: "Unknown"
+        country: "United Kingdom"
     },
     {
         name: "Velo Sarchets",
@@ -10718,7 +10791,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=VELO%20SARCHETS",
         isKenyan: false,
-        country: "Unknown"
+        country: "United Kingdom"
     },
     {
         name: "Versus Red Wine",
@@ -10728,7 +10801,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=VERSUS%20RED%20WINE",
         isKenyan: false,
-        country: "Unknown"
+        country: "South Africa"
     },
     {
         name: "Versus White",
@@ -10738,7 +10811,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=VERSUS%20WHITE",
         isKenyan: false,
-        country: "Unknown"
+        country: "South Africa"
     },
     {
         name: "Viceroy 10Yrs",
@@ -10787,8 +10860,8 @@ const catalogueProducts = [
         price: "Ksh 132",
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=VIENA%20ICE",
-        isKenyan: false,
-        country: "Unknown"
+        isKenyan: true,
+        country: "Kenya"
     },
     {
         name: "Viva Vodka",
@@ -10807,8 +10880,8 @@ const catalogueProducts = [
         price: "Ksh 255",
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=VODKA%20LEMONADE%20CAN",
-        isKenyan: false,
-        country: "Unknown"
+        isKenyan: true,
+        country: "Kenya"
     },
     {
         name: "Waragi",
@@ -10818,7 +10891,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=WARAGI",
         isKenyan: false,
-        country: "Unknown"
+        country: "Uganda"
     },
     {
         name: "Wave Dancer Wine",
@@ -10828,7 +10901,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=WAVE%20DANCER%20WINE",
         isKenyan: false,
-        country: "Unknown"
+        country: "South Africa"
     },
     {
         name: "White Cap Beer",
@@ -10858,7 +10931,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=WHITE%20HOUSE",
         isKenyan: false,
-        country: "Unknown"
+        country: "India"
     },
     {
         name: "White House",
@@ -10868,7 +10941,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=WHITE%20HOUSE",
         isKenyan: false,
-        country: "Unknown"
+        country: "India"
     },
     {
         name: "White Lace Gin",
@@ -10878,7 +10951,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=WHITE%20LACE%20GIN",
         isKenyan: false,
-        country: "Unknown"
+        country: "South Africa"
     },
     {
         name: "White Mischief",
@@ -10888,7 +10961,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=WHITE%20MISCHIEF",
         isKenyan: false,
-        country: "Unknown"
+        country: "India"
     },
     {
         name: "White Owl",
@@ -10898,7 +10971,7 @@ const catalogueProducts = [
         description: "Dec 18, 2025 · “Grand Theft Auto V Enhanced & Great White Shark Card”是《侠盗猎车手5 增强版》与《大白鲨充值卡》的组合版本。以下为详细介 …",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=WHITE%20OWL",
         isKenyan: false,
-        country: "Unknown"
+        country: "Canada"
     },
     {
         name: "White Pearl",
@@ -10907,8 +10980,8 @@ const catalogueProducts = [
         price: "Ksh 339",
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=WHITE%20PEARL",
-        isKenyan: false,
-        country: "Unknown"
+        isKenyan: true,
+        country: "Kenya"
     },
     {
         name: "White Pearl",
@@ -10917,8 +10990,8 @@ const catalogueProducts = [
         price: "Ksh 1020",
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=WHITE%20PEARL",
-        isKenyan: false,
-        country: "Unknown"
+        isKenyan: true,
+        country: "Kenya"
     },
     {
         name: "White Pearl Pink",
@@ -10927,8 +11000,8 @@ const catalogueProducts = [
         price: "Ksh 339",
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=WHITE%20PEARL%20PINK",
-        isKenyan: false,
-        country: "Unknown"
+        isKenyan: true,
+        country: "Kenya"
     },
     {
         name: "White Pearl Pink",
@@ -10937,8 +11010,8 @@ const catalogueProducts = [
         price: "Ksh 1020",
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=WHITE%20PEARL%20PINK",
-        isKenyan: false,
-        country: "Unknown"
+        isKenyan: true,
+        country: "Kenya"
     },
     {
         name: "White Pearl Xtra",
@@ -10947,8 +11020,8 @@ const catalogueProducts = [
         price: "Ksh 339",
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=WHITE%20PEARL%20XTRA",
-        isKenyan: false,
-        country: "Unknown"
+        isKenyan: true,
+        country: "Kenya"
     },
     {
         name: "White Pearl Xtra",
@@ -10957,8 +11030,8 @@ const catalogueProducts = [
         price: "Ksh 1020",
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=WHITE%20PEARL%20XTRA",
-        isKenyan: false,
-        country: "Unknown"
+        isKenyan: true,
+        country: "Kenya"
     },
     {
         name: "Whytehall Firet",
@@ -10968,7 +11041,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=WHYTEHALL%20FIRET",
         isKenyan: false,
-        country: "Unknown"
+        country: "India"
     },
     {
         name: "Whythall Honey",
@@ -10978,7 +11051,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=WHYTHALL%20HONEY",
         isKenyan: false,
-        country: "Unknown"
+        country: "India"
     },
     {
         name: "Wild Africa Cream",
@@ -10988,7 +11061,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=WILD%20AFRICA%20CREAM",
         isKenyan: false,
-        country: "Unknown"
+        country: "South Africa"
     },
     {
         name: "Wild Turkeyt",
@@ -10998,7 +11071,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "assets/images/real/wild_turkeyt.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "USA"
     },
     {
         name: "Wild Turkey 750",
@@ -11008,7 +11081,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "assets/images/real/wild_turkey_750.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "USA"
     },
     {
         name: "William Can",
@@ -11018,7 +11091,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=WILLIAM%20CAN",
         isKenyan: false,
-        country: "Unknown"
+        country: "Scotland"
     },
     {
         name: "William Can Cola",
@@ -11028,7 +11101,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "assets/images/real/william_can_cola.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "Scotland"
     },
     {
         name: "William Lawsont",
@@ -11038,7 +11111,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "assets/images/real/william_lawsont.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "Scotland"
     },
     {
         name: "Williamsont",
@@ -11048,7 +11121,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=WILLIAMSONT",
         isKenyan: false,
-        country: "Unknown"
+        country: "Scotland"
     },
     {
         name: "William Son",
@@ -11058,7 +11131,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=WILLIAM%20SON",
         isKenyan: false,
-        country: "Unknown"
+        country: "Scotland"
     },
     {
         name: "William Spcd",
@@ -11068,7 +11141,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=WILLIAM%20SPCD",
         isKenyan: false,
-        country: "Unknown"
+        country: "Scotland"
     },
     {
         name: "William Wson",
@@ -11078,7 +11151,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "assets/images/real/william_wson.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "Scotland"
     },
     {
         name: "Wilson Whisky",
@@ -11088,7 +11161,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "assets/images/real/wilson_whisky.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "Scotland"
     },
     {
         name: "Windhoek Draught",
@@ -11118,7 +11191,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=XO%20BRANDY",
         isKenyan: false,
-        country: "Unknown"
+        country: "France"
     },
     {
         name: "Xo Brandy",
@@ -11128,7 +11201,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=XO%20BRANDY",
         isKenyan: false,
-        country: "Unknown"
+        country: "France"
     },
     {
         name: "Yatta Mangot",
@@ -11178,7 +11251,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=ZANZI%20CREAM%20LQ",
         isKenyan: false,
-        country: "Unknown"
+        country: "South Africa"
     },
     {
         name: "Zappa Black",
@@ -11454,8 +11527,8 @@ function initShop() {
 
             const kenyanBadge = (product.isKenyan === true || String(product.isKenyan) === 'true')
                 ? `<div class="kenyan-flag-badge">
-                        <img src="https://flagcdn.com/w20/ke.png" class="kenyan-flag-img" alt="Kenya">
-                        <span>254 Elite</span>
+                        <img src="https://flagcdn.com/w80/ke.png" class="kenyan-flag-img" alt="Kenya">
+                        <span class="badg-text">KENYAN PRIDE</span>
                    </div>`
                 : '';
 
