@@ -1,5 +1,5 @@
 // Base WhatsApp Number (Format: 254XXXXXXXXX)
-const WA_PHONE = '254700000000'; // Replace with actual number
+const WA_PHONE = '254141024938';
 
 // Age Verification Logic
 function initAgeGate() {
