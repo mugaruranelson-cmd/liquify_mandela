@@ -228,7 +228,7 @@ const catalogueProducts = [
         description: "KO 58 gin Spiced Orange is a light refreshing citrus-forward gin. It is made with ingredients grown in Kenya including; Orange, Dried Mango, Chilli and Turmeric ...",
         image: "assets/images/real/58_spiced_orange.jpg",
         isKenyan: true,
-        country: "Unknown"
+        country: "Kenya"
     },
     {
         name: "58 Spiced Orange",
@@ -238,7 +238,7 @@ const catalogueProducts = [
         description: "KO 58 gin Spiced Orange is a light refreshing citrus-forward gin. It is made with ingredients grown in Kenya including; Orange, Dried Mango, Chilli and Turmeric ...",
         image: "assets/images/real/58_spiced_orange.jpg",
         isKenyan: true,
-        country: "Unknown"
+        country: "Kenya"
     },
     {
         name: "58 Spiced Orange G&T Can",
@@ -248,7 +248,7 @@ const catalogueProducts = [
         description: "58 Gin Spiced Orange 750ml is a popular Kenyan Gin mostly taken during special occasions. It contains 40% alcohol. Best enjoyed with grilled chicken, ...",
         image: "assets/images/real/58_spiced_orange_g_t_can.jpg",
         isKenyan: true,
-        country: "Unknown"
+        country: "Kenya"
     },
     {
         name: "58 Very Berry G&T Can",
@@ -258,7 +258,7 @@ const catalogueProducts = [
         description: "5.8 Gin & Tonic Very Berry 330ml ; Country of Origin. Kenya ; Alcohol Content. 5% ; Flavours & Spices. Berries ; Size. 330ml ; EAN, 5065010192713 ...",
         image: "assets/images/real/58_very_berry_g_t_can.jpg",
         isKenyan: true,
-        country: "Unknown"
+        country: "Kenya"
     },
     {
         name: "5Th Generationtr Red",
@@ -488,7 +488,7 @@ const catalogueProducts = [
         description: "afia Energy drink is a product of Kevian Kenya Ltd, your trusted home of pure African delights . For more info; www.afiaea.co.ke ...",
         image: "assets/images/real/afia_energy.jpg",
         isKenyan: true,
-        country: "Unknown"
+        country: "Kenya"
     },
     {
         name: "Afribullcafe",
@@ -688,7 +688,7 @@ const catalogueProducts = [
         description: "The Aquila Liqueurs distillery, founded in 1992, reached a remarkable development in a short time in the Albanian market. In its beginnings, a new modern plant ...",
         image: "assets/images/real/aqula.jpg",
         isKenyan: false,
-        country: "Albania"
+        country: "Unknown"
     },
     {
         name: "Arcadia Rum",
@@ -698,7 +698,7 @@ const catalogueProducts = [
         description: "Acadian is a grassy and vegetal spirit with a citrus spark and notes of warm hay and green pears. It is plays well in cocktails designed for agricole and cacha ...",
         image: "assets/images/real/arcadia_rum.jpg",
         isKenyan: false,
-        country: "France"
+        country: "Unknown"
     },
     {
         name: "Arcadia Whisky",
@@ -708,7 +708,7 @@ const catalogueProducts = [
         description: "Browse our handpicked collections of premium whiskey, wine, and spirits. Shop exclusive liquor selections, curated for your taste from ARCADIA WINE ...",
         image: "assets/images/real/arcadia_whisky.jpg",
         isKenyan: false,
-        country: "France"
+        country: "Unknown"
     },
     {
         name: "Arcadia White Swt",
@@ -798,7 +798,7 @@ const catalogueProducts = [
         description: "Alcohol Content: 40% ; Type: Dry Gin ; Origin: Kenya ; Colour: Clear ; Perfect For: Mixing in cocktails, sipping, or pairing with tonic and garnishes for a ...",
         image: "assets/images/real/aspera_gin.jpg",
         isKenyan: true,
-        country: "Unknown"
+        country: "Kenya"
     },
     {
         name: "Aspera Gin",
@@ -808,7 +808,7 @@ const catalogueProducts = [
         description: "Alcohol Content: 40% ; Type: Dry Gin ; Origin: Kenya ; Colour: Clear ; Perfect For: Mixing in cocktails, sipping, or pairing with tonic and garnishes for a ...",
         image: "assets/images/real/aspera_gin.jpg",
         isKenyan: true,
-        country: "Unknown"
+        country: "Kenya"
     },
     {
         name: "Atlas 12 %",
@@ -1098,7 +1098,7 @@ const catalogueProducts = [
         description: "With its origins in the UK, Qube brings a unique blend of excellence and refreshment to the Kenyan market. Join the Qube Movement: A Stellar Addition to Kenya's ...",
         image: "assets/images/real/base_qube_energy.jpg",
         isKenyan: true,
-        country: "Unknown"
+        country: "Kenya"
     },
     {
         name: "Bavaria(8.6)",
@@ -1678,7 +1678,7 @@ const catalogueProducts = [
         description: "The original Bond Seven Whisky was distilled & bottled in warehouse No. 7 of Milne & Co, wine merchants in South Australia during the 1950s.",
         image: "assets/images/real/bond7.jpg",
         isKenyan: true,
-        country: "Unknown"
+        country: "Kenya"
     },
     {
         name: "Bond7",
@@ -1688,7 +1688,7 @@ const catalogueProducts = [
         description: "The original Bond Seven Whisky was distilled & bottled in warehouse No. 7 of Milne & Co, wine merchants in South Australia during the 1950s.",
         image: "assets/images/real/bond7.jpg",
         isKenyan: true,
-        country: "Unknown"
+        country: "Kenya"
     },
     {
         name: "Bond7",
@@ -1698,7 +1698,7 @@ const catalogueProducts = [
         description: "The original Bond Seven Whisky was distilled & bottled in warehouse No. 7 of Milne & Co, wine merchants in South Australia during the 1950s.",
         image: "assets/images/real/bond7.jpg",
         isKenyan: true,
-        country: "Unknown"
+        country: "Kenya"
     },
     {
         name: "Bonne Esperance Dry Reditre",
@@ -2098,7 +2098,7 @@ const catalogueProducts = [
         description: "Caribia is a finely crafted smooth cane spirit that is designed to mirror the progressive attitudes and behaviours of the Kenyan Millennial.",
         image: "assets/images/real/caribia_cane.jpg",
         isKenyan: true,
-        country: "Unknown"
+        country: "Kenya"
     },
     {
         name: "Caribia Cane",
@@ -2108,7 +2108,7 @@ const catalogueProducts = [
         description: "Caribia is a finely crafted smooth cane spirit that is designed to mirror the progressive attitudes and behaviours of the Kenyan Millennial.",
         image: "assets/images/real/caribia_cane.jpg",
         isKenyan: true,
-        country: "Unknown"
+        country: "Kenya"
     },
     {
         name: "Caribia Gin",
@@ -2118,7 +2118,7 @@ const catalogueProducts = [
         description: "Caribia Gin 750ml is a popular gin from Kenya mostly taken during special occasions. It is a well-balanced gin with an incredibly smooth palate.",
         image: "assets/images/real/caribia_gin.jpg",
         isKenyan: true,
-        country: "Unknown"
+        country: "Kenya"
     },
     {
         name: "Caribia Gin",
@@ -2128,7 +2128,7 @@ const catalogueProducts = [
         description: "Caribia Gin 750ml is a popular gin from Kenya mostly taken during special occasions. It is a well-balanced gin with an incredibly smooth palate.",
         image: "assets/images/real/caribia_gin.jpg",
         isKenyan: true,
-        country: "Unknown"
+        country: "Kenya"
     },
     {
         name: "Caribia Gin",
@@ -2138,7 +2138,7 @@ const catalogueProducts = [
         description: "Caribia Gin 750ml is a popular gin from Kenya mostly taken during special occasions. It is a well-balanced gin with an incredibly smooth palate.",
         image: "assets/images/real/caribia_gin.jpg",
         isKenyan: true,
-        country: "Unknown"
+        country: "Kenya"
     },
     {
         name: "Carlo Rossit",
@@ -6098,7 +6098,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KANE%20EXTRA",
         isKenyan: true,
-        country: "Unknown"
+        country: "Kenya"
     },
     {
         name: "Kane Extra Gold",
@@ -6108,7 +6108,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KANE%20EXTRA%20GOLD",
         isKenyan: true,
-        country: "Unknown"
+        country: "Kenya"
     },
     {
         name: "Karigen Watert",
@@ -10658,7 +10658,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=V%26%20A",
         isKenyan: true,
-        country: "Unknown"
+        country: "Kenya"
     },
     {
         name: "Vat",
