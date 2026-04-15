@@ -11452,6 +11452,13 @@ function initShop() {
                 ? `<div class="country-tag"><i class="fas fa-globe-africa"></i> ${product.country}</div>` 
                 : '';
 
+            const kenyanBadge = (product.isKenyan === true || String(product.isKenyan) === 'true')
+                ? `<div class="kenyan-flag-badge">
+                        <img src="https://flagcdn.com/w20/ke.png" class="kenyan-flag-img" alt="Kenya">
+                        <span>254 Elite</span>
+                   </div>`
+                : '';
+
             const col = document.createElement('div');
             col.className = 'product-card product-item reveal active';
             col.setAttribute('data-category', product.category);
@@ -11459,6 +11466,7 @@ function initShop() {
             
             col.innerHTML = `
                 <div class="product-image">
+                    ${kenyanBadge}
                     <img src="${product.image}" alt="${product.name}" style="border-radius: 10px; max-height: 200px; object-fit: contain;" loading="lazy">
                 </div>
                 <div class="product-info">

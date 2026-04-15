@@ -989,3 +989,40 @@ footer {
     padding: 4rem 2rem;
     color: var(--text-muted);
 }
+
+/* Kenyan Flag Badge Overlay */
+.product-image {
+    position: relative;
+}
+
+.kenyan-flag-badge {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(4px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 4px 8px;
+    border-radius: 20px;
+    z-index: 5;
+    pointer-events: none;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+.kenyan-flag-img {
+    width: 18px;
+    height: 12px;
+    object-fit: cover;
+    border-radius: 2px;
+}
+
+.kenyan-flag-badge span {
+    font-size: 0.7rem;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
