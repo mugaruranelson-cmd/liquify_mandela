@@ -11233,6 +11233,20 @@ const catalogueProducts = [
 ];
 /* CATALOGUE_END */
 
+// Randomized (Shuffle) Arrangement Logic
+function shuffleArray(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
+    }
+    return array;
+}
+
+// Randomize the entire catalogue on every page load
+if (typeof catalogueProducts !== 'undefined' && Array.isArray(catalogueProducts)) {
+    shuffleArray(catalogueProducts);
+}
+
 // Initialize Global Collections for Home Page
 function initGlobalCollections() {
     const tabsContainer = document.getElementById('country-tabs');
