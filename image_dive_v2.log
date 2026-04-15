@@ -5627,3 +5627,93 @@ Context leak detected, CoreAnalytics returned false
  SUCCESS
 [16/50] DIVE: William Lawsont.../Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/fix_bottle_images.py:29: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
   with DDGS() as ddgs:
+Context leak detected, CoreAnalytics returned false
+Context leak detected, CoreAnalytics returned false
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/venv/lib/python3.9/site-packages/rembg/sessions/u2net.py:44: DeprecationWarning: 'mode' parameter is deprecated and will be removed in Pillow 13 (2026-10-15)
+  mask = Image.fromarray((pred * 255).astype("uint8"), mode="L")
+ SUCCESS
+[17/50] DIVE: Williamsont.../Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/fix_bottle_images.py:29: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [DDG FAIL] Williamsont: https://duckduckgo.com/?q=Williamsont+transparent+png+bottle 202 Ratelimit
+ NO IMAGE FOUND
+[17/50] DIVE: William Son.../Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/fix_bottle_images.py:29: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [DDG FAIL] William Son: https://duckduckgo.com/?q=William+Son+liquor+product+photography 202 Ratelimit
+ NO IMAGE FOUND
+[17/50] DIVE: William Spcd.../Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/fix_bottle_images.py:29: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [PROCESS FAIL] william_spcd: cannot identify image file <_io.BytesIO object at 0x11e94de00>
+ IMAGE PROCESSING FAIL
+[17/50] DIVE: William Wson.../Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/fix_bottle_images.py:29: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+Context leak detected, CoreAnalytics returned false
+Context leak detected, CoreAnalytics returned false
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/venv/lib/python3.9/site-packages/rembg/sessions/u2net.py:44: DeprecationWarning: 'mode' parameter is deprecated and will be removed in Pillow 13 (2026-10-15)
+  mask = Image.fromarray((pred * 255).astype("uint8"), mode="L")
+ SUCCESS
+[18/50] DIVE: Wilson Whisky.../Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/fix_bottle_images.py:29: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+Context leak detected, CoreAnalytics returned false
+Context leak detected, CoreAnalytics returned false
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/venv/lib/python3.9/site-packages/rembg/sessions/u2net.py:44: DeprecationWarning: 'mode' parameter is deprecated and will be removed in Pillow 13 (2026-10-15)
+  mask = Image.fromarray((pred * 255).astype("uint8"), mode="L")
+ SUCCESS
+[19/50] DIVE: Windhoek Draught.../Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/fix_bottle_images.py:29: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+Context leak detected, CoreAnalytics returned false
+Context leak detected, CoreAnalytics returned false
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/venv/lib/python3.9/site-packages/rembg/sessions/u2net.py:44: DeprecationWarning: 'mode' parameter is deprecated and will be removed in Pillow 13 (2026-10-15)
+  mask = Image.fromarray((pred * 255).astype("uint8"), mode="L")
+ SUCCESS
+[20/50] DIVE: Windhoek Lager.../Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/fix_bottle_images.py:29: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+Context leak detected, CoreAnalytics returned false
+Context leak detected, CoreAnalytics returned false
+/Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/venv/lib/python3.9/site-packages/rembg/sessions/u2net.py:44: DeprecationWarning: 'mode' parameter is deprecated and will be removed in Pillow 13 (2026-10-15)
+  mask = Image.fromarray((pred * 255).astype("uint8"), mode="L")
+ SUCCESS
+[21/50] DIVE: Xo Brandy.../Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/fix_bottle_images.py:29: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [DDG FAIL] Xo Brandy: https://duckduckgo.com/i.js?o=json&q=Xo+Brandy+liquor+product+photography&l=us-en&vqd=4-72788926672837017800148194260023310917&p=1&f=%2C%2C%2C%2C%2C 403 Ratelimit
+ NO IMAGE FOUND
+[21/50] DIVE: Xo Brandy.../Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/fix_bottle_images.py:29: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [DDG FAIL] Xo Brandy: https://duckduckgo.com/i.js?o=json&q=Xo+Brandy+liquor+product+photography&l=us-en&vqd=4-72788926672837017800148194260023310917&p=1&f=%2C%2C%2C%2C%2C 403 Ratelimit
+ NO IMAGE FOUND
+[21/50] DIVE: Yatta  Tropical.../Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/fix_bottle_images.py:29: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [DDG FAIL] Yatta  Tropical: https://duckduckgo.com/i.js?o=json&q=Yatta++Tropical+transparent+png+bottle&l=us-en&vqd=4-217253871127880078873873964354639725983&p=1&f=%2C%2C%2C%2C%2C 403 Ratelimit
+ NO IMAGE FOUND
+[21/50] DIVE: Zanzi Cream Lq.../Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/fix_bottle_images.py:29: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [DDG FAIL] Zanzi Cream Lq: https://duckduckgo.com/i.js?o=json&q=Zanzi+Cream+Lq+bottle+shot+high+resolution&l=us-en&vqd=4-198217466865276014445614639058792385902&p=1&f=%2C%2C%2C%2C%2C 403 Ratelimit
+ NO IMAGE FOUND
+[21/50] DIVE: Zappa Black.../Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/fix_bottle_images.py:29: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [DDG FAIL] Zappa Black: https://duckduckgo.com/i.js?o=json&q=Zappa+Black+bottle+shot+high+resolution&l=us-en&vqd=4-274895446037536353502494077948614781498&p=1&f=%2C%2C%2C%2C%2C 403 Ratelimit
+ NO IMAGE FOUND
+[21/50] DIVE: Zappa Blue.../Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/fix_bottle_images.py:29: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [DDG FAIL] Zappa Blue: https://duckduckgo.com/?q=Zappa+Blue+transparent+png+bottle 202 Ratelimit
+ NO IMAGE FOUND
+[21/50] DIVE: Zappa Clear.../Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/fix_bottle_images.py:29: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [DDG FAIL] Zappa Clear: https://duckduckgo.com/i.js?o=json&q=Zappa+Clear+bottle+shot+high+resolution&l=us-en&vqd=4-243269135511534640863393996328874468407&p=1&f=%2C%2C%2C%2C%2C 403 Ratelimit
+ NO IMAGE FOUND
+[21/50] DIVE: Zappa Green.../Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/fix_bottle_images.py:29: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [DDG FAIL] Zappa Green: https://duckduckgo.com/i.js?o=json&q=Zappa+Green+bottle+shot+high+resolution&l=us-en&vqd=4-165300204729777836025066667314755345717&p=1&f=%2C%2C%2C%2C%2C 403 Ratelimit
+ NO IMAGE FOUND
+[21/50] DIVE: Zappa Red.../Users/mac/Documents/ANTIGRAVITY/LIQUIFY_Sales_Website/fix_bottle_images.py:29: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+  [DDG FAIL] Zappa Red: https://duckduckgo.com/i.js?o=json&q=Zappa+Red+liquor+product+photography&l=us-en&vqd=4-85443655401515498875388315204046521381&p=1&f=%2C%2C%2C%2C%2C 403 Ratelimit
+ NO IMAGE FOUND
+[main e1abfb0] feat: deep image dive - perfected 20 bottles
+ 6 files changed, 14 insertions(+), 14 deletions(-)
+ create mode 100644 assets/images/real/william_lawsont.jpg
+ create mode 100644 assets/images/real/william_wson.jpg
+ create mode 100644 assets/images/real/wilson_whisky.jpg
+ create mode 100644 assets/images/real/windhoek_draught.jpg
+ create mode 100644 assets/images/real/windhoek_lager.jpg
+To https://github.com/mugaruranelson-cmd/liquify_mandela.git
+   f04fdc4..e1abfb0  main -> main

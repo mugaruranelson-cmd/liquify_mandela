@@ -228,7 +228,7 @@ const catalogueProducts = [
         description: "KO 58 gin Spiced Orange is a light refreshing citrus-forward gin. It is made with ingredients grown in Kenya including; Orange, Dried Mango, Chilli and Turmeric ...",
         image: "assets/images/real/58_spiced_orange.jpg",
         isKenyan: true,
-        country: "Kenya"
+        country: "Unknown"
     },
     {
         name: "58 Spiced Orange",
@@ -238,7 +238,7 @@ const catalogueProducts = [
         description: "KO 58 gin Spiced Orange is a light refreshing citrus-forward gin. It is made with ingredients grown in Kenya including; Orange, Dried Mango, Chilli and Turmeric ...",
         image: "assets/images/real/58_spiced_orange.jpg",
         isKenyan: true,
-        country: "Kenya"
+        country: "Unknown"
     },
     {
         name: "58 Spiced Orange G&T Can",
@@ -248,7 +248,7 @@ const catalogueProducts = [
         description: "58 Gin Spiced Orange 750ml is a popular Kenyan Gin mostly taken during special occasions. It contains 40% alcohol. Best enjoyed with grilled chicken, ...",
         image: "assets/images/real/58_spiced_orange_g_t_can.jpg",
         isKenyan: true,
-        country: "Kenya"
+        country: "Unknown"
     },
     {
         name: "58 Very Berry G&T Can",
@@ -258,7 +258,7 @@ const catalogueProducts = [
         description: "5.8 Gin & Tonic Very Berry 330ml ; Country of Origin. Kenya ; Alcohol Content. 5% ; Flavours & Spices. Berries ; Size. 330ml ; EAN, 5065010192713 ...",
         image: "assets/images/real/58_very_berry_g_t_can.jpg",
         isKenyan: true,
-        country: "Kenya"
+        country: "Unknown"
     },
     {
         name: "5Th Generationtr Red",
@@ -428,7 +428,7 @@ const catalogueProducts = [
         description: "99 Rosas Tempranillo - Cabernet Sauvignon is produced on our Estate from organically grown grapes. Night harvested and cold macerated before fermenting. TASTING ...",
         image: "assets/images/real/99_rosas_temp_cab_sauv.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "Spain"
     },
     {
         name: "Absolute (Pernod)",
@@ -478,7 +478,7 @@ const catalogueProducts = [
         description: "AC Black Whisky is produced from a blend of imported scotch malts and selected Indian spirits. That same website tells me this is a semi-premium IMFL spirit.",
         image: "assets/images/real/ac_black.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "India"
     },
     {
         name: "Afia Energy",
@@ -488,7 +488,7 @@ const catalogueProducts = [
         description: "afia Energy drink is a product of Kevian Kenya Ltd, your trusted home of pure African delights . For more info; www.afiaea.co.ke ...",
         image: "assets/images/real/afia_energy.jpg",
         isKenyan: true,
-        country: "Kenya"
+        country: "Unknown"
     },
     {
         name: "Afribullcafe",
@@ -497,8 +497,8 @@ const catalogueProducts = [
         price: "Ksh 2,070",
         description: "Afri Bull Cafe Rum is a premium dark rum under the Afri Bull brand, expertly crafted in India. This rum has an Alcohol by Volume (ABV) of 45.0. Ideal for ...",
         image: "assets/images/real/afribullcafe.jpg",
-        isKenyan: false,
-        country: "Unknown"
+        isKenyan: true,
+        country: "Kenya"
     },
     {
         name: "Air Vodka",
@@ -528,7 +528,7 @@ const catalogueProducts = [
         description: "Created from the Douro Superior traditional grapes, this vinegar matured in oak barrels, providing a rounded and fresh taste. Ingredients: Wine vinegar, water,.",
         image: "assets/images/real/alandra_white.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "Portugal"
     },
     {
         name: "All Seasons Whisky",
@@ -538,7 +538,7 @@ const catalogueProducts = [
         description: "Description : All Seasons is an Indian whiskey brand launched by Oasis Group India. All-Season is India's fastest-growing brand of whiskey, ...",
         image: "assets/images/real/all_seasons_whisky.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "India"
     },
     {
         name: "All Seasons Whisky",
@@ -548,7 +548,7 @@ const catalogueProducts = [
         description: "Description : All Seasons is an Indian whiskey brand launched by Oasis Group India. All-Season is India's fastest-growing brand of whiskey, ...",
         image: "assets/images/real/all_seasons_whisky.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "India"
     },
     {
         name: "All Seasons Whsky",
@@ -558,7 +558,7 @@ const catalogueProducts = [
         description: "All Seasons is an Indian whiskey brand launched by Oasis Group India. Oasis Group is one of the top player amongst the emerging Indian spirits market with their ...",
         image: "assets/images/real/all_seasons_whsky.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "India"
     },
     {
         name: "All Seasons Whsky",
@@ -568,7 +568,7 @@ const catalogueProducts = [
         description: "All Seasons is an Indian whiskey brand launched by Oasis Group India. Oasis Group is one of the top player amongst the emerging Indian spirits market with their ...",
         image: "assets/images/real/all_seasons_whsky.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "India"
     },
     {
         name: "Allsops Beer",
@@ -598,7 +598,7 @@ const catalogueProducts = [
         description: "The Amani Bay Sweet Red is an easy drinking blend with plenty of berry fruit flavors. The palate entrance is soft and smooth with ripe tannins that balance ...",
         image: "assets/images/real/amani_sweet_red.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "South Africa"
     },
     {
         name: "Amani Sweet White",
@@ -608,7 +608,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "assets/images/real/amani_sweet_white.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "South Africa"
     },
     {
         name: "Amarula",
@@ -648,7 +648,7 @@ const catalogueProducts = [
         description: "Analivia Sauvignon Blanc is made in our Pagos del Rey winery in Rueda, in the province of Valladolid. Sauvignon Blanc is an international variety originally ...",
         image: "assets/images/real/analivia_sav.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "Spain"
     },
     {
         name: "Angostura Bitters",
@@ -658,7 +658,7 @@ const catalogueProducts = [
         description: "The bitters were first produced in the namesake town of Angostura (now Ciudad Bolívar, Venezuela) but do not contain angostura bark. The bottle is recognisable ...",
         image: "assets/images/real/angostura_bitters.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "Trinidad and Tobago"
     },
     {
         name: "Annabelle Cuvee Rose",
@@ -688,7 +688,7 @@ const catalogueProducts = [
         description: "The Aquila Liqueurs distillery, founded in 1992, reached a remarkable development in a short time in the Albanian market. In its beginnings, a new modern plant ...",
         image: "assets/images/real/aqula.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "Albania"
     },
     {
         name: "Arcadia Rum",
@@ -698,7 +698,7 @@ const catalogueProducts = [
         description: "Acadian is a grassy and vegetal spirit with a citrus spark and notes of warm hay and green pears. It is plays well in cocktails designed for agricole and cacha ...",
         image: "assets/images/real/arcadia_rum.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "France"
     },
     {
         name: "Arcadia Whisky",
@@ -708,7 +708,7 @@ const catalogueProducts = [
         description: "Browse our handpicked collections of premium whiskey, wine, and spirits. Shop exclusive liquor selections, curated for your taste from ARCADIA WINE ...",
         image: "assets/images/real/arcadia_whisky.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "France"
     },
     {
         name: "Arcadia White Swt",
@@ -728,7 +728,7 @@ const catalogueProducts = [
         description: "Varietal 75.03% Merlot, 11.24% Petite Sirah; 13.73% Cabernet Sauvignon Alcohol: 13.4% Region: California Taste: Taste Dominated by earth ...",
         image: "assets/images/real/asconi_agorlux.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "Moldova"
     },
     {
         name: "Asconi Kiss Me Now",
@@ -738,7 +738,7 @@ const catalogueProducts = [
         description: "If you want a red wine that feels lush, friendly and uncomplicated, Kiss Me Now Cabernet Sauvignon 75cl is a strong pick. Its Moldovan origin, semi-sweet style ...",
         image: "assets/images/real/asconi_kiss_me_now.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "Moldova"
     },
     {
         name: "Asconi Moscato Rose",
@@ -748,7 +748,7 @@ const catalogueProducts = [
         description: "Asconi Moscato Rose is a premium rose wine under the Asconi Wines brand, expertly crafted in Moldova. This wine has an Alcohol by Volume (ABV) of 7.0. Ideal for ...",
         image: "assets/images/real/asconi_moscato_rose.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "Moldova"
     },
     {
         name: "Asconi Moscato Swt Wht",
@@ -758,7 +758,7 @@ const catalogueProducts = [
         description: "Asconi Moscato is a charming and aromatic sweet wine from Moldova, known for its light and fruity character. This Moscato offers a refreshing taste, making it a ...",
         image: "assets/images/real/asconi_moscato_swt_wht.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "Moldova"
     },
     {
         name: "Asconi Pastoral",
@@ -768,7 +768,7 @@ const catalogueProducts = [
         description: "This red wine from Moldova is uniquely curated from Cabernet Sauvignon grapes. Nose: Expressive notes of plum and cherry merging with vanilla and hints of spice ...",
         image: "assets/images/real/asconi_pastoral.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "Moldova"
     },
     {
         name: "Asconi Semi Dry",
@@ -778,7 +778,7 @@ const catalogueProducts = [
         description: "Asconi Red Semidry 75cl ; Size. 750ml ; Country of Origin. Moldova ; Packaging. Bottle ; Sweetness. Semi-Dry ; Flavours & Spices. Blackberry, Plum, Vanilla.",
         image: "assets/images/real/asconi_semi_dry.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "Moldova"
     },
     {
         name: "Asconi Sol Negru",
@@ -788,7 +788,7 @@ const catalogueProducts = [
         description: "Tonight we are going to review a single varietal feteasca neagra wine, which is an indigenous romanian grape variety with moldovan origins – Sol ...",
         image: "assets/images/real/asconi_sol_negru.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "Moldova"
     },
     {
         name: "Aspera Gin",
@@ -798,7 +798,7 @@ const catalogueProducts = [
         description: "Alcohol Content: 40% ; Type: Dry Gin ; Origin: Kenya ; Colour: Clear ; Perfect For: Mixing in cocktails, sipping, or pairing with tonic and garnishes for a ...",
         image: "assets/images/real/aspera_gin.jpg",
         isKenyan: true,
-        country: "Kenya"
+        country: "Unknown"
     },
     {
         name: "Aspera Gin",
@@ -808,7 +808,7 @@ const catalogueProducts = [
         description: "Alcohol Content: 40% ; Type: Dry Gin ; Origin: Kenya ; Colour: Clear ; Perfect For: Mixing in cocktails, sipping, or pairing with tonic and garnishes for a ...",
         image: "assets/images/real/aspera_gin.jpg",
         isKenyan: true,
-        country: "Kenya"
+        country: "Unknown"
     },
     {
         name: "Atlas 12 %",
@@ -1098,7 +1098,7 @@ const catalogueProducts = [
         description: "With its origins in the UK, Qube brings a unique blend of excellence and refreshment to the Kenyan market. Join the Qube Movement: A Stellar Addition to Kenya's ...",
         image: "assets/images/real/base_qube_energy.jpg",
         isKenyan: true,
-        country: "Kenya"
+        country: "Unknown"
     },
     {
         name: "Bavaria(8.6)",
@@ -1678,7 +1678,7 @@ const catalogueProducts = [
         description: "The original Bond Seven Whisky was distilled & bottled in warehouse No. 7 of Milne & Co, wine merchants in South Australia during the 1950s.",
         image: "assets/images/real/bond7.jpg",
         isKenyan: true,
-        country: "Kenya"
+        country: "Unknown"
     },
     {
         name: "Bond7",
@@ -1688,7 +1688,7 @@ const catalogueProducts = [
         description: "The original Bond Seven Whisky was distilled & bottled in warehouse No. 7 of Milne & Co, wine merchants in South Australia during the 1950s.",
         image: "assets/images/real/bond7.jpg",
         isKenyan: true,
-        country: "Kenya"
+        country: "Unknown"
     },
     {
         name: "Bond7",
@@ -1698,7 +1698,7 @@ const catalogueProducts = [
         description: "The original Bond Seven Whisky was distilled & bottled in warehouse No. 7 of Milne & Co, wine merchants in South Australia during the 1950s.",
         image: "assets/images/real/bond7.jpg",
         isKenyan: true,
-        country: "Kenya"
+        country: "Unknown"
     },
     {
         name: "Bonne Esperance Dry Reditre",
@@ -2098,7 +2098,7 @@ const catalogueProducts = [
         description: "Caribia is a finely crafted smooth cane spirit that is designed to mirror the progressive attitudes and behaviours of the Kenyan Millennial.",
         image: "assets/images/real/caribia_cane.jpg",
         isKenyan: true,
-        country: "Kenya"
+        country: "Unknown"
     },
     {
         name: "Caribia Cane",
@@ -2108,7 +2108,7 @@ const catalogueProducts = [
         description: "Caribia is a finely crafted smooth cane spirit that is designed to mirror the progressive attitudes and behaviours of the Kenyan Millennial.",
         image: "assets/images/real/caribia_cane.jpg",
         isKenyan: true,
-        country: "Kenya"
+        country: "Unknown"
     },
     {
         name: "Caribia Gin",
@@ -2118,7 +2118,7 @@ const catalogueProducts = [
         description: "Caribia Gin 750ml is a popular gin from Kenya mostly taken during special occasions. It is a well-balanced gin with an incredibly smooth palate.",
         image: "assets/images/real/caribia_gin.jpg",
         isKenyan: true,
-        country: "Kenya"
+        country: "Unknown"
     },
     {
         name: "Caribia Gin",
@@ -2128,7 +2128,7 @@ const catalogueProducts = [
         description: "Caribia Gin 750ml is a popular gin from Kenya mostly taken during special occasions. It is a well-balanced gin with an incredibly smooth palate.",
         image: "assets/images/real/caribia_gin.jpg",
         isKenyan: true,
-        country: "Kenya"
+        country: "Unknown"
     },
     {
         name: "Caribia Gin",
@@ -2138,7 +2138,7 @@ const catalogueProducts = [
         description: "Caribia Gin 750ml is a popular gin from Kenya mostly taken during special occasions. It is a well-balanced gin with an incredibly smooth palate.",
         image: "assets/images/real/caribia_gin.jpg",
         isKenyan: true,
-        country: "Kenya"
+        country: "Unknown"
     },
     {
         name: "Carlo Rossit",
@@ -3598,7 +3598,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FOUR%20COUSINST",
         isKenyan: false,
-        country: "Unknown"
+        country: "South Africa"
     },
     {
         name: "Four Cousins  Marula",
@@ -3608,7 +3608,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FOUR%20COUSINS%20%20MARULA",
         isKenyan: false,
-        country: "Unknown"
+        country: "South Africa"
     },
     {
         name: "Four Cousins Redt",
@@ -3618,7 +3618,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "assets/images/real/four_cousins_redt.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "South Africa"
     },
     {
         name: "Four Cousins Red Sparkling",
@@ -3628,7 +3628,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FOUR%20COUSINS%20RED%20SPARKLING",
         isKenyan: false,
-        country: "Unknown"
+        country: "South Africa"
     },
     {
         name: "Four Cousins  Strawberry",
@@ -3638,7 +3638,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "assets/images/real/four_cousins__strawberry.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "South Africa"
     },
     {
         name: "Four Cousins  Sweetrose Can",
@@ -3648,7 +3648,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FOUR%20COUSINS%20%20SWEETROSE%20CAN",
         isKenyan: false,
-        country: "Unknown"
+        country: "South Africa"
     },
     {
         name: "Four Cousins Whitet",
@@ -3658,7 +3658,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FOUR%20COUSINS%20WHITET",
         isKenyan: false,
-        country: "Unknown"
+        country: "South Africa"
     },
     {
         name: "Four Cousins White",
@@ -3668,7 +3668,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FOUR%20COUSINS%20WHITE",
         isKenyan: false,
-        country: "Unknown"
+        country: "South Africa"
     },
     {
         name: "Four Cousin Whitet",
@@ -3718,7 +3718,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "assets/images/real/frontera_after_mid9t.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "Chile"
     },
     {
         name: "Frontera Cab Sauvt",
@@ -3728,7 +3728,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "assets/images/real/frontera_cab_sauvt.jpg",
         isKenyan: false,
-        country: "Unknown"
+        country: "Chile"
     },
     {
         name: "Frontera Cab Sauv",
@@ -3738,7 +3738,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FRONTERA%20CAB%20SAUV",
         isKenyan: false,
-        country: "Unknown"
+        country: "Chile"
     },
     {
         name: "Fronteracabsav Blush 750",
@@ -3748,7 +3748,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FRONTERACABSAV%20BLUSH%20750",
         isKenyan: false,
-        country: "Unknown"
+        country: "Chile"
     },
     {
         name: "Frontera Chardonaytr",
@@ -3758,7 +3758,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FRONTERA%20CHARDONAYTR",
         isKenyan: false,
-        country: "Unknown"
+        country: "Chile"
     },
     {
         name: "Frontera Chardonnay",
@@ -3768,7 +3768,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FRONTERA%20CHARDONNAY",
         isKenyan: false,
-        country: "Unknown"
+        country: "Chile"
     },
     {
         name: "Frontera Lt Harvest",
@@ -3778,7 +3778,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FRONTERA%20LT%20HARVEST",
         isKenyan: false,
-        country: "Unknown"
+        country: "Chile"
     },
     {
         name: "Frontera Merlottrs",
@@ -3788,7 +3788,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FRONTERA%20MERLOTTRS",
         isKenyan: false,
-        country: "Unknown"
+        country: "Chile"
     },
     {
         name: "Frontera Merlot 750",
@@ -3798,7 +3798,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FRONTERA%20MERLOT%20750",
         isKenyan: false,
-        country: "Unknown"
+        country: "Chile"
     },
     {
         name: "Frontera Sauv Blanct",
@@ -3808,7 +3808,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FRONTERA%20SAUV%20BLANCT",
         isKenyan: false,
-        country: "Unknown"
+        country: "Chile"
     },
     {
         name: "Frontera Sav Blanc 750",
@@ -3818,7 +3818,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FRONTERA%20SAV%20BLANC%20750",
         isKenyan: false,
-        country: "Unknown"
+        country: "Chile"
     },
     {
         name: "Frontera Shiraz",
@@ -3828,7 +3828,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FRONTERA%20SHIRAZ",
         isKenyan: false,
-        country: "Unknown"
+        country: "Chile"
     },
     {
         name: "Frontera Sweet Red",
@@ -3838,7 +3838,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FRONTERA%20SWEET%20RED",
         isKenyan: false,
-        country: "Unknown"
+        country: "Chile"
     },
     {
         name: "Frosti Berries",
@@ -6098,7 +6098,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KANE%20EXTRA",
         isKenyan: true,
-        country: "Kenya"
+        country: "Unknown"
     },
     {
         name: "Kane Extra Gold",
@@ -6108,7 +6108,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KANE%20EXTRA%20GOLD",
         isKenyan: true,
-        country: "Kenya"
+        country: "Unknown"
     },
     {
         name: "Karigen Watert",
@@ -6708,7 +6708,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KWV%2020YRS",
         isKenyan: false,
-        country: "Unknown"
+        country: "South Africa"
     },
     {
         name: "Kwv 3Yrs",
@@ -6718,7 +6718,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KWV%203YRS",
         isKenyan: false,
-        country: "Unknown"
+        country: "South Africa"
     },
     {
         name: "Kwv Cape Ruby",
@@ -6728,7 +6728,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KWV%20CAPE%20RUBY",
         isKenyan: false,
-        country: "Unknown"
+        country: "South Africa"
     },
     {
         name: "Kwv Cevee Brut",
@@ -6738,7 +6738,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KWV%20CEVEE%20BRUT",
         isKenyan: false,
-        country: "Unknown"
+        country: "South Africa"
     },
     {
         name: "Kwv Chenin Blanc",
@@ -6748,7 +6748,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KWV%20CHENIN%20BLANC",
         isKenyan: false,
-        country: "Unknown"
+        country: "South Africa"
     },
     {
         name: "Kwv Roodeberg Black",
@@ -6758,7 +6758,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KWV%20ROODEBERG%20BLACK",
         isKenyan: false,
-        country: "Unknown"
+        country: "South Africa"
     },
     {
         name: "Kwv Sauvignon Blanc",
@@ -6768,7 +6768,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KWV%20SAUVIGNON%20BLANC",
         isKenyan: false,
-        country: "Unknown"
+        country: "South Africa"
     },
     {
         name: "Label 5 Whisky",
@@ -10658,7 +10658,7 @@ const catalogueProducts = [
         description: "A quality drink offering exceptional taste.",
         image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=V%26%20A",
         isKenyan: true,
-        country: "Kenya"
+        country: "Unknown"
     },
     {
         name: "Vat",
