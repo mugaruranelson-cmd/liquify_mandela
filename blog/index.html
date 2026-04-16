@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Liquify Premium Blog | Drinks Culture & Delivery in Nairobi</title>
-    <meta name="description" content="Explore the latest trends, guides, and pricing for whisky, wine, and spirits in Nairobi. Fast 30-min delivery stories from Embakasi and beyond.">
+    <title>Liquify Insights | Premium Editorial Blog Nairobi</title>
+    <meta name="description" content="Nairobi's authority on premium hospitality, drinks culture, and lightning-fast logistics.">
     <link rel="canonical" href="https://www.liquify.shop/blog" />
     <link rel="stylesheet" href="../style.css?v=2">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
@@ -19,60 +19,213 @@
         <a href="#" class="btn btn-gold btn-general-order"><i class="fab fa-whatsapp"></i> Order Now</a>
     </nav>
 
-    <section class="blog-hub" style="padding: 10rem 5% 4rem;">
-        <div class="section-header">
-            <h2>The Liquify Premium Blog</h2>
-            <p>Elevating Nairobi's drinks culture, one bottle at a time.</p>
+    <section class="blog-hub">
+        <div class="section-header reveal active">
+            <span class="badg-text" style="color:var(--accent-gold); letter-spacing: 5px; font-weight: 800; display: block; margin-bottom: 1rem;">THE JOURNAL</span>
+            <h1 style="font-size: clamp(3rem, 10vw, 5rem); line-height: 1;">Liquify Insights</h1>
+            <p style="margin-top: 1.5rem; font-size: 1.2rem; color: var(--text-muted);">Authoritative guides on Nairobi's premium drinks culture.</p>
+        </div>
+
+        <div class="blog-filters reveal active">
+            <button class="blog-filter-btn active" data-filter="all">All Stories</button>
+            <button class="blog-filter-btn" data-filter="pricing">Pricing Guides</button>
+            <button class="blog-filter-btn" data-filter="delivery">Nairobi Delivery</button>
+            <button class="blog-filter-btn" data-filter="gifting">Gifting Ideas</button>
+            <button class="blog-filter-btn" data-filter="knowledge">Knowledge</button>
         </div>
 
         <div class="grid-cols-3" id="blog-grid">
-            <!-- Blog Posts -->
-            <div class="product-card">
-                <h3>Whisky Prices in Kenya 2024</h3>
-                <p style="font-size: 0.9rem; color: var(--text-muted); margin: 1rem 0;">The latest pricing guide for premium scotch and bourbon in Nairobi.</p>
-                <a href="whisky-prices-kenya-2024.html" class="btn btn-outline" style="width: 100%;">Read Article</a>
-            </div>
 
-            <div class="product-card">
-                <h3>Spotting Fake Alcohol</h3>
-                <p style="font-size: 0.9rem; color: var(--text-muted); margin: 1rem 0;">5 critical safety tips for discerning drinkers in Kenya.</p>
-                <a href="spot-fake-alcohol-nairobi.html" class="btn btn-outline" style="width: 100%;">Read Article</a>
+            <div class="blog-card-container reveal active" data-category="pricing">
+                <div class="blog-card">
+                    <span class="category-tag">pricing</span>
+                    <i class="fas fa-tags blog-icon"></i>
+                    <h3>Whisky Price Guide Kenya 2024</h3>
+                    <p>The most accurate pricing list for Black Label, Glenfiddich, and premium malts in Nairobi.</p>
+                    <a href="whisky-prices-kenya-2024.html" class="btn btn-outline" style="width: 100%;">Read More</a>
+                </div>
             </div>
-
-            <div class="product-card">
-                <h3>45-Minute Delivery Secrets</h3>
-                <p style="font-size: 0.9rem; color: var(--text-muted); margin: 1rem 0;">How we dominate logistics in Embakasi and Syokimau.</p>
-                <a href="45-minute-delivery-nairobi.html" class="btn btn-outline" style="width: 100%;">Read Article</a>
+            <div class="blog-card-container reveal active" data-category="knowledge">
+                <div class="blog-card">
+                    <span class="category-tag">knowledge</span>
+                    <i class="fas fa-shield-virus blog-icon"></i>
+                    <h3>Spotting Fake Alcohol in Kenya</h3>
+                    <p>Protect your health and your wallet. 5 essential red flags every Nairobi drinker must know.</p>
+                    <a href="spot-fake-alcohol-nairobi.html" class="btn btn-outline" style="width: 100%;">Read More</a>
+                </div>
             </div>
-
-            <!-- More will be added below -->
-            <div class="product-card">
-                <h3>The Gin Renaissance</h3>
-                <p style="font-size: 0.9rem; color: var(--text-muted); margin: 1rem 0;">Why Gin is taking over Nairobi's premium lounges.</p>
-                <a href="gin-renaissance-nairobi.html" class="btn btn-outline" style="width: 100%;">Read Article</a>
+            <div class="blog-card-container reveal active" data-category="delivery">
+                <div class="blog-card">
+                    <span class="category-tag">delivery</span>
+                    <i class="fas fa-shipping-fast blog-icon"></i>
+                    <h3>45-Minute Delivery Secrets</h3>
+                    <p>How we maintain the fastest delivery times in Embakasi, Syokimau, and Nyayo Estate.</p>
+                    <a href="45-minute-delivery-nairobi.html" class="btn btn-outline" style="width: 100%;">Read More</a>
+                </div>
             </div>
-
-            <div class="product-card">
-                <h3>Best Wines for Beginners</h3>
-                <p style="font-size: 0.9rem; color: var(--text-muted); margin: 1rem 0;">Top 5 bottles for those starting their wine journey.</p>
-                <a href="red-wine-beginners-nairobi.html" class="btn btn-outline" style="width: 100%;">Read Article</a>
+            <div class="blog-card-container reveal active" data-category="gifting">
+                <div class="blog-card">
+                    <span class="category-tag">gifting</span>
+                    <i class="fas fa-briefcase blog-icon"></i>
+                    <h3>Corporate Gifting Guide Nairobi</h3>
+                    <p>Select the perfect premium serve for your clients in Upper Hill, Westlands, and CBD.</p>
+                    <a href="corporate-whisky-gifts-nairobi.html" class="btn btn-outline" style="width: 100%;">Read More</a>
+                </div>
             </div>
-
-            <div class="product-card">
-                <h3>Corporate Gifting Guide</h3>
-                <p style="font-size: 0.9rem; color: var(--text-muted); margin: 1rem 0;">Selecting the perfect whisky for business partners.</p>
-                <a href="corporate-whisky-gifts-nairobi.html" class="btn btn-outline" style="width: 100%;">Read Article</a>
+            <div class="blog-card-container reveal active" data-category="knowledge">
+                <div class="blog-card">
+                    <span class="category-tag">knowledge</span>
+                    <i class="fas fa-cocktail blog-icon"></i>
+                    <h3>The Nairobi Gin Renaissance</h3>
+                    <p>Why modern botanicals from Tanqueray and Hendricks are dominating Nairobi's cocktail scene.</p>
+                    <a href="gin-renaissance-nairobi.html" class="btn btn-outline" style="width: 100%;">Read More</a>
+                </div>
             </div>
-        </div>
-
-        <div style="text-align: center; margin-top: 4rem;">
-            <p style="color: var(--text-muted);">More articles being added every week.</p>
+            <div class="blog-card-container reveal active" data-category="delivery">
+                <div class="blog-card">
+                    <span class="category-tag">delivery</span>
+                    <i class="fas fa-truck-loading blog-icon"></i>
+                    <h3>Bulk Ordering for Syokimau</h3>
+                    <p>How to coordinate large-scale drinks logistics for weddings and parties near Mlolongo.</p>
+                    <a href="bulk-drinks-delivery-syokimau.html" class="btn btn-outline" style="width: 100%;">Read More</a>
+                </div>
+            </div>
+            <div class="blog-card-container reveal active" data-category="gifting">
+                <div class="blog-card">
+                    <span class="category-tag">gifting</span>
+                    <i class="fas fa-user-tie blog-icon"></i>
+                    <h3>Father's Day Whisky Gifts</h3>
+                    <p>Make Father's Day special with these curated premium scotch and bourbon picks.</p>
+                    <a href="fathers-day-whisky-gifts.html" class="btn btn-outline" style="width: 100%;">Read More</a>
+                </div>
+            </div>
+            <div class="blog-card-container reveal active" data-category="pricing">
+                <div class="blog-card">
+                    <span class="category-tag">pricing</span>
+                    <i class="fas fa-wine-glass-alt blog-icon"></i>
+                    <h3>Red Wine for Nairobi Beginners</h3>
+                    <p>Top 5 affordable, high-quality red wines that won't exceed Ksh 2,500.</p>
+                    <a href="red-wine-beginners-nairobi.html" class="btn btn-outline" style="width: 100%;">Read More</a>
+                </div>
+            </div>
+            <div class="blog-card-container reveal active" data-category="knowledge">
+                <div class="blog-card">
+                    <span class="category-tag">knowledge</span>
+                    <i class="fas fa-wine-bottle blog-icon"></i>
+                    <h3>Champagne vs Sparkling Wine</h3>
+                    <p>Decoding the bubbles: Which one is right for your celebration?</p>
+                    <a href="champagne-vs-sparkling-wine-value.html" class="btn btn-outline" style="width: 100%;">Read More</a>
+                </div>
+            </div>
+            <div class="blog-card-container reveal active" data-category="pricing">
+                <div class="blog-card">
+                    <span class="category-tag">pricing</span>
+                    <i class="fas fa-hand-holding-usd blog-icon"></i>
+                    <h3>Spirits Under 3,000 Ksh</h3>
+                    <p>Best value liquor available for delivery in Nairobi for under 3,000 Ksh.</p>
+                    <a href="spirits-under-3000-nairobi.html" class="btn btn-outline" style="width: 100%;">Read More</a>
+                </div>
+            </div>
+            <div class="blog-card-container reveal active" data-category="knowledge">
+                <div class="blog-card">
+                    <span class="category-tag">knowledge</span>
+                    <i class="fas fa-check-double blog-icon"></i>
+                    <h3>Our Embakasi Quality Promise</h3>
+                    <p>Why Liquify is the most trusted source for authentic liquor in Nairobi's Eastlands.</p>
+                    <a href="genuine-drinks-embakasi.html" class="btn btn-outline" style="width: 100%;">Read More</a>
+                </div>
+            </div>
+            <div class="blog-card-container reveal active" data-category="delivery">
+                <div class="blog-card">
+                    <span class="category-tag">delivery</span>
+                    <i class="fas fa-home blog-icon"></i>
+                    <h3>Hosting in Embakasi?</h3>
+                    <p>Why WhatsApp delivery is the secret weapon for the ultimate house party.</p>
+                    <a href="host-party-embakasi-whatsapp.html" class="btn btn-outline" style="width: 100%;">Read More</a>
+                </div>
+            </div>
+            <div class="blog-card-container reveal active" data-category="knowledge">
+                <div class="blog-card">
+                    <span class="category-tag">knowledge</span>
+                    <i class="fas fa-blender blog-icon"></i>
+                    <h3>Cocktails with Local Flair</h3>
+                    <p>Elevating your home bar using fresh, local Kenyan ingredients.</p>
+                    <a href="mix-cocktails-kenyan-ingredients.html" class="btn btn-outline" style="width: 100%;">Read More</a>
+                </div>
+            </div>
+            <div class="blog-card-container reveal active" data-category="knowledge">
+                <div class="blog-card">
+                    <span class="category-tag">knowledge</span>
+                    <i class="fas fa-vial blog-icon"></i>
+                    <h3>Single Malt vs Blended</h3>
+                    <p>A simple guide to understanding the different styles of scotch whiskies.</p>
+                    <a href="single-malt-vs-blended-whisky.html" class="btn btn-outline" style="width: 100%;">Read More</a>
+                </div>
+            </div>
+            <div class="blog-card-container reveal active" data-category="knowledge">
+                <div class="blog-card">
+                    <span class="category-tag">knowledge</span>
+                    <i class="fas fa-beer blog-icon"></i>
+                    <h3>Kenyan Beer Evolution</h3>
+                    <p>The resurgence of local craftsmanship in the Kenyan beer industry.</p>
+                    <a href="rise-of-kenyan-craft-beer.html" class="btn btn-outline" style="width: 100%;">Read More</a>
+                </div>
+            </div>
+            <div class="blog-card-container reveal active" data-category="gifting">
+                <div class="blog-card">
+                    <span class="category-tag">gifting</span>
+                    <i class="fas fa-heart blog-icon"></i>
+                    <h3>Romantic Anniversary Wines</h3>
+                    <p>Surprise your partner with these top-rated romantic bottles.</p>
+                    <a href="romantic-wines-anniversary-nairobi.html" class="btn btn-outline" style="width: 100%;">Read More</a>
+                </div>
+            </div>
+            <div class="blog-card-container reveal active" data-category="gifting">
+                <div class="blog-card">
+                    <span class="category-tag">gifting</span>
+                    <i class="fas fa-graduation-cap blog-icon"></i>
+                    <h3>Graduation Bottle Ideas</h3>
+                    <p>Celebrate the milestone with a bottle that signifies a bright future.</p>
+                    <a href="graduation-bottle-recommendations.html" class="btn btn-outline" style="width: 100%;">Read More</a>
+                </div>
+            </div>
+            <div class="blog-card-container reveal active" data-category="delivery">
+                <div class="blog-card">
+                    <span class="category-tag">delivery</span>
+                    <i class="fas fa-map-marker-alt blog-icon"></i>
+                    <h3>Pipeline & Donholm Delivery</h3>
+                    <p>Expanding our high-speed delivery network across Eastlands.</p>
+                    <a href="pipeline-donholm-liquor-delivery.html" class="btn btn-outline" style="width: 100%;">Read More</a>
+                </div>
+            </div>
+            <div class="blog-card-container reveal active" data-category="knowledge">
+                <div class="blog-card">
+                    <span class="category-tag">knowledge</span>
+                    <i class="fas fa-tint blog-icon"></i>
+                    <h3>Perfect Vodka Mixers</h3>
+                    <p>Creative and refreshing ways to enjoy your favorite vodka bottles.</p>
+                    <a href="best-vodka-mixers-friday-night.html" class="btn btn-outline" style="width: 100%;">Read More</a>
+                </div>
+            </div>
+            <div class="blog-card-container reveal active" data-category="knowledge">
+                <div class="blog-card">
+                    <span class="category-tag">knowledge</span>
+                    <i class="fas fa-thumbtack blog-icon"></i>
+                    <h3>South African Wine Guide</h3>
+                    <p>Exploring the best of the Cape from your couch in Nairobi.</p>
+                    <a href="south-african-wine-guide-kenya.html" class="btn btn-outline" style="width: 100%;">Read More</a>
+                </div>
+            </div>
         </div>
     </section>
 
-    <footer>
-        <div class="footer-bottom">
-            <p>&copy; 2026 Liquify Premium. Drink Responsibly.</p>
+    <!-- Footer -->
+    <footer style="margin-top: 6rem; padding: 6rem 5% 3rem; background: #050505; border-top: var(--glass-border);">
+        <div style="text-align: center;">
+            <a href="../index.html" class="logo" style="display: inline-block; margin-bottom: 2rem;">LIQUIFY</a>
+            <div class="footer-bottom" style="margin-top: 4rem; border-top: 1px solid rgba(255,255,255,0.05); padding-top: 2rem;">
+                <p>&copy; 2026 Liquify Premium. All rights reserved.</p>
+            </div>
         </div>
     </footer>
 

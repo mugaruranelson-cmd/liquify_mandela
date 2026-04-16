@@ -358,9 +358,41 @@ function initShop() {
 // =============================================================================
 // BOOTSTRAP — DOMContentLoaded
 // =============================================================================
+// --- BLOG: Category Filtering ---
+function initBlogFilters() {
+    const filters = document.querySelectorAll('.blog-filter-btn');
+    const cards = document.querySelectorAll('.blog-card-container');
+
+    if (!filters.length || !cards.length) return;
+
+    filters.forEach(btn => {
+        btn.addEventListener('click', () => {
+            // Update active state
+            filters.forEach(f => f.classList.remove('active'));
+            btn.classList.add('active');
+
+            const category = btn.getAttribute('data-filter');
+
+            // Filter cards
+            cards.forEach(card => {
+                const cardCat = card.getAttribute('data-category');
+                if (category === 'all' || cardCat === category) {
+                    card.style.display = 'block';
+                    setTimeout(() => card.style.opacity = '1', 10);
+                } else {
+                    card.style.opacity = '0';
+                    setTimeout(() => card.style.display = 'none', 300);
+                }
+            });
+        });
+    });
+}
+
+// Initialize on DOM load
 document.addEventListener('DOMContentLoaded', () => {
     initAgeGate();
-    reveal();
+    initBlogFilters();
+    reveal(); // Initial check
 
     // General WhatsApp CTA buttons (hero, nav, footer)
     document.querySelectorAll('.btn-general-order').forEach(btn => {
