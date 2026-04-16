@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    { "source": "/whisky", "destination": "/shop.html?category=whisky" },
+    { "source": "/wine", "destination": "/shop.html?category=wine" },
+    { "source": "/vodka", "destination": "/shop.html?category=vodka" },
+    { "source": "/gin", "destination": "/shop.html?category=gin" },
+    { "source": "/beer", "destination": "/shop.html?category=beer" },
+    { "source": "/kenyan", "destination": "/shop.html?category=kenyan" },
+    { "source": "/blog", "destination": "/blog/index.html" },
+    { "source": "/blog/:slug", "destination": "/blog/:slug.html" }
+  ]
+}
