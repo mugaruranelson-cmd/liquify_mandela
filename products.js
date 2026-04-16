@@ -1215,7 +1215,7 @@ const catalogueProducts = [
         size: "250ML",
         price: "Ksh 390",
         description: "The Botanist is a Scottish gin made on Islay, the region best known for its smoky, peated scotch. “The Botanist incorporates a whole lot of local flavors by ...",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=BEST%20GIN",
+        image: "assets/images/real/best_gin.jpg",
         isKenyan: true,
         country: "Kenya"
     },
@@ -1225,7 +1225,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,103",
         description: "The Botanist is a Scottish gin made on Islay, the region best known for its smoky, peated scotch. “The Botanist incorporates a whole lot of local flavors by ...",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=BEST%20GIN",
+        image: "assets/images/real/best_gin.jpg",
         isKenyan: true,
         country: "Kenya"
     },
@@ -2565,7 +2565,7 @@ const catalogueProducts = [
         size: "1L",
         price: "Ksh 2,730",
         description: "Cutty Sark is a brand of blended Scotch whisky produced by La Martiniquaise in Scotland. Cutty Sark. A bottle of Cutty Sark. Type, Scotch whisky.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=CUTTY%20SARK%20WHISKYT",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "Scotland"
     },
@@ -2575,7 +2575,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 2,130",
         description: "Cutty Sark is a brand of blended Scotch whisky produced by La Martiniquaise in Scotland. Cutty Sark. A bottle of Cutty Sark. Type, Scotch whisky.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=CUTTY%20SARK%20WHISKY",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "Scotland"
     },
@@ -2625,7 +2625,7 @@ const catalogueProducts = [
         size: "250ML",
         price: "Ksh 195",
         description: "Darling Cellars De-Alcoholised is a product range of varietals where the focus is on fruit driven, varietal true, value for money products.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=DARLING%20ICE",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: true,
         country: "Kenya"
     },
@@ -2725,7 +2725,7 @@ const catalogueProducts = [
         size: "5L",
         price: "Ksh 4,200",
         description: "Delush Natural Sweet Red Wine has a creamy butterscotch and caramel flavour. Delush Sweet Red 750ml quantity. Add to cart.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=DELUSH%20REDT",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "South Africa"
     },
@@ -2765,7 +2765,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,500",
         description: "Facts about the wine. Winery. Delush. Region. South Africa / Northern Cape. Wine style. South African Dessert. Alcohol content. 8.5%. Allergens. Contains ...",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=DELUSH%20WINE%20WHITE",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "South Africa"
     },
@@ -2885,7 +2885,7 @@ const catalogueProducts = [
         size: "5L",
         price: "Ksh 6,600",
         description: "As we have seen in the Introduction, this company had pioneered the export of Australian wines to Britain in the later nineteenth century. Despite earlier ...",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=DROSTDY%20-HOF%20RED",
+        image: "assets/images/real/drostdy_hof_red.jpg",
         isKenyan: false,
         country: "South Africa"
     },
@@ -2995,7 +2995,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 653",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=EMBASSY",
+        image: "assets/images/real/embassy.jpg",
         isKenyan: false,
         country: "United Kingdom"
     },
@@ -3005,7 +3005,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 653",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=EMBASSY%20KING",
+        image: "assets/images/real/embassy_king.jpg",
         isKenyan: false,
         country: "United Kingdom"
     },
@@ -3015,7 +3015,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,380",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=ERISTOFF%20VODKA",
+        image: "assets/images/real/eristoff_vodka.jpg",
         isKenyan: false,
         country: "France"
     },
@@ -3025,7 +3025,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,545",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=ESPANATURE%20CAB%20SAUV",
+        image: "assets/images/real/espanature_cab_sauv.jpg",
         isKenyan: false,
         country: "Spain"
     },
@@ -3035,7 +3035,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,545",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=ESPANATURE%20VIURA%20VER",
+        image: "assets/images/real/espanature_viura_ver.jpg",
         isKenyan: false,
         country: "Spain"
     },
@@ -3045,7 +3045,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,800",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=EXPRESION%20SWEET%20RED",
+        image: "assets/images/real/expresion_sweet_red.jpg",
         isKenyan: false,
         country: "South Africa"
     },
@@ -3055,7 +3055,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,470",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FAMOUSE%201/2",
+        image: "assets/images/real/famouse.jpg",
         isKenyan: false,
         country: "Scotland"
     },
@@ -3065,7 +3065,7 @@ const catalogueProducts = [
         size: "1L",
         price: "Ksh 3,750",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FAMOUSE%20G%20SMKY%20BLKT",
+        image: "assets/images/real/famouse_g_smky_blkt.jpg",
         isKenyan: false,
         country: "Scotland"
     },
@@ -3075,7 +3075,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 2,925",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FAMOUS%20GROUSE%203/4",
+        image: "assets/images/real/famous_grouse.png",
         isKenyan: false,
         country: "Scotland"
     },
@@ -3085,7 +3085,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 3,270",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FAMOUS%20GROUSE%20IL",
+        image: "assets/images/real/famous_grouse.png",
         isKenyan: false,
         country: "Scotland"
     },
@@ -3095,7 +3095,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 3,495",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FAMOUS%20SMOKY%20BLACK",
+        image: "assets/images/real/famous_smoky_black.jpg",
         isKenyan: false,
         country: "Scotland"
     },
@@ -3105,7 +3105,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 3,225",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FAMOUS%20TOASTED%20CASKLITRE",
+        image: "assets/images/real/famous_toasted_casklitre.jpg",
         isKenyan: false,
         country: "Scotland"
     },
@@ -3115,7 +3115,7 @@ const catalogueProducts = [
         size: "1L",
         price: "Ksh 0",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FAXE%2010%25ITRE",
+        image: "assets/images/real/faxe_10_itre.jpg",
         isKenyan: false,
         country: "Denmark"
     },
@@ -3125,7 +3125,7 @@ const catalogueProducts = [
         size: "500ML",
         price: "Ksh 420",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FAXE",
+        image: "assets/images/real/faxe.jpg",
         isKenyan: false,
         country: "Denmark"
     },
@@ -3135,7 +3135,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 120",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FERARI%20ICE%20CAN",
+        image: "assets/images/real/ferari_ice_can.jpg",
         isKenyan: true,
         country: "Kenya"
     },
@@ -3145,7 +3145,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 3,375",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FERNET%20BRANCA",
+        image: "assets/images/real/fernet_branca.jpg",
         isKenyan: false,
         country: "Italy"
     },
@@ -3155,7 +3155,7 @@ const catalogueProducts = [
         size: "250ML",
         price: "Ksh 795",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FIRST%20CHOICE",
+        image: "assets/images/real/first_choice.jpg",
         isKenyan: false,
         country: "South Africa"
     },
@@ -3165,7 +3165,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,125",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FIRST%20CHOICE",
+        image: "assets/images/real/first_choice.jpg",
         isKenyan: false,
         country: "South Africa"
     },
@@ -3175,7 +3175,7 @@ const catalogueProducts = [
         size: "1L",
         price: "Ksh 2,175",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FLIRT%20BLACKT",
+        image: "assets/images/real/flirt_blackt.jpg",
         isKenyan: false,
         country: "Bulgaria"
     },
@@ -3185,7 +3185,7 @@ const catalogueProducts = [
         size: "1L",
         price: "Ksh 2,175",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FLIRT%20CARAMELT",
+        image: "assets/images/real/flirt_caramelt.jpg",
         isKenyan: false,
         country: "Bulgaria"
     },
@@ -3195,7 +3195,7 @@ const catalogueProducts = [
         size: "1L",
         price: "Ksh 2,175",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FLIRT%20CHOCOITRE",
+        image: "assets/images/real/flirt_chocoitre.jpg",
         isKenyan: false,
         country: "Bulgaria"
     },
@@ -3205,7 +3205,7 @@ const catalogueProducts = [
         size: "250ML",
         price: "Ksh 375",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FLIRT%20CHOCO",
+        image: "assets/images/real/flirt_choco.jpg",
         isKenyan: false,
         country: "Bulgaria"
     },
@@ -3215,7 +3215,7 @@ const catalogueProducts = [
         size: "350ML",
         price: "Ksh 525",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FLIRT%20CHOCO",
+        image: "assets/images/real/flirt_choco.jpg",
         isKenyan: false,
         country: "Bulgaria"
     },
@@ -3225,7 +3225,7 @@ const catalogueProducts = [
         size: "700ML",
         price: "Ksh 1,650",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FLIRT%20CHOCO",
+        image: "assets/images/real/flirt_choco.jpg",
         isKenyan: false,
         country: "Bulgaria"
     },
@@ -3235,7 +3235,7 @@ const catalogueProducts = [
         size: "1L",
         price: "Ksh 2,175",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FLIRT%20GREEN%20APPLET",
+        image: "assets/images/real/flirt_green_applet.jpg",
         isKenyan: false,
         country: "Bulgaria"
     },
@@ -3245,7 +3245,7 @@ const catalogueProducts = [
         size: "250ML",
         price: "Ksh 375",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FLIRT%20GREEN%20APPLE",
+        image: "assets/images/real/flirt_green_applet.jpg",
         isKenyan: false,
         country: "Bulgaria"
     },
@@ -3255,7 +3255,7 @@ const catalogueProducts = [
         size: "700ML",
         price: "Ksh 1,650",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FLIRT%20GREEN%20APPLE",
+        image: "assets/images/real/flirt_green_applet.jpg",
         isKenyan: false,
         country: "Bulgaria"
     },
@@ -3265,7 +3265,7 @@ const catalogueProducts = [
         size: "1L",
         price: "Ksh 2,175",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FLIRT%20LEMONT",
+        image: "assets/images/real/flirt_lemont.jpg",
         isKenyan: false,
         country: "Bulgaria"
     },
@@ -3275,7 +3275,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,650",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FLIRT%20LEMON",
+        image: "assets/images/real/flirt_lemont.jpg",
         isKenyan: false,
         country: "Bulgaria"
     },
@@ -3285,7 +3285,7 @@ const catalogueProducts = [
         size: "1L",
         price: "Ksh 2,175",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FLIRT%20ORANGET",
+        image: "assets/images/real/flirt_oranget.jpg",
         isKenyan: false,
         country: "Bulgaria"
     },
@@ -3295,7 +3295,7 @@ const catalogueProducts = [
         size: "250ML",
         price: "Ksh 375",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FLIRT%20ORANGE",
+        image: "assets/images/real/flirt_oranget.jpg",
         isKenyan: false,
         country: "Bulgaria"
     },
@@ -3305,7 +3305,7 @@ const catalogueProducts = [
         size: "350ML",
         price: "Ksh 525",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FLIRT%20ORANGE",
+        image: "assets/images/real/flirt_oranget.jpg",
         isKenyan: false,
         country: "Bulgaria"
     },
@@ -3315,7 +3315,7 @@ const catalogueProducts = [
         size: "700ML",
         price: "Ksh 1,650",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FLIRT%20ORANGE",
+        image: "assets/images/real/flirt_oranget.jpg",
         isKenyan: false,
         country: "Bulgaria"
     },
@@ -3325,7 +3325,7 @@ const catalogueProducts = [
         size: "1L",
         price: "Ksh 2,175",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FLIRT%20ORIGINALT",
+        image: "assets/images/real/flirt_originalt.jpg",
         isKenyan: false,
         country: "Bulgaria"
     },
@@ -3335,7 +3335,7 @@ const catalogueProducts = [
         size: "350ML",
         price: "Ksh 525",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FLIRT%20ORIGINAL",
+        image: "assets/images/real/flirt_originalt.jpg",
         isKenyan: false,
         country: "Bulgaria"
     },
@@ -3345,7 +3345,7 @@ const catalogueProducts = [
         size: "1L",
         price: "Ksh 2,175",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FLIRT%20RASPBERRYT",
+        image: "assets/images/real/flirt_raspberryt.jpg",
         isKenyan: false,
         country: "Bulgaria"
     },
@@ -3355,7 +3355,7 @@ const catalogueProducts = [
         size: "1L",
         price: "Ksh 2,175",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FLIRT%20STRAWBERRYT",
+        image: "assets/images/real/flirt_strawberry.jpg",
         isKenyan: false,
         country: "Bulgaria"
     },
@@ -3365,7 +3365,7 @@ const catalogueProducts = [
         size: "250ML",
         price: "Ksh 375",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FLIRT%20strawberry",
+        image: "assets/images/real/flirt_strawberry.jpg",
         isKenyan: false,
         country: "Bulgaria"
     },
@@ -3375,7 +3375,7 @@ const catalogueProducts = [
         size: "350ML",
         price: "Ksh 525",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FLIRT%20STRAWBERRY",
+        image: "assets/images/real/flirt_strawberry.jpg",
         isKenyan: false,
         country: "Bulgaria"
     },
@@ -3385,7 +3385,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,650",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FLIRT%20STRAWBERRY",
+        image: "assets/images/real/flirt_strawberry.jpg",
         isKenyan: false,
         country: "Bulgaria"
     },
@@ -3395,7 +3395,7 @@ const catalogueProducts = [
         size: "250ML",
         price: "Ksh 375",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=Flirt%20vodka",
+        image: "assets/images/real/flirt_vodka.png",
         isKenyan: false,
         country: "Bulgaria"
     },
@@ -3405,7 +3405,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,650",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FLIRT%20VODKA",
+        image: "assets/images/real/flirt_vodka.png",
         isKenyan: false,
         country: "Bulgaria"
     },
@@ -3415,7 +3415,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,950",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FOOTPRINT%20CAB%20SAUV",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "South Africa"
     },
@@ -3425,7 +3425,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,800",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FOOTPRINT%20CHENIN%20BLANC",
+        image: "assets/images/real/footprint_chenin_blanc.jpg",
         isKenyan: false,
         country: "South Africa"
     },
@@ -3435,7 +3435,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,800",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FOOTPRINT%20MERLOT",
+        image: "assets/images/real/footprint_merlot.jpg",
         isKenyan: false,
         country: "South Africa"
     },
@@ -3445,7 +3445,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,950",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FOOTPRINT%20SAUV%20BLANC",
+        image: "assets/images/real/bl.jpg",
         isKenyan: false,
         country: "South Africa"
     },
@@ -3455,7 +3455,7 @@ const catalogueProducts = [
         size: "1.5L",
         price: "Ksh 2,400",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FOUR%20COUSIN%20REDT",
+        image: "assets/images/real/four_cousin_redt.jpg",
         isKenyan: false,
         country: "South Africa"
     },
@@ -3465,7 +3465,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,335",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FOUR%20COUSIN%20RED",
+        image: "assets/images/real/four_cousin_redt.jpg",
         isKenyan: false,
         country: "South Africa"
     },
@@ -3475,7 +3475,7 @@ const catalogueProducts = [
         size: "3L",
         price: "Ksh 2,400",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FOUR%20COUSINST",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "South Africa"
     },
@@ -3485,7 +3485,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 2,730",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FOUR%20COUSINS%20%20MARULA",
+        image: "assets/images/real/four_cousins_marula.jpg",
         isKenyan: false,
         country: "South Africa"
     },
@@ -3505,7 +3505,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,440",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FOUR%20COUSINS%20RED%20SPARKLING",
+        image: "assets/images/real/four_cousins_red_sparkling.jpg",
         isKenyan: false,
         country: "South Africa"
     },
@@ -3525,7 +3525,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 540",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FOUR%20COUSINS%20%20SWEETROSE%20CAN",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "South Africa"
     },
@@ -3535,7 +3535,7 @@ const catalogueProducts = [
         size: "5L",
         price: "Ksh 5,475",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FOUR%20COUSINS%20WHITET",
+        image: "assets/images/real/four_cousins_whitet.jpg",
         isKenyan: false,
         country: "South Africa"
     },
@@ -3545,7 +3545,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,335",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FOUR%20COUSINS%20WHITE",
+        image: "assets/images/real/four_cousins_whitet.jpg",
         isKenyan: false,
         country: "South Africa"
     },
@@ -3555,7 +3555,7 @@ const catalogueProducts = [
         size: "1.5L",
         price: "Ksh 2,400",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FOUR%20COUSIN%20WHITET",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "South Africa"
     },
@@ -3565,7 +3565,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 2,153",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FRAGOLINO%20RED",
+        image: "assets/images/real/fragolino_red.jpg",
         isKenyan: false,
         country: "Italy"
     },
@@ -3575,7 +3575,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 2,153",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FRAGOLINO%20WHITE",
+        image: "assets/images/real/fragolino_white.jpg",
         isKenyan: false,
         country: "Italy"
     },
@@ -3585,7 +3585,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 765",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FREEDOM",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: true,
         country: "Kenya"
     },
@@ -3615,7 +3615,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,440",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FRONTERA%20CAB%20SAUV",
+        image: "assets/images/real/frontera_cab_sauvt.jpg",
         isKenyan: false,
         country: "Chile"
     },
@@ -3625,7 +3625,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,440",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FRONTERACABSAV%20BLUSH%20750",
+        image: "assets/images/real/fronteracabsav_blush_750.jpg",
         isKenyan: false,
         country: "Chile"
     },
@@ -3635,7 +3635,7 @@ const catalogueProducts = [
         size: "1.5 L",
         price: "Ksh 2,400",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FRONTERA%20CHARDONAYTR",
+        image: "assets/images/real/frontera_chardonaytr.jpg",
         isKenyan: false,
         country: "Chile"
     },
@@ -3645,7 +3645,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,440",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FRONTERA%20CHARDONNAY",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "Chile"
     },
@@ -3655,7 +3655,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,440",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FRONTERA%20LT%20HARVEST",
+        image: "assets/images/real/frontera_lt_harvest.jpg",
         isKenyan: false,
         country: "Chile"
     },
@@ -3665,7 +3665,7 @@ const catalogueProducts = [
         size: "1.5L",
         price: "Ksh 2,355",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FRONTERA%20MERLOTTRS",
+        image: "assets/images/real/frontera_merlottrs.jpg",
         isKenyan: false,
         country: "Chile"
     },
@@ -3675,7 +3675,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,440",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FRONTERA%20MERLOT%20750",
+        image: "assets/images/real/frontera_merlot_750.jpg",
         isKenyan: false,
         country: "Chile"
     },
@@ -3685,7 +3685,7 @@ const catalogueProducts = [
         size: "1.5L",
         price: "Ksh 2,400",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FRONTERA%20SAUV%20BLANCT",
+        image: "assets/images/real/frontera_sauv_blanct.jpg",
         isKenyan: false,
         country: "Chile"
     },
@@ -3695,7 +3695,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,440",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FRONTERA%20SAV%20BLANC%20750",
+        image: "assets/images/real/bl.jpg",
         isKenyan: false,
         country: "Chile"
     },
@@ -3705,7 +3705,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,440",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FRONTERA%20SHIRAZ",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "Chile"
     },
@@ -3715,7 +3715,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,440",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FRONTERA%20SWEET%20RED",
+        image: "assets/images/real/frontera_sweet_red.png",
         isKenyan: false,
         country: "Chile"
     },
@@ -3725,7 +3725,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 150",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FROSTI%20BERRIES",
+        image: "assets/images/real/frosti_berries.jpg",
         isKenyan: false,
         country: "USA"
     },
@@ -3735,7 +3735,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 150",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FROSTI%20TROPICAL",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: true,
         country: "Kenya"
     },
@@ -3745,7 +3745,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 282",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FRUITVILLE%20APPLE",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: true,
         country: "Kenya"
     },
@@ -3755,7 +3755,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 282",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FRUITVILLE%20BERRY",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: true,
         country: "Kenya"
     },
@@ -3765,7 +3765,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 282",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FRUITVILLE%20MANGO",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: true,
         country: "Kenya"
     },
@@ -3775,7 +3775,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 282",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FRUITVILLE%20TROPICAL",
+        image: "assets/images/real/fruitville_tropical.jpg",
         isKenyan: true,
         country: "Kenya"
     },
@@ -3785,7 +3785,7 @@ const catalogueProducts = [
         size: "250ML",
         price: "Ksh 233",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=FURAHA",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: true,
         country: "Kenya"
     },
@@ -3795,7 +3795,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 855",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=G1",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: true,
         country: "Kenya"
     },
@@ -3805,7 +3805,7 @@ const catalogueProducts = [
         size: "1.5L",
         price: "Ksh 2,250",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GATONEGRO%20CAB%20SAUVT",
+        image: "assets/images/real/gatonegro_cab_sauv.jpg",
         isKenyan: false,
         country: "Chile"
     },
@@ -3825,7 +3825,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,320",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GATONEGRO%20CABSAV%20MRLT",
+        image: "https://www.sanpedro.cl/wp-content/uploads/2018/06/gatonegro-cabernet-sauvignon.png",
         isKenyan: false,
         country: "Chile"
     },
@@ -3835,7 +3835,7 @@ const catalogueProducts = [
         size: "1.5ML",
         price: "Ksh 2,250",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GATONEGRO%20CHARDONNAY",
+        image: "https://www.sanpedro.cl/wp-content/uploads/2018/06/gatonegro-cabernet-sauvignon.png",
         isKenyan: false,
         country: "Chile"
     },
@@ -3845,7 +3845,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,320",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GATONEGRO%20CHARDONY",
+        image: "https://www.sanpedro.cl/wp-content/uploads/2018/06/gatonegro-cabernet-sauvignon.png",
         isKenyan: false,
         country: "Chile"
     },
@@ -3855,7 +3855,7 @@ const catalogueProducts = [
         size: "1.5ML",
         price: "Ksh 2,250",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GATONEGRO%20MERLOT",
+        image: "https://www.sanpedro.cl/wp-content/uploads/2018/06/gatonegro-cabernet-sauvignon.png",
         isKenyan: false,
         country: "Chile"
     },
@@ -3865,7 +3865,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 2,835",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GATONEGRO%20MERLOT",
+        image: "https://www.sanpedro.cl/wp-content/uploads/2018/06/gatonegro-cabernet-sauvignon.png",
         isKenyan: false,
         country: "Chile"
     },
@@ -3875,7 +3875,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,320",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GATONEGRO%20MIX",
+        image: "https://www.sanpedro.cl/wp-content/uploads/2018/06/gatonegro-cabernet-sauvignon.png",
         isKenyan: false,
         country: "Chile"
     },
@@ -3885,7 +3885,7 @@ const catalogueProducts = [
         size: "1.5L",
         price: "Ksh 2,250",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GATONEGRO%20SAUV%20BLANC",
+        image: "assets/images/real/bl.jpg",
         isKenyan: false,
         country: "Chile"
     },
@@ -3895,7 +3895,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,320",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GATONEGRO%20SAUV%20BLNC",
+        image: "assets/images/real/bl.jpg",
         isKenyan: false,
         country: "Chile"
     },
@@ -3905,7 +3905,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,320",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GATONEGRO%20SEMISWT%20RED",
+        image: "https://www.sanpedro.cl/wp-content/uploads/2018/06/gatonegro-cabernet-sauvignon.png",
         isKenyan: false,
         country: "Chile"
     },
@@ -3915,7 +3915,7 @@ const catalogueProducts = [
         size: "250ML",
         price: "Ksh 327",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GENERAL%20MEAKINS",
+        image: "assets/images/real/general_meakins.jpg",
         isKenyan: true,
         country: "Kenya"
     },
@@ -3925,7 +3925,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 983",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GENERAL%20MEAKINS",
+        image: "assets/images/real/general_meakins.jpg",
         isKenyan: true,
         country: "Kenya"
     },
@@ -3935,7 +3935,7 @@ const catalogueProducts = [
         size: "250ML",
         price: "Ksh 173",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GENIUS%20GIN",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "USA"
     },
@@ -3945,7 +3945,7 @@ const catalogueProducts = [
         size: "1L",
         price: "Ksh 7,500",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GENTLEMAN%20JACKITRE",
+        image: "https://www.thewhiskyexchange.com/p/455/jack-daniels-old-no7-tennessee-whisky",
         isKenyan: false,
         country: "USA"
     },
@@ -3955,7 +3955,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 7,200",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GENTLEMAN%20JACK",
+        image: "https://www.thewhiskyexchange.com/p/455/jack-daniels-old-no7-tennessee-whisky",
         isKenyan: false,
         country: "USA"
     },
@@ -3965,7 +3965,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 2,175",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GIBSON%20ORANGE",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "United Kingdom"
     },
@@ -3975,7 +3975,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 2,175",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GIBSON%20PINK",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "United Kingdom"
     },
@@ -3985,7 +3985,7 @@ const catalogueProducts = [
         size: "1L",
         price: "Ksh 2,400",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GIBSONS%20GINT",
+        image: "https://www.thewhiskyexchange.com/p/2142/gordons-london-dry-gin",
         isKenyan: false,
         country: "United Kingdom"
     },
@@ -3995,7 +3995,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 2,070",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GIBSONS%20GIN",
+        image: "https://www.thewhiskyexchange.com/p/2142/gordons-london-dry-gin",
         isKenyan: false,
         country: "United Kingdom"
     },
@@ -4005,7 +4005,7 @@ const catalogueProducts = [
         size: "1L",
         price: "Ksh 2,775",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GILBEYST",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: true,
         country: "Kenya"
     },
@@ -4015,7 +4015,7 @@ const catalogueProducts = [
         size: "250ML",
         price: "Ksh 624",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GILBEYS",
+        image: "assets/images/real/gilbeys_special_dry.png",
         isKenyan: true,
         country: "Kenya"
     },
@@ -4025,7 +4025,7 @@ const catalogueProducts = [
         size: "350ML",
         price: "Ksh 864",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GILBEYS",
+        image: "assets/images/real/gilbeys_special_dry.png",
         isKenyan: true,
         country: "Kenya"
     },
@@ -4035,7 +4035,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,860",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GILBEYS",
+        image: "assets/images/real/gilbeys_special_dry.png",
         isKenyan: true,
         country: "Kenya"
     },
@@ -4045,7 +4045,7 @@ const catalogueProducts = [
         size: "250ML",
         price: "Ksh 624",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GILBEYS%20MXD%20B",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: true,
         country: "Kenya"
     },
@@ -4055,7 +4055,7 @@ const catalogueProducts = [
         size: "250ML",
         price: "Ksh 630",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GILBEYS%20PINK",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: true,
         country: "Kenya"
     },
@@ -4065,7 +4065,7 @@ const catalogueProducts = [
         size: "350ML",
         price: "Ksh 864",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GILBEYS%20PINK",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: true,
         country: "Kenya"
     },
@@ -4075,7 +4075,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,875",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GILBEYS%20PINK%20750M",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: true,
         country: "Kenya"
     },
@@ -4085,7 +4085,7 @@ const catalogueProducts = [
         size: "1L",
         price: "Ksh 4,500",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GLENDALE%20WHSKYT",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "Scotland"
     },
@@ -4095,7 +4095,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 3,975",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GLENDALE%20WHSKY%20750M",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "Scotland"
     },
@@ -4105,7 +4105,7 @@ const catalogueProducts = [
         size: "1L",
         price: "Ksh 12,000",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GLENFIDDICH%2012YRSTR",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "Scotland"
     },
@@ -4115,7 +4115,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 37,500",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GLENFIDDICH%2021YRS",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "Scotland"
     },
@@ -4125,7 +4125,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 9,000",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GLENFIDDICH%20IPA",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "Scotland"
     },
@@ -4135,7 +4135,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 9,750",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GLENFIDDICH%20PROJECT%20XX",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "Scotland"
     },
@@ -4145,7 +4145,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 3,150",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GLENGRANT",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "Scotland"
     },
@@ -4155,7 +4155,7 @@ const catalogueProducts = [
         size: "1L",
         price: "Ksh 8,700",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GLENLIVET%2012YRST",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "Scotland"
     },
@@ -4165,7 +4165,7 @@ const catalogueProducts = [
         size: "700ML",
         price: "Ksh 8,550",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GLENLIVET%2012YRS",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "Scotland"
     },
@@ -4175,7 +4175,7 @@ const catalogueProducts = [
         size: "700ML",
         price: "Ksh 8,100",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GLENLIVET%20FOUNDER",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "Scotland"
     },
@@ -4185,7 +4185,7 @@ const catalogueProducts = [
         size: "1L",
         price: "Ksh 15,000",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GLENMORANGIE%2010YRSITRE",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "Scotland"
     },
@@ -4195,7 +4195,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 16,500",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GLENMORANGIE%2018YRS",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "Scotland"
     },
@@ -4205,7 +4205,7 @@ const catalogueProducts = [
         size: "75CL",
         price: "Ksh 7,200",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GLENMORANGIE",
+        image: "assets/images/real/glenmorangie_the_original.png",
         isKenyan: false,
         country: "Scotland"
     },
@@ -4215,7 +4215,7 @@ const catalogueProducts = [
         size: "350ML",
         price: "Ksh 1,170",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GLEN%20SCANLAN%20W",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "Scotland"
     },
@@ -4225,7 +4225,7 @@ const catalogueProducts = [
         size: "1L",
         price: "Ksh 2,175",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GLEN%20SILVERST",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "Scotland"
     },
@@ -4235,7 +4235,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,755",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GLEN%20SILVERS",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "Scotland"
     },
@@ -4245,7 +4245,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 285",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GOLD%20SEAL%2016%25",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "USA"
     },
@@ -4255,7 +4255,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 795",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GOLD%20SUPREME",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: true,
         country: "Kenya"
     },
@@ -4265,7 +4265,7 @@ const catalogueProducts = [
         size: "350ML",
         price: "Ksh 1,275",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GORDON%20GIN",
+        image: "https://www.thewhiskyexchange.com/p/2142/gordons-london-dry-gin",
         isKenyan: false,
         country: "United Kingdom"
     },
@@ -4275,7 +4275,7 @@ const catalogueProducts = [
         size: "1L",
         price: "Ksh 2,775",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GORDON%20GREENT",
+        image: "https://www.thewhiskyexchange.com/p/2142/gordons-london-dry-gin",
         isKenyan: false,
         country: "United Kingdom"
     },
@@ -4285,7 +4285,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 2,400",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GORDON%20GREEN",
+        image: "https://www.thewhiskyexchange.com/p/2142/gordons-london-dry-gin",
         isKenyan: false,
         country: "United Kingdom"
     },
@@ -4295,7 +4295,7 @@ const catalogueProducts = [
         size: "1L",
         price: "Ksh 3,225",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GORDON%20LEMONT",
+        image: "https://www.thewhiskyexchange.com/p/2142/gordons-london-dry-gin",
         isKenyan: false,
         country: "United Kingdom"
     },
@@ -4305,7 +4305,7 @@ const catalogueProducts = [
         size: "70CL",
         price: "Ksh 2,850",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GORDON%20LEMON",
+        image: "https://www.thewhiskyexchange.com/p/2142/gordons-london-dry-gin",
         isKenyan: false,
         country: "United Kingdom"
     },
@@ -4315,7 +4315,7 @@ const catalogueProducts = [
         size: "700ML",
         price: "Ksh 2,805",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GORDON%20ORANGE",
+        image: "https://www.thewhiskyexchange.com/p/2142/gordons-london-dry-gin",
         isKenyan: false,
         country: "United Kingdom"
     },
@@ -4325,7 +4325,7 @@ const catalogueProducts = [
         size: "1L",
         price: "Ksh 3,075",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GORDON%20PINKT",
+        image: "https://www.thewhiskyexchange.com/p/2142/gordons-london-dry-gin",
         isKenyan: false,
         country: "United Kingdom"
     },
@@ -4335,7 +4335,7 @@ const catalogueProducts = [
         size: "700ML",
         price: "Ksh 2,775",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GORDON%20PINK",
+        image: "https://www.thewhiskyexchange.com/p/2142/gordons-london-dry-gin",
         isKenyan: false,
         country: "United Kingdom"
     },
@@ -4345,7 +4345,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 293",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GORDONS%20DRY%20%26%20TONIC%20CAN",
+        image: "https://www.thewhiskyexchange.com/p/2142/gordons-london-dry-gin",
         isKenyan: false,
         country: "United Kingdom"
     },
@@ -4355,7 +4355,7 @@ const catalogueProducts = [
         size: "1L",
         price: "Ksh 3,480",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GORDONS%20GINTR",
+        image: "https://www.thewhiskyexchange.com/p/2142/gordons-london-dry-gin",
         isKenyan: false,
         country: "United Kingdom"
     },
@@ -4365,7 +4365,7 @@ const catalogueProducts = [
         size: "250ML",
         price: "Ksh 375",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GORDONS%20GIN",
+        image: "https://www.thewhiskyexchange.com/p/2142/gordons-london-dry-gin",
         isKenyan: false,
         country: "United Kingdom"
     },
@@ -4375,7 +4375,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 3,000",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GORDONS%20GIN%203/4",
+        image: "https://www.thewhiskyexchange.com/p/2142/gordons-london-dry-gin",
         isKenyan: false,
         country: "United Kingdom"
     },
@@ -4385,7 +4385,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 293",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GORDONS%20PINK%20%26TONIC%20CAN",
+        image: "https://www.thewhiskyexchange.com/p/2142/gordons-london-dry-gin",
         isKenyan: false,
         country: "United Kingdom"
     },
@@ -4395,7 +4395,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 6,195",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GRACE%20O%20MALLEY%20WHISKEY",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "Ireland"
     },
@@ -4405,7 +4405,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,035",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GRAND%20MASTER%20WHISKY",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: true,
         country: "Kenya"
     },
@@ -4415,7 +4415,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 2,970",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GRAN%20MIRADOR%20DARK",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "Spain"
     },
@@ -4425,7 +4425,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 2,970",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GRAN%20MIRADOR%20RED",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "Spain"
     },
@@ -4435,7 +4435,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,155",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GRANTS%201/2",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "Scotland"
     },
@@ -4445,7 +4445,7 @@ const catalogueProducts = [
         size: "1L",
         price: "Ksh 3,150",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GRANTST%20WITH%20GLASS",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "Scotland"
     },
@@ -4455,7 +4455,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 2,550",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GRANTS%20WITH%20GLASS",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "Scotland"
     },
@@ -4465,7 +4465,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 2,100",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GRANTS%20SMOKY",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "Scotland"
     },
@@ -4475,7 +4475,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 5,625",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GRANTS%20TRIPLE%20W%2012YRS",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "Scotland"
     },
@@ -4485,7 +4485,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,950",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=grayson%20gold",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: true,
         country: "Kenya"
     },
@@ -4495,7 +4495,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,170",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GRAYSON%20WHISKEY",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: true,
         country: "Kenya"
     },
@@ -4505,7 +4505,7 @@ const catalogueProducts = [
         size: "250ML",
         price: "Ksh 390",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GRAYSON%20WHISKY",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: true,
         country: "Kenya"
     },
@@ -4515,7 +4515,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 570",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GRENADINE%20SYRUP",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "France"
     },
@@ -4525,7 +4525,7 @@ const catalogueProducts = [
         size: "1L",
         price: "Ksh 5,325",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GREY%20GOOSE%20VODKAT",
+        image: "assets/images/real/grey_goose.png",
         isKenyan: false,
         country: "France"
     },
@@ -4535,7 +4535,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 4,125",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GROUSE%20SHERRY%20WHSKY",
+        image: "https://www.thewhiskyexchange.com/p/2157/smirnoff-red-no21-vodka",
         isKenyan: false,
         country: "Scotland"
     },
@@ -4545,7 +4545,7 @@ const catalogueProducts = [
         size: "440ML",
         price: "Ksh 240",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GUARANA",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: true,
         country: "Kenya"
     },
@@ -4555,7 +4555,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 267",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GUARANA%20CAN",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: true,
         country: "Kenya"
     },
@@ -4565,7 +4565,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 255",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GUARANA%20ICEBERG",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: true,
         country: "Kenya"
     },
@@ -4575,7 +4575,7 @@ const catalogueProducts = [
         size: "330ML",
         price: "Ksh 240",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GUINESS%20SMOOTH%20BEER",
+        image: "https://www.eabl.com/sites/default/files/brand-logos/Tusker_0.png",
         isKenyan: false,
         country: "Ireland"
     },
@@ -4585,7 +4585,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 308",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GUINNESS%20BEER",
+        image: "https://www.eabl.com/sites/default/files/brand-logos/Guinness_0.png",
         isKenyan: true,
         country: "Kenya"
     },
@@ -4595,7 +4595,7 @@ const catalogueProducts = [
         size: "500ML",
         price: "Ksh 329",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GUINNESS%20CAN",
+        image: "https://www.eabl.com/sites/default/files/brand-logos/Guinness_0.png",
         isKenyan: true,
         country: "Kenya"
     },
@@ -4605,7 +4605,7 @@ const catalogueProducts = [
         size: "500ML",
         price: "Ksh 254",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GUINNESS%20SMOOTH%20BEER",
+        image: "https://www.eabl.com/sites/default/files/brand-logos/Guinness_0.png",
         isKenyan: true,
         country: "Kenya"
     },
@@ -4615,7 +4615,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 303",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GUINNESS%20SMOOTH%20CAN",
+        image: "https://www.eabl.com/sites/default/files/brand-logos/Guinness_0.png",
         isKenyan: true,
         country: "Kenya"
     },
@@ -4625,7 +4625,7 @@ const catalogueProducts = [
         size: "330ML",
         price: "Ksh 263",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GUINNESS%20SMOOTH%20%20CAN",
+        image: "https://www.eabl.com/sites/default/files/brand-logos/Guinness_0.png",
         isKenyan: true,
         country: "Kenya"
     },
@@ -4635,7 +4635,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,950",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=HAMPTON%20WHISKY",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "India"
     },
@@ -4645,7 +4645,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 2,250",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=HART%20BLUEBERRY",
+        image: "assets/images/real/bl.jpg",
         isKenyan: false,
         country: "China"
     },
@@ -4655,7 +4655,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 2,250",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=HART%20GRAPE%20ICE",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "China"
     },
@@ -4665,7 +4665,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 2,250",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=HART%20MANHATTAN%20MINT",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "China"
     },
@@ -4675,7 +4675,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 2,250",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=HART%20PINEAPPLEICE",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "China"
     },
@@ -4685,7 +4685,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 2,250",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=HART%20STRAWBERRY%20COSMO",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "China"
     },
@@ -4695,7 +4695,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 2,775",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=HARVEYS",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "Spain"
     },
@@ -4705,7 +4705,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 3,720",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=HAVANA%20ANEJO%20ESPECIAL%20PLUS",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "Cuba"
     },
@@ -4715,7 +4715,7 @@ const catalogueProducts = [
         size: "750 ML",
         price: "Ksh 2,880",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=HAVANA%20CLUB%203YRS",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "Cuba"
     },
@@ -4725,7 +4725,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 270",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=H%20B",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "Germany"
     },
@@ -4735,7 +4735,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 240",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=H%20C",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "Cuba"
     },
@@ -4745,7 +4745,7 @@ const catalogueProducts = [
         size: "330ML",
         price: "Ksh 398",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=HEINEKEN%20BOTTLE",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "Netherlands"
     },
@@ -4755,7 +4755,7 @@ const catalogueProducts = [
         size: "500ML",
         price: "Ksh 420",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=HEINEKEN%20CAN",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "Netherlands"
     },
@@ -4765,7 +4765,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 315",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=HEINEKEN%20ZERO%25",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "Netherlands"
     },
@@ -4775,7 +4775,7 @@ const catalogueProducts = [
         size: "1L",
         price: "Ksh 9,750",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=HENDRICKS%20DRY%20GINT",
+        image: "https://www.thewhiskyexchange.com/p/2142/gordons-london-dry-gin",
         isKenyan: false,
         country: "Scotland"
     },
@@ -4785,7 +4785,7 @@ const catalogueProducts = [
         size: "70CL",
         price: "Ksh 7,950",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=HENDRICKS%20DRY%20GIN",
+        image: "https://www.thewhiskyexchange.com/p/2142/gordons-london-dry-gin",
         isKenyan: false,
         country: "Scotland"
     },
@@ -4795,7 +4795,7 @@ const catalogueProducts = [
         size: "1L",
         price: "Ksh 11,325",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=HENNESSY%20vsT",
+        image: "https://www.thewhiskyexchange.com/p/3551/hennessy-vs-cognac",
         isKenyan: false,
         country: "France"
     },
@@ -4805,7 +4805,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 6,975",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=HENNESSY%20vs%203/4",
+        image: "https://www.thewhiskyexchange.com/p/3551/hennessy-vs-cognac",
         isKenyan: false,
         country: "France"
     },
@@ -4815,7 +4815,7 @@ const catalogueProducts = [
         size: "350ML",
         price: "Ksh 3,600",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=HENNESSY%20VS",
+        image: "https://www.thewhiskyexchange.com/p/3551/hennessy-vs-cognac",
         isKenyan: false,
         country: "France"
     },
@@ -4825,7 +4825,7 @@ const catalogueProducts = [
         size: "700ML",
         price: "Ksh 13,500",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=HENNESSY%20VSOP",
+        image: "https://www.thewhiskyexchange.com/p/3551/hennessy-vs-cognac",
         isKenyan: false,
         country: "France"
     },
@@ -4835,7 +4835,7 @@ const catalogueProducts = [
         size: "700ML",
         price: "Ksh 54,750",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=HENNESSY%20%20XO",
+        image: "https://www.thewhiskyexchange.com/p/3551/hennessy-vs-cognac",
         isKenyan: false,
         country: "France"
     },
@@ -4845,7 +4845,7 @@ const catalogueProducts = [
         size: "250ML",
         price: "Ksh 420",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=HERDSMAN",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "South Africa"
     },
@@ -4855,7 +4855,7 @@ const catalogueProducts = [
         size: "500ML",
         price: "Ksh 855",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=HERDSMAN",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "South Africa"
     },
@@ -4865,7 +4865,7 @@ const catalogueProducts = [
         size: "1L",
         price: "Ksh 1,560",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=HIGHLAND%20QUEENT",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "Scotland"
     },
@@ -4875,7 +4875,7 @@ const catalogueProducts = [
         size: "350ML",
         price: "Ksh 600",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=HIGHLAND%20QUEEN",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "Scotland"
     },
@@ -4885,7 +4885,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,170",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=HIGHLAND%20QUEEN",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "Scotland"
     },
@@ -4895,7 +4895,7 @@ const catalogueProducts = [
         size: "1L",
         price: "Ksh 2,700",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=HLIBNY%20DAR%20CRAFTED%20CORNITRE",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "Ukraine"
     },
@@ -4905,7 +4905,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 2,700",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=HLIBNY%20DAR%20CRAFTED%20%20GINGER%20%26HONEY%20LITRE",
+        image: "https://www.thewhiskyexchange.com/p/2142/gordons-london-dry-gin",
         isKenyan: false,
         country: "Ukraine"
     },
@@ -4915,7 +4915,7 @@ const catalogueProducts = [
         size: "330ML",
         price: "Ksh 296",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=HUNTER%20CIDER%20DRY",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "South Africa"
     },
@@ -4925,7 +4925,7 @@ const catalogueProducts = [
         size: "330ML",
         price: "Ksh 296",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=HUNTER%20CIDER%20GOLD",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "South Africa"
     },
@@ -4935,7 +4935,7 @@ const catalogueProducts = [
         size: "250ML",
         price: "Ksh 447",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=HUNTERS",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "South Africa"
     },
@@ -4945,7 +4945,7 @@ const catalogueProducts = [
         size: "350ML",
         price: "Ksh 653",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=HUNTERS",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "South Africa"
     },
@@ -4955,7 +4955,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,380",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=HUNTERS",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "South Africa"
     },
@@ -4965,7 +4965,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,440",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=HUNTING%20APPLE",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "France"
     },
@@ -4975,7 +4975,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,440",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=HUNTING%20CHOCO",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "France"
     },
@@ -4985,7 +4985,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,440",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=HUNTING%20LDG%20VODKA",
+        image: "https://www.thewhiskyexchange.com/p/2157/smirnoff-red-no21-vodka",
         isKenyan: false,
         country: "France"
     },
@@ -4995,7 +4995,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,440",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=HUNTING%20%20LG%20GIN",
+        image: "https://www.thewhiskyexchange.com/p/2142/gordons-london-dry-gin",
         isKenyan: false,
         country: "France"
     },
@@ -5005,7 +5005,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,620",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=HUNTING%20WHISKY",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "France"
     },
@@ -5015,7 +5015,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 825",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=ICE%20VODKA",
+        image: "assets/images/real/blue_ice_vodka.jpg",
         isKenyan: false,
         country: "USA"
     },
@@ -5025,7 +5025,7 @@ const catalogueProducts = [
         size: "250ML",
         price: "Ksh 203",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=ICON%20GOLDEN%20BRANDY",
+        image: "https://www.thewhiskyexchange.com/p/2157/smirnoff-red-no21-vodka",
         isKenyan: false,
         country: "India"
     },
@@ -5035,7 +5035,7 @@ const catalogueProducts = [
         size: "250ML",
         price: "Ksh 203",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=ICON%20VODKA",
+        image: "https://www.thewhiskyexchange.com/p/2157/smirnoff-red-no21-vodka",
         isKenyan: false,
         country: "India"
     },
@@ -5045,7 +5045,7 @@ const catalogueProducts = [
         size: "250ML",
         price: "Ksh 255",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=IDENTITY%20BRANDY",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: true,
         country: "Kenya"
     },
@@ -5055,7 +5055,7 @@ const catalogueProducts = [
         size: "250ML",
         price: "Ksh 255",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=IDENTITY%20GIN",
+        image: "https://www.thewhiskyexchange.com/p/2142/gordons-london-dry-gin",
         isKenyan: true,
         country: "Kenya"
     },
@@ -5065,7 +5065,7 @@ const catalogueProducts = [
         size: "250ML",
         price: "Ksh 255",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=IDENTITY%20VODKA",
+        image: "https://www.thewhiskyexchange.com/p/2157/smirnoff-red-no21-vodka",
         isKenyan: true,
         country: "Kenya"
     },
@@ -5075,7 +5075,7 @@ const catalogueProducts = [
         size: "250ML",
         price: "Ksh 548",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=IMPERIAL%20BLUE",
+        image: "assets/images/real/bl.jpg",
         isKenyan: false,
         country: "India"
     },
@@ -5085,7 +5085,7 @@ const catalogueProducts = [
         size: "375ML",
         price: "Ksh 825",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=IMPERIAL%20BLUE",
+        image: "assets/images/real/bl.jpg",
         isKenyan: false,
         country: "India"
     },
@@ -5095,7 +5095,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,605",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=IMPERIAL%20BLUE",
+        image: "assets/images/real/bl.jpg",
         isKenyan: false,
         country: "India"
     },
@@ -5105,7 +5105,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,380",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=IMPERIAL%20BLUE%20GIFTPACK",
+        image: "assets/images/real/bl.jpg",
         isKenyan: false,
         country: "India"
     },
@@ -5115,7 +5115,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 7,350",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=INVERROCHE%20GIN",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "South Africa"
     },
@@ -5125,7 +5125,7 @@ const catalogueProducts = [
         size: "375ML",
         price: "Ksh 548",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=IRIS%20WHISKY",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "Scotland"
     },
@@ -5135,7 +5135,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,035",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=IRIS%20WHISKY",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "Scotland"
     },
@@ -5145,7 +5145,7 @@ const catalogueProducts = [
         size: "1 L",
         price: "Ksh 4,950",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=JACK%20DANIELTR",
+        image: "https://www.thewhiskyexchange.com/p/455/jack-daniels-old-no7-tennessee-whisky",
         isKenyan: false,
         country: "USA"
     },
@@ -5155,7 +5155,7 @@ const catalogueProducts = [
         size: "1L",
         price: "Ksh 5,175",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=JACK%20DANIEL%20APPLET",
+        image: "https://www.thewhiskyexchange.com/p/455/jack-daniels-old-no7-tennessee-whisky",
         isKenyan: false,
         country: "USA"
     },
@@ -5165,7 +5165,7 @@ const catalogueProducts = [
         size: "700ML",
         price: "Ksh 5,550",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=JACK%20DANIEL%20APPLE",
+        image: "https://www.thewhiskyexchange.com/p/455/jack-daniels-old-no7-tennessee-whisky",
         isKenyan: false,
         country: "USA"
     },
@@ -5175,7 +5175,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 375",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=JACK%20DANIEL%20CAN%20COLA",
+        image: "https://www.thewhiskyexchange.com/p/455/jack-daniels-old-no7-tennessee-whisky",
         isKenyan: false,
         country: "USA"
     },
@@ -5185,7 +5185,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 420",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=JACK%20DANIEL%20CAN%20lynchburg",
+        image: "https://www.thewhiskyexchange.com/p/455/jack-daniels-old-no7-tennessee-whisky",
         isKenyan: false,
         country: "USA"
     },
@@ -5195,7 +5195,7 @@ const catalogueProducts = [
         size: "1L",
         price: "Ksh 5,475",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=JACK%20DANIEL%20FIRET",
+        image: "https://www.thewhiskyexchange.com/p/455/jack-daniels-old-no7-tennessee-whisky",
         isKenyan: false,
         country: "USA"
     },
@@ -5205,7 +5205,7 @@ const catalogueProducts = [
         size: "700ML",
         price: "Ksh 4,350",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=JACK%20DANIEL%20FIRE",
+        image: "https://www.thewhiskyexchange.com/p/455/jack-daniels-old-no7-tennessee-whisky",
         isKenyan: false,
         country: "USA"
     },
@@ -5215,7 +5215,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 5,400",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=JACK%20DANIEL%20HONEY",
+        image: "https://www.thewhiskyexchange.com/p/455/jack-daniels-old-no7-tennessee-whisky",
         isKenyan: false,
         country: "USA"
     },
@@ -5225,7 +5225,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 4,163",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=JACK%20DANIELS%203/4",
+        image: "https://www.thewhiskyexchange.com/p/455/jack-daniels-old-no7-tennessee-whisky",
         isKenyan: false,
         country: "USA"
     },
@@ -5235,7 +5235,7 @@ const catalogueProducts = [
         size: "350ML",
         price: "Ksh 2,925",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=JACK%20DANIELS",
+        image: "assets/images/real/jack_daniels_old_no._7.png",
         isKenyan: false,
         country: "USA"
     },
@@ -5245,7 +5245,7 @@ const catalogueProducts = [
         size: "1L",
         price: "Ksh 5,850",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=JACK%20DANIELS%20HONEYT",
+        image: "https://www.thewhiskyexchange.com/p/455/jack-daniels-old-no7-tennessee-whisky",
         isKenyan: false,
         country: "USA"
     },
@@ -5255,7 +5255,7 @@ const catalogueProducts = [
         size: "350ML",
         price: "Ksh 2,400",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=JACK%20DANIELS%20HONEY",
+        image: "https://www.thewhiskyexchange.com/p/455/jack-daniels-old-no7-tennessee-whisky",
         isKenyan: false,
         country: "USA"
     },
@@ -5265,7 +5265,7 @@ const catalogueProducts = [
         size: "700ML",
         price: "Ksh 8,400",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=JACK%20D%20SINGLE%20BARREL",
+        image: "https://www.thewhiskyexchange.com/p/455/jack-daniels-old-no7-tennessee-whisky",
         isKenyan: false,
         country: "USA"
     },
@@ -5275,7 +5275,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,950",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=JACOB%20CREEK%20CHARDONNAY",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "Australia"
     },
@@ -5285,7 +5285,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,950",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=JACOB%20CREEK%20MERLOT",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "Australia"
     },
@@ -5295,7 +5295,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,950",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=JACOB%20CREEK%20ROSE",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "Australia"
     },
@@ -5305,7 +5305,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,950",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=JACOB%20CREEK%20SHIRAZ",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "Australia"
     },
@@ -5315,7 +5315,7 @@ const catalogueProducts = [
         size: "1L",
         price: "Ksh 4,800",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=JAGERMEISTER%20GIFTPACK",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "Germany"
     },
@@ -5325,7 +5325,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 3,525",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=JAGERMEISTER%20700%20WITH%20CORK",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "Germany"
     },
@@ -5335,7 +5335,7 @@ const catalogueProducts = [
         size: "1L",
         price: "Ksh 4,425",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=JAGERMESTERT",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "Germany"
     },
@@ -5345,7 +5345,7 @@ const catalogueProducts = [
         size: "350ML",
         price: "Ksh 2,025",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=JAGERMESTER",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "Germany"
     },
@@ -5355,7 +5355,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 3,525",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=JAGERMESTER",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "Germany"
     },
@@ -5365,7 +5365,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,050",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=JAMAICAN%20RUM",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "Jamaica"
     },
@@ -5375,7 +5375,7 @@ const catalogueProducts = [
         size: "250ML",
         price: "Ksh 150",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=JAMBO%20VODKA",
+        image: "https://www.thewhiskyexchange.com/p/2157/smirnoff-red-no21-vodka",
         isKenyan: true,
         country: "Kenya"
     },
@@ -5385,7 +5385,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 4,575",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=JAMESON%20CASK%20MATE",
+        image: "assets/images/real/jameson_cask_mate.jpg",
         isKenyan: false,
         country: "Ireland"
     },
@@ -5395,7 +5395,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 4,875",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=JAMESON%20CRESTED",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "Ireland"
     },
@@ -5405,7 +5405,7 @@ const catalogueProducts = [
         size: "1L",
         price: "Ksh 4,950",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=JAMESONST",
+        image: "assets/images/real/jamesonst.jpg",
         isKenyan: false,
         country: "Ireland"
     },
@@ -5415,7 +5415,7 @@ const catalogueProducts = [
         size: "350ML",
         price: "Ksh 1,935",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=JAMESONS",
+        image: "assets/images/real/jamesonst.jpg",
         isKenyan: false,
         country: "Ireland"
     },
@@ -5425,7 +5425,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 3,750",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=JAMESONS",
+        image: "assets/images/real/jamesonst.jpg",
         isKenyan: false,
         country: "Ireland"
     },
@@ -5435,7 +5435,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 6,075",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=JAMESONS%20BLACK%20BARREL",
+        image: "assets/images/real/bl.jpg",
         isKenyan: false,
         country: "Ireland"
     },
@@ -5445,7 +5445,7 @@ const catalogueProducts = [
         size: "1L",
         price: "Ksh 3,135",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=J%20%26%20BTR",
+        image: "assets/images/real/j___btr.jpg",
         isKenyan: false,
         country: "Scotland"
     },
@@ -5455,7 +5455,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 2,370",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=J%20%26%20B%203/4",
+        image: "assets/images/real/j___b_3_4.jpg",
         isKenyan: false,
         country: "Scotland"
     },
@@ -5465,7 +5465,7 @@ const catalogueProducts = [
         size: "375ML",
         price: "Ksh 1,208",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=J%20%26%20B",
+        image: "assets/images/real/j___btr.jpg",
         isKenyan: false,
         country: "Scotland"
     },
@@ -5475,7 +5475,7 @@ const catalogueProducts = [
         size: "700ML",
         price: "Ksh 2,775",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=J%20%26%20B%20HONEY",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "Scotland"
     },
@@ -5485,7 +5485,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 2,190",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=JC%20LE%20ROUX%20DOMAINE",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "South Africa"
     },
@@ -5495,7 +5495,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 2,190",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=JC%20LE%20ROUX%20FLRTE",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "South Africa"
     },
@@ -5505,7 +5505,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,140",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=JEZLIN%20VODKA",
+        image: "https://www.thewhiskyexchange.com/p/2157/smirnoff-red-no21-vodka",
         isKenyan: false,
         country: "France"
     },
@@ -5515,7 +5515,7 @@ const catalogueProducts = [
         size: "1L",
         price: "Ksh 3,375",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=JIM%20BEAMT",
+        image: "https://www.thewhiskyexchange.com/p/444/jim-beam-white-label-bourbon",
         isKenyan: false,
         country: "USA"
     },
@@ -5525,7 +5525,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 2,925",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=JIM%20BEAM",
+        image: "https://www.thewhiskyexchange.com/p/444/jim-beam-white-label-bourbon",
         isKenyan: false,
         country: "USA"
     },
@@ -5535,7 +5535,7 @@ const catalogueProducts = [
         size: "700ML",
         price: "Ksh 2,250",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=JIM%20BEAM%20APPLE",
+        image: "https://www.thewhiskyexchange.com/p/444/jim-beam-white-label-bourbon",
         isKenyan: false,
         country: "USA"
     },
@@ -5545,7 +5545,7 @@ const catalogueProducts = [
         size: "1L",
         price: "Ksh 3,525",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=JIM%20BEAM%20BLACKT",
+        image: "assets/images/real/bl.jpg",
         isKenyan: false,
         country: "USA"
     },
@@ -5555,7 +5555,7 @@ const catalogueProducts = [
         size: "1L",
         price: "Ksh 3,000",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=JIM%20BEAM%20HNYT",
+        image: "https://www.thewhiskyexchange.com/p/444/jim-beam-white-label-bourbon",
         isKenyan: false,
         country: "USA"
     },
@@ -5565,7 +5565,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 2,250",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=JIM%20BEAM%20HONEY",
+        image: "https://www.thewhiskyexchange.com/p/444/jim-beam-white-label-bourbon",
         isKenyan: false,
         country: "USA"
     },
@@ -5575,7 +5575,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,875",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=JOHN%20BANNERMANS%20750M",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "South Africa"
     },
@@ -5585,7 +5585,7 @@ const catalogueProducts = [
         size: "1L",
         price: "Ksh 2,550",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=JOHN%20BARR%20BLACKT",
+        image: "assets/images/real/bl.jpg",
         isKenyan: false,
         country: "Scotland"
     },
@@ -5595,7 +5595,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 2,325",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=JOHN%20BARR%20BLACK",
+        image: "assets/images/real/bl.jpg",
         isKenyan: false,
         country: "Scotland"
     },
@@ -5605,7 +5605,7 @@ const catalogueProducts = [
         size: "1L",
         price: "Ksh 2,400",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=JOHN%20BARR%20REDT",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "Scotland"
     },
@@ -5615,7 +5615,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 2,250",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=JOHN%20BARR%20RED",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "Scotland"
     },
@@ -5625,7 +5625,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 14,775",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=JOHN%20WALKER%2018YRS",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "Scotland"
     },
@@ -5635,7 +5635,7 @@ const catalogueProducts = [
         size: "1L",
         price: "Ksh 5,325",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=JOHN%20WALKER%20BLACKT",
+        image: "assets/images/real/bl.jpg",
         isKenyan: false,
         country: "Scotland"
     },
@@ -5645,7 +5645,7 @@ const catalogueProducts = [
         size: "375ML",
         price: "Ksh 2,355",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=JOHN%20WALKER%20BLACK",
+        image: "assets/images/real/bl.jpg",
         isKenyan: false,
         country: "Scotland"
     },
@@ -5655,7 +5655,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 4,425",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=JOHN%20WALKER%20BLACK",
+        image: "assets/images/real/bl.jpg",
         isKenyan: false,
         country: "Scotland"
     },
@@ -5665,7 +5665,7 @@ const catalogueProducts = [
         size: "1L",
         price: "Ksh 48,000",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=JOHN%20WALKER%20BLUE%20%20LBLT",
+        image: "assets/images/real/bl.jpg",
         isKenyan: false,
         country: "Scotland"
     },
@@ -5675,7 +5675,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 39,750",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=JOHN%20WALKER%20BLUE%20lbl",
+        image: "assets/images/real/bl.jpg",
         isKenyan: false,
         country: "Scotland"
     },
@@ -5685,7 +5685,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 10,800",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=JOHN%20WALKER%20GOLD%20LBL%20RSRV",
+        image: "assets/images/real/bl.jpg",
         isKenyan: false,
         country: "Scotland"
     },
@@ -5695,7 +5695,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 10,200",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=JOHN%20WALKER%20GREEN",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "Scotland"
     },
@@ -5705,7 +5705,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 6,300",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=JOHN%20WALKER%20ICE/FIRE",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "Scotland"
     },
@@ -5715,7 +5715,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,320",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=JOHN%20WALKER%20RED%201/2",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "Scotland"
     },
@@ -5725,7 +5725,7 @@ const catalogueProducts = [
         size: "3L",
         price: "Ksh 10,200",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=JOHN%20WALKER%20REDT",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "Scotland"
     },
@@ -5735,7 +5735,7 @@ const catalogueProducts = [
         size: "1L",
         price: "Ksh 3,075",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=JOHN%20WALKER%20RED%20LABEL",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "Scotland"
     },
@@ -5745,7 +5745,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 2,535",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=JOHN%20WALKER%20RED%20LABEL%203/4",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "Scotland"
     },
@@ -5755,7 +5755,7 @@ const catalogueProducts = [
         size: "1L",
         price: "Ksh 8,100",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=JOHN%20WALKER%20WHTT",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "Scotland"
     },
@@ -5765,7 +5765,7 @@ const catalogueProducts = [
         size: "250ML",
         price: "Ksh 1,575",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=JOHN%20W%20BLACK",
+        image: "assets/images/real/bl.jpg",
         isKenyan: false,
         country: "Scotland"
     },
@@ -5775,7 +5775,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 6,150",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=JOHN%20W%20DBL%20BLACK",
+        image: "assets/images/real/bl.jpg",
         isKenyan: false,
         country: "Scotland"
     },
@@ -5785,7 +5785,7 @@ const catalogueProducts = [
         size: "250ML",
         price: "Ksh 870",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=JOHN%20W%20RED",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "Scotland"
     },
@@ -5795,7 +5795,7 @@ const catalogueProducts = [
         size: "1L",
         price: "Ksh 4,125",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=JOSE%20CUERVO%20GOLDT",
+        image: "assets/images/real/jose_cuervo_goldt.jpg",
         isKenyan: false,
         country: "Mexico"
     },
@@ -5805,7 +5805,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 3,525",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=JOSE%20CUERVO%20GOLD",
+        image: "assets/images/real/jose_cuervo_goldt.jpg",
         isKenyan: false,
         country: "Mexico"
     },
@@ -5815,7 +5815,7 @@ const catalogueProducts = [
         size: "1L",
         price: "Ksh 4,200",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=JOSE%20CUERVO%20SILVERT",
+        image: "assets/images/real/jose_cuervo_silvert.jpg",
         isKenyan: false,
         country: "Mexico"
     },
@@ -5825,7 +5825,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 3,825",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=JOSE%20CUERVO%20SILVER",
+        image: "assets/images/real/jose_cuervo_silvert.jpg",
         isKenyan: false,
         country: "Mexico"
     },
@@ -5835,7 +5835,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 2,025",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=JP%20AZELTAO",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "Portugal"
     },
@@ -5845,7 +5845,7 @@ const catalogueProducts = [
         size: "70CL",
         price: "Ksh 1,920",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=JP%20CHENET%20NOBLESS",
+        image: "assets/images/real/jp_chenet_nobless.jpg",
         isKenyan: false,
         country: "France"
     },
@@ -5855,7 +5855,7 @@ const catalogueProducts = [
         size: "700ML",
         price: "Ksh 4,800",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=JUMPING%20GOAT%20whisky",
+        image: "assets/images/real/jumping_goat_whisky.jpg",
         isKenyan: false,
         country: "New Zealand"
     },
@@ -5865,7 +5865,7 @@ const catalogueProducts = [
         size: "250ML",
         price: "Ksh 311",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=JUST%20RIGHT%20SMOOTH",
+        image: "assets/images/real/just_right_smooth.jpg",
         isKenyan: true,
         country: "Kenya"
     },
@@ -5875,7 +5875,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 5,700",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=J.W%20WHITE%20WALKER",
+        image: "assets/images/real/j_w_white_walker.jpg",
         isKenyan: false,
         country: "Scotland"
     },
@@ -5885,7 +5885,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,928",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KAHAWA%20GOLD",
+        image: "assets/images/real/kahawa_gold.jpg",
         isKenyan: true,
         country: "Kenya"
     },
@@ -5895,7 +5895,7 @@ const catalogueProducts = [
         size: "1L",
         price: "Ksh 2,925",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KAHLUA%20LIQUERT",
+        image: "assets/images/real/kahlua_liquert.jpg",
         isKenyan: false,
         country: "Mexico"
     },
@@ -5905,7 +5905,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 2,250",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KAHLUA%20LIQUER",
+        image: "assets/images/real/kahlua_liquert.jpg",
         isKenyan: false,
         country: "Mexico"
     },
@@ -5915,7 +5915,7 @@ const catalogueProducts = [
         size: "250ML",
         price: "Ksh 720",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KAKIRA%20COFFEE%20VODKA",
+        image: "assets/images/real/kakira_coffee_vodka.jpg",
         isKenyan: false,
         country: "Uganda"
     },
@@ -5925,7 +5925,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,995",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KAKIRA%20COFFEE%20VODKA",
+        image: "assets/images/real/kakira_coffee_vodka.jpg",
         isKenyan: false,
         country: "Uganda"
     },
@@ -5935,7 +5935,7 @@ const catalogueProducts = [
         size: "250ML",
         price: "Ksh 540",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KAKIRA%20GIN",
+        image: "assets/images/real/kakira_gin.jpg",
         isKenyan: false,
         country: "Uganda"
     },
@@ -5945,7 +5945,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,688",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KAKIRA%20GIN",
+        image: "assets/images/real/kakira_gin.jpg",
         isKenyan: false,
         country: "Uganda"
     },
@@ -5955,7 +5955,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,950",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KAKIRA%20GOLD%20RUM",
+        image: "assets/images/real/kakira_gold_rum.jpg",
         isKenyan: false,
         country: "Uganda"
     },
@@ -5965,7 +5965,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 825",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KALANOV%20VDKA",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "India"
     },
@@ -5975,7 +5975,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 893",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KANE%20EXTRA",
+        image: "assets/images/real/kane_extra.jpg",
         isKenyan: true,
         country: "Kenya"
     },
@@ -5985,7 +5985,7 @@ const catalogueProducts = [
         size: "250ML",
         price: "Ksh 293",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KANE%20EXTRA%20GOLD",
+        image: "assets/images/real/kane_extra_gold.jpg",
         isKenyan: true,
         country: "Kenya"
     },
@@ -5995,7 +5995,7 @@ const catalogueProducts = [
         size: "1L",
         price: "Ksh 53",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KARIGEN%20WATERT",
+        image: "assets/images/real/karigen_watert.jpg",
         isKenyan: false,
         country: "Japan"
     },
@@ -6005,7 +6005,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 225",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KB",
+        image: "assets/images/real/kb.jpg",
         isKenyan: true,
         country: "Kenya"
     },
@@ -6015,7 +6015,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 5,250",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KEG%20EMPTIES",
+        image: "assets/images/real/keg_empties.jpg",
         isKenyan: false,
         country: "Service"
     },
@@ -6025,7 +6025,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,200",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KENSINGTON%20GIN",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "South Africa"
     },
@@ -6035,7 +6035,7 @@ const catalogueProducts = [
         size: "350ML",
         price: "Ksh 540",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KENYA%20CANE",
+        image: "assets/images/real/kenya_cane.png",
         isKenyan: true,
         country: "Kenya"
     },
@@ -6045,7 +6045,7 @@ const catalogueProducts = [
         size: "250ML",
         price: "Ksh 383",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KENYA%20CANE%20CITRUS",
+        image: "assets/images/real/kenya_cane_citrus.jpg",
         isKenyan: true,
         country: "Kenya"
     },
@@ -6055,7 +6055,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,013",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KENYA%20CANE%20CITRUS",
+        image: "assets/images/real/kenya_cane_citrus.jpg",
         isKenyan: true,
         country: "Kenya"
     },
@@ -6065,7 +6065,7 @@ const catalogueProducts = [
         size: "250ML",
         price: "Ksh 383",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KENYA%20CANE%20COCO",
+        image: "assets/images/real/kenya_cane_coco.jpg",
         isKenyan: true,
         country: "Kenya"
     },
@@ -6075,7 +6075,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,013",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KENYA%20CANE%20COCO",
+        image: "assets/images/real/kenya_cane_coco.jpg",
         isKenyan: true,
         country: "Kenya"
     },
@@ -6085,7 +6085,7 @@ const catalogueProducts = [
         size: "250ML",
         price: "Ksh 383",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KENYA%20CANE%20LEMON",
+        image: "assets/images/real/kenya_cane.png",
         isKenyan: true,
         country: "Kenya"
     },
@@ -6095,7 +6095,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,013",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KENYA%20CANE%20LEMON",
+        image: "assets/images/real/kenya_cane.png",
         isKenyan: true,
         country: "Kenya"
     },
@@ -6105,7 +6105,7 @@ const catalogueProducts = [
         size: "250ML",
         price: "Ksh 383",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KENYA%20CANE%20PINEAPPLE",
+        image: "assets/images/real/kenya_cane_pineapple.jpg",
         isKenyan: true,
         country: "Kenya"
     },
@@ -6115,7 +6115,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,013",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KENYA%20CANE%20PINEAPPLE",
+        image: "assets/images/real/kenya_cane_pineapple.jpg",
         isKenyan: true,
         country: "Kenya"
     },
@@ -6125,7 +6125,7 @@ const catalogueProducts = [
         size: "250ML",
         price: "Ksh 383",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KENYA%20CANE%20SMOOTH",
+        image: "assets/images/real/kenya_cane_smooth.jpg",
         isKenyan: true,
         country: "Kenya"
     },
@@ -6135,7 +6135,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,013",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KENYA%20CANE%20SMOOTH",
+        image: "assets/images/real/kenya_cane_smooth.jpg",
         isKenyan: true,
         country: "Kenya"
     },
@@ -6145,7 +6145,7 @@ const catalogueProducts = [
         size: "250ML",
         price: "Ksh 278",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KENYA%20GOLD",
+        image: "assets/images/real/kenya_gold.jpg",
         isKenyan: true,
         country: "Kenya"
     },
@@ -6155,7 +6155,7 @@ const catalogueProducts = [
         size: "250ML",
         price: "Ksh 345",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KENYA%20KING",
+        image: "assets/images/real/kenya_king.jpg",
         isKenyan: true,
         country: "Kenya"
     },
@@ -6165,7 +6165,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 990",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KENYA%20KING",
+        image: "assets/images/real/kenya_king.jpg",
         isKenyan: true,
         country: "Kenya"
     },
@@ -6175,7 +6175,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 750",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KEROR%20WHITE%20GRAPE",
+        image: "assets/images/real/keror_white_grape.jpg",
         isKenyan: false,
         country: "France"
     },
@@ -6185,7 +6185,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 4,440",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KETEL%20ONE",
+        image: "assets/images/real/ketel_one.png",
         isKenyan: false,
         country: "Netherlands"
     },
@@ -6195,7 +6195,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 930",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KGB%20CLASSIC",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "New Zealand"
     },
@@ -6205,7 +6205,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,065",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KGB%20LIMON",
+        image: "assets/images/real/kgb_limon.jpg",
         isKenyan: false,
         country: "New Zealand"
     },
@@ -6215,7 +6215,7 @@ const catalogueProducts = [
         size: "250ML",
         price: "Ksh 341",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KIBAO%20GIN",
+        image: "assets/images/real/kibao_gin.jpg",
         isKenyan: true,
         country: "Kenya"
     },
@@ -6225,7 +6225,7 @@ const catalogueProducts = [
         size: "350ML",
         price: "Ksh 525",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KIBAO%20GIN",
+        image: "assets/images/real/kibao_gin.jpg",
         isKenyan: true,
         country: "Kenya"
     },
@@ -6235,7 +6235,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 957",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KIBAO%20GIN",
+        image: "assets/images/real/kibao_gin.jpg",
         isKenyan: true,
         country: "Kenya"
     },
@@ -6245,7 +6245,7 @@ const catalogueProducts = [
         size: "250ML",
         price: "Ksh 341",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KIBAO%20VODKA",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: true,
         country: "Kenya"
     },
@@ -6255,7 +6255,7 @@ const catalogueProducts = [
         size: "350ML",
         price: "Ksh 525",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KIBAO%20VODKA",
+        image: "https://www.thewhiskyexchange.com/p/2157/smirnoff-red-no21-vodka",
         isKenyan: true,
         country: "Kenya"
     },
@@ -6265,7 +6265,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 957",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KIBAO%20VODKA",
+        image: "https://www.thewhiskyexchange.com/p/2157/smirnoff-red-no21-vodka",
         isKenyan: true,
         country: "Kenya"
     },
@@ -6275,7 +6275,7 @@ const catalogueProducts = [
         size: "250ML",
         price: "Ksh 320",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KIENYEJI",
+        image: "assets/images/real/kienyeji.jpg",
         isKenyan: true,
         country: "Kenya"
     },
@@ -6285,7 +6285,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 930",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KIENYEJI",
+        image: "assets/images/real/kienyeji.jpg",
         isKenyan: true,
         country: "Kenya"
     },
@@ -6295,7 +6295,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 297",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KINGFISHER",
+        image: "assets/images/real/kingfisher.jpg",
         isKenyan: true,
         country: "Kenya"
     },
@@ -6305,7 +6305,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,200",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KINGROBERT%20II",
+        image: "assets/images/real/kingrobert_ii.jpg",
         isKenyan: false,
         country: "United Kingdom"
     },
@@ -6315,7 +6315,7 @@ const catalogueProducts = [
         size: "1L",
         price: "Ksh 1,350",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KINGROBERTS%20GINITRE",
+        image: "assets/images/real/kingroberts_ginitre.jpg",
         isKenyan: false,
         country: "United Kingdom"
     },
@@ -6325,7 +6325,7 @@ const catalogueProducts = [
         size: "1L",
         price: "Ksh 1,500",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KINGROBERTS%20VODKAITRE",
+        image: "assets/images/real/kingroberts_vodkaitre.jpg",
         isKenyan: false,
         country: "United Kingdom"
     },
@@ -6335,7 +6335,7 @@ const catalogueProducts = [
         size: "75CL",
         price: "Ksh 1,125",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KINGROBERTS%20WHSKY",
+        image: "assets/images/real/kingroberts_whsky.jpg",
         isKenyan: false,
         country: "United Kingdom"
     },
@@ -6345,7 +6345,7 @@ const catalogueProducts = [
         size: "1L",
         price: "Ksh 1,800",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KINGROBERTS%20WSKYT",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "United Kingdom"
     },
@@ -6355,7 +6355,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,170",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KINGSTONE%20GIN%20LITRE",
+        image: "https://www.thewhiskyexchange.com/p/2142/gordons-london-dry-gin",
         isKenyan: false,
         country: "France"
     },
@@ -6365,7 +6365,7 @@ const catalogueProducts = [
         size: "500ML",
         price: "Ksh 45",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KLAR%20H2O",
+        image: "assets/images/real/klar_h2o.jpg",
         isKenyan: true,
         country: "Kenya"
     },
@@ -6375,7 +6375,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 83",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KLAR%20H2O%20LITRE",
+        image: "assets/images/real/klar_h2o_litre.jpg",
         isKenyan: true,
         country: "Kenya"
     },
@@ -6385,7 +6385,7 @@ const catalogueProducts = [
         size: "101 L",
         price: "Ksh 75",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KLUBEMONADE",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: true,
         country: "Kenya"
     },
@@ -6395,7 +6395,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 345",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KO%20APPLE",
+        image: "assets/images/real/ko_apple.jpg",
         isKenyan: true,
         country: "Kenya"
     },
@@ -6405,7 +6405,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 345",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KO%20APPLE%20CAN",
+        image: "assets/images/real/ko_apple_can.jpg",
         isKenyan: true,
         country: "Kenya"
     },
@@ -6415,7 +6415,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 3,150",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KO%20CLASSIC%20GIN",
+        image: "assets/images/real/assic_gin.jpg",
         isKenyan: true,
         country: "Kenya"
     },
@@ -6425,7 +6425,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 158",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KO%20CLASSIC%20TONIC%20CAN",
+        image: "assets/images/real/ko_classic_tonic_can.jpg",
         isKenyan: true,
         country: "Kenya"
     },
@@ -6435,7 +6435,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 345",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KO%20HONEY",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: true,
         country: "Kenya"
     },
@@ -6445,7 +6445,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 158",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KO%20LIGHT%20TONICCAN",
+        image: "assets/images/real/ko_light_toniccan.jpg",
         isKenyan: true,
         country: "Kenya"
     },
@@ -6455,7 +6455,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 345",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KO%20LIME",
+        image: "assets/images/real/ko_lime_can.jpg",
         isKenyan: true,
         country: "Kenya"
     },
@@ -6465,7 +6465,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 345",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KO%20LIME%20CAN",
+        image: "assets/images/real/ko_lime_can.jpg",
         isKenyan: true,
         country: "Kenya"
     },
@@ -6475,7 +6475,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 345",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KO%20MANGO",
+        image: "assets/images/real/ko_mango.jpg",
         isKenyan: false,
         country: "South Africa"
     },
@@ -6485,7 +6485,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 788",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KONYAGI%201/2",
+        image: "assets/images/real/konyagi.jpg",
         isKenyan: false,
         country: "Tanzania"
     },
@@ -6495,7 +6495,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,065",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KONYAGI",
+        image: "assets/images/real/konyagi.jpg",
         isKenyan: false,
         country: "Tanzania"
     },
@@ -6505,7 +6505,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 345",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KO%20PASSION",
+        image: "assets/images/real/ko_passion_can.jpg",
         isKenyan: true,
         country: "Kenya"
     },
@@ -6515,7 +6515,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 345",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KO%20PASSION%20CAN",
+        image: "assets/images/real/ko_passion_can.jpg",
         isKenyan: true,
         country: "Kenya"
     },
@@ -6525,7 +6525,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 210",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KO%20PASSION%20ICE%20TEA%20CAN",
+        image: "assets/images/real/ko_passion_ice_tea_can.jpg",
         isKenyan: true,
         country: "Kenya"
     },
@@ -6535,7 +6535,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 345",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KO%20PINEAPPLE",
+        image: "assets/images/real/ko_pineapple.jpg",
         isKenyan: true,
         country: "Kenya"
     },
@@ -6545,7 +6545,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 3,300",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KO%20TAMBUZI",
+        image: "assets/images/real/ko_tambuzi.jpg",
         isKenyan: true,
         country: "Kenya"
     },
@@ -6555,7 +6555,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 210",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KO%20TROPICAL%20ICE%20TEA%20CAN",
+        image: "assets/images/real/ko_tropical_ice_tea_can.jpg",
         isKenyan: true,
         country: "Kenya"
     },
@@ -6565,7 +6565,7 @@ const catalogueProducts = [
         size: "250ML",
         price: "Ksh 458",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=K%20VANT",
+        image: "assets/images/real/k_vant.jpg",
         isKenyan: false,
         country: "Tanzania"
     },
@@ -6575,7 +6575,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,650",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=K%20VANT",
+        image: "assets/images/real/k_vant.jpg",
         isKenyan: false,
         country: "Tanzania"
     },
@@ -6585,7 +6585,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 15,000",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KWV%2020YRS",
+        image: "assets/images/real/kwv_20yrs.jpg",
         isKenyan: false,
         country: "South Africa"
     },
@@ -6595,7 +6595,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,800",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KWV%203YRS",
+        image: "assets/images/real/kwv_3yrs.jpg",
         isKenyan: false,
         country: "South Africa"
     },
@@ -6605,7 +6605,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 2,550",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KWV%20CAPE%20RUBY",
+        image: "assets/images/real/kwv_cape_ruby.jpg",
         isKenyan: false,
         country: "South Africa"
     },
@@ -6615,7 +6615,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,200",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KWV%20CEVEE%20BRUT",
+        image: "assets/images/real/kwv_cevee_brut.jpg",
         isKenyan: false,
         country: "South Africa"
     },
@@ -6625,7 +6625,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 2,100",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KWV%20CHENIN%20BLANC",
+        image: "assets/images/real/kwv_chenin_blanc.jpg",
         isKenyan: false,
         country: "South Africa"
     },
@@ -6635,7 +6635,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 2,550",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KWV%20ROODEBERG%20BLACK",
+        image: "assets/images/real/kwv_roodeberg_black.jpg",
         isKenyan: false,
         country: "South Africa"
     },
@@ -6645,7 +6645,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 2,100",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=KWV%20SAUVIGNON%20BLANC",
+        image: "assets/images/real/kwv_sauvignon_blanc.jpg",
         isKenyan: false,
         country: "South Africa"
     },
@@ -6655,7 +6655,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 2,190",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=LABEL%205%20WHISKY",
+        image: "assets/images/real/label_5_whisky.jpg",
         isKenyan: false,
         country: "Scotland"
     },
@@ -6665,7 +6665,7 @@ const catalogueProducts = [
         size: "1L",
         price: "Ksh 2,100",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=LARIOS%20GINT",
+        image: "assets/images/real/larios_gint.jpg",
         isKenyan: false,
         country: "Spain"
     },
@@ -6675,7 +6675,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 2,250",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=LARIOS%20PREMIUM",
+        image: "assets/images/real/larios_premium.jpg",
         isKenyan: false,
         country: "Spain"
     },
@@ -6685,7 +6685,7 @@ const catalogueProducts = [
         size: "250ML",
         price: "Ksh 270",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=LEGEND",
+        image: "assets/images/real/legend.jpg",
         isKenyan: true,
         country: "Kenya"
     },
@@ -6695,7 +6695,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 780",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=LEGEND",
+        image: "assets/images/real/legend.jpg",
         isKenyan: true,
         country: "Kenya"
     },
@@ -6705,7 +6705,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 2,235",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=LEOPARD%20CAB%20SAUV",
+        image: "assets/images/real/leopard_cab_sauv.jpg",
         isKenyan: false,
         country: "South Africa"
     },
@@ -6715,7 +6715,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 2,235",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=LEOPARD%20CAB%20SAV%20MERLOT",
+        image: "assets/images/real/leopard_cab_sav_merlot.jpg",
         isKenyan: false,
         country: "South Africa"
     },
@@ -6725,7 +6725,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 2,235",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=LEOPARD%20CHARDONNAY",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "South Africa"
     },
@@ -6735,7 +6735,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 2,235",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=LEOPARD%20CHENIN%20BLANC",
+        image: "assets/images/real/leopard_chenin_blanc.jpg",
         isKenyan: false,
         country: "South Africa"
     },
@@ -6745,7 +6745,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 2,235",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=LEOPARD%20MERLOT",
+        image: "assets/images/real/leopard_merlot.jpg",
         isKenyan: false,
         country: "South Africa"
     },
@@ -6755,7 +6755,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 2,235",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=LEOPARD%20SAV%20BLANC",
+        image: "assets/images/real/leopard_sav_blanc.jpg",
         isKenyan: false,
         country: "South Africa"
     },
@@ -6765,7 +6765,7 @@ const catalogueProducts = [
         size: "1.5L",
         price: "Ksh 368",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=LIME%20JUICE",
+        image: "assets/images/real/lime_juice.jpg",
         isKenyan: true,
         country: "Kenya"
     },
@@ -6775,7 +6775,7 @@ const catalogueProducts = [
         size: "700ML",
         price: "Ksh 210",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=LIME%20JUICE",
+        image: "assets/images/real/lime_juice.jpg",
         isKenyan: true,
         country: "Kenya"
     },
@@ -6785,7 +6785,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 323",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=LION%20EXPORT%20PREMIUM%288.8%25%29",
+        image: "assets/images/real/lion_export_premium_8_8__.jpg",
         isKenyan: false,
         country: "Sri Lanka"
     },
@@ -6795,7 +6795,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 338",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=LION%20EXTRA%20STRONG%20%2812%25_",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "Sri Lanka"
     },
@@ -6805,7 +6805,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 413",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=LION%20STOUT%288.8%29",
+        image: "assets/images/real/lion_stout_8_8_.jpg",
         isKenyan: false,
         country: "Sri Lanka"
     },
@@ -6815,7 +6815,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,035",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=LUKSUSOWA%20VODKA",
+        image: "assets/images/real/luksusowa_vodka.jpg",
         isKenyan: false,
         country: "Poland"
     },
@@ -6825,7 +6825,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,575",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=LUPINI%20BLACK",
+        image: "assets/images/real/bl.jpg",
         isKenyan: false,
         country: "Italy"
     },
@@ -6835,7 +6835,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,200",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=LUPINI%20GOLD",
+        image: "assets/images/real/lupini_gold.jpg",
         isKenyan: false,
         country: "Italy"
     },
@@ -6845,7 +6845,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 20,250",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MACALLAN%2012YRS",
+        image: "assets/images/real/macallan_12yrs.jpg",
         isKenyan: false,
         country: "Scotland"
     },
@@ -6855,7 +6855,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,200",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MADAFU%20LIQUEOR",
+        image: "assets/images/real/madafu_liqueor.jpg",
         isKenyan: true,
         country: "Kenya"
     },
@@ -6865,7 +6865,7 @@ const catalogueProducts = [
         size: "1.75L",
         price: "Ksh 2,190",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MAGIC%20MOMENTT",
+        image: "assets/images/real/magic_momentt.jpg",
         isKenyan: false,
         country: "India"
     },
@@ -6875,7 +6875,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,275",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MAGIC%20MOMENT%203/4",
+        image: "assets/images/real/magic_moment_3_4.jpg",
         isKenyan: false,
         country: "India"
     },
@@ -6885,7 +6885,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,305",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MAGIC%20MOMENTS%20APPLE",
+        image: "assets/images/real/magic_moments_apple.jpg",
         isKenyan: false,
         country: "India"
     },
@@ -6895,7 +6895,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,305",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MAGIC%20MOMENTS%20CHOCO",
+        image: "assets/images/real/magic_moments_choco.jpg",
         isKenyan: false,
         country: "India"
     },
@@ -6905,7 +6905,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,305",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MAGIC%20MOMENTS%20ORIGINAL",
+        image: "assets/images/real/magic_moments_original.jpg",
         isKenyan: false,
         country: "India"
     },
@@ -6915,7 +6915,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,305",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MAGIC%20MOMENYS%20ORANGE",
+        image: "assets/images/real/magic_momenys_orange.jpg",
         isKenyan: false,
         country: "India"
     },
@@ -6925,7 +6925,7 @@ const catalogueProducts = [
         size: "250ML",
         price: "Ksh 150",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MAGIC%20TIMES",
+        image: "assets/images/real/magic_times.jpg",
         isKenyan: false,
         country: "India"
     },
@@ -6935,7 +6935,7 @@ const catalogueProducts = [
         size: "1L",
         price: "Ksh 2,250",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MAGNUMT",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "Scotland"
     },
@@ -6945,7 +6945,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,725",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MAGNUM",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "Scotland"
     },
@@ -6955,7 +6955,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 3,105",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MALBEC",
+        image: "assets/images/real/malbec.jpg",
         isKenyan: false,
         country: "Argentina"
     },
@@ -6965,7 +6965,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 6,240",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MALFY%20CON%20LIMONE",
+        image: "assets/images/real/malfy_con_limone.jpg",
         isKenyan: false,
         country: "Italy"
     },
@@ -6975,7 +6975,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 6,240",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MALFY%20CON%20ROSA",
+        image: "assets/images/real/malfy_con_rosa.jpg",
         isKenyan: false,
         country: "Italy"
     },
@@ -6985,7 +6985,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 6,240",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MALFY%20GIN%20ORIGINALE",
+        image: "assets/images/real/malfy_gin_originale.jpg",
         isKenyan: false,
         country: "Italy"
     },
@@ -6995,7 +6995,7 @@ const catalogueProducts = [
         size: "1L",
         price: "Ksh 3,150",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MALIBUTR",
+        image: "assets/images/real/malibutr.jpg",
         isKenyan: false,
         country: "Barbados"
     },
@@ -7005,7 +7005,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 2,745",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MALIBU%20750",
+        image: "assets/images/real/malibu_750.jpg",
         isKenyan: false,
         country: "Barbados"
     },
@@ -7015,7 +7015,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 338",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MANYATTA%20LEMON",
+        image: "assets/images/real/manyatta_lemon.jpg",
         isKenyan: true,
         country: "Kenya"
     },
@@ -7025,7 +7025,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 338",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MANYATTA%20MANGO",
+        image: "assets/images/real/manyatta_mango.jpg",
         isKenyan: true,
         country: "Kenya"
     },
@@ -7035,7 +7035,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 338",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MANYATTA%20PINEAPPLE",
+        image: "assets/images/real/manyatta_pineapple.jpg",
         isKenyan: true,
         country: "Kenya"
     },
@@ -7045,7 +7045,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 2,250",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MARENGO%20SWEET%20ROSE%20WINE",
+        image: "assets/images/real/marengo_sweet_rose_wine.jpg",
         isKenyan: false,
         country: "Italy"
     },
@@ -7055,7 +7055,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 2,250",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MARENGO%20SWEET%20WHITE%20SPARKLING",
+        image: "assets/images/real/marengo_sweet_white_sparkling.jpg",
         isKenyan: false,
         country: "Italy"
     },
@@ -7065,7 +7065,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 10,500",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MARTE",
+        image: "assets/images/real/marte.jpg",
         isKenyan: false,
         country: "France"
     },
@@ -7075,7 +7075,7 @@ const catalogueProducts = [
         size: "700ML",
         price: "Ksh 13,500",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MARTEL%20BLUE%20SWIFT",
+        image: "assets/images/real/martel_blue_swift.jpg",
         isKenyan: false,
         country: "France"
     },
@@ -7085,7 +7085,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 10,500",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MARTEL%20VS%20LITRE",
+        image: "assets/images/real/martel_vs_litre.jpg",
         isKenyan: false,
         country: "France"
     },
@@ -7095,7 +7095,7 @@ const catalogueProducts = [
         size: "1L",
         price: "Ksh 16,800",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MARTEL%20V.S.O.PT",
+        image: "assets/images/real/martel_v_s_o_pt.jpg",
         isKenyan: false,
         country: "France"
     },
@@ -7105,7 +7105,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 12,225",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MARTEL%20VSOP%203/4",
+        image: "assets/images/real/martel_vsop_3_4.jpg",
         isKenyan: false,
         country: "France"
     },
@@ -7115,7 +7115,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 7,605",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MARTEL%20VSSD",
+        image: "assets/images/real/martel_vssd.jpg",
         isKenyan: false,
         country: "France"
     },
@@ -7125,7 +7125,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 51,750",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MARTEL%20XO",
+        image: "assets/images/real/martel_xo.jpg",
         isKenyan: false,
         country: "France"
     },
@@ -7135,7 +7135,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 345",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MARTENS%2010%25",
+        image: "assets/images/real/martens_10_.jpg",
         isKenyan: false,
         country: "Belgium"
     },
@@ -7145,7 +7145,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 375",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MARTENS%20%20BEER%2016%25",
+        image: "assets/images/real/martens__beer_16_.jpg",
         isKenyan: false,
         country: "Belgium"
     },
@@ -7155,7 +7155,7 @@ const catalogueProducts = [
         size: "1L",
         price: "Ksh 2,100",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MARTIN%20BIANCOTR",
+        image: "assets/images/real/martin_biancotr.jpg",
         isKenyan: false,
         country: "Italy"
     },
@@ -7165,7 +7165,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 2,250",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MARTIN%20BIANCO%203/4",
+        image: "assets/images/real/martin_bianco_3_4.jpg",
         isKenyan: false,
         country: "Italy"
     },
@@ -7175,7 +7175,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,950",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MARTINI%20DRY",
+        image: "assets/images/real/martini_dry.jpg",
         isKenyan: false,
         country: "Italy"
     },
@@ -7185,7 +7185,7 @@ const catalogueProducts = [
         size: "1L",
         price: "Ksh 2,850",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MARTIN%20ROSSO%20-",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "Italy"
     },
@@ -7195,7 +7195,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 2,325",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MARTIN%20ROSSO%203/4",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "Italy"
     },
@@ -7205,7 +7205,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,200",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MATEUS%20ORIGINAL%20ROSE",
+        image: "https://www.thewhiskyexchange.com/p/2142/gordons-london-dry-gin",
         isKenyan: false,
         country: "Portugal"
     },
@@ -7215,7 +7215,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,425",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MC%20MOHAN%20WITH%20GLASS",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "India"
     },
@@ -7225,7 +7225,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,875",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MIKADO%20CHERRY%20RED",
+        image: "https://www.mikado.com/wp-content/uploads/2020/01/mikado-wine.png",
         isKenyan: false,
         country: "Ukraine"
     },
@@ -7235,7 +7235,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,500",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MIKADO%20RED%20PLUM",
+        image: "https://www.mikado.com/wp-content/uploads/2020/01/mikado-wine.png",
         isKenyan: false,
         country: "Ukraine"
     },
@@ -7245,7 +7245,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,875",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MIKADO%20WHT%20APRICOT",
+        image: "https://www.mikado.com/wp-content/uploads/2020/01/mikado-wine.png",
         isKenyan: false,
         country: "Ukraine"
     },
@@ -7255,7 +7255,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,875",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MIKADO%20WHT%20LYCHEE",
+        image: "https://www.mikado.com/wp-content/uploads/2020/01/mikado-wine.png",
         isKenyan: false,
         country: "Ukraine"
     },
@@ -7265,7 +7265,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,875",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MIKADO%20WHT%20PASSION",
+        image: "https://www.mikado.com/wp-content/uploads/2020/01/mikado-wine.png",
         isKenyan: false,
         country: "Ukraine"
     },
@@ -7275,7 +7275,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,875",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MIKADO%20WHT%20PINEAPPLE",
+        image: "https://www.mikado.com/wp-content/uploads/2020/01/mikado-wine.png",
         isKenyan: false,
         country: "Ukraine"
     },
@@ -7285,7 +7285,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,695",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MIKADO%20WHT%20PLUM",
+        image: "https://www.mikado.com/wp-content/uploads/2020/01/mikado-wine.png",
         isKenyan: false,
         country: "Ukraine"
     },
@@ -7295,7 +7295,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 90",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MINUTE%20MAID%20JUICE",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "USA"
     },
@@ -7305,7 +7305,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 990",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MISTRAL%20APPLE",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "India"
     },
@@ -7315,7 +7315,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 990",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MISTRAL%20CHOCOLATE",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "India"
     },
@@ -7325,7 +7325,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 990",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MISTRAL%20MANGO",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "South Africa"
     },
@@ -7335,7 +7335,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 990",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MISTRAL%20PLAIN",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "India"
     },
@@ -7345,7 +7345,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 990",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MISTRAL%20STRAWBERRY",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "India"
     },
@@ -7355,7 +7355,7 @@ const catalogueProducts = [
         size: "250ML",
         price: "Ksh 180",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MODERN%20GIN",
+        image: "https://www.thewhiskyexchange.com/p/2142/gordons-london-dry-gin",
         isKenyan: true,
         country: "Kenya"
     },
@@ -7365,7 +7365,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 17,250",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MOET%20ICE%20IMPERIAL",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "France"
     },
@@ -7375,7 +7375,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 14,700",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MOET%20IMPERIAL%20BRUT",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "France"
     },
@@ -7385,7 +7385,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 12,000",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MOET%20NECTAR%20ROSE",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "France"
     },
@@ -7395,7 +7395,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 825",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MOHAN%20DRY%20RED",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "South Africa"
     },
@@ -7405,7 +7405,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 825",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MOHANS%20DRY%20WHITE",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "South Africa"
     },
@@ -7415,7 +7415,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,200",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MOHANS%20SWEETRED",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "South Africa"
     },
@@ -7425,7 +7425,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 825",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MOHANS%20%20WHITE%20SWEET",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "South Africa"
     },
@@ -7435,7 +7435,7 @@ const catalogueProducts = [
         size: "1L",
         price: "Ksh 7,800",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MONKEY%20SHOULDERT",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "Scotland"
     },
@@ -7445,7 +7445,7 @@ const catalogueProducts = [
         size: "700ML",
         price: "Ksh 7,200",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MONKEY%20SHOULDER",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "Scotland"
     },
@@ -7455,7 +7455,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 225",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MONSTER%20MUCHO%20LOCO%28BLUE%29",
+        image: "assets/images/real/bl.jpg",
         isKenyan: false,
         country: "USA"
     },
@@ -7465,7 +7465,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 225",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MONSTER%20MULE%28BROWN",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "USA"
     },
@@ -7475,7 +7475,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 270",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MONSTER%20ORIGINAL",
+        image: "https://www.thewhiskyexchange.com/p/2142/gordons-london-dry-gin",
         isKenyan: false,
         country: "USA"
     },
@@ -7485,7 +7485,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 225",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MONSTER%20ROSSI%28YELLOW%29",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "USA"
     },
@@ -7495,7 +7495,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 225",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MONSTER%20WHITE",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "USA"
     },
@@ -7505,7 +7505,7 @@ const catalogueProducts = [
         size: "250ML",
         price: "Ksh 413",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MR%20DOWELLS",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "India"
     },
@@ -7515,7 +7515,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,238",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MR%20DOWELS",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "India"
     },
@@ -7525,7 +7525,7 @@ const catalogueProducts = [
         size: "500ML",
         price: "Ksh 60",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MT%20KENYAN%20H20",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: true,
         country: "Kenya"
     },
@@ -7535,7 +7535,7 @@ const catalogueProducts = [
         size: "1.5L",
         price: "Ksh 6,000",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MUCHO%20MAS",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "Spain"
     },
@@ -7545,7 +7545,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 3,030",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MUCHO%20MAS%20RED%20%28BLACK%20EDITION%29",
+        image: "assets/images/real/bl.jpg",
         isKenyan: false,
         country: "Spain"
     },
@@ -7555,7 +7555,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 2,745",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MUCHO%20MAS%20WHITE",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "Spain"
     },
@@ -7565,7 +7565,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,605",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MUSCAT%20WHITE%20SWEET750",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "South Africa"
     },
@@ -7575,7 +7575,7 @@ const catalogueProducts = [
         size: "250ML",
         price: "Ksh 263",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MUSKETEER%20BRDY",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "India"
     },
@@ -7585,7 +7585,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,125",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MUSKETEER%20BRNDY",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "India"
     },
@@ -7595,7 +7595,7 @@ const catalogueProducts = [
         size: "1 L",
         price: "Ksh 2,775",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MYERS%20RUMT",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "Jamaica"
     },
@@ -7605,7 +7605,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 2,700",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=MYERS%20RUM%20750",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "Jamaica"
     },
@@ -7615,7 +7615,7 @@ const catalogueProducts = [
         size: "1L",
         price: "Ksh 4,950",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=NAKED%20MALTT",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "Scotland"
     },
@@ -7625,7 +7625,7 @@ const catalogueProducts = [
         size: "700ML",
         price: "Ksh 3,975",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=NAKED%20MALT",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "Scotland"
     },
@@ -7635,7 +7635,7 @@ const catalogueProducts = [
         size: "5L",
         price: "Ksh 5,025",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=NAMAQUA%20DRY%20REDTR",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "South Africa"
     },
@@ -7645,7 +7645,7 @@ const catalogueProducts = [
         size: "5L",
         price: "Ksh 3,750",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=NAMAQUA%20DRY%20WHITETRS",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "South Africa"
     },
@@ -7655,7 +7655,7 @@ const catalogueProducts = [
         size: "5L",
         price: "Ksh 5,025",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=NAMAQUA%20SWEET%20RED",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "South Africa"
     },
@@ -7665,7 +7665,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,560",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=NAMAQUA%20SWEET%20RED",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "South Africa"
     },
@@ -7675,7 +7675,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,560",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=NAMAQUA%20WHITE%20SWT",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "South Africa"
     },
@@ -7685,7 +7685,7 @@ const catalogueProducts = [
         size: "250ML",
         price: "Ksh 390",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=NAPOLEON%20CROWN",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: true,
         country: "Kenya"
     },
@@ -7695,7 +7695,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,095",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=NAPOLEON%20CROWN",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: true,
         country: "Kenya"
     },
@@ -7705,7 +7705,7 @@ const catalogueProducts = [
         size: "250ML",
         price: "Ksh 330",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=NAPOLEON%20GOLD",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: true,
         country: "Kenya"
     },
@@ -7715,7 +7715,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 998",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=NAPOLEON%20GOLD",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: true,
         country: "Kenya"
     },
@@ -7725,7 +7725,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 258",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=NATURE%27S%20MANGO%20%26%20APPLE",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "South Africa"
     },
@@ -7735,7 +7735,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 2,250",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=NEDERBERG%20rose",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "South Africa"
     },
@@ -7745,7 +7745,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 2,250",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=NEDERBURG%20BARONE",
+        image: "https://distell.co.za/globalassets/brands/nederburg/main-image.png",
         isKenyan: false,
         country: "South Africa"
     },
@@ -7755,7 +7755,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 2,250",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=NEDERBURG%20CAB%20SAV",
+        image: "https://distell.co.za/globalassets/brands/nederburg/main-image.png",
         isKenyan: false,
         country: "South Africa"
     },
@@ -7765,7 +7765,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 2,250",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=NEDERBURG%20CHARDONNAY",
+        image: "https://distell.co.za/globalassets/brands/nederburg/main-image.png",
         isKenyan: false,
         country: "South Africa"
     },
@@ -7775,7 +7775,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 2,250",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=NEDERBURG%20MERLOT",
+        image: "https://distell.co.za/globalassets/brands/nederburg/main-image.png",
         isKenyan: false,
         country: "South Africa"
     },
@@ -7785,7 +7785,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 2,250",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=NEDERBURG%20PINOTAGE",
+        image: "https://distell.co.za/globalassets/brands/nederburg/main-image.png",
         isKenyan: false,
         country: "South Africa"
     },
@@ -7795,7 +7795,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 2,250",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=NEDERBURG%20SAV%20BLANC",
+        image: "assets/images/real/bl.jpg",
         isKenyan: false,
         country: "South Africa"
     },
@@ -7805,7 +7805,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 2,250",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=NEDERBURG%20SHIRAZ",
+        image: "https://distell.co.za/globalassets/brands/nederburg/main-image.png",
         isKenyan: false,
         country: "South Africa"
     },
@@ -7815,7 +7815,7 @@ const catalogueProducts = [
         size: "350ML",
         price: "Ksh 435",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=NEON",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "India"
     },
@@ -7825,7 +7825,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 675",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=NEON%20CHOCOLATE",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "India"
     },
@@ -7835,7 +7835,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 675",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=NEON%20COFFEE",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "India"
     },
@@ -7845,7 +7845,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,635",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=NEW%20GROOVE%20FLVD",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "Mauritius"
     },
@@ -7855,7 +7855,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 615",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=NICOTINE%20MANGO",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "South Africa"
     },
@@ -7865,7 +7865,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 615",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=NICOTINE%20MINT",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: true,
         country: "Kenya"
     },
@@ -7875,7 +7875,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 615",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=NICOTINE%20PASSION%20FRUIT",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: true,
         country: "Kenya"
     },
@@ -7885,7 +7885,7 @@ const catalogueProducts = [
         size: "700ML",
         price: "Ksh 1,193",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=OAK%20CASK",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "Argentina"
     },
@@ -7895,7 +7895,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 173",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=OCEAN%20ENERGY%20DRINK",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "India"
     },
@@ -7905,7 +7905,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,125",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=OFFICERS%20CHOICE%20RED",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "India"
     },
@@ -7915,7 +7915,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 413",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=OJ%2012%25",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "Belgium"
     },
@@ -7925,7 +7925,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 413",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=OJ%2016%25",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "Belgium"
     },
@@ -7935,7 +7935,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 428",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=OJ%2020%25",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "Belgium"
     },
@@ -7945,7 +7945,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 375",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=OJ%205%25",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "Belgium"
     },
@@ -7955,7 +7955,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 278",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=OJ%208.5%25",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "Belgium"
     },
@@ -7965,7 +7965,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 2,625",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=OLD%20COCK",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "United Kingdom"
     },
@@ -7975,7 +7975,7 @@ const catalogueProducts = [
         size: "375ML",
         price: "Ksh 525",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=OLD%20MONK",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "India"
     },
@@ -7985,7 +7985,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,500",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=OLD%20MONK%20RUM",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "India"
     },
@@ -7995,7 +7995,7 @@ const catalogueProducts = [
         size: "700ML",
         price: "Ksh 1,830",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=OLD%20NICKDARK",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "France"
     },
@@ -8005,7 +8005,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 2,205",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=OLD%20NICK%20DARK%20LITRE",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "France"
     },
@@ -8015,7 +8015,7 @@ const catalogueProducts = [
         size: "700ML",
         price: "Ksh 1,830",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=OLD%20NICK%20SPICED",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "France"
     },
@@ -8025,7 +8025,7 @@ const catalogueProducts = [
         size: "1L",
         price: "Ksh 2,205",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=OLD%20NICK%20WHITEITRE",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "France"
     },
@@ -8035,7 +8035,7 @@ const catalogueProducts = [
         size: "700ML",
         price: "Ksh 1,830",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=OLD%20NICK%20WHITE",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "France"
     },
@@ -8045,7 +8045,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,665",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=OLD%20SMUGGLER%203/4",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "Scotland"
     },
@@ -8055,7 +8055,7 @@ const catalogueProducts = [
         size: "70CL",
         price: "Ksh 1,050",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=OLEPASU%20RED%20WINE",
+        image: "https://distell.co.za/globalassets/brands/nederburg/main-image.png",
         isKenyan: false,
         country: "Italy"
     },
@@ -8065,7 +8065,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,050",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=OLEPASU%20WHITE%20WINE",
+        image: "https://distell.co.za/globalassets/brands/nederburg/main-image.png",
         isKenyan: false,
         country: "Italy"
     },
@@ -8075,7 +8075,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 3,975",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=OLMECA%20BLANCO",
+        image: "assets/images/real/bl.jpg",
         isKenyan: false,
         country: "Mexico"
     },
@@ -8085,7 +8085,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 3,975",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=OLMECA%20CHOCO",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "Mexico"
     },
@@ -8095,7 +8095,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 4,020",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=OLMECA%20GOLD",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "Mexico"
     },
@@ -8105,7 +8105,7 @@ const catalogueProducts = [
         size: "375ML",
         price: "Ksh 698",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=OPM",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "India"
     },
@@ -8115,7 +8115,7 @@ const catalogueProducts = [
         size: "250ML",
         price: "Ksh 465",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=OPM%20VODKA",
+        image: "https://www.thewhiskyexchange.com/p/2157/smirnoff-red-no21-vodka",
         isKenyan: false,
         country: "India"
     },
@@ -8125,7 +8125,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,575",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=OPM%20VODKA",
+        image: "https://www.thewhiskyexchange.com/p/2157/smirnoff-red-no21-vodka",
         isKenyan: false,
         country: "India"
     },
@@ -8135,7 +8135,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 2,700",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=OPULENZA",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "Chile"
     },
@@ -8145,7 +8145,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 255",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=ORANGE%20RUM%20CAN",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "Jamaica"
     },
@@ -8155,7 +8155,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 323",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=ORCHID%20APPLE",
+        image: "https://orchidvalley.com.au/wp-content/uploads/2019/07/Orchid-Valley-Product-Image.png",
         isKenyan: true,
         country: "Kenya"
     },
@@ -8165,7 +8165,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 323",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=ORCHID%20GUAVA",
+        image: "https://orchidvalley.com.au/wp-content/uploads/2019/07/Orchid-Valley-Product-Image.png",
         isKenyan: true,
         country: "Kenya"
     },
@@ -8175,7 +8175,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 323",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=ORCHID%20MANGO",
+        image: "https://orchidvalley.com.au/wp-content/uploads/2019/07/Orchid-Valley-Product-Image.png",
         isKenyan: true,
         country: "Kenya"
     },
@@ -8185,7 +8185,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 323",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=ORCHID%20ORANGE",
+        image: "https://orchidvalley.com.au/wp-content/uploads/2019/07/Orchid-Valley-Product-Image.png",
         isKenyan: true,
         country: "Kenya"
     },
@@ -8195,7 +8195,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 323",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=ORCHID%20PASSION",
+        image: "https://orchidvalley.com.au/wp-content/uploads/2019/07/Orchid-Valley-Product-Image.png",
         isKenyan: true,
         country: "Kenya"
     },
@@ -8205,7 +8205,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 323",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=ORCHID%20TROPICAL",
+        image: "https://orchidvalley.com.au/wp-content/uploads/2019/07/Orchid-Valley-Product-Image.png",
         isKenyan: true,
         country: "Kenya"
     },
@@ -8215,7 +8215,7 @@ const catalogueProducts = [
         size: "250ML",
         price: "Ksh 353",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=ORIJIN%20HERBAL",
+        image: "assets/images/real/orijin_herbal.jpg",
         isKenyan: false,
         country: "Nigeria"
     },
@@ -8445,7 +8445,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 383",
         description: "To elaborate the liqueurs, “Haden” and “Tommy Atkins” mangoes were used, originating from the São Francisco Valley in the Northeast of Brazil.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=PICK%20%26%20PEEL%20MANGO",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "Brazil"
     },
@@ -8515,7 +8515,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 83",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=POWER%20PLAY",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "South Africa"
     },
@@ -8525,7 +8525,7 @@ const catalogueProducts = [
         size: "400ML",
         price: "Ksh 83",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=PREDATOR%20GOLD",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "USA"
     },
@@ -8535,7 +8535,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 3,750",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=PROSECCO",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "Italy"
     },
@@ -8545,7 +8545,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,125",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=Q1%20GIN",
+        image: "https://www.thewhiskyexchange.com/p/2142/gordons-london-dry-gin",
         isKenyan: true,
         country: "Kenya"
     },
@@ -8555,7 +8555,7 @@ const catalogueProducts = [
         size: "1L",
         price: "Ksh 53",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=QUENCH%20WATERT",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: true,
         country: "Kenya"
     },
@@ -8565,7 +8565,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 2,850",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=RADA%20CLASSIC",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "Ukraine"
     },
@@ -8585,7 +8585,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 270",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=REDBULL",
+        image: "assets/images/real/redbull_sugarfree.jpg",
         isKenyan: false,
         country: "Austria"
     },
@@ -8605,7 +8605,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 2,400",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=RED%20LABEL%20LIMITED",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "Scotland"
     },
@@ -8615,7 +8615,7 @@ const catalogueProducts = [
         size: "250ML",
         price: "Ksh 300",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=RED%20STAR",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: true,
         country: "Kenya"
     },
@@ -8625,7 +8625,7 @@ const catalogueProducts = [
         size: "1L",
         price: "Ksh 13,500",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=REMY%20MARTIN%20VSOPT",
+        image: "assets/images/real/remy_martin_vsop.jpg",
         isKenyan: false,
         country: "France"
     },
@@ -8655,7 +8655,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 600",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=RENDEZ%20MOJITO",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "Belgium"
     },
@@ -8685,7 +8685,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 525",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=RENDEZ%20SPARKLING%20WHITE",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "France"
     },
@@ -8695,7 +8695,7 @@ const catalogueProducts = [
         size: "350ML",
         price: "Ksh 503",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=RESERVE%207%20WHISKY",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "India"
     },
@@ -8705,7 +8705,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,350",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=RESERVE%207%20WHISKY",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "India"
     },
@@ -8715,7 +8715,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 864",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=RICHOT%201/2",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: true,
         country: "Kenya"
     },
@@ -8725,7 +8725,7 @@ const catalogueProducts = [
         size: "250ML",
         price: "Ksh 623",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=RICHOT",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: true,
         country: "Kenya"
     },
@@ -8735,7 +8735,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,860",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=RICHOT%203/4",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: true,
         country: "Kenya"
     },
@@ -8745,7 +8745,7 @@ const catalogueProducts = [
         size: "1.5L",
         price: "Ksh 2,595",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=ROBERTSON%20REDT",
+        image: "https://www.robertsonwinery.co.za/wp-content/uploads/2021/05/RW_NaturalSweetRed_750ml.png",
         isKenyan: false,
         country: "South Africa"
     },
@@ -8755,7 +8755,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,545",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=ROBERTSON%20RED",
+        image: "https://www.robertsonwinery.co.za/wp-content/uploads/2021/05/RW_NaturalSweetRed_750ml.png",
         isKenyan: false,
         country: "South Africa"
     },
@@ -8765,7 +8765,7 @@ const catalogueProducts = [
         size: "1.5 L",
         price: "Ksh 2,580",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=ROBERTSON%20ROSETS",
+        image: "https://www.robertsonwinery.co.za/wp-content/uploads/2021/05/RW_NaturalSweetRed_750ml.png",
         isKenyan: false,
         country: "South Africa"
     },
@@ -8775,7 +8775,7 @@ const catalogueProducts = [
         size: "750 ML",
         price: "Ksh 1,545",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=ROBERTSON%20ROSE",
+        image: "https://www.robertsonwinery.co.za/wp-content/uploads/2021/05/RW_NaturalSweetRed_750ml.png",
         isKenyan: false,
         country: "South Africa"
     },
@@ -8785,7 +8785,7 @@ const catalogueProducts = [
         size: "1.5L",
         price: "Ksh 2,595",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=ROBERTSON%20%20WHITE",
+        image: "https://www.robertsonwinery.co.za/wp-content/uploads/2021/05/RW_NaturalSweetRed_750ml.png",
         isKenyan: false,
         country: "South Africa"
     },
@@ -8795,7 +8795,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,545",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=ROBERTSON%20WHITE",
+        image: "https://www.robertsonwinery.co.za/wp-content/uploads/2021/05/RW_NaturalSweetRed_750ml.png",
         isKenyan: false,
         country: "South Africa"
     },
@@ -8805,7 +8805,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 210",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=ROCKSHORE%20TROPICAL",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: true,
         country: "Kenya"
     },
@@ -8825,7 +8825,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,950",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=ROSSO%20NOBILE%20AL%20CIO%20RED",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "Germany"
     },
@@ -8835,7 +8835,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,950",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=ROSSO%20NOBILE%20BIANCO",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "Germany"
     },
@@ -8845,7 +8845,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,950",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=ROSSO%20NOBILE%20%20BOIS%20BANDE",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "Germany"
     },
@@ -8855,7 +8855,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,950",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=ROSSO%20NOBILE%20CHERRY",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "Germany"
     },
@@ -8865,7 +8865,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,950",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=ROSSO%20NOBILE%20CIOCCOLATA",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "Germany"
     },
@@ -8925,7 +8925,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 2,025",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=ROSSO%20NOBILE%20RASPBERRY",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "Germany"
     },
@@ -8935,7 +8935,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 528",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=ROTHMANS",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "South Africa"
     },
@@ -8945,7 +8945,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 255",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=ROTHMANS%20MINT",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "South Africa"
     },
@@ -8955,7 +8955,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,200",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=ROYAL%20ARMS%20BRDY",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "India"
     },
@@ -8965,7 +8965,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,178",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=ROYAL%20CHALLEGE",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "India"
     },
@@ -8975,7 +8975,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 2,085",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=ROYAL%20CIRCLE%20HONEY",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "India"
     },
@@ -8985,7 +8985,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 2,100",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=ROYAL%20CIRCLE%20WHISKY",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "India"
     },
@@ -9025,7 +9025,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,650",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=ROYAL%20LEGEND%203/4",
+        image: "assets/images/real/legend.jpg",
         isKenyan: true,
         country: "Kenya"
     },
@@ -9035,7 +9035,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,110",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=ROYAL%20PRIDE",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "India"
     },
@@ -9045,7 +9045,7 @@ const catalogueProducts = [
         size: "375ML",
         price: "Ksh 908",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=ROYAL%20STAG",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "India"
     },
@@ -9055,7 +9055,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,695",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=ROYAL%20STAG",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "India"
     },
@@ -9065,7 +9065,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 60",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=safari%20%20appy%20fizz",
+        image: "https://www.thewhiskyexchange.com/p/3540/safari-liqueur",
         isKenyan: false,
         country: "India"
     },
@@ -9075,7 +9075,7 @@ const catalogueProducts = [
         size: "250ML",
         price: "Ksh 338",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=SAFARI%20CANE",
+        image: "https://www.thewhiskyexchange.com/p/3540/safari-liqueur",
         isKenyan: true,
         country: "Kenya"
     },
@@ -9085,7 +9085,7 @@ const catalogueProducts = [
         size: "500ML",
         price: "Ksh 480",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=SAFARI%20CANE",
+        image: "https://www.thewhiskyexchange.com/p/3540/safari-liqueur",
         isKenyan: true,
         country: "Kenya"
     },
@@ -9095,7 +9095,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 953",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=SAFARI%20CANE",
+        image: "https://www.thewhiskyexchange.com/p/3540/safari-liqueur",
         isKenyan: true,
         country: "Kenya"
     },
@@ -9105,7 +9105,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 60",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=SAFARI%20ENERGY%20B",
+        image: "https://www.thewhiskyexchange.com/p/3540/safari-liqueur",
         isKenyan: true,
         country: "Kenya"
     },
@@ -9115,7 +9115,7 @@ const catalogueProducts = [
         size: "1L",
         price: "Ksh 63",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=SAFARI%20H2OR",
+        image: "assets/images/real/safari_h2o.jpg",
         isKenyan: true,
         country: "Kenya"
     },
@@ -9185,7 +9185,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,425",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=SAMANTHA%20RED",
+        image: "https://www.thewhiskyexchange.com/p/3540/safari-liqueur",
         isKenyan: false,
         country: "South Africa"
     },
@@ -9195,7 +9195,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,425",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=SAMANTHA%20WHITE",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "South Africa"
     },
@@ -9205,7 +9205,7 @@ const catalogueProducts = [
         size: "1L",
         price: "Ksh 1,058",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=SANGRIA%20REDT",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "Spain"
     },
@@ -9215,7 +9215,7 @@ const catalogueProducts = [
         size: "1L",
         price: "Ksh 1,058",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=SANGRIA%20WHITET",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "Spain"
     },
@@ -9225,7 +9225,7 @@ const catalogueProducts = [
         size: "330ML",
         price: "Ksh 368",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=SAVANNA%20DRY",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "South Africa"
     },
@@ -9235,7 +9235,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 390",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=SAVANNA%20LEMON",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "South Africa"
     },
@@ -9245,7 +9245,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 112",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=SCHWEPPES%20GINGER%20ALE%20CAN",
+        image: "https://www.thewhiskyexchange.com/p/2142/gordons-london-dry-gin",
         isKenyan: false,
         country: "United Kingdom"
     },
@@ -9255,7 +9255,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 82",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=SCHWEPPES%20SODA",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "United Kingdom"
     },
@@ -9275,7 +9275,7 @@ const catalogueProducts = [
         size: "1L",
         price: "Ksh 2,400",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=SCOTS%20GOLD%20BLACKT",
+        image: "assets/images/real/bl.jpg",
         isKenyan: false,
         country: "Scotland"
     },
@@ -9285,7 +9285,7 @@ const catalogueProducts = [
         size: "75ML",
         price: "Ksh 2,325",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=SCOTS%20GOLD%20BLACK",
+        image: "assets/images/real/bl.jpg",
         isKenyan: false,
         country: "Scotland"
     },
@@ -9295,7 +9295,7 @@ const catalogueProducts = [
         size: "1L",
         price: "Ksh 2,175",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=SCOTS%20GOLD%20REDTR",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "Scotland"
     },
@@ -9305,7 +9305,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,800",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=SCOTS%20GOLD%20RED",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "Scotland"
     },
@@ -9315,7 +9315,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 60",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=SEASON%20LEMONADE",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: true,
         country: "Kenya"
     },
@@ -9325,7 +9325,7 @@ const catalogueProducts = [
         size: "1L",
         price: "Ksh 7,050",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=SHERIDANS",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "Ireland"
     },
@@ -9335,7 +9335,7 @@ const catalogueProducts = [
         size: "500ML",
         price: "Ksh 1,785",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=SHUSTOFF%20BRDY",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "Ukraine"
     },
@@ -9345,7 +9345,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 7,050",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=SINGLETON%2012YRS",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "Scotland"
     },
@@ -9355,7 +9355,7 @@ const catalogueProducts = [
         size: "700ML",
         price: "Ksh 12,600",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=SINGLTON%2018YRS",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "Scotland"
     },
@@ -9365,7 +9365,7 @@ const catalogueProducts = [
         size: "350ML",
         price: "Ksh 465",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=SIR%20EDWARD",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "Scotland"
     },
@@ -9375,7 +9375,7 @@ const catalogueProducts = [
         size: "1L",
         price: "Ksh 2,235",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=SIR%20EDWARD%20WHSKYT",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "Scotland"
     },
@@ -9385,7 +9385,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 2,025",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=SIR%20EDWARD%20WHSKY",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "Scotland"
     },
@@ -9395,7 +9395,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,665",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=SKY%20VODKA",
+        image: "https://www.thewhiskyexchange.com/p/2157/smirnoff-red-no21-vodka",
         isKenyan: false,
         country: "USA"
     },
@@ -9405,7 +9405,7 @@ const catalogueProducts = [
         size: "250ML",
         price: "Ksh 180",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=SMART%20VODKA",
+        image: "https://www.thewhiskyexchange.com/p/2157/smirnoff-red-no21-vodka",
         isKenyan: false,
         country: "USA"
     },
@@ -9415,7 +9415,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 2,250",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=SMINOFF%20VDKA%20FLVD%203/4",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "United Kingdom"
     },
@@ -9425,7 +9425,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 2,250",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=SMIRNOFF%20APPLE",
+        image: "https://www.thewhiskyexchange.com/p/2157/smirnoff-red-no21-vodka",
         isKenyan: false,
         country: "United Kingdom"
     },
@@ -9445,7 +9445,7 @@ const catalogueProducts = [
         size: "1L",
         price: "Ksh 2,250",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=SMIRNOFF%20BLUEBERRYT",
+        image: "assets/images/real/bl.jpg",
         isKenyan: false,
         country: "United Kingdom"
     },
@@ -9475,7 +9475,7 @@ const catalogueProducts = [
         size: "1L",
         price: "Ksh 2,250",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=SMIRNOFF%20LIMET",
+        image: "https://www.thewhiskyexchange.com/p/2157/smirnoff-red-no21-vodka",
         isKenyan: false,
         country: "United Kingdom"
     },
@@ -9525,7 +9525,7 @@ const catalogueProducts = [
         size: "700ML",
         price: "Ksh 1,800",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=SMIRNOFF%20VANILLA",
+        image: "https://www.thewhiskyexchange.com/p/2157/smirnoff-red-no21-vodka",
         isKenyan: false,
         country: "United Kingdom"
     },
@@ -9535,7 +9535,7 @@ const catalogueProducts = [
         size: "1L",
         price: "Ksh 2,430",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=SMIRNOFF%20VODKA%20RED",
+        image: "https://www.thewhiskyexchange.com/p/2157/smirnoff-red-no21-vodka",
         isKenyan: false,
         country: "United Kingdom"
     },
@@ -9545,7 +9545,7 @@ const catalogueProducts = [
         size: "250ML",
         price: "Ksh 624",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=SMIRNOFF%20VODKA",
+        image: "https://www.thewhiskyexchange.com/p/2157/smirnoff-red-no21-vodka",
         isKenyan: false,
         country: "United Kingdom"
     },
@@ -9555,7 +9555,7 @@ const catalogueProducts = [
         size: "350ML",
         price: "Ksh 864",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=SMIRNOFF%20VODKA",
+        image: "https://www.thewhiskyexchange.com/p/2157/smirnoff-red-no21-vodka",
         isKenyan: false,
         country: "United Kingdom"
     },
@@ -9565,7 +9565,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,860",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=SMIRNOFF%20VODKA",
+        image: "https://www.thewhiskyexchange.com/p/2157/smirnoff-red-no21-vodka",
         isKenyan: false,
         country: "United Kingdom"
     },
@@ -9575,7 +9575,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 528",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=SM%20-SWEET%20MENTHOL",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: true,
         country: "Kenya"
     },
@@ -9585,7 +9585,7 @@ const catalogueProducts = [
         size: "330ML",
         price: "Ksh 367",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=SNAP%20DRY%20CIDER",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: true,
         country: "Kenya"
     },
@@ -9595,7 +9595,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 241",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=SNAPP%20BEER",
+        image: "https://www.eabl.com/sites/default/files/brand-logos/Tusker_0.png",
         isKenyan: true,
         country: "Kenya"
     },
@@ -9605,7 +9605,7 @@ const catalogueProducts = [
         size: "330ML",
         price: "Ksh 267",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=SNAPP%20CAN",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: true,
         country: "Kenya"
     },
@@ -9635,7 +9635,7 @@ const catalogueProducts = [
         size: "1L",
         price: "Ksh 3,525",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=SOUTHERN%20COMFORT",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "USA"
     },
@@ -9645,7 +9645,7 @@ const catalogueProducts = [
         size: "350ML",
         price: "Ksh 1,275",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=SOUTHERN%20COMFORT",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "USA"
     },
@@ -9655,7 +9655,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 2,700",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=SOUTHERN%20COMFORT",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "USA"
     },
@@ -9675,7 +9675,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 2,400",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=SPIER%20CARBANET",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "South Africa"
     },
@@ -9715,7 +9715,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,095",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=ST.ANNS",
+        image: "https://www.thewhiskyexchange.com/p/2157/smirnoff-red-no21-vodka",
         isKenyan: false,
         country: "Australia"
     },
@@ -9725,7 +9725,7 @@ const catalogueProducts = [
         size: "250ML",
         price: "Ksh 180",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=STAR%20BRANDY",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "India"
     },
@@ -9745,7 +9745,7 @@ const catalogueProducts = [
         size: "750M",
         price: "Ksh 1875",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GILBEYS%20PINK%20750M",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: true,
         country: "Kenya"
     },
@@ -9755,7 +9755,7 @@ const catalogueProducts = [
         size: "750M",
         price: "Ksh 3975",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=GLENDALE%20WHSKY%20750M",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "Scotland"
     },
@@ -9765,7 +9765,7 @@ const catalogueProducts = [
         size: "750M",
         price: "Ksh 1875",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=JOHN%20BANNERMANS%20750M",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "South Africa"
     },
@@ -9775,7 +9775,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 320",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=WHITE%20CAP%20CRISP%20BEER",
+        image: "https://www.eabl.com/sites/default/files/brand-logos/white-cap_0.png",
         isKenyan: true,
         country: "Kenya"
     },
@@ -9785,7 +9785,7 @@ const catalogueProducts = [
         size: "330ML",
         price: "Ksh 345",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=WHITE%20CAP%20CRISP%20CAN",
+        image: "https://www.eabl.com/sites/default/files/brand-logos/white-cap_0.png",
         isKenyan: true,
         country: "Kenya"
     },
@@ -9815,7 +9815,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1650",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=STAR%20WALKER",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "Scotland"
     },
@@ -9825,7 +9825,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1095",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=ST.CELINE",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "South Africa"
     },
@@ -9855,7 +9855,7 @@ const catalogueProducts = [
         size: "1L",
         price: "Ksh 3075",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=ST.REMY%20%20VSOPT",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "France"
     },
@@ -9865,7 +9865,7 @@ const catalogueProducts = [
         size: "700ML",
         price: "Ksh 2940",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=ST.REMY%20VSOP",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "France"
     },
@@ -9875,7 +9875,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 3945",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=ST.%20REMY%20XO",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "France"
     },
@@ -9885,7 +9885,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1620",
         description: "Mit der ING haben Sie Ihre Finanzen immer im Blick - Girokonto, Kredit, Depot, Tagesgeldkonto oder Baufinanzierung: Was darf es sein für Sie?",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=STRETTONS%20ORIGINAL%20GIN",
+        image: "https://www.thewhiskyexchange.com/p/2142/gordons-london-dry-gin",
         isKenyan: false,
         country: "South Africa"
     },
@@ -9895,7 +9895,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1950",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=STRETTONS%20TRIPLEBERRY",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: true,
         country: "Kenya"
     },
@@ -9905,7 +9905,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1950",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=STRETTTONS%20WILDBERRY",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "South Africa"
     },
@@ -9915,7 +9915,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 240",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=SUMMIT",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: true,
         country: "Kenya"
     },
@@ -9925,7 +9925,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 750",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=SUN%20CHASER%20WINE",
+        image: "https://distell.co.za/globalassets/brands/nederburg/main-image.png",
         isKenyan: false,
         country: "South Africa"
     },
@@ -9935,7 +9935,7 @@ const catalogueProducts = [
         size: "250ML",
         price: "Ksh 250.5",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=SUPREME%20VODKA",
+        image: "https://www.thewhiskyexchange.com/p/2157/smirnoff-red-no21-vodka",
         isKenyan: true,
         country: "Kenya"
     },
@@ -9945,7 +9945,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 885",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=SUPREME%20VODKA",
+        image: "https://www.thewhiskyexchange.com/p/2157/smirnoff-red-no21-vodka",
         isKenyan: true,
         country: "Kenya"
     },
@@ -9955,7 +9955,7 @@ const catalogueProducts = [
         size: "250ML",
         price: "Ksh 188",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=SWEET%20BERRY",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: true,
         country: "Kenya"
     },
@@ -9965,7 +9965,7 @@ const catalogueProducts = [
         size: "250ML",
         price: "Ksh 338",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=TAIFA",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: true,
         country: "Kenya"
     },
@@ -9975,7 +9975,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1005",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=TAIFA",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: true,
         country: "Kenya"
     },
@@ -9985,7 +9985,7 @@ const catalogueProducts = [
         size: "700ML",
         price: "Ksh 7875",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=TALISKER%20STORM",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "Scotland"
     },
@@ -9995,7 +9995,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1500",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=TALL%20HORSE%20CAB%20SAUV",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "South Africa"
     },
@@ -10005,7 +10005,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1500",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=TALL%20HORSE%20CHARDONNAY",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "South Africa"
     },
@@ -10015,7 +10015,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1500",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=TALL%20HORSE%20CHENIN%20BLANC",
+        image: "assets/images/real/bl.jpg",
         isKenyan: false,
         country: "South Africa"
     },
@@ -10025,7 +10025,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1500",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=TALL%20HORSE%20MERLOT",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "South Africa"
     },
@@ -10035,7 +10035,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1500",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=TALL%20HORSE%20PINOTAGE",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "South Africa"
     },
@@ -10045,7 +10045,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1500",
         description: "星巴克的这几个杯具的表述，源自意大利语：Tall—直译是高杯，也就是我们常见的小杯；Grande—宏大的杯，表示中杯；Venti—通风孔大杯，意思是大杯。 这 …",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=TALL%20HORSE%20SAV%20BLANC",
+        image: "assets/images/real/bl.jpg",
         isKenyan: false,
         country: "South Africa"
     },
@@ -10055,7 +10055,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1500",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=TALL%20HORSE%20SWEETRED",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "South Africa"
     },
@@ -10065,7 +10065,7 @@ const catalogueProducts = [
         size: "1L",
         price: "Ksh 7725",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=TANQUERAY%2010.T",
+        image: "https://www.thewhiskyexchange.com/p/2141/tanqueray-london-dry-gin",
         isKenyan: false,
         country: "United Kingdom"
     },
@@ -10075,7 +10075,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 6120",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=TANQUERAY%2010",
+        image: "https://www.thewhiskyexchange.com/p/2141/tanqueray-london-dry-gin",
         isKenyan: false,
         country: "United Kingdom"
     },
@@ -10085,7 +10085,7 @@ const catalogueProducts = [
         size: "1L",
         price: "Ksh 4575",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=TANQUERAY%20DRY%20GINT",
+        image: "https://www.thewhiskyexchange.com/p/2141/tanqueray-london-dry-gin",
         isKenyan: false,
         country: "United Kingdom"
     },
@@ -10095,7 +10095,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 3480",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=TANQUERAY%20DRY%20GIN",
+        image: "https://www.thewhiskyexchange.com/p/2141/tanqueray-london-dry-gin",
         isKenyan: false,
         country: "United Kingdom"
     },
@@ -10105,7 +10105,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 4500",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=TANQUERAY%20MALACCA%20LTR",
+        image: "https://www.thewhiskyexchange.com/p/2141/tanqueray-london-dry-gin",
         isKenyan: false,
         country: "United Kingdom"
     },
@@ -10115,7 +10115,7 @@ const catalogueProducts = [
         size: "1L",
         price: "Ksh 4725",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=TANQUERAY%20RANGPURT",
+        image: "https://www.thewhiskyexchange.com/p/2141/tanqueray-london-dry-gin",
         isKenyan: false,
         country: "United Kingdom"
     },
@@ -10125,7 +10125,7 @@ const catalogueProducts = [
         size: "70CL",
         price: "Ksh 3675",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=TANQUERAY%20RANGPUR",
+        image: "https://www.thewhiskyexchange.com/p/2141/tanqueray-london-dry-gin",
         isKenyan: false,
         country: "United Kingdom"
     },
@@ -10135,7 +10135,7 @@ const catalogueProducts = [
         size: "1L",
         price: "Ksh 4950",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=Tanqueray%20royalet",
+        image: "https://www.thewhiskyexchange.com/p/2141/tanqueray-london-dry-gin",
         isKenyan: false,
         country: "United Kingdom"
     },
@@ -10145,7 +10145,7 @@ const catalogueProducts = [
         size: "70CL",
         price: "Ksh 3675",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=TANQUERAY%20ROYALE",
+        image: "https://www.thewhiskyexchange.com/p/2141/tanqueray-london-dry-gin",
         isKenyan: false,
         country: "United Kingdom"
     },
@@ -10155,7 +10155,7 @@ const catalogueProducts = [
         size: "1L",
         price: "Ksh 4725",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=TANQUERAY%20SEVILLAT",
+        image: "https://www.thewhiskyexchange.com/p/2141/tanqueray-london-dry-gin",
         isKenyan: false,
         country: "United Kingdom"
     },
@@ -10165,7 +10165,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 3675",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=TANQUERAY%20SEVILLA",
+        image: "https://www.thewhiskyexchange.com/p/2141/tanqueray-london-dry-gin",
         isKenyan: false,
         country: "United Kingdom"
     },
@@ -10175,7 +10175,7 @@ const catalogueProducts = [
         size: "1L",
         price: "Ksh 2475",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=TEACHERST",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "Scotland"
     },
@@ -10185,7 +10185,7 @@ const catalogueProducts = [
         size: "350ML",
         price: "Ksh 540",
         description: "Download free Secondary School Editable 2026 End Term 1 Exams. Form 3, and 4 question papers with marking schemes provided. All …",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=TEACHERS",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "Scotland"
     },
@@ -10195,7 +10195,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 2325",
         description: "Download free Secondary School Editable 2026 End Term 1 Exams. Form 3, and 4 question papers with marking schemes provided. All …",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=TEACHERS",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "Scotland"
     },
@@ -10205,7 +10205,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 3420",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=TEQUILA%20CAMINO%20CLEAR",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "Mexico"
     },
@@ -10215,7 +10215,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 3420",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=TEQUILA%20CAMINO%20GOLD",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "Mexico"
     },
@@ -10225,7 +10225,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 3150",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=TEQUILA%20ROSE",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "USA"
     },
@@ -10235,7 +10235,7 @@ const catalogueProducts = [
         size: "1.5L",
         price: "Ksh 4788",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=THE%20GUVNOR",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "Spain"
     },
@@ -10245,7 +10245,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 2388",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=THE%20GUVNOR",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "Spain"
     },
@@ -10255,7 +10255,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1725",
         description: "Pinterest is a place of endless possibilities. You can: - Discover everyday inspiration - Shop styles you love - Try and learn something new …",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=THE%20WILSHIRE%20BLENDED%20WHISKY",
+        image: "assets/images/real/bl.jpg",
         isKenyan: false,
         country: "India"
     },
@@ -10265,7 +10265,7 @@ const catalogueProducts = [
         size: "1L",
         price: "Ksh 3600",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=THREE%20BARRELT",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "France"
     },
@@ -10275,7 +10275,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 2250",
         description: "Jan 23, 2024 · 目前来看从画质、产品形态以及使用体验上来说，我认为这一代Pocket 3是非常非常物有所值的产品，拿到手后可以说是疯拍。 简评：超高集成 …",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=THREE%20BARREL",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "France"
     },
@@ -10285,7 +10285,7 @@ const catalogueProducts = [
         size: "1L",
         price: "Ksh 4050",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=TIA%20MARIAT",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "Jamaica"
     },
@@ -10295,7 +10295,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 263",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=TIME%20VIRGINIA%20BLEND%20BULK",
+        image: "assets/images/real/bl.jpg",
         isKenyan: true,
         country: "Kenya"
     },
@@ -10305,7 +10305,7 @@ const catalogueProducts = [
         size: "250ML",
         price: "Ksh 390",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=TOP%20SECRET",
+        image: "https://www.thewhiskyexchange.com/p/2142/gordons-london-dry-gin",
         isKenyan: true,
         country: "Kenya"
     },
@@ -10315,7 +10315,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1095",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=TOP%20SECRET",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: true,
         country: "Kenya"
     },
@@ -10325,7 +10325,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1230",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=TORRERO",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "South Africa"
     },
@@ -10335,7 +10335,7 @@ const catalogueProducts = [
         size: "250ML",
         price: "Ksh 428",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=TORRERO%20LIQUER",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "South Africa"
     },
@@ -10345,7 +10345,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 3225",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=TR",
+        image: "assets/images/real/bonne_esperance_dry_reditre.jpg",
         isKenyan: true,
         country: "Kenya"
     },
@@ -10355,7 +10355,7 @@ const catalogueProducts = [
         size: "250ML",
         price: "Ksh 255",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=TRACE%20VODKA",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: true,
         country: "Kenya"
     },
@@ -10365,7 +10365,7 @@ const catalogueProducts = [
         size: "250ML",
         price: "Ksh 299",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=TRIPLE%20ACE",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: true,
         country: "Kenya"
     },
@@ -10375,7 +10375,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 840",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=TRIPLE%20ACE",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: true,
         country: "Kenya"
     },
@@ -10385,7 +10385,7 @@ const catalogueProducts = [
         size: "700ML",
         price: "Ksh 3225",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=TRIPPLE%20SEC%20CURACAO%20LIQUEUR",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: true,
         country: "Kenya"
     },
@@ -10395,7 +10395,7 @@ const catalogueProducts = [
         size: "1L",
         price: "Ksh 4800",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=TULLAMOREITRE",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "Ireland"
     },
@@ -10405,7 +10405,7 @@ const catalogueProducts = [
         size: "700ML",
         price: "Ksh 3750",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=TULLAMORE",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "Ireland"
     },
@@ -10415,7 +10415,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 255",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=TUSKER%20BEER",
+        image: "https://www.eabl.com/sites/default/files/brand-logos/Tusker_0.png",
         isKenyan: true,
         country: "Kenya"
     },
@@ -10425,7 +10425,7 @@ const catalogueProducts = [
         size: "500ML",
         price: "Ksh 305",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=TUSKER%20CAN",
+        image: "https://www.eabl.com/sites/default/files/brand-logos/Tusker_0.png",
         isKenyan: true,
         country: "Kenya"
     },
@@ -10435,7 +10435,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 336",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=TUSKER%20CIDER%20BEER",
+        image: "https://www.eabl.com/sites/default/files/brand-logos/Tusker_0.png",
         isKenyan: true,
         country: "Kenya"
     },
@@ -10445,7 +10445,7 @@ const catalogueProducts = [
         size: "500ML",
         price: "Ksh 357",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=TUSKER%20CIDER%20CAN",
+        image: "https://www.eabl.com/sites/default/files/brand-logos/Tusker_0.png",
         isKenyan: true,
         country: "Kenya"
     },
@@ -10455,7 +10455,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 282",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=TUSKER%20LITE%20BEER",
+        image: "https://www.eabl.com/sites/default/files/brand-logos/Tusker_0.png",
         isKenyan: true,
         country: "Kenya"
     },
@@ -10465,7 +10465,7 @@ const catalogueProducts = [
         size: "500ML",
         price: "Ksh 368",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=TUSKER%20LITE%20CAN",
+        image: "https://www.eabl.com/sites/default/files/brand-logos/Tusker_0.png",
         isKenyan: true,
         country: "Kenya"
     },
@@ -10475,7 +10475,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 368",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=TUSKER%20MALT%20CAN",
+        image: "https://www.eabl.com/sites/default/files/brand-logos/Tusker_0.png",
         isKenyan: true,
         country: "Kenya"
     },
@@ -10485,7 +10485,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 230",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=TUSKER%20NDIMU%20BEER",
+        image: "https://www.eabl.com/sites/default/files/brand-logos/Tusker_0.png",
         isKenyan: true,
         country: "Kenya"
     },
@@ -10495,7 +10495,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1230",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=UGIN%20MANGO",
+        image: "https://www.thewhiskyexchange.com/p/2142/gordons-london-dry-gin",
         isKenyan: false,
         country: "South Africa"
     },
@@ -10505,7 +10505,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 368",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=UPRISE%20WHSKY%20FLVD",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: true,
         country: "Kenya"
     },
@@ -10515,7 +10515,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1403",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=URBAN%20WHISKEY",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: true,
         country: "Kenya"
     },
@@ -10525,7 +10525,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 443",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=V%26%20A%201/4",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: true,
         country: "Kenya"
     },
@@ -10535,7 +10535,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1170",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=V%26%20A",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: true,
         country: "Kenya"
     },
@@ -10545,7 +10545,7 @@ const catalogueProducts = [
         size: "250ML",
         price: "Ksh 750",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=VAT",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "Scotland"
     },
@@ -10555,7 +10555,7 @@ const catalogueProducts = [
         size: "1L",
         price: "Ksh 2775",
         description: "Jul 24, 2024 · VAT, CT, 和 WHT 在税务领域分别代表了不同的税种。首先，Value Added Tax (VA) 或 VAT 是指增值税，这是一种在商品或服务交易过程中，由 …",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=VAT%2069T",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "Scotland"
     },
@@ -10565,7 +10565,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 2100",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=VAT%2069%20%203/4",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "Scotland"
     },
@@ -10575,7 +10575,7 @@ const catalogueProducts = [
         size: "375ML",
         price: "Ksh 1140",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=VAT%2069",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "Scotland"
     },
@@ -10585,7 +10585,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 600",
         description: "现在已经没有任何区别，VELO和美国线下开的华美已经合并了，使用同一个数据库。 2018年11月，我在美国旧金山唐人街的华美银行网点开了户。VELO上线以 …",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=VELO%20%20CANS",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "United Kingdom"
     },
@@ -10595,7 +10595,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 300",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=VELO%20SARCHETS",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "United Kingdom"
     },
@@ -10605,7 +10605,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1050",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=VERSUS%20RED%20WINE",
+        image: "https://distell.co.za/globalassets/brands/nederburg/main-image.png",
         isKenyan: false,
         country: "South Africa"
     },
@@ -10615,7 +10615,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1050",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=VERSUS%20WHITE",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "South Africa"
     },
@@ -10625,7 +10625,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 4830",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=VICEROY%2010YRS",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: true,
         country: "Kenya"
     },
@@ -10635,7 +10635,7 @@ const catalogueProducts = [
         size: "250ML",
         price: "Ksh 653",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=VICEROY",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: true,
         country: "Kenya"
     },
@@ -10645,7 +10645,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 957",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=VICEROY%20350",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: true,
         country: "Kenya"
     },
@@ -10655,7 +10655,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1860",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=VICEROY",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: true,
         country: "Kenya"
     },
@@ -10665,7 +10665,7 @@ const catalogueProducts = [
         size: "500ML",
         price: "Ksh 132",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=VIENA%20ICE",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: true,
         country: "Kenya"
     },
@@ -10675,7 +10675,7 @@ const catalogueProducts = [
         size: "250ML",
         price: "Ksh 293",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=VIVA%20VODKA",
+        image: "https://www.thewhiskyexchange.com/p/2157/smirnoff-red-no21-vodka",
         isKenyan: false,
         country: "South Africa"
     },
@@ -10685,7 +10685,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 255",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=VODKA%20LEMONADE%20CAN",
+        image: "https://www.thewhiskyexchange.com/p/2157/smirnoff-red-no21-vodka",
         isKenyan: true,
         country: "Kenya"
     },
@@ -10695,7 +10695,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 720",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=WARAGI",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "Uganda"
     },
@@ -10705,7 +10705,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 750",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=WAVE%20DANCER%20WINE",
+        image: "https://distell.co.za/globalassets/brands/nederburg/main-image.png",
         isKenyan: false,
         country: "South Africa"
     },
@@ -10715,7 +10715,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 294",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=WHITE%20CAP%20BEER",
+        image: "https://www.eabl.com/sites/default/files/brand-logos/white-cap_0.png",
         isKenyan: true,
         country: "Kenya"
     },
@@ -10725,7 +10725,7 @@ const catalogueProducts = [
         size: "500ML",
         price: "Ksh 329",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=WHITE%20CAP%20CAN",
+        image: "https://www.eabl.com/sites/default/files/brand-logos/white-cap_0.png",
         isKenyan: true,
         country: "Kenya"
     },
@@ -10735,7 +10735,7 @@ const catalogueProducts = [
         size: "375ML",
         price: "Ksh 480",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=WHITE%20HOUSE",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "India"
     },
@@ -10745,7 +10745,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1590",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=WHITE%20HOUSE",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "India"
     },
@@ -10755,7 +10755,7 @@ const catalogueProducts = [
         size: "500ML",
         price: "Ksh 1350",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=WHITE%20LACE%20GIN",
+        image: "https://www.thewhiskyexchange.com/p/2142/gordons-london-dry-gin",
         isKenyan: false,
         country: "South Africa"
     },
@@ -10765,7 +10765,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1178",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=WHITE%20MISCHIEF",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "India"
     },
@@ -10775,7 +10775,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1110",
         description: "Dec 18, 2025 · “Grand Theft Auto V Enhanced & Great White Shark Card”是《侠盗猎车手5 增强版》与《大白鲨充值卡》的组合版本。以下为详细介 …",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=WHITE%20OWL",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "Canada"
     },
@@ -10785,7 +10785,7 @@ const catalogueProducts = [
         size: "250ML",
         price: "Ksh 339",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=WHITE%20PEARL",
+        image: "https://image.spreadshirtmedia.com/image-server/v1/mp/products/T210A2MPA3176PT17X46Y46D1016584225S100/views/1,width=800,height=800,appearanceId=2,backgroundColor=E8E8E8/white-pearl-vodka-bottle.jpg",
         isKenyan: true,
         country: "Kenya"
     },
@@ -10795,7 +10795,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1020",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=WHITE%20PEARL",
+        image: "https://image.spreadshirtmedia.com/image-server/v1/mp/products/T210A2MPA3176PT17X46Y46D1016584225S100/views/1,width=800,height=800,appearanceId=2,backgroundColor=E8E8E8/white-pearl-vodka-bottle.jpg",
         isKenyan: true,
         country: "Kenya"
     },
@@ -10805,7 +10805,7 @@ const catalogueProducts = [
         size: "250ML",
         price: "Ksh 339",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=WHITE%20PEARL%20PINK",
+        image: "https://image.spreadshirtmedia.com/image-server/v1/mp/products/T210A2MPA3176PT17X46Y46D1016584225S100/views/1,width=800,height=800,appearanceId=2,backgroundColor=E8E8E8/white-pearl-vodka-bottle.jpg",
         isKenyan: true,
         country: "Kenya"
     },
@@ -10815,7 +10815,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1020",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=WHITE%20PEARL%20PINK",
+        image: "https://image.spreadshirtmedia.com/image-server/v1/mp/products/T210A2MPA3176PT17X46Y46D1016584225S100/views/1,width=800,height=800,appearanceId=2,backgroundColor=E8E8E8/white-pearl-vodka-bottle.jpg",
         isKenyan: true,
         country: "Kenya"
     },
@@ -10825,7 +10825,7 @@ const catalogueProducts = [
         size: "250ML",
         price: "Ksh 339",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=WHITE%20PEARL%20XTRA",
+        image: "https://image.spreadshirtmedia.com/image-server/v1/mp/products/T210A2MPA3176PT17X46Y46D1016584225S100/views/1,width=800,height=800,appearanceId=2,backgroundColor=E8E8E8/white-pearl-vodka-bottle.jpg",
         isKenyan: true,
         country: "Kenya"
     },
@@ -10835,7 +10835,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1020",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=WHITE%20PEARL%20XTRA",
+        image: "https://image.spreadshirtmedia.com/image-server/v1/mp/products/T210A2MPA3176PT17X46Y46D1016584225S100/views/1,width=800,height=800,appearanceId=2,backgroundColor=E8E8E8/white-pearl-vodka-bottle.jpg",
         isKenyan: true,
         country: "Kenya"
     },
@@ -10845,7 +10845,7 @@ const catalogueProducts = [
         size: "1L",
         price: "Ksh 2205",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=WHYTEHALL%20FIRET",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "India"
     },
@@ -10855,7 +10855,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 2205",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=WHYTHALL%20HONEY",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "India"
     },
@@ -10865,7 +10865,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 2325",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=WILD%20AFRICA%20CREAM",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "South Africa"
     },
@@ -10895,7 +10895,7 @@ const catalogueProducts = [
         size: "330ML",
         price: "Ksh 338",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=WILLIAM%20CAN",
+        image: "assets/images/real/william_can_cola.jpg",
         isKenyan: false,
         country: "Scotland"
     },
@@ -10925,7 +10925,7 @@ const catalogueProducts = [
         size: "1L",
         price: "Ksh 3113",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=WILLIAMSONT",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "Scotland"
     },
@@ -10935,7 +10935,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 2685",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=WILLIAM%20SON",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "Scotland"
     },
@@ -10945,7 +10945,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 2580",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=WILLIAM%20SPCD",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "Scotland"
     },
@@ -10995,7 +10995,7 @@ const catalogueProducts = [
         size: "250ML",
         price: "Ksh 353",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=XO%20BRANDY",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "France"
     },
@@ -11005,7 +11005,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1020",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=XO%20BRANDY",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "France"
     },
@@ -11015,7 +11015,7 @@ const catalogueProducts = [
         size: "1L",
         price: "Ksh 293",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=YATTA%20MANGOT",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: true,
         country: "Kenya"
     },
@@ -11025,7 +11025,7 @@ const catalogueProducts = [
         size: "1L",
         price: "Ksh 293",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=YATTA%20REDT",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: true,
         country: "Kenya"
     },
@@ -11035,7 +11035,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 293",
         description: "When you achieved something big, you would say this. I did it!!",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=YATTA%20%20TROPICAL",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "Japan"
     },
@@ -11045,7 +11045,7 @@ const catalogueProducts = [
         size: "1 L",
         price: "Ksh 293",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=YATTA%20%20WHITE",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: true,
         country: "Kenya"
     },
@@ -11055,7 +11055,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 750",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=ZANZI%20CREAM%20LQ",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "South Africa"
     },
@@ -11065,7 +11065,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 2100",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=ZAPPA%20BLACK",
+        image: "assets/images/real/bl.jpg",
         isKenyan: false,
         country: "Italy"
     },
@@ -11075,7 +11075,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 2100",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=ZAPPA%20BLUE",
+        image: "assets/images/real/bl.jpg",
         isKenyan: false,
         country: "Italy"
     },
@@ -11085,7 +11085,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 2100",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=ZAPPA%20CLEAR",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "Italy"
     },
@@ -11095,7 +11095,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 2100",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=ZAPPA%20GREEN",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "Italy"
     },
@@ -11105,7 +11105,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 2100",
         description: "A quality drink offering exceptional taste.",
-        image: "https://placehold.co/400x600/0B0B0B/D4AF37/png?text=ZAPPA%20RED",
+        image: "https://www.thewhiskyexchange.com/p/1834/johnnie-walker-black-label-12-year-old",
         isKenyan: false,
         country: "Italy"
     }
