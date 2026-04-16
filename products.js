@@ -2565,7 +2565,7 @@ const catalogueProducts = [
         size: "1L",
         price: "Ksh 2,730",
         description: "Cutty Sark is a brand of blended Scotch whisky produced by La Martiniquaise in Scotland. Cutty Sark. A bottle of Cutty Sark. Type, Scotch whisky.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Whiskey_Bottle.jpg/200px-Whiskey_Bottle.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "Scotland"
     },
@@ -2575,7 +2575,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 2,130",
         description: "Cutty Sark is a brand of blended Scotch whisky produced by La Martiniquaise in Scotland. Cutty Sark. A bottle of Cutty Sark. Type, Scotch whisky.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Whiskey_Bottle.jpg/200px-Whiskey_Bottle.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "Scotland"
     },
@@ -2625,7 +2625,7 @@ const catalogueProducts = [
         size: "250ML",
         price: "Ksh 195",
         description: "Darling Cellars De-Alcoholised is a product range of varietals where the focus is on fruit driven, varietal true, value for money products.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: true,
         country: "Kenya"
     },
@@ -2725,7 +2725,7 @@ const catalogueProducts = [
         size: "5L",
         price: "Ksh 4,200",
         description: "Delush Natural Sweet Red Wine has a creamy butterscotch and caramel flavour. Delush Sweet Red 750ml quantity. Add to cart.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wine_bottle_and_glass.jpg/200px-Wine_bottle_and_glass.jpg",
+        image: "assets/images/real/4th_roset.jpg",
         isKenyan: false,
         country: "South Africa"
     },
@@ -2765,7 +2765,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,500",
         description: "Facts about the wine. Winery. Delush. Region. South Africa / Northern Cape. Wine style. South African Dessert. Alcohol content. 8.5%. Allergens. Contains ...",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wine_bottle_and_glass.jpg/200px-Wine_bottle_and_glass.jpg",
+        image: "assets/images/real/4th_roset.jpg",
         isKenyan: false,
         country: "South Africa"
     },
@@ -3415,7 +3415,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,950",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "South Africa"
     },
@@ -3475,7 +3475,7 @@ const catalogueProducts = [
         size: "3L",
         price: "Ksh 2,400",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "South Africa"
     },
@@ -3525,7 +3525,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 540",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/4th_roset.jpg",
         isKenyan: false,
         country: "South Africa"
     },
@@ -3555,7 +3555,7 @@ const catalogueProducts = [
         size: "1.5L",
         price: "Ksh 2,400",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wine_bottle_and_glass.jpg/200px-Wine_bottle_and_glass.jpg",
+        image: "assets/images/real/4th_roset.jpg",
         isKenyan: false,
         country: "South Africa"
     },
@@ -3585,7 +3585,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 765",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: true,
         country: "Kenya"
     },
@@ -3645,7 +3645,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,440",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "Chile"
     },
@@ -3705,7 +3705,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,440",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "Chile"
     },
@@ -3735,7 +3735,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 150",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: true,
         country: "Kenya"
     },
@@ -3745,7 +3745,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 282",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: true,
         country: "Kenya"
     },
@@ -3755,7 +3755,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 282",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: true,
         country: "Kenya"
     },
@@ -3765,7 +3765,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 282",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: true,
         country: "Kenya"
     },
@@ -3785,7 +3785,7 @@ const catalogueProducts = [
         size: "250ML",
         price: "Ksh 233",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: true,
         country: "Kenya"
     },
@@ -3795,7 +3795,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 855",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: true,
         country: "Kenya"
     },
@@ -3825,7 +3825,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,320",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "Chile"
     },
@@ -3835,7 +3835,7 @@ const catalogueProducts = [
         size: "1.5ML",
         price: "Ksh 2,250",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "Chile"
     },
@@ -3845,7 +3845,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,320",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "Chile"
     },
@@ -3855,7 +3855,7 @@ const catalogueProducts = [
         size: "1.5ML",
         price: "Ksh 2,250",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "Chile"
     },
@@ -3865,7 +3865,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 2,835",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "Chile"
     },
@@ -3875,7 +3875,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,320",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "Chile"
     },
@@ -3905,7 +3905,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,320",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wine_bottle_and_glass.jpg/200px-Wine_bottle_and_glass.jpg",
+        image: "assets/images/real/4th_roset.jpg",
         isKenyan: false,
         country: "Chile"
     },
@@ -3935,7 +3935,7 @@ const catalogueProducts = [
         size: "250ML",
         price: "Ksh 173",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Bottle_of_gin.jpg/200px-Bottle_of_gin.jpg",
+        image: "assets/images/real/58_classic_gin.jpg",
         isKenyan: false,
         country: "USA"
     },
@@ -3945,7 +3945,7 @@ const catalogueProducts = [
         size: "1L",
         price: "Ksh 7,500",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "USA"
     },
@@ -3955,7 +3955,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 7,200",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "USA"
     },
@@ -3965,7 +3965,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 2,175",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "United Kingdom"
     },
@@ -3975,7 +3975,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 2,175",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "United Kingdom"
     },
@@ -3985,7 +3985,7 @@ const catalogueProducts = [
         size: "1L",
         price: "Ksh 2,400",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Bottle_of_gin.jpg/200px-Bottle_of_gin.jpg",
+        image: "assets/images/real/58_classic_gin.jpg",
         isKenyan: false,
         country: "United Kingdom"
     },
@@ -3995,7 +3995,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 2,070",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Bottle_of_gin.jpg/200px-Bottle_of_gin.jpg",
+        image: "assets/images/real/58_classic_gin.jpg",
         isKenyan: false,
         country: "United Kingdom"
     },
@@ -4005,7 +4005,7 @@ const catalogueProducts = [
         size: "1L",
         price: "Ksh 2,775",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: true,
         country: "Kenya"
     },
@@ -4045,7 +4045,7 @@ const catalogueProducts = [
         size: "250ML",
         price: "Ksh 624",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: true,
         country: "Kenya"
     },
@@ -4055,7 +4055,7 @@ const catalogueProducts = [
         size: "250ML",
         price: "Ksh 630",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: true,
         country: "Kenya"
     },
@@ -4065,7 +4065,7 @@ const catalogueProducts = [
         size: "350ML",
         price: "Ksh 864",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: true,
         country: "Kenya"
     },
@@ -4075,7 +4075,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,875",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: true,
         country: "Kenya"
     },
@@ -4085,7 +4085,7 @@ const catalogueProducts = [
         size: "1L",
         price: "Ksh 4,500",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "Scotland"
     },
@@ -4095,7 +4095,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 3,975",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "Scotland"
     },
@@ -4105,7 +4105,7 @@ const catalogueProducts = [
         size: "1L",
         price: "Ksh 12,000",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Glenfiddich_12_years.jpg/200px-Glenfiddich_12_years.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "Scotland"
     },
@@ -4115,7 +4115,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 37,500",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Glenfiddich_12_years.jpg/200px-Glenfiddich_12_years.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "Scotland"
     },
@@ -4125,7 +4125,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 9,000",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Glenfiddich_12_years.jpg/200px-Glenfiddich_12_years.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "Scotland"
     },
@@ -4135,7 +4135,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 9,750",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Glenfiddich_12_years.jpg/200px-Glenfiddich_12_years.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "Scotland"
     },
@@ -4145,7 +4145,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 3,150",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Grant%27s_Scotch_Whisky.jpg/200px-Grant%27s_Scotch_Whisky.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "Scotland"
     },
@@ -4155,7 +4155,7 @@ const catalogueProducts = [
         size: "1L",
         price: "Ksh 8,700",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "Scotland"
     },
@@ -4165,7 +4165,7 @@ const catalogueProducts = [
         size: "700ML",
         price: "Ksh 8,550",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "Scotland"
     },
@@ -4175,7 +4175,7 @@ const catalogueProducts = [
         size: "700ML",
         price: "Ksh 8,100",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "Scotland"
     },
@@ -4185,7 +4185,7 @@ const catalogueProducts = [
         size: "1L",
         price: "Ksh 15,000",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "Scotland"
     },
@@ -4195,7 +4195,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 16,500",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "Scotland"
     },
@@ -4215,7 +4215,7 @@ const catalogueProducts = [
         size: "350ML",
         price: "Ksh 1,170",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "Scotland"
     },
@@ -4225,7 +4225,7 @@ const catalogueProducts = [
         size: "1L",
         price: "Ksh 2,175",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "Scotland"
     },
@@ -4235,7 +4235,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,755",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "Scotland"
     },
@@ -4245,7 +4245,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 285",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "USA"
     },
@@ -4255,7 +4255,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 795",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: true,
         country: "Kenya"
     },
@@ -4265,7 +4265,7 @@ const catalogueProducts = [
         size: "350ML",
         price: "Ksh 1,275",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Gordon%27s_Gin_Bottle.jpg/200px-Gordon%27s_Gin_Bottle.jpg",
+        image: "assets/images/real/58_classic_gin.jpg",
         isKenyan: false,
         country: "United Kingdom"
     },
@@ -4275,7 +4275,7 @@ const catalogueProducts = [
         size: "1L",
         price: "Ksh 2,775",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Gordon%27s_Gin_Bottle.jpg/200px-Gordon%27s_Gin_Bottle.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "United Kingdom"
     },
@@ -4285,7 +4285,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 2,400",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Gordon%27s_Gin_Bottle.jpg/200px-Gordon%27s_Gin_Bottle.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "United Kingdom"
     },
@@ -4295,7 +4295,7 @@ const catalogueProducts = [
         size: "1L",
         price: "Ksh 3,225",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Gordon%27s_Gin_Bottle.jpg/200px-Gordon%27s_Gin_Bottle.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "United Kingdom"
     },
@@ -4305,7 +4305,7 @@ const catalogueProducts = [
         size: "70CL",
         price: "Ksh 2,850",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Gordon%27s_Gin_Bottle.jpg/200px-Gordon%27s_Gin_Bottle.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "United Kingdom"
     },
@@ -4315,7 +4315,7 @@ const catalogueProducts = [
         size: "700ML",
         price: "Ksh 2,805",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Gordon%27s_Gin_Bottle.jpg/200px-Gordon%27s_Gin_Bottle.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "United Kingdom"
     },
@@ -4325,7 +4325,7 @@ const catalogueProducts = [
         size: "1L",
         price: "Ksh 3,075",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Gordon%27s_Gin_Bottle.jpg/200px-Gordon%27s_Gin_Bottle.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "United Kingdom"
     },
@@ -4335,7 +4335,7 @@ const catalogueProducts = [
         size: "700ML",
         price: "Ksh 2,775",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Gordon%27s_Gin_Bottle.jpg/200px-Gordon%27s_Gin_Bottle.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "United Kingdom"
     },
@@ -4345,7 +4345,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 293",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Gordon%27s_Gin_Bottle.jpg/200px-Gordon%27s_Gin_Bottle.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "United Kingdom"
     },
@@ -4355,7 +4355,7 @@ const catalogueProducts = [
         size: "1L",
         price: "Ksh 3,480",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Gordon%27s_Gin_Bottle.jpg/200px-Gordon%27s_Gin_Bottle.jpg",
+        image: "assets/images/real/58_classic_gin.jpg",
         isKenyan: false,
         country: "United Kingdom"
     },
@@ -4365,7 +4365,7 @@ const catalogueProducts = [
         size: "250ML",
         price: "Ksh 375",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Gordon%27s_Gin_Bottle.jpg/200px-Gordon%27s_Gin_Bottle.jpg",
+        image: "assets/images/real/58_classic_gin.jpg",
         isKenyan: false,
         country: "United Kingdom"
     },
@@ -4375,7 +4375,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 3,000",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Gordon%27s_Gin_Bottle.jpg/200px-Gordon%27s_Gin_Bottle.jpg",
+        image: "assets/images/real/58_classic_gin.jpg",
         isKenyan: false,
         country: "United Kingdom"
     },
@@ -4385,7 +4385,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 293",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Gordon%27s_Gin_Bottle.jpg/200px-Gordon%27s_Gin_Bottle.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "United Kingdom"
     },
@@ -4395,7 +4395,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 6,195",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Whiskey_Bottle.jpg/200px-Whiskey_Bottle.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "Ireland"
     },
@@ -4405,7 +4405,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,035",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Whiskey_Bottle.jpg/200px-Whiskey_Bottle.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: true,
         country: "Kenya"
     },
@@ -4415,7 +4415,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 2,970",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "Spain"
     },
@@ -4425,7 +4425,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 2,970",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wine_bottle_and_glass.jpg/200px-Wine_bottle_and_glass.jpg",
+        image: "assets/images/real/4th_roset.jpg",
         isKenyan: false,
         country: "Spain"
     },
@@ -4435,7 +4435,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,155",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Grant%27s_Scotch_Whisky.jpg/200px-Grant%27s_Scotch_Whisky.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "Scotland"
     },
@@ -4445,7 +4445,7 @@ const catalogueProducts = [
         size: "1L",
         price: "Ksh 3,150",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Grant%27s_Scotch_Whisky.jpg/200px-Grant%27s_Scotch_Whisky.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "Scotland"
     },
@@ -4455,7 +4455,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 2,550",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Grant%27s_Scotch_Whisky.jpg/200px-Grant%27s_Scotch_Whisky.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "Scotland"
     },
@@ -4465,7 +4465,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 2,100",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Grant%27s_Scotch_Whisky.jpg/200px-Grant%27s_Scotch_Whisky.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "Scotland"
     },
@@ -4475,7 +4475,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 5,625",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Grant%27s_Scotch_Whisky.jpg/200px-Grant%27s_Scotch_Whisky.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "Scotland"
     },
@@ -4485,7 +4485,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,950",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: true,
         country: "Kenya"
     },
@@ -4495,7 +4495,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,170",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Whiskey_Bottle.jpg/200px-Whiskey_Bottle.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: true,
         country: "Kenya"
     },
@@ -4505,7 +4505,7 @@ const catalogueProducts = [
         size: "250ML",
         price: "Ksh 390",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Whiskey_Bottle.jpg/200px-Whiskey_Bottle.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: true,
         country: "Kenya"
     },
@@ -4515,7 +4515,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 570",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "France"
     },
@@ -4535,7 +4535,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 4,125",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "Scotland"
     },
@@ -4545,7 +4545,7 @@ const catalogueProducts = [
         size: "440ML",
         price: "Ksh 240",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: true,
         country: "Kenya"
     },
@@ -4555,7 +4555,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 267",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: true,
         country: "Kenya"
     },
@@ -4565,7 +4565,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 255",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: true,
         country: "Kenya"
     },
@@ -4575,7 +4575,7 @@ const catalogueProducts = [
         size: "330ML",
         price: "Ksh 240",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Beer_bottle_and_glass.jpg/200px-Beer_bottle_and_glass.jpg",
+        image: "assets/images/real/tusker_lager_6_pack.png",
         isKenyan: false,
         country: "Ireland"
     },
@@ -4585,7 +4585,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 308",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Guinness-Bottle.jpg/200px-Guinness-Bottle.jpg",
+        image: "assets/images/real/tusker_lager_6_pack.png",
         isKenyan: true,
         country: "Kenya"
     },
@@ -4595,7 +4595,7 @@ const catalogueProducts = [
         size: "500ML",
         price: "Ksh 329",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Guinness-Bottle.jpg/200px-Guinness-Bottle.jpg",
+        image: "assets/images/real/tusker_lager_6_pack.png",
         isKenyan: true,
         country: "Kenya"
     },
@@ -4605,7 +4605,7 @@ const catalogueProducts = [
         size: "500ML",
         price: "Ksh 254",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Guinness-Bottle.jpg/200px-Guinness-Bottle.jpg",
+        image: "assets/images/real/tusker_lager_6_pack.png",
         isKenyan: true,
         country: "Kenya"
     },
@@ -4615,7 +4615,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 303",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Guinness-Bottle.jpg/200px-Guinness-Bottle.jpg",
+        image: "assets/images/real/tusker_lager_6_pack.png",
         isKenyan: true,
         country: "Kenya"
     },
@@ -4625,7 +4625,7 @@ const catalogueProducts = [
         size: "330ML",
         price: "Ksh 263",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Guinness-Bottle.jpg/200px-Guinness-Bottle.jpg",
+        image: "assets/images/real/tusker_lager_6_pack.png",
         isKenyan: true,
         country: "Kenya"
     },
@@ -4635,7 +4635,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,950",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Whiskey_Bottle.jpg/200px-Whiskey_Bottle.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "India"
     },
@@ -4655,7 +4655,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 2,250",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "China"
     },
@@ -4665,7 +4665,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 2,250",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "China"
     },
@@ -4675,7 +4675,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 2,250",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "China"
     },
@@ -4685,7 +4685,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 2,250",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "China"
     },
@@ -4695,7 +4695,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 2,775",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "Spain"
     },
@@ -4705,7 +4705,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 3,720",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "Cuba"
     },
@@ -4715,7 +4715,7 @@ const catalogueProducts = [
         size: "750 ML",
         price: "Ksh 2,880",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "Cuba"
     },
@@ -4725,7 +4725,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 270",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "Germany"
     },
@@ -4735,7 +4735,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 240",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "Cuba"
     },
@@ -4745,7 +4745,7 @@ const catalogueProducts = [
         size: "330ML",
         price: "Ksh 398",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Heineken_bottle.jpg/200px-Heineken_bottle.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "Netherlands"
     },
@@ -4755,7 +4755,7 @@ const catalogueProducts = [
         size: "500ML",
         price: "Ksh 420",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Heineken_bottle.jpg/200px-Heineken_bottle.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "Netherlands"
     },
@@ -4765,7 +4765,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 315",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Heineken_bottle.jpg/200px-Heineken_bottle.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "Netherlands"
     },
@@ -4775,7 +4775,7 @@ const catalogueProducts = [
         size: "1L",
         price: "Ksh 9,750",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Bottle_of_gin.jpg/200px-Bottle_of_gin.jpg",
+        image: "assets/images/real/58_classic_gin.jpg",
         isKenyan: false,
         country: "Scotland"
     },
@@ -4785,7 +4785,7 @@ const catalogueProducts = [
         size: "70CL",
         price: "Ksh 7,950",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Bottle_of_gin.jpg/200px-Bottle_of_gin.jpg",
+        image: "assets/images/real/58_classic_gin.jpg",
         isKenyan: false,
         country: "Scotland"
     },
@@ -4795,7 +4795,7 @@ const catalogueProducts = [
         size: "1L",
         price: "Ksh 11,325",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Hennessy_VS.jpg/200px-Hennessy_VS.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "France"
     },
@@ -4805,7 +4805,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 6,975",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Hennessy_VS.jpg/200px-Hennessy_VS.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "France"
     },
@@ -4815,7 +4815,7 @@ const catalogueProducts = [
         size: "350ML",
         price: "Ksh 3,600",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Hennessy_VS.jpg/200px-Hennessy_VS.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "France"
     },
@@ -4825,7 +4825,7 @@ const catalogueProducts = [
         size: "700ML",
         price: "Ksh 13,500",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Hennessy_VS.jpg/200px-Hennessy_VS.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "France"
     },
@@ -4835,7 +4835,7 @@ const catalogueProducts = [
         size: "700ML",
         price: "Ksh 54,750",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Hennessy_VS.jpg/200px-Hennessy_VS.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "France"
     },
@@ -4845,7 +4845,7 @@ const catalogueProducts = [
         size: "250ML",
         price: "Ksh 420",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "South Africa"
     },
@@ -4855,7 +4855,7 @@ const catalogueProducts = [
         size: "500ML",
         price: "Ksh 855",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "South Africa"
     },
@@ -4865,7 +4865,7 @@ const catalogueProducts = [
         size: "1L",
         price: "Ksh 1,560",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "Scotland"
     },
@@ -4875,7 +4875,7 @@ const catalogueProducts = [
         size: "350ML",
         price: "Ksh 600",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "Scotland"
     },
@@ -4885,7 +4885,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,170",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "Scotland"
     },
@@ -4895,7 +4895,7 @@ const catalogueProducts = [
         size: "1L",
         price: "Ksh 2,700",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "Ukraine"
     },
@@ -4905,7 +4905,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 2,700",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Bottle_of_gin.jpg/200px-Bottle_of_gin.jpg",
+        image: "assets/images/real/58_classic_gin.jpg",
         isKenyan: false,
         country: "Ukraine"
     },
@@ -4915,7 +4915,7 @@ const catalogueProducts = [
         size: "330ML",
         price: "Ksh 296",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "South Africa"
     },
@@ -4925,7 +4925,7 @@ const catalogueProducts = [
         size: "330ML",
         price: "Ksh 296",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "South Africa"
     },
@@ -4935,7 +4935,7 @@ const catalogueProducts = [
         size: "250ML",
         price: "Ksh 447",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "South Africa"
     },
@@ -4945,7 +4945,7 @@ const catalogueProducts = [
         size: "350ML",
         price: "Ksh 653",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "South Africa"
     },
@@ -4955,7 +4955,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,380",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "South Africa"
     },
@@ -4965,7 +4965,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,440",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "France"
     },
@@ -4975,7 +4975,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,440",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "France"
     },
@@ -4985,7 +4985,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,440",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Vodka_bottle.jpg/200px-Vodka_bottle.jpg",
+        image: "assets/images/real/absolut_vodka.png",
         isKenyan: false,
         country: "France"
     },
@@ -4995,7 +4995,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,440",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Bottle_of_gin.jpg/200px-Bottle_of_gin.jpg",
+        image: "assets/images/real/58_classic_gin.jpg",
         isKenyan: false,
         country: "France"
     },
@@ -5005,7 +5005,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,620",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Whiskey_Bottle.jpg/200px-Whiskey_Bottle.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "France"
     },
@@ -5025,7 +5025,7 @@ const catalogueProducts = [
         size: "250ML",
         price: "Ksh 203",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "India"
     },
@@ -5035,7 +5035,7 @@ const catalogueProducts = [
         size: "250ML",
         price: "Ksh 203",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Vodka_bottle.jpg/200px-Vodka_bottle.jpg",
+        image: "assets/images/real/absolut_vodka.png",
         isKenyan: false,
         country: "India"
     },
@@ -5045,7 +5045,7 @@ const catalogueProducts = [
         size: "250ML",
         price: "Ksh 255",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: true,
         country: "Kenya"
     },
@@ -5055,7 +5055,7 @@ const catalogueProducts = [
         size: "250ML",
         price: "Ksh 255",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Bottle_of_gin.jpg/200px-Bottle_of_gin.jpg",
+        image: "assets/images/real/58_classic_gin.jpg",
         isKenyan: true,
         country: "Kenya"
     },
@@ -5065,7 +5065,7 @@ const catalogueProducts = [
         size: "250ML",
         price: "Ksh 255",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Vodka_bottle.jpg/200px-Vodka_bottle.jpg",
+        image: "assets/images/real/absolut_vodka.png",
         isKenyan: true,
         country: "Kenya"
     },
@@ -5115,7 +5115,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 7,350",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Bottle_of_gin.jpg/200px-Bottle_of_gin.jpg",
+        image: "assets/images/real/58_classic_gin.jpg",
         isKenyan: false,
         country: "South Africa"
     },
@@ -5125,7 +5125,7 @@ const catalogueProducts = [
         size: "375ML",
         price: "Ksh 548",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Whiskey_Bottle.jpg/200px-Whiskey_Bottle.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "Scotland"
     },
@@ -5135,7 +5135,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,035",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Whiskey_Bottle.jpg/200px-Whiskey_Bottle.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "Scotland"
     },
@@ -5145,7 +5145,7 @@ const catalogueProducts = [
         size: "1 L",
         price: "Ksh 4,950",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Jack_Daniels_07.jpg/200px-Jack_Daniels_07.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "USA"
     },
@@ -5155,7 +5155,7 @@ const catalogueProducts = [
         size: "1L",
         price: "Ksh 5,175",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Jack_Daniels_07.jpg/200px-Jack_Daniels_07.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "USA"
     },
@@ -5165,7 +5165,7 @@ const catalogueProducts = [
         size: "700ML",
         price: "Ksh 5,550",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Jack_Daniels_07.jpg/200px-Jack_Daniels_07.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "USA"
     },
@@ -5175,7 +5175,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 375",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Jack_Daniels_07.jpg/200px-Jack_Daniels_07.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "USA"
     },
@@ -5185,7 +5185,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 420",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Jack_Daniels_07.jpg/200px-Jack_Daniels_07.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "USA"
     },
@@ -5195,7 +5195,7 @@ const catalogueProducts = [
         size: "1L",
         price: "Ksh 5,475",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Jack_Daniels_07.jpg/200px-Jack_Daniels_07.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "USA"
     },
@@ -5205,7 +5205,7 @@ const catalogueProducts = [
         size: "700ML",
         price: "Ksh 4,350",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Jack_Daniels_07.jpg/200px-Jack_Daniels_07.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "USA"
     },
@@ -5215,7 +5215,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 5,400",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Jack_Daniels_07.jpg/200px-Jack_Daniels_07.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "USA"
     },
@@ -5225,7 +5225,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 4,163",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Jack_Daniels_07.jpg/200px-Jack_Daniels_07.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "USA"
     },
@@ -5245,7 +5245,7 @@ const catalogueProducts = [
         size: "1L",
         price: "Ksh 5,850",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Jack_Daniels_07.jpg/200px-Jack_Daniels_07.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "USA"
     },
@@ -5255,7 +5255,7 @@ const catalogueProducts = [
         size: "350ML",
         price: "Ksh 2,400",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Jack_Daniels_07.jpg/200px-Jack_Daniels_07.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "USA"
     },
@@ -5265,7 +5265,7 @@ const catalogueProducts = [
         size: "700ML",
         price: "Ksh 8,400",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "USA"
     },
@@ -5275,7 +5275,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,950",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "Australia"
     },
@@ -5285,7 +5285,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,950",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "Australia"
     },
@@ -5295,7 +5295,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,950",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/4th_roset.jpg",
         isKenyan: false,
         country: "Australia"
     },
@@ -5305,7 +5305,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,950",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "Australia"
     },
@@ -5315,7 +5315,7 @@ const catalogueProducts = [
         size: "1L",
         price: "Ksh 4,800",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "Germany"
     },
@@ -5325,7 +5325,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 3,525",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "Germany"
     },
@@ -5335,7 +5335,7 @@ const catalogueProducts = [
         size: "1L",
         price: "Ksh 4,425",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "Germany"
     },
@@ -5345,7 +5345,7 @@ const catalogueProducts = [
         size: "350ML",
         price: "Ksh 2,025",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "Germany"
     },
@@ -5355,7 +5355,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 3,525",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "Germany"
     },
@@ -5365,7 +5365,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,050",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "Jamaica"
     },
@@ -5375,7 +5375,7 @@ const catalogueProducts = [
         size: "250ML",
         price: "Ksh 150",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Vodka_bottle.jpg/200px-Vodka_bottle.jpg",
+        image: "assets/images/real/absolut_vodka.png",
         isKenyan: true,
         country: "Kenya"
     },
@@ -5395,7 +5395,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 4,875",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Jameson_Irish_whiskey_-_bottle.jpg/200px-Jameson_Irish_whiskey_-_bottle.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "Ireland"
     },
@@ -5475,7 +5475,7 @@ const catalogueProducts = [
         size: "700ML",
         price: "Ksh 2,775",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "Scotland"
     },
@@ -5485,7 +5485,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 2,190",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "South Africa"
     },
@@ -5495,7 +5495,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 2,190",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "South Africa"
     },
@@ -5505,7 +5505,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,140",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Vodka_bottle.jpg/200px-Vodka_bottle.jpg",
+        image: "assets/images/real/absolut_vodka.png",
         isKenyan: false,
         country: "France"
     },
@@ -5515,7 +5515,7 @@ const catalogueProducts = [
         size: "1L",
         price: "Ksh 3,375",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "USA"
     },
@@ -5525,7 +5525,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 2,925",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "USA"
     },
@@ -5535,7 +5535,7 @@ const catalogueProducts = [
         size: "700ML",
         price: "Ksh 2,250",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "USA"
     },
@@ -5555,7 +5555,7 @@ const catalogueProducts = [
         size: "1L",
         price: "Ksh 3,000",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "USA"
     },
@@ -5565,7 +5565,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 2,250",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "USA"
     },
@@ -5575,7 +5575,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,875",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "South Africa"
     },
@@ -5605,7 +5605,7 @@ const catalogueProducts = [
         size: "1L",
         price: "Ksh 2,400",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wine_bottle_and_glass.jpg/200px-Wine_bottle_and_glass.jpg",
+        image: "assets/images/real/4th_roset.jpg",
         isKenyan: false,
         country: "Scotland"
     },
@@ -5615,7 +5615,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 2,250",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wine_bottle_and_glass.jpg/200px-Wine_bottle_and_glass.jpg",
+        image: "assets/images/real/4th_roset.jpg",
         isKenyan: false,
         country: "Scotland"
     },
@@ -5625,7 +5625,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 14,775",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "Scotland"
     },
@@ -5695,7 +5695,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 10,200",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "Scotland"
     },
@@ -5705,7 +5705,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 6,300",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "Scotland"
     },
@@ -5715,7 +5715,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,320",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wine_bottle_and_glass.jpg/200px-Wine_bottle_and_glass.jpg",
+        image: "assets/images/real/4th_roset.jpg",
         isKenyan: false,
         country: "Scotland"
     },
@@ -5725,7 +5725,7 @@ const catalogueProducts = [
         size: "3L",
         price: "Ksh 10,200",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wine_bottle_and_glass.jpg/200px-Wine_bottle_and_glass.jpg",
+        image: "assets/images/real/4th_roset.jpg",
         isKenyan: false,
         country: "Scotland"
     },
@@ -5735,7 +5735,7 @@ const catalogueProducts = [
         size: "1L",
         price: "Ksh 3,075",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wine_bottle_and_glass.jpg/200px-Wine_bottle_and_glass.jpg",
+        image: "assets/images/real/4th_roset.jpg",
         isKenyan: false,
         country: "Scotland"
     },
@@ -5745,7 +5745,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 2,535",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wine_bottle_and_glass.jpg/200px-Wine_bottle_and_glass.jpg",
+        image: "assets/images/real/4th_roset.jpg",
         isKenyan: false,
         country: "Scotland"
     },
@@ -5755,7 +5755,7 @@ const catalogueProducts = [
         size: "1L",
         price: "Ksh 8,100",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "Scotland"
     },
@@ -5785,7 +5785,7 @@ const catalogueProducts = [
         size: "250ML",
         price: "Ksh 870",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wine_bottle_and_glass.jpg/200px-Wine_bottle_and_glass.jpg",
+        image: "assets/images/real/4th_roset.jpg",
         isKenyan: false,
         country: "Scotland"
     },
@@ -5835,7 +5835,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 2,025",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "Portugal"
     },
@@ -5965,7 +5965,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 825",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "India"
     },
@@ -6025,7 +6025,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,200",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Bottle_of_gin.jpg/200px-Bottle_of_gin.jpg",
+        image: "assets/images/real/58_classic_gin.jpg",
         isKenyan: false,
         country: "South Africa"
     },
@@ -6195,7 +6195,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 930",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "New Zealand"
     },
@@ -6245,7 +6245,7 @@ const catalogueProducts = [
         size: "250ML",
         price: "Ksh 341",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Vodka_bottle.jpg/200px-Vodka_bottle.jpg",
+        image: "assets/images/real/absolut_vodka.png",
         isKenyan: true,
         country: "Kenya"
     },
@@ -6255,7 +6255,7 @@ const catalogueProducts = [
         size: "350ML",
         price: "Ksh 525",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Vodka_bottle.jpg/200px-Vodka_bottle.jpg",
+        image: "assets/images/real/absolut_vodka.png",
         isKenyan: true,
         country: "Kenya"
     },
@@ -6265,7 +6265,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 957",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Vodka_bottle.jpg/200px-Vodka_bottle.jpg",
+        image: "assets/images/real/absolut_vodka.png",
         isKenyan: true,
         country: "Kenya"
     },
@@ -6345,7 +6345,7 @@ const catalogueProducts = [
         size: "1L",
         price: "Ksh 1,800",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "United Kingdom"
     },
@@ -6355,7 +6355,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,170",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Bottle_of_gin.jpg/200px-Bottle_of_gin.jpg",
+        image: "assets/images/real/58_classic_gin.jpg",
         isKenyan: false,
         country: "France"
     },
@@ -6385,7 +6385,7 @@ const catalogueProducts = [
         size: "101 L",
         price: "Ksh 75",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: true,
         country: "Kenya"
     },
@@ -6435,7 +6435,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 345",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: true,
         country: "Kenya"
     },
@@ -6725,7 +6725,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 2,235",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "South Africa"
     },
@@ -6795,7 +6795,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 338",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "Sri Lanka"
     },
@@ -6935,7 +6935,7 @@ const catalogueProducts = [
         size: "1L",
         price: "Ksh 2,250",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "Scotland"
     },
@@ -6945,7 +6945,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,725",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "Scotland"
     },
@@ -7185,7 +7185,7 @@ const catalogueProducts = [
         size: "1L",
         price: "Ksh 2,850",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "Italy"
     },
@@ -7195,7 +7195,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 2,325",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "Italy"
     },
@@ -7205,7 +7205,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,200",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Bottle_of_gin.jpg/200px-Bottle_of_gin.jpg",
+        image: "assets/images/real/4th_roset.jpg",
         isKenyan: false,
         country: "Portugal"
     },
@@ -7215,7 +7215,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,425",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "India"
     },
@@ -7225,7 +7225,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,875",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wine_bottle_and_glass.jpg/200px-Wine_bottle_and_glass.jpg",
+        image: "assets/images/real/4th_roset.jpg",
         isKenyan: false,
         country: "Ukraine"
     },
@@ -7235,7 +7235,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,500",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wine_bottle_and_glass.jpg/200px-Wine_bottle_and_glass.jpg",
+        image: "assets/images/real/4th_roset.jpg",
         isKenyan: false,
         country: "Ukraine"
     },
@@ -7245,7 +7245,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,875",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "Ukraine"
     },
@@ -7255,7 +7255,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,875",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "Ukraine"
     },
@@ -7265,7 +7265,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,875",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "Ukraine"
     },
@@ -7275,7 +7275,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,875",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "Ukraine"
     },
@@ -7285,7 +7285,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,695",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "Ukraine"
     },
@@ -7295,7 +7295,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 90",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "USA"
     },
@@ -7305,7 +7305,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 990",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "India"
     },
@@ -7315,7 +7315,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 990",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "India"
     },
@@ -7325,7 +7325,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 990",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "South Africa"
     },
@@ -7335,7 +7335,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 990",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "India"
     },
@@ -7345,7 +7345,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 990",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "India"
     },
@@ -7355,7 +7355,7 @@ const catalogueProducts = [
         size: "250ML",
         price: "Ksh 180",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Bottle_of_gin.jpg/200px-Bottle_of_gin.jpg",
+        image: "assets/images/real/58_classic_gin.jpg",
         isKenyan: true,
         country: "Kenya"
     },
@@ -7365,7 +7365,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 17,250",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "France"
     },
@@ -7375,7 +7375,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 14,700",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "France"
     },
@@ -7385,7 +7385,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 12,000",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/4th_roset.jpg",
         isKenyan: false,
         country: "France"
     },
@@ -7395,7 +7395,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 825",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wine_bottle_and_glass.jpg/200px-Wine_bottle_and_glass.jpg",
+        image: "assets/images/real/4th_roset.jpg",
         isKenyan: false,
         country: "South Africa"
     },
@@ -7405,7 +7405,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 825",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wine_bottle_and_glass.jpg/200px-Wine_bottle_and_glass.jpg",
+        image: "assets/images/real/4th_roset.jpg",
         isKenyan: false,
         country: "South Africa"
     },
@@ -7415,7 +7415,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,200",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wine_bottle_and_glass.jpg/200px-Wine_bottle_and_glass.jpg",
+        image: "assets/images/real/4th_roset.jpg",
         isKenyan: false,
         country: "South Africa"
     },
@@ -7425,7 +7425,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 825",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wine_bottle_and_glass.jpg/200px-Wine_bottle_and_glass.jpg",
+        image: "assets/images/real/4th_roset.jpg",
         isKenyan: false,
         country: "South Africa"
     },
@@ -7435,7 +7435,7 @@ const catalogueProducts = [
         size: "1L",
         price: "Ksh 7,800",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "Scotland"
     },
@@ -7445,7 +7445,7 @@ const catalogueProducts = [
         size: "700ML",
         price: "Ksh 7,200",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "Scotland"
     },
@@ -7465,7 +7465,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 225",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "USA"
     },
@@ -7475,7 +7475,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 270",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Bottle_of_gin.jpg/200px-Bottle_of_gin.jpg",
+        image: "assets/images/real/58_classic_gin.jpg",
         isKenyan: false,
         country: "USA"
     },
@@ -7485,7 +7485,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 225",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "USA"
     },
@@ -7495,7 +7495,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 225",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wine_bottle_and_glass.jpg/200px-Wine_bottle_and_glass.jpg",
+        image: "assets/images/real/4th_roset.jpg",
         isKenyan: false,
         country: "USA"
     },
@@ -7505,7 +7505,7 @@ const catalogueProducts = [
         size: "250ML",
         price: "Ksh 413",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "India"
     },
@@ -7515,7 +7515,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,238",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "India"
     },
@@ -7525,7 +7525,7 @@ const catalogueProducts = [
         size: "500ML",
         price: "Ksh 60",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: true,
         country: "Kenya"
     },
@@ -7535,7 +7535,7 @@ const catalogueProducts = [
         size: "1.5L",
         price: "Ksh 6,000",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "Spain"
     },
@@ -7555,7 +7555,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 2,745",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wine_bottle_and_glass.jpg/200px-Wine_bottle_and_glass.jpg",
+        image: "assets/images/real/4th_roset.jpg",
         isKenyan: false,
         country: "Spain"
     },
@@ -7565,7 +7565,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,605",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wine_bottle_and_glass.jpg/200px-Wine_bottle_and_glass.jpg",
+        image: "assets/images/real/4th_roset.jpg",
         isKenyan: false,
         country: "South Africa"
     },
@@ -7575,7 +7575,7 @@ const catalogueProducts = [
         size: "250ML",
         price: "Ksh 263",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "India"
     },
@@ -7585,7 +7585,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,125",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "India"
     },
@@ -7595,7 +7595,7 @@ const catalogueProducts = [
         size: "1 L",
         price: "Ksh 2,775",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "Jamaica"
     },
@@ -7605,7 +7605,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 2,700",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "Jamaica"
     },
@@ -7615,7 +7615,7 @@ const catalogueProducts = [
         size: "1L",
         price: "Ksh 4,950",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "Scotland"
     },
@@ -7625,7 +7625,7 @@ const catalogueProducts = [
         size: "700ML",
         price: "Ksh 3,975",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "Scotland"
     },
@@ -7635,7 +7635,7 @@ const catalogueProducts = [
         size: "5L",
         price: "Ksh 5,025",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wine_bottle_and_glass.jpg/200px-Wine_bottle_and_glass.jpg",
+        image: "assets/images/real/4th_roset.jpg",
         isKenyan: false,
         country: "South Africa"
     },
@@ -7645,7 +7645,7 @@ const catalogueProducts = [
         size: "5L",
         price: "Ksh 3,750",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wine_bottle_and_glass.jpg/200px-Wine_bottle_and_glass.jpg",
+        image: "assets/images/real/4th_roset.jpg",
         isKenyan: false,
         country: "South Africa"
     },
@@ -7655,7 +7655,7 @@ const catalogueProducts = [
         size: "5L",
         price: "Ksh 5,025",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wine_bottle_and_glass.jpg/200px-Wine_bottle_and_glass.jpg",
+        image: "assets/images/real/4th_roset.jpg",
         isKenyan: false,
         country: "South Africa"
     },
@@ -7665,7 +7665,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,560",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wine_bottle_and_glass.jpg/200px-Wine_bottle_and_glass.jpg",
+        image: "assets/images/real/4th_roset.jpg",
         isKenyan: false,
         country: "South Africa"
     },
@@ -7675,7 +7675,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,560",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wine_bottle_and_glass.jpg/200px-Wine_bottle_and_glass.jpg",
+        image: "assets/images/real/4th_roset.jpg",
         isKenyan: false,
         country: "South Africa"
     },
@@ -7685,7 +7685,7 @@ const catalogueProducts = [
         size: "250ML",
         price: "Ksh 390",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: true,
         country: "Kenya"
     },
@@ -7695,7 +7695,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,095",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: true,
         country: "Kenya"
     },
@@ -7705,7 +7705,7 @@ const catalogueProducts = [
         size: "250ML",
         price: "Ksh 330",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: true,
         country: "Kenya"
     },
@@ -7715,7 +7715,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 998",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: true,
         country: "Kenya"
     },
@@ -7725,7 +7725,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 258",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "South Africa"
     },
@@ -7735,7 +7735,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 2,250",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/4th_roset.jpg",
         isKenyan: false,
         country: "South Africa"
     },
@@ -7745,7 +7745,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 2,250",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "South Africa"
     },
@@ -7755,7 +7755,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 2,250",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "South Africa"
     },
@@ -7765,7 +7765,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 2,250",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "South Africa"
     },
@@ -7775,7 +7775,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 2,250",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "South Africa"
     },
@@ -7785,7 +7785,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 2,250",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "South Africa"
     },
@@ -7805,7 +7805,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 2,250",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "South Africa"
     },
@@ -7815,7 +7815,7 @@ const catalogueProducts = [
         size: "350ML",
         price: "Ksh 435",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "India"
     },
@@ -7825,7 +7825,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 675",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "India"
     },
@@ -7835,7 +7835,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 675",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "India"
     },
@@ -7845,7 +7845,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,635",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "Mauritius"
     },
@@ -7855,7 +7855,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 615",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "South Africa"
     },
@@ -7865,7 +7865,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 615",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: true,
         country: "Kenya"
     },
@@ -7875,7 +7875,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 615",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: true,
         country: "Kenya"
     },
@@ -7885,7 +7885,7 @@ const catalogueProducts = [
         size: "700ML",
         price: "Ksh 1,193",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "Argentina"
     },
@@ -7895,7 +7895,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 173",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "India"
     },
@@ -7905,7 +7905,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,125",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wine_bottle_and_glass.jpg/200px-Wine_bottle_and_glass.jpg",
+        image: "assets/images/real/4th_roset.jpg",
         isKenyan: false,
         country: "India"
     },
@@ -7915,7 +7915,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 413",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "Belgium"
     },
@@ -7925,7 +7925,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 413",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "Belgium"
     },
@@ -7935,7 +7935,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 428",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "Belgium"
     },
@@ -7945,7 +7945,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 375",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "Belgium"
     },
@@ -7955,7 +7955,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 278",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "Belgium"
     },
@@ -7965,7 +7965,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 2,625",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "United Kingdom"
     },
@@ -7975,7 +7975,7 @@ const catalogueProducts = [
         size: "375ML",
         price: "Ksh 525",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "India"
     },
@@ -7985,7 +7985,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,500",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "India"
     },
@@ -7995,7 +7995,7 @@ const catalogueProducts = [
         size: "700ML",
         price: "Ksh 1,830",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "France"
     },
@@ -8005,7 +8005,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 2,205",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "France"
     },
@@ -8015,7 +8015,7 @@ const catalogueProducts = [
         size: "700ML",
         price: "Ksh 1,830",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "France"
     },
@@ -8025,7 +8025,7 @@ const catalogueProducts = [
         size: "1L",
         price: "Ksh 2,205",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wine_bottle_and_glass.jpg/200px-Wine_bottle_and_glass.jpg",
+        image: "assets/images/real/4th_roset.jpg",
         isKenyan: false,
         country: "France"
     },
@@ -8035,7 +8035,7 @@ const catalogueProducts = [
         size: "700ML",
         price: "Ksh 1,830",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wine_bottle_and_glass.jpg/200px-Wine_bottle_and_glass.jpg",
+        image: "assets/images/real/4th_roset.jpg",
         isKenyan: false,
         country: "France"
     },
@@ -8045,7 +8045,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,665",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "Scotland"
     },
@@ -8055,7 +8055,7 @@ const catalogueProducts = [
         size: "70CL",
         price: "Ksh 1,050",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wine_bottle_and_glass.jpg/200px-Wine_bottle_and_glass.jpg",
+        image: "assets/images/real/4th_roset.jpg",
         isKenyan: false,
         country: "Italy"
     },
@@ -8065,7 +8065,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,050",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wine_bottle_and_glass.jpg/200px-Wine_bottle_and_glass.jpg",
+        image: "assets/images/real/4th_roset.jpg",
         isKenyan: false,
         country: "Italy"
     },
@@ -8085,7 +8085,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 3,975",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "Mexico"
     },
@@ -8095,7 +8095,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 4,020",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "Mexico"
     },
@@ -8105,7 +8105,7 @@ const catalogueProducts = [
         size: "375ML",
         price: "Ksh 698",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "India"
     },
@@ -8115,7 +8115,7 @@ const catalogueProducts = [
         size: "250ML",
         price: "Ksh 465",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Vodka_bottle.jpg/200px-Vodka_bottle.jpg",
+        image: "assets/images/real/absolut_vodka.png",
         isKenyan: false,
         country: "India"
     },
@@ -8125,7 +8125,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,575",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Vodka_bottle.jpg/200px-Vodka_bottle.jpg",
+        image: "assets/images/real/absolut_vodka.png",
         isKenyan: false,
         country: "India"
     },
@@ -8135,7 +8135,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 2,700",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "Chile"
     },
@@ -8145,7 +8145,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 255",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "Jamaica"
     },
@@ -8155,7 +8155,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 323",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: true,
         country: "Kenya"
     },
@@ -8165,7 +8165,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 323",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: true,
         country: "Kenya"
     },
@@ -8175,7 +8175,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 323",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: true,
         country: "Kenya"
     },
@@ -8185,7 +8185,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 323",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: true,
         country: "Kenya"
     },
@@ -8195,7 +8195,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 323",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: true,
         country: "Kenya"
     },
@@ -8205,7 +8205,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 323",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: true,
         country: "Kenya"
     },
@@ -8445,7 +8445,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 383",
         description: "To elaborate the liqueurs, “Haden” and “Tommy Atkins” mangoes were used, originating from the São Francisco Valley in the Northeast of Brazil.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "Brazil"
     },
@@ -8515,7 +8515,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 83",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "South Africa"
     },
@@ -8525,7 +8525,7 @@ const catalogueProducts = [
         size: "400ML",
         price: "Ksh 83",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wine_bottle_and_glass.jpg/200px-Wine_bottle_and_glass.jpg",
+        image: "assets/images/real/4th_roset.jpg",
         isKenyan: false,
         country: "USA"
     },
@@ -8535,7 +8535,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 3,750",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/4th_roset.jpg",
         isKenyan: false,
         country: "Italy"
     },
@@ -8545,7 +8545,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,125",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Bottle_of_gin.jpg/200px-Bottle_of_gin.jpg",
+        image: "assets/images/real/58_classic_gin.jpg",
         isKenyan: true,
         country: "Kenya"
     },
@@ -8555,7 +8555,7 @@ const catalogueProducts = [
         size: "1L",
         price: "Ksh 53",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: true,
         country: "Kenya"
     },
@@ -8565,7 +8565,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 2,850",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "Ukraine"
     },
@@ -8605,7 +8605,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 2,400",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wine_bottle_and_glass.jpg/200px-Wine_bottle_and_glass.jpg",
+        image: "assets/images/real/4th_roset.jpg",
         isKenyan: false,
         country: "Scotland"
     },
@@ -8615,7 +8615,7 @@ const catalogueProducts = [
         size: "250ML",
         price: "Ksh 300",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wine_bottle_and_glass.jpg/200px-Wine_bottle_and_glass.jpg",
+        image: "assets/images/real/4th_roset.jpg",
         isKenyan: true,
         country: "Kenya"
     },
@@ -8655,7 +8655,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 600",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "Belgium"
     },
@@ -8685,7 +8685,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 525",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wine_bottle_and_glass.jpg/200px-Wine_bottle_and_glass.jpg",
+        image: "assets/images/real/4th_roset.jpg",
         isKenyan: false,
         country: "France"
     },
@@ -8695,7 +8695,7 @@ const catalogueProducts = [
         size: "350ML",
         price: "Ksh 503",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Whiskey_Bottle.jpg/200px-Whiskey_Bottle.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "India"
     },
@@ -8705,7 +8705,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,350",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Whiskey_Bottle.jpg/200px-Whiskey_Bottle.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "India"
     },
@@ -8715,7 +8715,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 864",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: true,
         country: "Kenya"
     },
@@ -8725,7 +8725,7 @@ const catalogueProducts = [
         size: "250ML",
         price: "Ksh 623",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: true,
         country: "Kenya"
     },
@@ -8735,7 +8735,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,860",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: true,
         country: "Kenya"
     },
@@ -8745,7 +8745,7 @@ const catalogueProducts = [
         size: "1.5L",
         price: "Ksh 2,595",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wine_bottle_and_glass.jpg/200px-Wine_bottle_and_glass.jpg",
+        image: "assets/images/real/4th_roset.jpg",
         isKenyan: false,
         country: "South Africa"
     },
@@ -8755,7 +8755,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,545",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wine_bottle_and_glass.jpg/200px-Wine_bottle_and_glass.jpg",
+        image: "assets/images/real/4th_roset.jpg",
         isKenyan: false,
         country: "South Africa"
     },
@@ -8765,7 +8765,7 @@ const catalogueProducts = [
         size: "1.5 L",
         price: "Ksh 2,580",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/4th_roset.jpg",
         isKenyan: false,
         country: "South Africa"
     },
@@ -8775,7 +8775,7 @@ const catalogueProducts = [
         size: "750 ML",
         price: "Ksh 1,545",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/4th_roset.jpg",
         isKenyan: false,
         country: "South Africa"
     },
@@ -8785,7 +8785,7 @@ const catalogueProducts = [
         size: "1.5L",
         price: "Ksh 2,595",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wine_bottle_and_glass.jpg/200px-Wine_bottle_and_glass.jpg",
+        image: "assets/images/real/4th_roset.jpg",
         isKenyan: false,
         country: "South Africa"
     },
@@ -8795,7 +8795,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,545",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wine_bottle_and_glass.jpg/200px-Wine_bottle_and_glass.jpg",
+        image: "assets/images/real/4th_roset.jpg",
         isKenyan: false,
         country: "South Africa"
     },
@@ -8805,7 +8805,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 210",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: true,
         country: "Kenya"
     },
@@ -8825,7 +8825,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,950",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wine_bottle_and_glass.jpg/200px-Wine_bottle_and_glass.jpg",
+        image: "assets/images/real/4th_roset.jpg",
         isKenyan: false,
         country: "Germany"
     },
@@ -8835,7 +8835,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,950",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "Germany"
     },
@@ -8845,7 +8845,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,950",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "Germany"
     },
@@ -8855,7 +8855,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,950",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "Germany"
     },
@@ -8865,7 +8865,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,950",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "Germany"
     },
@@ -8925,7 +8925,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 2,025",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "Germany"
     },
@@ -8935,7 +8935,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 528",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "South Africa"
     },
@@ -8945,7 +8945,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 255",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "South Africa"
     },
@@ -8955,7 +8955,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,200",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "India"
     },
@@ -8965,7 +8965,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,178",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "India"
     },
@@ -8975,7 +8975,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 2,085",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "India"
     },
@@ -8985,7 +8985,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 2,100",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Whiskey_Bottle.jpg/200px-Whiskey_Bottle.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "India"
     },
@@ -9035,7 +9035,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,110",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "India"
     },
@@ -9045,7 +9045,7 @@ const catalogueProducts = [
         size: "375ML",
         price: "Ksh 908",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "India"
     },
@@ -9055,7 +9055,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,695",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "India"
     },
@@ -9065,7 +9065,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 60",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "India"
     },
@@ -9075,7 +9075,7 @@ const catalogueProducts = [
         size: "250ML",
         price: "Ksh 338",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: true,
         country: "Kenya"
     },
@@ -9085,7 +9085,7 @@ const catalogueProducts = [
         size: "500ML",
         price: "Ksh 480",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: true,
         country: "Kenya"
     },
@@ -9095,7 +9095,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 953",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: true,
         country: "Kenya"
     },
@@ -9105,7 +9105,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 60",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: true,
         country: "Kenya"
     },
@@ -9185,7 +9185,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,425",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wine_bottle_and_glass.jpg/200px-Wine_bottle_and_glass.jpg",
+        image: "assets/images/real/4th_roset.jpg",
         isKenyan: false,
         country: "South Africa"
     },
@@ -9195,7 +9195,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,425",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wine_bottle_and_glass.jpg/200px-Wine_bottle_and_glass.jpg",
+        image: "assets/images/real/4th_roset.jpg",
         isKenyan: false,
         country: "South Africa"
     },
@@ -9205,7 +9205,7 @@ const catalogueProducts = [
         size: "1L",
         price: "Ksh 1,058",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wine_bottle_and_glass.jpg/200px-Wine_bottle_and_glass.jpg",
+        image: "assets/images/real/4th_roset.jpg",
         isKenyan: false,
         country: "Spain"
     },
@@ -9215,7 +9215,7 @@ const catalogueProducts = [
         size: "1L",
         price: "Ksh 1,058",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wine_bottle_and_glass.jpg/200px-Wine_bottle_and_glass.jpg",
+        image: "assets/images/real/4th_roset.jpg",
         isKenyan: false,
         country: "Spain"
     },
@@ -9225,7 +9225,7 @@ const catalogueProducts = [
         size: "330ML",
         price: "Ksh 368",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "South Africa"
     },
@@ -9235,7 +9235,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 390",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "South Africa"
     },
@@ -9245,7 +9245,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 112",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Bottle_of_gin.jpg/200px-Bottle_of_gin.jpg",
+        image: "assets/images/real/58_classic_gin.jpg",
         isKenyan: false,
         country: "United Kingdom"
     },
@@ -9255,7 +9255,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 82",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "United Kingdom"
     },
@@ -9295,7 +9295,7 @@ const catalogueProducts = [
         size: "1L",
         price: "Ksh 2,175",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wine_bottle_and_glass.jpg/200px-Wine_bottle_and_glass.jpg",
+        image: "assets/images/real/4th_roset.jpg",
         isKenyan: false,
         country: "Scotland"
     },
@@ -9305,7 +9305,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,800",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wine_bottle_and_glass.jpg/200px-Wine_bottle_and_glass.jpg",
+        image: "assets/images/real/4th_roset.jpg",
         isKenyan: false,
         country: "Scotland"
     },
@@ -9315,7 +9315,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 60",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: true,
         country: "Kenya"
     },
@@ -9325,7 +9325,7 @@ const catalogueProducts = [
         size: "1L",
         price: "Ksh 7,050",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "Ireland"
     },
@@ -9335,7 +9335,7 @@ const catalogueProducts = [
         size: "500ML",
         price: "Ksh 1,785",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "Ukraine"
     },
@@ -9345,7 +9345,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 7,050",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "Scotland"
     },
@@ -9355,7 +9355,7 @@ const catalogueProducts = [
         size: "700ML",
         price: "Ksh 12,600",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "Scotland"
     },
@@ -9365,7 +9365,7 @@ const catalogueProducts = [
         size: "350ML",
         price: "Ksh 465",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "Scotland"
     },
@@ -9375,7 +9375,7 @@ const catalogueProducts = [
         size: "1L",
         price: "Ksh 2,235",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "Scotland"
     },
@@ -9385,7 +9385,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 2,025",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "Scotland"
     },
@@ -9395,7 +9395,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,665",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Vodka_bottle.jpg/200px-Vodka_bottle.jpg",
+        image: "assets/images/real/absolut_vodka.png",
         isKenyan: false,
         country: "USA"
     },
@@ -9405,7 +9405,7 @@ const catalogueProducts = [
         size: "250ML",
         price: "Ksh 180",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Vodka_bottle.jpg/200px-Vodka_bottle.jpg",
+        image: "assets/images/real/absolut_vodka.png",
         isKenyan: false,
         country: "USA"
     },
@@ -9415,7 +9415,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 2,250",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "United Kingdom"
     },
@@ -9425,7 +9425,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 2,250",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Smirnoff-Vodka-Bottle.jpg/200px-Smirnoff-Vodka-Bottle.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "United Kingdom"
     },
@@ -9475,7 +9475,7 @@ const catalogueProducts = [
         size: "1L",
         price: "Ksh 2,250",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Smirnoff-Vodka-Bottle.jpg/200px-Smirnoff-Vodka-Bottle.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "United Kingdom"
     },
@@ -9525,7 +9525,7 @@ const catalogueProducts = [
         size: "700ML",
         price: "Ksh 1,800",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Smirnoff-Vodka-Bottle.jpg/200px-Smirnoff-Vodka-Bottle.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "United Kingdom"
     },
@@ -9535,7 +9535,7 @@ const catalogueProducts = [
         size: "1L",
         price: "Ksh 2,430",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Smirnoff-Vodka-Bottle.jpg/200px-Smirnoff-Vodka-Bottle.jpg",
+        image: "assets/images/real/4th_roset.jpg",
         isKenyan: false,
         country: "United Kingdom"
     },
@@ -9545,7 +9545,7 @@ const catalogueProducts = [
         size: "250ML",
         price: "Ksh 624",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Smirnoff-Vodka-Bottle.jpg/200px-Smirnoff-Vodka-Bottle.jpg",
+        image: "assets/images/real/absolut_vodka.png",
         isKenyan: false,
         country: "United Kingdom"
     },
@@ -9555,7 +9555,7 @@ const catalogueProducts = [
         size: "350ML",
         price: "Ksh 864",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Smirnoff-Vodka-Bottle.jpg/200px-Smirnoff-Vodka-Bottle.jpg",
+        image: "assets/images/real/absolut_vodka.png",
         isKenyan: false,
         country: "United Kingdom"
     },
@@ -9565,7 +9565,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,860",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Smirnoff-Vodka-Bottle.jpg/200px-Smirnoff-Vodka-Bottle.jpg",
+        image: "assets/images/real/absolut_vodka.png",
         isKenyan: false,
         country: "United Kingdom"
     },
@@ -9575,7 +9575,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 528",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: true,
         country: "Kenya"
     },
@@ -9585,7 +9585,7 @@ const catalogueProducts = [
         size: "330ML",
         price: "Ksh 367",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: true,
         country: "Kenya"
     },
@@ -9595,7 +9595,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 241",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Beer_bottle_and_glass.jpg/200px-Beer_bottle_and_glass.jpg",
+        image: "assets/images/real/tusker_lager_6_pack.png",
         isKenyan: true,
         country: "Kenya"
     },
@@ -9605,7 +9605,7 @@ const catalogueProducts = [
         size: "330ML",
         price: "Ksh 267",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: true,
         country: "Kenya"
     },
@@ -9635,7 +9635,7 @@ const catalogueProducts = [
         size: "1L",
         price: "Ksh 3,525",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "USA"
     },
@@ -9645,7 +9645,7 @@ const catalogueProducts = [
         size: "350ML",
         price: "Ksh 1,275",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "USA"
     },
@@ -9655,7 +9655,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 2,700",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "USA"
     },
@@ -9675,7 +9675,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 2,400",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "South Africa"
     },
@@ -9715,7 +9715,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1,095",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "Australia"
     },
@@ -9725,7 +9725,7 @@ const catalogueProducts = [
         size: "250ML",
         price: "Ksh 180",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "India"
     },
@@ -9745,7 +9745,7 @@ const catalogueProducts = [
         size: "750M",
         price: "Ksh 1875",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: true,
         country: "Kenya"
     },
@@ -9755,7 +9755,7 @@ const catalogueProducts = [
         size: "750M",
         price: "Ksh 3975",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "Scotland"
     },
@@ -9765,7 +9765,7 @@ const catalogueProducts = [
         size: "750M",
         price: "Ksh 1875",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "South Africa"
     },
@@ -9775,7 +9775,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 320",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wine_bottle_and_glass.jpg/200px-Wine_bottle_and_glass.jpg",
+        image: "assets/images/real/tusker_lager_6_pack.png",
         isKenyan: true,
         country: "Kenya"
     },
@@ -9785,7 +9785,7 @@ const catalogueProducts = [
         size: "330ML",
         price: "Ksh 345",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wine_bottle_and_glass.jpg/200px-Wine_bottle_and_glass.jpg",
+        image: "assets/images/real/4th_roset.jpg",
         isKenyan: true,
         country: "Kenya"
     },
@@ -9815,7 +9815,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1650",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "Scotland"
     },
@@ -9825,7 +9825,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1095",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "South Africa"
     },
@@ -9855,7 +9855,7 @@ const catalogueProducts = [
         size: "1L",
         price: "Ksh 3075",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "France"
     },
@@ -9865,7 +9865,7 @@ const catalogueProducts = [
         size: "700ML",
         price: "Ksh 2940",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "France"
     },
@@ -9875,7 +9875,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 3945",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "France"
     },
@@ -9885,7 +9885,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1620",
         description: "Mit der ING haben Sie Ihre Finanzen immer im Blick - Girokonto, Kredit, Depot, Tagesgeldkonto oder Baufinanzierung: Was darf es sein für Sie?",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Bottle_of_gin.jpg/200px-Bottle_of_gin.jpg",
+        image: "assets/images/real/58_classic_gin.jpg",
         isKenyan: false,
         country: "South Africa"
     },
@@ -9895,7 +9895,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1950",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: true,
         country: "Kenya"
     },
@@ -9905,7 +9905,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1950",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "South Africa"
     },
@@ -9915,7 +9915,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 240",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: true,
         country: "Kenya"
     },
@@ -9925,7 +9925,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 750",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wine_bottle_and_glass.jpg/200px-Wine_bottle_and_glass.jpg",
+        image: "assets/images/real/4th_roset.jpg",
         isKenyan: false,
         country: "South Africa"
     },
@@ -9935,7 +9935,7 @@ const catalogueProducts = [
         size: "250ML",
         price: "Ksh 250.5",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Vodka_bottle.jpg/200px-Vodka_bottle.jpg",
+        image: "assets/images/real/absolut_vodka.png",
         isKenyan: true,
         country: "Kenya"
     },
@@ -9945,7 +9945,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 885",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Vodka_bottle.jpg/200px-Vodka_bottle.jpg",
+        image: "assets/images/real/absolut_vodka.png",
         isKenyan: true,
         country: "Kenya"
     },
@@ -9955,7 +9955,7 @@ const catalogueProducts = [
         size: "250ML",
         price: "Ksh 188",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: true,
         country: "Kenya"
     },
@@ -9965,7 +9965,7 @@ const catalogueProducts = [
         size: "250ML",
         price: "Ksh 338",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: true,
         country: "Kenya"
     },
@@ -9975,7 +9975,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1005",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: true,
         country: "Kenya"
     },
@@ -9985,7 +9985,7 @@ const catalogueProducts = [
         size: "700ML",
         price: "Ksh 7875",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "Scotland"
     },
@@ -9995,7 +9995,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1500",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "South Africa"
     },
@@ -10005,7 +10005,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1500",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "South Africa"
     },
@@ -10025,7 +10025,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1500",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "South Africa"
     },
@@ -10035,7 +10035,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1500",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "South Africa"
     },
@@ -10055,7 +10055,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1500",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wine_bottle_and_glass.jpg/200px-Wine_bottle_and_glass.jpg",
+        image: "assets/images/real/4th_roset.jpg",
         isKenyan: false,
         country: "South Africa"
     },
@@ -10065,7 +10065,7 @@ const catalogueProducts = [
         size: "1L",
         price: "Ksh 7725",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Tanqueray-Gin.jpg/200px-Tanqueray-Gin.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "United Kingdom"
     },
@@ -10075,7 +10075,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 6120",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Tanqueray-Gin.jpg/200px-Tanqueray-Gin.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "United Kingdom"
     },
@@ -10085,7 +10085,7 @@ const catalogueProducts = [
         size: "1L",
         price: "Ksh 4575",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Tanqueray-Gin.jpg/200px-Tanqueray-Gin.jpg",
+        image: "assets/images/real/58_classic_gin.jpg",
         isKenyan: false,
         country: "United Kingdom"
     },
@@ -10095,7 +10095,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 3480",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Tanqueray-Gin.jpg/200px-Tanqueray-Gin.jpg",
+        image: "assets/images/real/58_classic_gin.jpg",
         isKenyan: false,
         country: "United Kingdom"
     },
@@ -10105,7 +10105,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 4500",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Tanqueray-Gin.jpg/200px-Tanqueray-Gin.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "United Kingdom"
     },
@@ -10115,7 +10115,7 @@ const catalogueProducts = [
         size: "1L",
         price: "Ksh 4725",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Tanqueray-Gin.jpg/200px-Tanqueray-Gin.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "United Kingdom"
     },
@@ -10125,7 +10125,7 @@ const catalogueProducts = [
         size: "70CL",
         price: "Ksh 3675",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Tanqueray-Gin.jpg/200px-Tanqueray-Gin.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "United Kingdom"
     },
@@ -10135,7 +10135,7 @@ const catalogueProducts = [
         size: "1L",
         price: "Ksh 4950",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Tanqueray-Gin.jpg/200px-Tanqueray-Gin.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "United Kingdom"
     },
@@ -10145,7 +10145,7 @@ const catalogueProducts = [
         size: "70CL",
         price: "Ksh 3675",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Tanqueray-Gin.jpg/200px-Tanqueray-Gin.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "United Kingdom"
     },
@@ -10155,7 +10155,7 @@ const catalogueProducts = [
         size: "1L",
         price: "Ksh 4725",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Tanqueray-Gin.jpg/200px-Tanqueray-Gin.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "United Kingdom"
     },
@@ -10165,7 +10165,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 3675",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Tanqueray-Gin.jpg/200px-Tanqueray-Gin.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "United Kingdom"
     },
@@ -10175,7 +10175,7 @@ const catalogueProducts = [
         size: "1L",
         price: "Ksh 2475",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "Scotland"
     },
@@ -10185,7 +10185,7 @@ const catalogueProducts = [
         size: "350ML",
         price: "Ksh 540",
         description: "Download free Secondary School Editable 2026 End Term 1 Exams. Form 3, and 4 question papers with marking schemes provided. All …",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "Scotland"
     },
@@ -10195,7 +10195,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 2325",
         description: "Download free Secondary School Editable 2026 End Term 1 Exams. Form 3, and 4 question papers with marking schemes provided. All …",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "Scotland"
     },
@@ -10205,7 +10205,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 3420",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "Mexico"
     },
@@ -10215,7 +10215,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 3420",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "Mexico"
     },
@@ -10225,7 +10225,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 3150",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/4th_roset.jpg",
         isKenyan: false,
         country: "USA"
     },
@@ -10235,7 +10235,7 @@ const catalogueProducts = [
         size: "1.5L",
         price: "Ksh 4788",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "Spain"
     },
@@ -10245,7 +10245,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 2388",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "Spain"
     },
@@ -10265,7 +10265,7 @@ const catalogueProducts = [
         size: "1L",
         price: "Ksh 3600",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "France"
     },
@@ -10275,7 +10275,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 2250",
         description: "Jan 23, 2024 · 目前来看从画质、产品形态以及使用体验上来说，我认为这一代Pocket 3是非常非常物有所值的产品，拿到手后可以说是疯拍。 简评：超高集成 …",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "France"
     },
@@ -10285,7 +10285,7 @@ const catalogueProducts = [
         size: "1L",
         price: "Ksh 4050",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "Jamaica"
     },
@@ -10305,7 +10305,7 @@ const catalogueProducts = [
         size: "250ML",
         price: "Ksh 390",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: true,
         country: "Kenya"
     },
@@ -10315,7 +10315,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1095",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: true,
         country: "Kenya"
     },
@@ -10325,7 +10325,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1230",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "South Africa"
     },
@@ -10335,7 +10335,7 @@ const catalogueProducts = [
         size: "250ML",
         price: "Ksh 428",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "South Africa"
     },
@@ -10355,7 +10355,7 @@ const catalogueProducts = [
         size: "250ML",
         price: "Ksh 255",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Vodka_bottle.jpg/200px-Vodka_bottle.jpg",
+        image: "assets/images/real/absolut_vodka.png",
         isKenyan: true,
         country: "Kenya"
     },
@@ -10365,7 +10365,7 @@ const catalogueProducts = [
         size: "250ML",
         price: "Ksh 299",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: true,
         country: "Kenya"
     },
@@ -10375,7 +10375,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 840",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: true,
         country: "Kenya"
     },
@@ -10385,7 +10385,7 @@ const catalogueProducts = [
         size: "700ML",
         price: "Ksh 3225",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: true,
         country: "Kenya"
     },
@@ -10395,7 +10395,7 @@ const catalogueProducts = [
         size: "1L",
         price: "Ksh 4800",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "Ireland"
     },
@@ -10405,7 +10405,7 @@ const catalogueProducts = [
         size: "700ML",
         price: "Ksh 3750",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "Ireland"
     },
@@ -10415,7 +10415,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 255",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Tusker_beer.jpg/200px-Tusker_beer.jpg",
+        image: "assets/images/real/tusker_lager_6_pack.png",
         isKenyan: true,
         country: "Kenya"
     },
@@ -10425,7 +10425,7 @@ const catalogueProducts = [
         size: "500ML",
         price: "Ksh 305",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Tusker_beer.jpg/200px-Tusker_beer.jpg",
+        image: "assets/images/real/tusker_lager_6_pack.png",
         isKenyan: true,
         country: "Kenya"
     },
@@ -10435,7 +10435,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 336",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Tusker_beer.jpg/200px-Tusker_beer.jpg",
+        image: "assets/images/real/tusker_lager_6_pack.png",
         isKenyan: true,
         country: "Kenya"
     },
@@ -10445,7 +10445,7 @@ const catalogueProducts = [
         size: "500ML",
         price: "Ksh 357",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Tusker_beer.jpg/200px-Tusker_beer.jpg",
+        image: "assets/images/real/tusker_lager_6_pack.png",
         isKenyan: true,
         country: "Kenya"
     },
@@ -10455,7 +10455,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 282",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Tusker_beer.jpg/200px-Tusker_beer.jpg",
+        image: "assets/images/real/tusker_lager_6_pack.png",
         isKenyan: true,
         country: "Kenya"
     },
@@ -10465,7 +10465,7 @@ const catalogueProducts = [
         size: "500ML",
         price: "Ksh 368",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Tusker_beer.jpg/200px-Tusker_beer.jpg",
+        image: "assets/images/real/tusker_lager_6_pack.png",
         isKenyan: true,
         country: "Kenya"
     },
@@ -10475,7 +10475,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 368",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Tusker_beer.jpg/200px-Tusker_beer.jpg",
+        image: "assets/images/real/tusker_lager_6_pack.png",
         isKenyan: true,
         country: "Kenya"
     },
@@ -10485,7 +10485,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 230",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Tusker_beer.jpg/200px-Tusker_beer.jpg",
+        image: "assets/images/real/tusker_lager_6_pack.png",
         isKenyan: true,
         country: "Kenya"
     },
@@ -10495,7 +10495,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1230",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Bottle_of_gin.jpg/200px-Bottle_of_gin.jpg",
+        image: "assets/images/real/58_classic_gin.jpg",
         isKenyan: false,
         country: "South Africa"
     },
@@ -10505,7 +10505,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 368",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: true,
         country: "Kenya"
     },
@@ -10515,7 +10515,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1403",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Whiskey_Bottle.jpg/200px-Whiskey_Bottle.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: true,
         country: "Kenya"
     },
@@ -10525,7 +10525,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 443",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: true,
         country: "Kenya"
     },
@@ -10535,7 +10535,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1170",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: true,
         country: "Kenya"
     },
@@ -10545,7 +10545,7 @@ const catalogueProducts = [
         size: "250ML",
         price: "Ksh 750",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "Scotland"
     },
@@ -10555,7 +10555,7 @@ const catalogueProducts = [
         size: "1L",
         price: "Ksh 2775",
         description: "Jul 24, 2024 · VAT, CT, 和 WHT 在税务领域分别代表了不同的税种。首先，Value Added Tax (VA) 或 VAT 是指增值税，这是一种在商品或服务交易过程中，由 …",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "Scotland"
     },
@@ -10565,7 +10565,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 2100",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "Scotland"
     },
@@ -10575,7 +10575,7 @@ const catalogueProducts = [
         size: "375ML",
         price: "Ksh 1140",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "Scotland"
     },
@@ -10585,7 +10585,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 600",
         description: "现在已经没有任何区别，VELO和美国线下开的华美已经合并了，使用同一个数据库。 2018年11月，我在美国旧金山唐人街的华美银行网点开了户。VELO上线以 …",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "United Kingdom"
     },
@@ -10595,7 +10595,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 300",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "United Kingdom"
     },
@@ -10605,7 +10605,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1050",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wine_bottle_and_glass.jpg/200px-Wine_bottle_and_glass.jpg",
+        image: "assets/images/real/4th_roset.jpg",
         isKenyan: false,
         country: "South Africa"
     },
@@ -10615,7 +10615,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1050",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wine_bottle_and_glass.jpg/200px-Wine_bottle_and_glass.jpg",
+        image: "assets/images/real/4th_roset.jpg",
         isKenyan: false,
         country: "South Africa"
     },
@@ -10625,7 +10625,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 4830",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: true,
         country: "Kenya"
     },
@@ -10635,7 +10635,7 @@ const catalogueProducts = [
         size: "250ML",
         price: "Ksh 653",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: true,
         country: "Kenya"
     },
@@ -10645,7 +10645,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 957",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: true,
         country: "Kenya"
     },
@@ -10655,7 +10655,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1860",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: true,
         country: "Kenya"
     },
@@ -10665,7 +10665,7 @@ const catalogueProducts = [
         size: "500ML",
         price: "Ksh 132",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: true,
         country: "Kenya"
     },
@@ -10675,7 +10675,7 @@ const catalogueProducts = [
         size: "250ML",
         price: "Ksh 293",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Vodka_bottle.jpg/200px-Vodka_bottle.jpg",
+        image: "assets/images/real/absolut_vodka.png",
         isKenyan: false,
         country: "South Africa"
     },
@@ -10685,7 +10685,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 255",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Vodka_bottle.jpg/200px-Vodka_bottle.jpg",
+        image: "assets/images/real/absolut_vodka.png",
         isKenyan: true,
         country: "Kenya"
     },
@@ -10695,7 +10695,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 720",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "Uganda"
     },
@@ -10705,7 +10705,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 750",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wine_bottle_and_glass.jpg/200px-Wine_bottle_and_glass.jpg",
+        image: "assets/images/real/4th_roset.jpg",
         isKenyan: false,
         country: "South Africa"
     },
@@ -10715,7 +10715,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 294",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wine_bottle_and_glass.jpg/200px-Wine_bottle_and_glass.jpg",
+        image: "assets/images/real/tusker_lager_6_pack.png",
         isKenyan: true,
         country: "Kenya"
     },
@@ -10725,7 +10725,7 @@ const catalogueProducts = [
         size: "500ML",
         price: "Ksh 329",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wine_bottle_and_glass.jpg/200px-Wine_bottle_and_glass.jpg",
+        image: "assets/images/real/4th_roset.jpg",
         isKenyan: true,
         country: "Kenya"
     },
@@ -10735,7 +10735,7 @@ const catalogueProducts = [
         size: "375ML",
         price: "Ksh 480",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wine_bottle_and_glass.jpg/200px-Wine_bottle_and_glass.jpg",
+        image: "assets/images/real/4th_roset.jpg",
         isKenyan: false,
         country: "India"
     },
@@ -10745,7 +10745,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1590",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wine_bottle_and_glass.jpg/200px-Wine_bottle_and_glass.jpg",
+        image: "assets/images/real/4th_roset.jpg",
         isKenyan: false,
         country: "India"
     },
@@ -10755,7 +10755,7 @@ const catalogueProducts = [
         size: "500ML",
         price: "Ksh 1350",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wine_bottle_and_glass.jpg/200px-Wine_bottle_and_glass.jpg",
+        image: "assets/images/real/4th_roset.jpg",
         isKenyan: false,
         country: "South Africa"
     },
@@ -10765,7 +10765,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1178",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wine_bottle_and_glass.jpg/200px-Wine_bottle_and_glass.jpg",
+        image: "assets/images/real/4th_roset.jpg",
         isKenyan: false,
         country: "India"
     },
@@ -10775,7 +10775,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1110",
         description: "Dec 18, 2025 · “Grand Theft Auto V Enhanced & Great White Shark Card”是《侠盗猎车手5 增强版》与《大白鲨充值卡》的组合版本。以下为详细介 …",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wine_bottle_and_glass.jpg/200px-Wine_bottle_and_glass.jpg",
+        image: "assets/images/real/4th_roset.jpg",
         isKenyan: false,
         country: "Canada"
     },
@@ -10785,7 +10785,7 @@ const catalogueProducts = [
         size: "250ML",
         price: "Ksh 339",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wine_bottle_and_glass.jpg/200px-Wine_bottle_and_glass.jpg",
+        image: "assets/images/real/4th_roset.jpg",
         isKenyan: true,
         country: "Kenya"
     },
@@ -10795,7 +10795,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1020",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wine_bottle_and_glass.jpg/200px-Wine_bottle_and_glass.jpg",
+        image: "assets/images/real/4th_roset.jpg",
         isKenyan: true,
         country: "Kenya"
     },
@@ -10805,7 +10805,7 @@ const catalogueProducts = [
         size: "250ML",
         price: "Ksh 339",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wine_bottle_and_glass.jpg/200px-Wine_bottle_and_glass.jpg",
+        image: "assets/images/real/4th_roset.jpg",
         isKenyan: true,
         country: "Kenya"
     },
@@ -10815,7 +10815,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1020",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wine_bottle_and_glass.jpg/200px-Wine_bottle_and_glass.jpg",
+        image: "assets/images/real/4th_roset.jpg",
         isKenyan: true,
         country: "Kenya"
     },
@@ -10825,7 +10825,7 @@ const catalogueProducts = [
         size: "250ML",
         price: "Ksh 339",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wine_bottle_and_glass.jpg/200px-Wine_bottle_and_glass.jpg",
+        image: "assets/images/real/4th_roset.jpg",
         isKenyan: true,
         country: "Kenya"
     },
@@ -10835,7 +10835,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1020",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wine_bottle_and_glass.jpg/200px-Wine_bottle_and_glass.jpg",
+        image: "assets/images/real/4th_roset.jpg",
         isKenyan: true,
         country: "Kenya"
     },
@@ -10845,7 +10845,7 @@ const catalogueProducts = [
         size: "1L",
         price: "Ksh 2205",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "India"
     },
@@ -10855,7 +10855,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 2205",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "India"
     },
@@ -10865,7 +10865,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 2325",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "South Africa"
     },
@@ -10925,7 +10925,7 @@ const catalogueProducts = [
         size: "1L",
         price: "Ksh 3113",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "Scotland"
     },
@@ -10935,7 +10935,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 2685",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "Scotland"
     },
@@ -10945,7 +10945,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 2580",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "Scotland"
     },
@@ -10995,7 +10995,7 @@ const catalogueProducts = [
         size: "250ML",
         price: "Ksh 353",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "France"
     },
@@ -11005,7 +11005,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 1020",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "France"
     },
@@ -11015,7 +11015,7 @@ const catalogueProducts = [
         size: "1L",
         price: "Ksh 293",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: true,
         country: "Kenya"
     },
@@ -11025,7 +11025,7 @@ const catalogueProducts = [
         size: "1L",
         price: "Ksh 293",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wine_bottle_and_glass.jpg/200px-Wine_bottle_and_glass.jpg",
+        image: "assets/images/real/4th_roset.jpg",
         isKenyan: true,
         country: "Kenya"
     },
@@ -11035,7 +11035,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 293",
         description: "When you achieved something big, you would say this. I did it!!",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "Japan"
     },
@@ -11045,7 +11045,7 @@ const catalogueProducts = [
         size: "1 L",
         price: "Ksh 293",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wine_bottle_and_glass.jpg/200px-Wine_bottle_and_glass.jpg",
+        image: "assets/images/real/4th_roset.jpg",
         isKenyan: true,
         country: "Kenya"
     },
@@ -11055,7 +11055,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 750",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "South Africa"
     },
@@ -11085,7 +11085,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 2100",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "Italy"
     },
@@ -11095,7 +11095,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 2100",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Liquor_bottles.jpg/200px-Liquor_bottles.jpg",
+        image: "assets/images/real/johnnie_walker_black_label.png",
         isKenyan: false,
         country: "Italy"
     },
@@ -11105,7 +11105,7 @@ const catalogueProducts = [
         size: "750ML",
         price: "Ksh 2100",
         description: "A quality drink offering exceptional taste.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wine_bottle_and_glass.jpg/200px-Wine_bottle_and_glass.jpg",
+        image: "assets/images/real/4th_roset.jpg",
         isKenyan: false,
         country: "Italy"
     }
