@@ -247,12 +247,28 @@ nav.scrolled {
   gap: 1rem;
   justify-content: center;
   margin-bottom: 3rem;
+  flex-wrap: wrap;
 }
 
 @media (max-width: 600px) {
   .hero-buttons {
     flex-direction: column;
+    padding: 0 10%;
   }
+  
+  .hero-buttons .btn {
+    width: 100%;
+  }
+}
+
+.mobile-cta {
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); box-shadow: var(--gold-glow); }
+  50% { transform: scale(1.02); box-shadow: var(--gold-glow-hover); }
+  100% { transform: scale(1); box-shadow: var(--gold-glow); }
 }
 
 .trust-badges {

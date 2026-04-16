@@ -100,3 +100,5 @@ Caused by:
  DONE
 [50/50] DIVE: Captain Darkrum...  [DDG FAIL] Captain Darkrum: https://duckduckgo.com/?q=Captain+Darkrum+liquor+bottle+shot+transparent 202 Ratelimit
  DONE
+[main af82a23] feat: consolidated deep search - resolved {lookup_count} experts and {processed} searches
+ 4 files changed, 38 insertions(+), 5 deletions(-)
